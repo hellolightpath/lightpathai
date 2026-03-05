@@ -69,8 +69,8 @@ export default function HomePage() {
           <div className="mt-12 sm:mt-16 grid gap-6 sm:gap-8 md:grid-cols-2">
 
             {/* ── Emotional toll ── */}
-            <Reveal delay={150}>
-              <div className="impact-card">
+            <Reveal delay={150} className="h-full">
+              <div className="impact-card h-full">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="h-2 w-2 rounded-full" style={{ background: "#8F82CD", boxShadow: "0 0 12px rgba(143,130,205,0.5)" }} />
                   <span className="text-[11px] font-semibold uppercase tracking-[0.15em]" style={{ color: "var(--color-primary)" }}>Emotional toll</span>
@@ -93,8 +93,8 @@ export default function HomePage() {
             </Reveal>
 
             {/* ── Logistical burden ── */}
-            <Reveal delay={300}>
-              <div className="impact-card">
+            <Reveal delay={300} className="h-full">
+              <div className="impact-card h-full">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="h-2 w-2 rounded-full" style={{ background: "#E59524", boxShadow: "0 0 12px rgba(229,149,36,0.5)" }} />
                   <span className="text-[11px] font-semibold uppercase tracking-[0.15em]" style={{ color: "#E59524" }}>Logistical burden</span>

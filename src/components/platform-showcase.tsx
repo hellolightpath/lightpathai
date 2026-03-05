@@ -81,7 +81,7 @@ export function PlatformShowcase() {
           <div key={f.id} className={i > 0 ? "mt-24 sm:mt-32 lg:mt-40" : ""}>
             {/* Subtle divider between features */}
             {i > 0 && (
-              <div className="mb-24 sm:mb-32 lg:mb-40 mx-auto" style={{ maxWidth: "8rem", height: "1px", background: "linear-gradient(90deg, transparent, rgba(138,142,229,0.15), transparent)" }} />
+              <div className="mb-12 sm:mb-14 lg:mb-16 mx-auto" style={{ maxWidth: "8rem", height: "1px", background: "linear-gradient(90deg, transparent, rgba(138,142,229,0.15), transparent)" }} />
             )}
 
             <div className="grid gap-10 lg:gap-16 lg:grid-cols-2 items-center">
