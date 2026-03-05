@@ -3,6 +3,10 @@ import { Inter, Lora } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleAnalytics } from "@/components/google-analytics";
+import { organizationJsonLd } from "@/lib/json-ld";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -17,6 +21,7 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://getlightpath.ai"),
   title: "LightPathAI | Redefining care for life's hardest transitions",
   description:
     "A personalized plan, clear next steps, and real human support for when you don't know where to start.",
@@ -44,9 +49,16 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${lora.variable} scroll-smooth`}>
       <body className="font-sans">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd()) }}
+        />
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <Analytics />
+        <SpeedInsights />
+        <GoogleAnalytics />
       </body>
     </html>
   );

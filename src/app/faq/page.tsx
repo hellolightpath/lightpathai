@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Reveal } from "@/components/reveal";
+import { faqPageJsonLd } from "@/lib/json-ld";
 
 export const metadata: Metadata = {
   title: "FAQ | LightPathAI",
@@ -11,6 +12,10 @@ export const metadata: Metadata = {
 export default function FAQPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPageJsonLd(allFaqs)) }}
+      />
       {/* ── Header ── */}
       <section className="relative overflow-hidden">
         <div className="section relative z-10 text-center pt-36 sm:pt-44 pb-12 sm:pb-16">

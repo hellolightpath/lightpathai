@@ -5,6 +5,7 @@ import { Reveal } from "@/components/reveal";
 import { LivingSky } from "@/components/living-sky";
 import { blogPosts, getPostBySlug, getAllSlugs } from "@/lib/blog-data";
 import type { BlogPost } from "@/lib/blog-data";
+import { articleJsonLd } from "@/lib/json-ld";
 
 /* ─── Static generation ─── */
 export function generateStaticParams() {
@@ -498,6 +499,19 @@ export default function BlogPostPage({
 
   return (
     <section className="relative overflow-hidden" style={{ marginTop: "-64px" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            articleJsonLd({
+              title: post.title,
+              description: post.excerpt,
+              slug: post.slug,
+              date: post.date,
+            })
+          ),
+        }}
+      />
       <LivingSky />
 
       <div className="relative z-10 px-6 sm:px-8 pt-32 sm:pt-40 pb-20 sm:pb-28">
