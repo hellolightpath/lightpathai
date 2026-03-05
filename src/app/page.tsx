@@ -1,0 +1,395 @@
+import Link from "next/link";
+import { Reveal } from "@/components/reveal";
+import { PlatformShowcase } from "@/components/platform-showcase";
+import { LogoMark } from "@/components/logo-mark";
+import { SectionClouds } from "@/components/section-clouds";
+import { NightSky } from "@/components/night-sky";
+import { LivingSky } from "@/components/living-sky";
+import { StarField } from "@/components/star-field";
+
+export default function HomePage() {
+  return (
+    <>
+      {/* ══════════════════════════════════════════════
+          HERO — Living Sky (light, spiritual)
+      ══════════════════════════════════════════════ */}
+      <section className="relative overflow-hidden min-h-[90vh]" style={{ marginTop: "-64px" }}>
+        <LivingSky />
+        <div className="relative z-10 flex flex-col items-center text-center px-6 pt-52 sm:pt-64 pb-24 sm:pb-32 hero-animate">
+          <h1 className="text-[2.5rem] sm:text-[3.5rem] lg:text-[4.25rem] font-serif font-normal leading-[1.04] max-w-3xl" style={{ letterSpacing: "-0.04em" }}>
+            <span style={{ color: "#6B6E8D" }}>Redefining care for</span>
+            <br />
+            <span style={{ color: "#1C1C2E" }}>life&rsquo;s hardest transitions</span>
+          </h1>
+
+          <p className="mt-8 max-w-md text-[17px] leading-relaxed" style={{ color: "#6B6E8D" }}>
+            When you lose someone, everything feels impossible. We help you find the path forward.
+          </p>
+
+          <div className="mt-10">
+            <Link href="/demo" className="btn-primary">
+              Get early access
+            </Link>
+          </div>
+
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════
+          THE PROBLEM — dark immersive section
+      ══════════════════════════════════════════════ */}
+      <section className="relative overflow-hidden impact-section" style={{ marginTop: "-1px" }}>
+        {/* Dark base */}
+        <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, #252D4A 0%, #2A3352 20%, #262F4C 60%, #232B48 100%)" }} />
+
+        {/* Gradient blobs */}
+        <div className="impact-blob impact-blob-1" />
+        <div className="impact-blob impact-blob-2" />
+        <div className="impact-blob impact-blob-3" />
+
+        <div className="mx-auto max-w-5xl px-6 pt-14 sm:pt-20 pb-20 sm:pb-28 relative z-10">
+
+          {/* Section label */}
+          <Reveal>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-center mb-5" style={{ color: "rgba(138,142,229,0.65)" }}>
+              The reality
+            </p>
+          </Reveal>
+
+          {/* Bold headline */}
+          <Reveal>
+            <h2 className="text-center text-[1.75rem] sm:text-[3rem] lg:text-[3.75rem] font-serif font-normal leading-[1.08] max-w-3xl mx-auto" style={{ color: "#FFFFFF", letterSpacing: "-0.04em" }}>
+              Through the weight of loss.<br />
+              <span className="text-[1.25rem] sm:text-[2rem] lg:text-[2.5rem]" style={{ color: "var(--white-40)" }}>The emotional burden and the practical chaos.</span>
+            </h2>
+          </Reveal>
+
+
+          {/* Two-dimension grid: Emotional + Logistical */}
+          <div className="mt-12 sm:mt-16 grid gap-6 sm:gap-8 md:grid-cols-2">
+
+            {/* ── Emotional toll ── */}
+            <Reveal delay={150}>
+              <div className="impact-card">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="h-2 w-2 rounded-full" style={{ background: "#8F82CD", boxShadow: "0 0 12px rgba(143,130,205,0.5)" }} />
+                  <span className="text-[11px] font-semibold uppercase tracking-[0.15em]" style={{ color: "var(--color-primary)" }}>Emotional toll</span>
+                </div>
+                <div className="space-y-6">
+                  <div>
+                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.5rem, 6vw, 3.5rem)", color: "var(--color-primary)", letterSpacing: "-0.04em" }}>2.8M+</span>
+                    <p className="mt-2 text-[15px] leading-relaxed" style={{ color: "var(--white-60)" }}>
+                      families navigate loss each year — most with no guidance.
+                    </p>
+                  </div>
+                  <div style={{ borderTop: "1px solid var(--white-8)", paddingTop: "1.25rem" }}>
+                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.5rem, 6vw, 3.5rem)", color: "var(--color-primary)", letterSpacing: "-0.04em" }}>57%</span>
+                    <p className="mt-2 text-[15px] leading-relaxed" style={{ color: "var(--white-60)" }}>
+                      of grieving individuals feel completely unprepared for the weight of loss.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Reveal>
+
+            {/* ── Logistical burden ── */}
+            <Reveal delay={300}>
+              <div className="impact-card">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="h-2 w-2 rounded-full" style={{ background: "#E59524", boxShadow: "0 0 12px rgba(229,149,36,0.5)" }} />
+                  <span className="text-[11px] font-semibold uppercase tracking-[0.15em]" style={{ color: "#E59524" }}>Logistical burden</span>
+                </div>
+                <div className="space-y-6">
+                  <div>
+                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.5rem, 6vw, 3.5rem)", color: "#E59524", letterSpacing: "-0.04em" }}>570 hrs</span>
+                    <p className="mt-2 text-[15px] leading-relaxed" style={{ color: "var(--white-60)" }}>
+                      of admin work per estate, averaging 16 months.
+                    </p>
+                  </div>
+                  <div style={{ borderTop: "1px solid var(--white-8)", paddingTop: "1.25rem" }}>
+                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.5rem, 6vw, 3.5rem)", color: "#E59524", letterSpacing: "-0.04em" }}>$15.5B</span>
+                    <p className="mt-2 text-[15px] leading-relaxed" style={{ color: "var(--white-60)" }}>
+                      in survivor benefits go unclaimed from missed deadlines each year.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Reveal>
+          </div>
+
+          {/* Sources */}
+          <p className="mt-8 text-center text-[11px]" style={{ color: "var(--white-20)" }}>
+            Sources: CDC NVSS 2024 &middot; Columbia Univ. Center for Prolonged Grief &middot; EstateExec &middot; PBGC &middot; AARP Grief Experience Study
+          </p>
+
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════
+          PLATFORM SHOWCASE — alternating feature blocks
+      ══════════════════════════════════════════════ */}
+      <section id="features" className="relative overflow-hidden">
+        <div className="section relative z-10">
+          <Reveal>
+            <div className="text-center mb-16 sm:mb-24">
+              <p className="label mb-4">What LightPath does</p>
+              <h2 className="text-[1.75rem] sm:text-[2.75rem] lg:text-[3.25rem] font-serif font-normal leading-[1.06] max-w-2xl mx-auto" style={{ color: "var(--color-foreground)", letterSpacing: "-0.03em" }}>
+                A clear path through{" "}<br className="hidden sm:block" />
+                <span style={{ color: "var(--color-body)" }}>the hardest part.</span>
+              </h2>
+            </div>
+          </Reveal>
+
+          <PlatformShowcase />
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════
+          THE SUPPORT SYSTEM
+      ══════════════════════════════════════════════ */}
+      <section className="relative overflow-hidden">
+        <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 80% 70% at 50% 45%, #E4DBF4 0%, #D8CEF0 25%, #EEEDF5 55%, #F5F4FA 100%)" }} />
+
+        <div className="relative z-10 px-6 sm:px-8 mx-auto max-w-[72rem] py-24 sm:py-36">
+          <Reveal>
+            <div className="text-center mb-14 sm:mb-20">
+              <p className="label mb-4">The support system</p>
+              <h2 className="text-[1.75rem] sm:text-[2.75rem] lg:text-[3.25rem] font-serif font-normal leading-[1.06] max-w-3xl mx-auto" style={{ color: "var(--color-foreground)", letterSpacing: "-0.03em" }}>
+                Families are already surrounded{" "}<br className="hidden sm:block" />
+                <span style={{ color: "var(--color-body)" }}>by people who care.</span>
+              </h2>
+              <p className="mt-5 text-[17px] max-w-lg mx-auto leading-relaxed" style={{ color: "var(--color-body)" }}>
+                We activate their support system to deliver real help.
+              </p>
+            </div>
+          </Reveal>
+
+          {/* ── Desktop: 2×2 grid + center circle ── */}
+          <Reveal delay={100}>
+            <div className="hidden md:block relative mx-auto" style={{ maxWidth: "48rem" }}>
+              <div className="grid grid-cols-2" style={{ gap: "16px" }}>
+                {/* TL: Hospice */}
+                <div className="rounded-2xl p-7 lg:p-8" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#8A8EE5" }}>Partners</span>
+                  <h3 className="font-serif text-[1.2rem] lg:text-[1.3rem] leading-tight mt-2.5 mb-2.5" style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>Hospice</h3>
+                  <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>End-of-life care becomes whole-family care. A plan begins while the hospice team is still by their side.</p>
+                </div>
+                {/* TR: Funeral homes */}
+                <div className="rounded-2xl p-7 lg:p-8" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#8A8EE5" }}>Partners</span>
+                  <h3 className="font-serif text-[1.2rem] lg:text-[1.3rem] leading-tight mt-2.5 mb-2.5" style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>Funeral homes</h3>
+                  <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>The service ends, but support continues. Families leave with a clear plan — not just a folder of paperwork.</p>
+                </div>
+                {/* BL: Employers */}
+                <div className="rounded-2xl p-7 lg:p-8" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#63D583" }}>Enterprise</span>
+                  <h3 className="font-serif text-[1.2rem] lg:text-[1.3rem] leading-tight mt-2.5 mb-2.5" style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>Employers</h3>
+                  <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>Bereavement leave becomes bereavement support. Employees in grief get more than time off — they get a path forward.</p>
+                </div>
+                {/* BR: Life insurers */}
+                <div className="rounded-2xl p-7 lg:p-8" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#63D583" }}>Enterprise</span>
+                  <h3 className="font-serif text-[1.2rem] lg:text-[1.3rem] leading-tight mt-2.5 mb-2.5" style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>Life insurers</h3>
+                  <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>A claim becomes a care moment. Beneficiaries receive guided support — not just a payout.</p>
+                </div>
+              </div>
+
+              {/* Center circle */}
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none">
+                <div className="rounded-full flex items-center justify-center" style={{ width: "110px", height: "110px", background: "#EDE7F6", boxShadow: "0 4px 20px rgba(138,142,229,0.15)" }}>
+                  <span className="font-serif text-[1rem]" style={{ color: "#3D3875" }}>Families</span>
+                </div>
+              </div>
+            </div>
+
+            {/* ── Mobile: stacked ── */}
+            <div className="md:hidden space-y-3">
+              {/* Partners */}
+              <div className="rounded-2xl p-6" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#8A8EE5" }}>Partners</span>
+                <div className="mt-3">
+                  <h3 className="font-serif text-[1.1rem] leading-tight mb-2" style={{ color: "var(--color-foreground)" }}>Hospice</h3>
+                  <p className="text-[13px] leading-relaxed" style={{ color: "var(--color-body)" }}>End-of-life care becomes whole-family care. A plan begins while the hospice team is still by their side.</p>
+                </div>
+                <div className="my-4" style={{ borderTop: "1px solid rgba(0,0,0,0.06)" }} />
+                <div>
+                  <h3 className="font-serif text-[1.1rem] leading-tight mb-2" style={{ color: "var(--color-foreground)" }}>Funeral homes</h3>
+                  <p className="text-[13px] leading-relaxed" style={{ color: "var(--color-body)" }}>The service ends, but support continues. Families leave with a clear plan — not just a folder of paperwork.</p>
+                </div>
+              </div>
+
+              {/* Families */}
+              <div className="flex justify-center py-2">
+                <div className="rounded-full flex items-center justify-center" style={{ width: "80px", height: "80px", background: "#EDE7F6" }}>
+                  <span className="font-serif text-[0.9rem]" style={{ color: "#3D3875" }}>Families</span>
+                </div>
+              </div>
+
+              {/* Enterprise */}
+              <div className="rounded-2xl p-6" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#63D583" }}>Enterprise</span>
+                <div className="mt-3">
+                  <h3 className="font-serif text-[1.1rem] leading-tight mb-2" style={{ color: "var(--color-foreground)" }}>Employers</h3>
+                  <p className="text-[13px] leading-relaxed" style={{ color: "var(--color-body)" }}>Bereavement leave becomes bereavement support. Employees in grief get more than time off — they get a path forward.</p>
+                </div>
+                <div className="my-4" style={{ borderTop: "1px solid rgba(0,0,0,0.06)" }} />
+                <div>
+                  <h3 className="font-serif text-[1.1rem] leading-tight mb-2" style={{ color: "var(--color-foreground)" }}>Life insurers</h3>
+                  <p className="text-[13px] leading-relaxed" style={{ color: "var(--color-body)" }}>A claim becomes a care moment. Beneficiaries receive guided support — not just a payout.</p>
+                </div>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* ══════════════════════════════════════════════
+          SUPPORTERS
+      ══════════════════════════════════════════════ */}
+      <section id="supporters" className="relative overflow-hidden">
+        <div className="section relative z-10">
+          <Reveal>
+            <div className="mx-auto max-w-5xl grid gap-14 lg:grid-cols-2 items-center">
+              <div>
+                <p className="tag-pill mb-6" style={{ width: "fit-content" }}>
+                  <span className="h-1.5 w-1.5 rounded-full" style={{ background: "#8A8EE5" }} />
+                  For supporters
+                </p>
+                <h2 className="heading-lg">Help without<br />guessing.</h2>
+                <p className="mt-5 text-[17px] leading-relaxed" style={{ color: "#475569" }}>
+                  Invite someone into your plan. They see only what you share. Nothing more.
+                </p>
+                <Link href="#features" className="mt-8 text-[14px] font-semibold inline-flex items-center gap-2 transition-all duration-300 hover:translate-x-1.5 hover:gap-3" style={{ color: "#8A8EE5" }}>
+                  Learn more <span>&rarr;</span>
+                </Link>
+              </div>
+
+              <div className="relative min-h-[280px]">
+                <div className="!p-6 !rounded-2xl relative" style={{ transform: "rotate(-2deg)", boxShadow: "0 8px 32px rgba(0,0,0,0.06)", background: "rgba(255,255,255,0.85)", backdropFilter: "blur(16px)" }}>
+                  <p className="label !text-[10px]" style={{ color: "var(--color-body)" }}>Your view</p>
+                  <div className="mt-3 space-y-2">
+                    {[
+                      { label: "Notify life insurance", bg: "#f0f0ff", dot: "#8A8EE5" },
+                      { label: "Update bank accounts", bg: "#FFF8F0", dot: "#E59524" },
+                    ].map((t) => (
+                      <div key={t.label} className="rounded-xl px-3.5 py-3 flex items-center gap-3" style={{ background: t.bg }}>
+                        <div className="h-2.5 w-2.5 rounded-full" style={{ background: t.dot }} />
+                        <span className="text-[13px] font-medium" style={{ color: "var(--color-foreground)" }}>{t.label}</span>
+                      </div>
+                    ))}
+                    <div className="rounded-xl px-3.5 py-3 flex items-center gap-3 opacity-40" style={{ background: "#F5F5F7" }}>
+                      <div className="h-2.5 w-2.5 rounded-full" style={{ background: "#94A3B8" }} />
+                      <span className="text-[13px] font-medium" style={{ color: "var(--color-body)" }}>Cancel subscriptions</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="!p-6 !rounded-2xl absolute top-14 -right-2 sm:-right-6 w-[80%]" style={{ transform: "rotate(1.5deg)", boxShadow: "0 16px 48px rgba(0,0,0,0.08)", background: "rgba(255,255,255,0.9)", backdropFilter: "blur(16px)" }}>
+                  <p className="label !text-[10px]">Supporter sees</p>
+                  <div className="mt-3">
+                    <div className="rounded-xl px-3.5 py-3 flex items-center gap-3" style={{ background: "#f0f0ff" }}>
+                      <div className="h-2.5 w-2.5 rounded-full" style={{ background: "#8A8EE5" }} />
+                      <div>
+                        <span className="text-[13px] font-medium block" style={{ color: "var(--color-foreground)" }}>Cancel subscriptions</span>
+                        <span className="text-[11px]" style={{ color: "#8A8EE5" }}>Assigned to you</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════
+          PARTNERS BANNER — dark sky
+      ══════════════════════════════════════════════ */}
+      <section className="relative overflow-hidden">
+        <NightSky />
+        <StarField />
+        <div className="relative px-6 sm:px-8 mx-auto max-w-[72rem] text-center py-24 sm:py-32 z-[2]">
+          <Reveal>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em]" style={{ color: "rgba(138,142,229,0.7)" }}>For partners &amp; organizations</p>
+            <h2 className="mt-6 text-[1.75rem] sm:text-[2.75rem] lg:text-[3.25rem] font-serif font-normal text-white leading-[1.04] max-w-2xl mx-auto" style={{ letterSpacing: "-0.04em" }}>
+              Bring LightPathAI to<br />the families you serve.
+            </h2>
+            <p className="mt-5 text-[16px] max-w-lg mx-auto leading-relaxed" style={{ color: "var(--white-50)" }}>
+              Whether you&rsquo;re a hospice, funeral home, employer, or insurer — we make it easy to offer real support.
+            </p>
+          </Reveal>
+          <Reveal delay={200}>
+            <div className="mt-10 flex justify-center">
+              <Link href="/enterprise" className="btn-white">
+                For employers &amp; insurers
+              </Link>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════
+          FAQ — clean editorial
+      ══════════════════════════════════════════════ */}
+      <section className="relative bg-section-subtle">
+        <div className="section">
+          <Reveal>
+            <div className="mx-auto max-w-2xl">
+              <h2 className="heading-lg text-center mb-14">What you should know</h2>
+              <div>
+                {faqTeaser.map((f, i) => (
+                  <Reveal key={f.q} delay={i * 80}>
+                    <div className="py-7" style={{ borderBottom: "1px solid rgba(0,0,0,0.06)" }}>
+                      <h3 className="font-serif text-[17px]" style={{ color: "var(--color-foreground)" }}>{f.q}</h3>
+                      <p className="mt-2 text-[15px] leading-relaxed" style={{ color: "var(--color-body)" }}>{f.a}</p>
+                    </div>
+                  </Reveal>
+                ))}
+              </div>
+              <div className="mt-10 text-center">
+                <Link href="/faq" className="text-[14px] font-semibold inline-flex items-center gap-2 transition-all duration-300 hover:translate-x-1.5 hover:gap-3" style={{ color: "#8A8EE5" }}>
+                  See all questions <span>&rarr;</span>
+                </Link>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════
+          FINAL CTA
+      ══════════════════════════════════════════════ */}
+      <section className="relative overflow-hidden" style={{ background: "linear-gradient(180deg, transparent, #EEEDF5)" }}>
+        <SectionClouds count={3} opacity={0.6} />
+        <div className="relative section flex flex-col items-center text-center !py-32 sm:!py-48 z-10">
+          <Reveal>
+            <div className="mb-10">
+              <LogoMark size={40} />
+            </div>
+            <h2 className="text-[2rem] sm:text-[3.25rem] lg:text-[3.75rem] font-serif font-normal leading-[1.04]" style={{ color: "#1C1C1E", letterSpacing: "-0.04em" }}>
+              You found us.<br />That took courage.
+            </h2>
+            <p className="mt-6 text-xl font-serif" style={{ color: "var(--color-body)" }}>
+              Whenever you&rsquo;re ready, we&rsquo;re here.
+            </p>
+            <Link href="/demo" className="btn-primary mt-10">
+              Get early access
+            </Link>
+          </Reveal>
+        </div>
+      </section>
+    </>
+  );
+}
+
+/* ══════════════════════════════════════════════════
+   DATA
+   ══════════════════════════════════════════════════ */
+
+const faqTeaser = [
+  { q: "Do I need documents to start?", a: "No. Start with what you know. Add documents when you're ready." },
+  { q: "Is this only for recent loss?", a: "No. Whether it's been days or years, we start with what matters now." },
+  { q: "What's free and what's paid?", a: "Your Care Plan, task guidance, and Inner Light are free. Premium adds drafted documents, live human review, and benefits discovery with claims filing." },
+  { q: "How is this different from ChatGPT or a grief app?", a: "Grief apps offer reflection. ChatGPT gives broad answers. LightPath builds a structured plan for your specific situation\u2014with real forms, real deadlines, and real people." },
+];
