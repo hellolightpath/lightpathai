@@ -93,6 +93,11 @@ const features = [
     ),
     stat: "72",
     statLabel: "hrs saved avg",
+    kpis: [
+      { label: "Hours saved per employee", value: "72", color: "#8A8EE5" },
+      { label: "Faster estate resolution", value: "50%", color: "#63D583" },
+      { label: "Documents automated", value: "40+", color: "#E59524" },
+    ],
   },
   {
     id: "benefits",
@@ -166,6 +171,11 @@ const features = [
     ),
     stat: "$8.4k",
     statLabel: "avg recovered",
+    kpis: [
+      { label: "Avg benefits recovered", value: "$8.4k", color: "#8F82CD" },
+      { label: "Claim completion rate", value: "94%", color: "#63D583" },
+      { label: "ROI per employee", value: "3.2x", color: "#E59524" },
+    ],
   },
   {
     id: "inner-light",
@@ -240,6 +250,11 @@ const features = [
     ),
     stat: "4.8",
     statLabel: "/ 5 wellbeing",
+    kpis: [
+      { label: "Wellbeing improvement", value: "78%", color: "#63D583" },
+      { label: "User satisfaction", value: "4.8/5", color: "#8A8EE5" },
+      { label: "Weekly engagement", value: "3.2x", color: "#8F82CD" },
+    ],
   },
   {
     id: "lightkeeper",
@@ -337,6 +352,11 @@ const features = [
     ),
     stat: "92%",
     statLabel: "felt supported",
+    kpis: [
+      { label: "Felt meaningfully supported", value: "92%", color: "#E59524" },
+      { label: "Match satisfaction", value: "97%", color: "#63D583" },
+      { label: "Connections restored", value: "4.2", color: "#8A8EE5" },
+    ],
   },
 ];
 
@@ -583,13 +603,16 @@ export function EnterpriseDashboard() {
           {active.mockup}
         </div>
 
-        {/* ── KPI stats row ── */}
-        <div className="grid grid-cols-3 gap-2 mt-4 mb-3">
-          {[
-            { label: "Hours saved per employee", value: "72", color: "#8A8EE5" },
-            { label: "Satisfaction score", value: "4.9/5", color: "#63D583" },
-            { label: "Return-to-work rate", value: "96%", color: "#E59524" },
-          ].map((kpi) => (
+        {/* ── KPI stats row (dynamic per tab) ── */}
+        <div
+          className="grid grid-cols-3 gap-2 mt-4 mb-3"
+          style={{
+            opacity: transitioning ? 0 : 1,
+            transform: transitioning ? "translateY(4px)" : "translateY(0)",
+            transition: "all 0.3s ease",
+          }}
+        >
+          {active.kpis.map((kpi) => (
             <div
               key={kpi.label}
               className="rounded-xl p-2.5 text-center"

@@ -159,7 +159,7 @@ export default function EnterprisePage() {
             </div>
           </Reveal>
 
-          <div className="max-w-5xl mx-auto grid gap-16 sm:gap-y-20 sm:gap-x-12 grid-cols-1 sm:grid-cols-2">
+          <div className="max-w-4xl mx-auto grid gap-16 sm:gap-y-20 sm:gap-x-20 grid-cols-1 sm:grid-cols-2 justify-items-center">
             {[
               { category: "Emotional toll", stat: "1 in 4", desc: "employees are navigating grief at any given time.", color: "#8A8EE5", source: "Grief Recovery Institute" },
               { category: "Retention risk", stat: "79%", desc: "of grieving employees considered leaving their job.", color: "#E59524", source: "SHRM Grief & Bereavement Survey" },
@@ -167,15 +167,15 @@ export default function EnterprisePage() {
               { category: "Business impact", stat: "$75B", desc: "in annual productivity lost to grief in the U.S.", color: "#63D583", source: "Harvard Business Review" },
             ].map((d, i) => (
               <Reveal key={d.stat} delay={i * 100}>
-                <div>
-                  <div className="flex items-center gap-2.5 mb-5">
+                <div className="text-center">
+                  <div className="flex items-center justify-center gap-2.5 mb-5">
                     <div className="w-2 h-2 rounded-full" style={{ background: d.color }} />
                     <span className="text-[11px] font-semibold uppercase tracking-[0.18em]" style={{ color: d.color }}>{d.category}</span>
                   </div>
                   <span className="font-serif block leading-none" style={{ fontSize: "clamp(3rem, 7vw, 4.5rem)", color: d.color, letterSpacing: "-0.04em" }}>
                     {d.stat}
                   </span>
-                  <p className="mt-5 text-[15px] leading-relaxed max-w-sm" style={{ color: "rgba(255,255,255,0.4)" }}>{d.desc}</p>
+                  <p className="mt-5 text-[15px] leading-relaxed max-w-sm mx-auto" style={{ color: "rgba(255,255,255,0.4)" }}>{d.desc}</p>
                   <p className="mt-3 text-[10px] font-medium uppercase tracking-[0.1em]" style={{ color: "rgba(255,255,255,0.12)" }}>{d.source}</p>
                 </div>
               </Reveal>

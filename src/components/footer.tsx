@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { LogoMark } from "./logo-mark";
+import Image from "next/image";
 
 const columns = [
   {
@@ -49,7 +49,7 @@ export function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 group">
-              <LogoMark size={26} className="transition-transform duration-300 group-hover:scale-110" />
+              <Image src="/logo.png" alt="LightPathAI" width={26} height={26} className="transition-transform duration-300 group-hover:scale-110" />
               <span className="text-base font-sans font-semibold" style={{ color: "var(--color-foreground)" }}>
                 LightPath<span style={{ color: "var(--color-primary)" }}>AI</span>
               </span>

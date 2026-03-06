@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
-import { LogoMark } from "./logo-mark";
 
 const links = [
   { href: "/#features", label: "How it works" },
@@ -41,7 +41,7 @@ export function Navbar() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 h-16">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <LogoMark size={30} className="transition-transform duration-300 group-hover:scale-110" />
+          <Image src="/logo.png" alt="LightPathAI" width={30} height={30} className="transition-transform duration-300 group-hover:scale-110" />
           <span className="text-lg font-sans font-semibold tracking-tight transition-colors duration-500" style={{ color: isScrolled ? "var(--color-foreground)" : "#FFFFFF" }}>
             LightPath<span style={{ color: "var(--color-primary)" }}>AI</span>
           </span>
