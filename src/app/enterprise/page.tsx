@@ -383,9 +383,9 @@ export default function EnterprisePage() {
                   accent: "Measurable outcomes",
                 },
               ].map((item, i) => (
-                <Reveal key={item.title} delay={i * 100}>
+                <Reveal key={item.title} delay={i * 100} className="flex">
                   <div
-                    className="rounded-2xl p-7 sm:p-8 relative overflow-hidden transition-all duration-300 hover:-translate-y-1 group"
+                    className="rounded-2xl p-7 sm:p-8 relative overflow-hidden transition-all duration-300 hover:-translate-y-1 group flex-1 flex flex-col"
                     style={{
                       background: "rgba(255,255,255,0.85)",
                       border: "1px solid rgba(255,255,255,0.9)",
@@ -396,7 +396,7 @@ export default function EnterprisePage() {
                     {/* Subtle glow on hover */}
                     <div className="absolute top-0 left-0 w-16 h-16 rounded-full blur-[50px] opacity-0 group-hover:opacity-100 transition-opacity duration-500 -translate-y-1/2 -translate-x-1/2" style={{ background: `${item.color}15` }} />
 
-                    <div className="relative">
+                    <div className="relative flex-1">
                       <div className="flex items-start justify-between mb-5">
                         <IconBox icon={item.icon} color={item.color} size="lg" />
                         <span className="text-[9px] font-bold uppercase tracking-[0.14em] px-2.5 py-1 rounded-full" style={{ background: `${item.color}08`, color: item.color, border: `1px solid ${item.color}12` }}>
