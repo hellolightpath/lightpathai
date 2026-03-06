@@ -74,7 +74,7 @@ export default function HomePage() {
                 <p className="text-[13px] font-serif italic mb-4" style={{ color: "var(--white-40)" }}>The emotional weight</p>
                 <div className="space-y-4">
                   <div>
-                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.25rem, 5.5vw, 3rem)", color: "var(--color-primary)", letterSpacing: "-0.04em" }}>2.8M+</span>
+                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.25rem, 5.5vw, 3rem)", color: "var(--color-primary)", letterSpacing: "-0.04em" }}>3M+</span>
                     <p className="mt-1.5 text-[14px] leading-relaxed" style={{ color: "var(--white-60)" }}>
                       families face loss each year — most with no one to guide them through it.
                     </p>
