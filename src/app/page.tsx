@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Reveal } from "@/components/reveal";
 import { PlatformShowcase } from "@/components/platform-showcase";
-import { LogoMark } from "@/components/logo-mark";
+import Image from "next/image";
 import { SectionClouds } from "@/components/section-clouds";
 import { NightSky } from "@/components/night-sky";
 import { LivingSky } from "@/components/living-sky";
@@ -39,8 +39,8 @@ export default function HomePage() {
           THE PROBLEM — dark immersive section
       ══════════════════════════════════════════════ */}
       <section className="relative overflow-hidden impact-section" style={{ marginTop: "-1px" }}>
-        {/* Dark base */}
-        <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, #252D4A 0%, #2A3352 20%, #262F4C 60%, #232B48 100%)" }} />
+        {/* Dark base — sharp edges, no fading */}
+        <div style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg, #2E3658 0%, #2A3352 30%, #262F4C 70%, #2E3658 100%)" }} />
 
         {/* Gradient blobs */}
         <div className="impact-blob impact-blob-1" />
@@ -52,7 +52,7 @@ export default function HomePage() {
           {/* Section label */}
           <Reveal>
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-center mb-5" style={{ color: "rgba(138,142,229,0.65)" }}>
-              The reality
+              What grieving families face
             </p>
           </Reveal>
 
@@ -65,49 +65,43 @@ export default function HomePage() {
           </Reveal>
 
 
-          {/* Two-dimension grid: Emotional + Logistical */}
+          {/* Stats — presented as human stories, not dashboard metrics */}
           <Reveal delay={150}>
           <div className="mt-12 sm:mt-16 grid gap-6 sm:gap-8 md:grid-cols-2 items-stretch">
 
-            {/* ── Emotional toll ── */}
+            {/* ── The emotional weight ── */}
               <div className="impact-card h-full">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="h-2 w-2 rounded-full" style={{ background: "#8F82CD", boxShadow: "0 0 12px rgba(143,130,205,0.5)" }} />
-                  <span className="text-[11px] font-semibold uppercase tracking-[0.15em]" style={{ color: "var(--color-primary)" }}>Emotional toll</span>
-                </div>
-                <div className="space-y-6">
+                <p className="text-[13px] font-serif italic mb-4" style={{ color: "var(--white-40)" }}>The emotional weight</p>
+                <div className="space-y-4">
                   <div>
-                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.5rem, 6vw, 3.5rem)", color: "var(--color-primary)", letterSpacing: "-0.04em" }}>2.8M+</span>
-                    <p className="mt-2 text-[15px] leading-relaxed" style={{ color: "var(--white-60)" }}>
-                      families navigate loss each year — most with no guidance.
+                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.25rem, 5.5vw, 3rem)", color: "var(--color-primary)", letterSpacing: "-0.04em" }}>2.8M+</span>
+                    <p className="mt-1.5 text-[14px] leading-relaxed" style={{ color: "var(--white-60)" }}>
+                      families face loss each year — most with no one to guide them through it.
                     </p>
                   </div>
-                  <div style={{ borderTop: "1px solid var(--white-8)", paddingTop: "1.25rem" }}>
-                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.5rem, 6vw, 3.5rem)", color: "var(--color-primary)", letterSpacing: "-0.04em" }}>57%</span>
-                    <p className="mt-2 text-[15px] leading-relaxed" style={{ color: "var(--white-60)" }}>
-                      of grieving individuals feel completely unprepared for the weight of loss.
+                  <div style={{ borderTop: "1px solid var(--white-8)", paddingTop: "1rem" }}>
+                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.25rem, 5.5vw, 3rem)", color: "var(--color-primary)", letterSpacing: "-0.04em" }}>57%</span>
+                    <p className="mt-1.5 text-[14px] leading-relaxed" style={{ color: "var(--white-60)" }}>
+                      say they felt completely unprepared for everything that followed.
                     </p>
                   </div>
                 </div>
               </div>
 
-            {/* ── Logistical burden ── */}
+            {/* ── The practical chaos ── */}
               <div className="impact-card h-full">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="h-2 w-2 rounded-full" style={{ background: "#E59524", boxShadow: "0 0 12px rgba(229,149,36,0.5)" }} />
-                  <span className="text-[11px] font-semibold uppercase tracking-[0.15em]" style={{ color: "#E59524" }}>Logistical burden</span>
-                </div>
-                <div className="space-y-6">
+                <p className="text-[13px] font-serif italic mb-4" style={{ color: "var(--white-40)" }}>The practical chaos</p>
+                <div className="space-y-4">
                   <div>
-                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.5rem, 6vw, 3.5rem)", color: "#E59524", letterSpacing: "-0.04em" }}>570 hrs</span>
-                    <p className="mt-2 text-[15px] leading-relaxed" style={{ color: "var(--white-60)" }}>
-                      of admin work per estate, averaging 16 months.
+                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.25rem, 5.5vw, 3rem)", color: "#E59524", letterSpacing: "-0.04em" }}>570 hrs</span>
+                    <p className="mt-1.5 text-[14px] leading-relaxed" style={{ color: "var(--white-60)" }}>
+                      of paperwork, phone calls, and decisions — stretched over 16 months on average.
                     </p>
                   </div>
-                  <div style={{ borderTop: "1px solid var(--white-8)", paddingTop: "1.25rem" }}>
-                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.5rem, 6vw, 3.5rem)", color: "#E59524", letterSpacing: "-0.04em" }}>$15.5B</span>
-                    <p className="mt-2 text-[15px] leading-relaxed" style={{ color: "var(--white-60)" }}>
-                      in survivor benefits go unclaimed from missed deadlines each year.
+                  <div style={{ borderTop: "1px solid var(--white-8)", paddingTop: "1rem" }}>
+                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.25rem, 5.5vw, 3rem)", color: "#E59524", letterSpacing: "-0.04em" }}>$15.5B</span>
+                    <p className="mt-1.5 text-[14px] leading-relaxed" style={{ color: "var(--white-60)" }}>
+                      in benefits go unclaimed every year — because no one told families they existed.
                     </p>
                   </div>
                 </div>
@@ -127,6 +121,74 @@ export default function HomePage() {
           PLATFORM SHOWCASE — alternating feature blocks
       ══════════════════════════════════════════════ */}
       <section id="features" className="relative overflow-hidden">
+        {/* Warm ambient glow — soft drifting orbs */}
+        <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
+          {/* Large lavender glow — left side */}
+          <div
+            className="absolute rounded-full will-change-transform"
+            style={{
+              width: "55%",
+              height: "65%",
+              top: "0%",
+              left: "-10%",
+              background: "radial-gradient(ellipse at center, rgba(220,215,245,0.7) 0%, rgba(210,205,240,0.35) 35%, transparent 65%)",
+              filter: "blur(55px)",
+              animation: "featureGlow1 14s ease-in-out infinite",
+            }}
+          />
+          {/* Blue-lavender glow — right side */}
+          <div
+            className="absolute rounded-full will-change-transform"
+            style={{
+              width: "50%",
+              height: "55%",
+              top: "25%",
+              right: "-8%",
+              background: "radial-gradient(ellipse at center, rgba(195,208,248,0.6) 0%, rgba(185,200,245,0.3) 35%, transparent 65%)",
+              filter: "blur(55px)",
+              animation: "featureGlow2 18s ease-in-out infinite",
+            }}
+          />
+          {/* Warm ivory glow — bottom center */}
+          <div
+            className="absolute rounded-full will-change-transform"
+            style={{
+              width: "40%",
+              height: "40%",
+              bottom: "5%",
+              left: "18%",
+              background: "radial-gradient(ellipse at center, rgba(245,235,218,0.6) 0%, rgba(240,228,208,0.3) 35%, transparent 65%)",
+              filter: "blur(50px)",
+              animation: "featureGlow1 12s ease-in-out infinite reverse",
+            }}
+          />
+          {/* Soft peachy accent — mid-right */}
+          <div
+            className="absolute rounded-full will-change-transform"
+            style={{
+              width: "30%",
+              height: "30%",
+              top: "50%",
+              right: "10%",
+              background: "radial-gradient(ellipse at center, rgba(245,220,215,0.4) 0%, rgba(240,212,205,0.18) 40%, transparent 65%)",
+              filter: "blur(45px)",
+              animation: "featureGlow2 15s ease-in-out infinite reverse",
+            }}
+          />
+          {/* Lavender whisper — top center */}
+          <div
+            className="absolute rounded-full will-change-transform"
+            style={{
+              width: "45%",
+              height: "35%",
+              top: "-5%",
+              left: "30%",
+              background: "radial-gradient(ellipse at center, rgba(215,210,242,0.5) 0%, rgba(208,202,238,0.22) 40%, transparent 65%)",
+              filter: "blur(50px)",
+              animation: "featureGlow1 16s ease-in-out infinite",
+            }}
+          />
+        </div>
         <div className="section relative z-10">
           <Reveal>
             <div className="text-center mb-16 sm:mb-24">
@@ -146,7 +208,11 @@ export default function HomePage() {
           THE SUPPORT SYSTEM
       ══════════════════════════════════════════════ */}
       <section className="relative overflow-hidden">
+        {/* Smooth top fade — white into lavender */}
+        <div className="absolute top-0 left-0 right-0 h-40 z-[1]" style={{ background: "linear-gradient(180deg, var(--color-surface) 0%, transparent 100%)" }} />
         <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 80% 70% at 50% 45%, #E4DBF4 0%, #D8CEF0 25%, #EEEDF5 55%, #F5F4FA 100%)" }} />
+        {/* Smooth bottom fade — lavender into white */}
+        <div className="absolute bottom-0 left-0 right-0 h-40 z-[1]" style={{ background: "linear-gradient(0deg, var(--color-surface) 0%, transparent 100%)" }} />
 
         <div className="relative z-10 px-6 sm:px-8 mx-auto max-w-[72rem] py-24 sm:py-36">
           <Reveal>
@@ -362,8 +428,10 @@ export default function HomePage() {
         <SectionClouds count={3} opacity={0.6} />
         <div className="relative section flex flex-col items-center text-center !py-32 sm:!py-48 z-10">
           <Reveal>
-            <div className="mb-10">
-              <LogoMark size={40} />
+            <div className="mb-10 flex justify-center" style={{ marginLeft: "-2rem" }}>
+              <div className="logo-animated">
+                <Image src="/logo.png" alt="LightPathAI" width={56} height={56} className="logo-animated-img" />
+              </div>
             </div>
             <h2 className="text-[2rem] sm:text-[3.25rem] lg:text-[3.75rem] font-serif font-normal leading-[1.04]" style={{ color: "#1C1C1E", letterSpacing: "-0.04em" }}>
               You found us.<br />That took courage.

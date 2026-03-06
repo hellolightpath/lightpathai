@@ -3,7 +3,7 @@ import { readFileSync } from "fs";
 import { join } from "path";
 import { getPostBySlug, getAllSlugs } from "@/lib/blog-data";
 
-export const alt = "LightPathAI Blog";
+export const alt = "LightPathAI Resources";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -13,7 +13,7 @@ export function generateStaticParams() {
 
 export default async function OGImage({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug);
-  const title = post?.title ?? "LightPathAI Blog";
+  const title = post?.title ?? "LightPathAI Resources";
   const category = post?.category ?? "";
 
   const logoData = readFileSync(join(process.cwd(), "public", "logo.png"));
@@ -84,7 +84,7 @@ export default async function OGImage({ params }: { params: { slug: string } }) 
           </span>
           <span style={{ fontSize: "20px", fontWeight: 600, color: "#8A8EE5" }}>AI</span>
           <span style={{ fontSize: "16px", color: "rgba(255,255,255,0.3)", marginLeft: "8px" }}>
-            Blog
+            Resources
           </span>
         </div>
       </div>
