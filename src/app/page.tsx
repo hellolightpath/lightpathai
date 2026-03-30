@@ -233,25 +233,29 @@ export default function HomePage() {
             <div className="hidden md:block relative mx-auto" style={{ maxWidth: "48rem" }}>
               <div className="grid grid-cols-2" style={{ gap: "16px" }}>
                 {/* TL: Hospice */}
-                <div className="rounded-2xl p-7 lg:p-8" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                <div className="rounded-2xl p-7 lg:p-8 relative overflow-hidden" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                  <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 2, background: "linear-gradient(90deg, #8A8EE5, #8A8EE566)" }} />
                   <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#8A8EE5" }}>Partners</span>
                   <h3 className="font-serif text-[1.2rem] lg:text-[1.3rem] leading-tight mt-2.5 mb-2.5" style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>Hospice</h3>
                   <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>End-of-life care becomes whole-family care. A plan begins while the hospice team is still by their side.</p>
                 </div>
                 {/* TR: Funeral homes */}
-                <div className="rounded-2xl p-7 lg:p-8" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                <div className="rounded-2xl p-7 lg:p-8 relative overflow-hidden" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                  <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 2, background: "linear-gradient(90deg, #8A8EE5, #8A8EE566)" }} />
                   <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#8A8EE5" }}>Partners</span>
                   <h3 className="font-serif text-[1.2rem] lg:text-[1.3rem] leading-tight mt-2.5 mb-2.5" style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>Funeral homes</h3>
                   <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>The service ends, but support continues. Families leave with a clear plan — not just a folder of paperwork.</p>
                 </div>
                 {/* BL: Employers */}
-                <div className="rounded-2xl p-7 lg:p-8" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                <div className="rounded-2xl p-7 lg:p-8 relative overflow-hidden" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                  <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 2, background: "linear-gradient(90deg, #63D583, #63D58366)" }} />
                   <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#63D583" }}>Enterprise</span>
                   <h3 className="font-serif text-[1.2rem] lg:text-[1.3rem] leading-tight mt-2.5 mb-2.5" style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>Employers</h3>
                   <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>Bereavement leave becomes bereavement support. Employees in grief get more than time off — they get a path forward.</p>
                 </div>
                 {/* BR: Life insurers */}
-                <div className="rounded-2xl p-7 lg:p-8" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                <div className="rounded-2xl p-7 lg:p-8 relative overflow-hidden" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
+                  <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 2, background: "linear-gradient(90deg, #63D583, #63D58366)" }} />
                   <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#63D583" }}>Enterprise</span>
                   <h3 className="font-serif text-[1.2rem] lg:text-[1.3rem] leading-tight mt-2.5 mb-2.5" style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>Life insurers</h3>
                   <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>A claim becomes a care moment. Beneficiaries receive guided support — not just a payout.</p>
@@ -401,10 +405,19 @@ export default function HomePage() {
           <Reveal>
             <div className="mx-auto max-w-2xl">
               <h2 className="heading-lg text-center mb-14">What you should know</h2>
-              <div>
+              <div
+                className="rounded-2xl p-6 sm:p-8"
+                style={{
+                  background: "rgba(255,255,255,0.55)",
+                  backdropFilter: "blur(16px)",
+                  WebkitBackdropFilter: "blur(16px)",
+                  border: "1px solid rgba(255,255,255,0.6)",
+                  boxShadow: "0 2px 16px rgba(0,0,0,0.03), 0 1px 4px rgba(0,0,0,0.02)",
+                }}
+              >
                 {faqTeaser.map((f, i) => (
                   <Reveal key={f.q} delay={i * 80}>
-                    <div className="py-7" style={{ borderBottom: "1px solid rgba(0,0,0,0.06)" }}>
+                    <div className="py-6" style={{ borderBottom: i < faqTeaser.length - 1 ? "1px solid rgba(0,0,0,0.05)" : "none" }}>
                       <h3 className="font-serif text-[17px]" style={{ color: "var(--color-foreground)" }}>{f.q}</h3>
                       <p className="mt-2 text-[15px] leading-relaxed" style={{ color: "var(--color-body)" }}>{f.a}</p>
                     </div>

@@ -48,7 +48,7 @@ export function articleJsonLd({
     "@type": "Article",
     headline: title,
     description,
-    url: `${BASE}/blog/${slug}`,
+    url: `${BASE}/resources/${slug}`,
     datePublished: date,
     author: {
       "@type": "Organization",

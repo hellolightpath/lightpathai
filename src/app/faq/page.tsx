@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Reveal } from "@/components/reveal";
+import { WarmGlow } from "@/components/warm-glow";
 import { faqPageJsonLd } from "@/lib/json-ld";
 
 export const metadata: Metadata = {
@@ -18,6 +19,7 @@ export default function FAQPage() {
       />
       {/* ── Header ── */}
       <section className="relative overflow-hidden">
+        <WarmGlow />
         <div className="section relative z-10 text-center pt-36 sm:pt-44 pb-12 sm:pb-16">
           <Reveal>
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] mb-5" style={{ color: "var(--color-primary)" }}>

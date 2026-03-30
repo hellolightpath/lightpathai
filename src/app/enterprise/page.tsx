@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Reveal } from "@/components/reveal";
+import { WarmGlow } from "@/components/warm-glow";
 import { NightSky } from "@/components/night-sky";
 import { StarField } from "@/components/star-field";
 import { EnterpriseDashboard } from "@/components/enterprise-dashboard";
@@ -164,7 +165,7 @@ export default function EnterprisePage() {
               { category: "Emotional toll", stat: "1 in 4", desc: "employees are navigating grief at any given time.", color: "#8A8EE5", source: "Grief Recovery Institute" },
               { category: "Retention risk", stat: "79%", desc: "of grieving employees considered leaving their job.", color: "#E59524", source: "SHRM Grief & Bereavement Survey" },
               { category: "Support gap", stat: "85%", desc: "say they received no meaningful support from their employer.", color: "#8F82CD", source: "Grief Recovery Institute" },
-              { category: "Business impact", stat: "$75B", desc: "in annual productivity lost to grief in the U.S.", color: "#63D583", source: "Harvard Business Review" },
+              { category: "Business impact", stat: "$75B", desc: "in annual productivity lost to grief in the U.S.", color: "#E59524", source: "Harvard Business Review" },
             ].map((d, i) => (
               <Reveal key={d.stat} delay={i * 100}>
                 <div className="text-center">
@@ -185,9 +186,10 @@ export default function EnterprisePage() {
       </section>
 
       {/* ── Without / With Comparison ── */}
-      <section style={{ background: "linear-gradient(180deg, #FAFAFA 0%, #FBFBFD 50%, #FAFAFA 100%)" }}>
+      <section className="relative overflow-hidden" style={{ background: "linear-gradient(180deg, #FAFAFA 0%, #FBFBFD 50%, #FAFAFA 100%)" }}>
+        <WarmGlow />
         <div className="section-divider" />
-        <div className="px-6 sm:px-8 mx-auto max-w-[72rem] py-24 sm:py-32">
+        <div className="px-6 sm:px-8 mx-auto max-w-[72rem] py-24 sm:py-32 relative z-10">
           <Reveal>
             <h2 className="text-[1.75rem] sm:text-[2.75rem] font-serif font-normal leading-[1.08] text-center" style={{ color: "var(--color-foreground)", letterSpacing: "-0.035em" }}>
               More than a benefit checkbox.
@@ -336,9 +338,10 @@ export default function EnterprisePage() {
       </section>
 
       {/* ── For Life Insurance — premium section ── */}
-      <section style={{ background: "linear-gradient(180deg, #FAFAFA 0%, #FEF9F0 40%, #FFF8ED 60%, #FAFAFA 100%)" }}>
+      <section className="relative overflow-hidden" style={{ background: "linear-gradient(180deg, #FAFAFA 0%, #FEF9F0 40%, #FFF8ED 60%, #FAFAFA 100%)" }}>
+        <WarmGlow />
         <div className="section-divider" />
-        <div className="px-6 sm:px-8 mx-auto max-w-[72rem] py-24 sm:py-32">
+        <div className="px-6 sm:px-8 mx-auto max-w-[72rem] py-24 sm:py-32 relative z-10">
           <div className="mx-auto max-w-5xl">
             <Reveal>
               <p className="text-[10px] font-semibold uppercase tracking-[0.25em] mb-4 text-center" style={{ color: "#E59524" }}>
@@ -425,30 +428,6 @@ export default function EnterprisePage() {
               </p>
             </Reveal>
           </div>
-        </div>
-      </section>
-
-      {/* ── Enterprise Trust Bar ── */}
-      <section style={{ background: "var(--color-dark-base)" }}>
-        <div className="px-6 sm:px-8 mx-auto max-w-[72rem] py-14 sm:py-16">
-          <Reveal>
-            <p className="text-[10px] font-semibold uppercase tracking-[0.25em] mb-8 text-center" style={{ color: "rgba(255,255,255,0.15)" }}>
-              Enterprise-ready by design
-            </p>
-            <div className="flex flex-wrap justify-center gap-x-10 gap-y-4">
-              {["SOC 2 Aligned", "HIPAA Aligned", "Data Isolation", "Zero Data Sales", "Role-Based Access"].map((item) => (
-                <div key={item} className="flex items-center gap-2.5">
-                  <div className="h-5 w-5 rounded-full flex items-center justify-center" style={{ background: "rgba(99,213,131,0.1)", border: "1px solid rgba(99,213,131,0.15)" }}>
-                    {icons.check("rgba(99,213,131,0.6)")}
-                  </div>
-                  <span className="text-[12px] font-medium" style={{ color: "rgba(255,255,255,0.35)" }}>{item}</span>
-                </div>
-              ))}
-            </div>
-            <p className="mt-6 text-center text-[12px]" style={{ color: "rgba(255,255,255,0.12)" }}>
-              Flexible contracting — PEPM, per-activation, or enterprise license
-            </p>
-          </Reveal>
         </div>
       </section>
 

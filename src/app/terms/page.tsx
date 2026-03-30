@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Reveal } from "@/components/reveal";
+import { WarmGlow } from "@/components/warm-glow";
 
 export const metadata: Metadata = {
   title: "Terms of Service | LightPathAI",
@@ -10,6 +11,7 @@ export default function TermsPage() {
   return (
     <>
       <section className="relative overflow-hidden hero-gradient min-h-[90vh]">
+        <WarmGlow />
         <div className="section relative z-10 pt-36 sm:pt-48 pb-24 sm:pb-32">
           <div className="mx-auto max-w-3xl">
             <Reveal>

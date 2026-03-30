@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { Reveal } from "@/components/reveal";
+import { WarmGlow } from "@/components/warm-glow";
 import { NightSky } from "@/components/night-sky";
 import { StarField } from "@/components/star-field";
 
@@ -32,7 +33,8 @@ export default function OurStoryPage() {
 
       {/* ── The Story ── */}
       <section className="relative overflow-hidden">
-        <div className="section">
+        <WarmGlow />
+        <div className="section relative z-10">
           <div className="mx-auto max-w-[40rem]">
 
             {/* Our Founding Story */}
@@ -163,7 +165,7 @@ export default function OurStoryPage() {
 
       {/* ── Mission CTA ── */}
       <section className="relative overflow-hidden" style={{ background: "linear-gradient(180deg, transparent, rgba(245,243,250,0.5))" }}>
-        <div className="section relative z-10 text-center">
+        <div className="section relative z-10 text-center !pb-20 sm:!pb-24">
           <Reveal>
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] mb-6" style={{ color: "var(--color-primary)" }}>Our mission</p>
             <h2 className="text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem] font-serif font-normal leading-[1.15] mx-auto max-w-3xl" style={{ color: "var(--color-foreground)", letterSpacing: "-0.035em" }}>

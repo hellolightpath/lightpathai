@@ -6,12 +6,13 @@ const BASE = "https://getlightpath.ai";
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
     "",
+    "/partners",
     "/enterprise",
+    "/providers",
     "/our-story",
-    "/blog",
+    "/resources",
     "/faq",
     "/demo",
-    "/trust",
     "/privacy",
     "/terms",
   ];
@@ -26,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: path === "" ? 1 : 0.8,
     })),
     ...blogSlugs.map((slug) => ({
-      url: `${BASE}/blog/${slug}`,
+      url: `${BASE}/resources/${slug}`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.6,
