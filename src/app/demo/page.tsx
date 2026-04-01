@@ -132,11 +132,23 @@ export default function DemoPage() {
                       </svg>
                     </div>
                     <h2 className="mt-6 text-2xl font-serif" style={{ color: "#1C1C2E", letterSpacing: "-0.02em" }}>
-                      Thank you
+                      We received your request.
                     </h2>
                     <p className="mt-3 text-[15px] leading-relaxed" style={{ color: "#6B6E8D" }}>
-                      We&rsquo;ll be in touch soon with a time that works for you.
+                      Check your email &mdash; we&rsquo;ve sent a confirmation with helpful resources. We&rsquo;ll follow up within 1 business day.
                     </p>
+                    <div className="mt-6 space-y-2.5 text-left">
+                      <p className="text-[11px] font-semibold uppercase tracking-[0.12em]" style={{ color: "#8A8EE5" }}>While you wait</p>
+                      <a href="/resources" className="block rounded-xl px-4 py-3 text-[14px] font-medium transition-colors hover:bg-white/60" style={{ color: "#1C1C2E", background: "rgba(255,255,255,0.4)", border: "1px solid rgba(255,255,255,0.4)" }}>
+                        Resources &mdash; practical guides for navigating loss
+                      </a>
+                      <a href="/features" className="block rounded-xl px-4 py-3 text-[14px] font-medium transition-colors hover:bg-white/60" style={{ color: "#1C1C2E", background: "rgba(255,255,255,0.4)", border: "1px solid rgba(255,255,255,0.4)" }}>
+                        Features &mdash; see everything the platform offers
+                      </a>
+                      <a href="/faq" className="block rounded-xl px-4 py-3 text-[14px] font-medium transition-colors hover:bg-white/60" style={{ color: "#1C1C2E", background: "rgba(255,255,255,0.4)", border: "1px solid rgba(255,255,255,0.4)" }}>
+                        FAQ &mdash; common questions answered
+                      </a>
+                    </div>
                     <div className="mt-6 rounded-xl p-4" style={{ background: "rgba(255,255,255,0.4)", border: "1px solid rgba(255,255,255,0.4)" }}>
                       <p className="text-[13px] leading-relaxed" style={{ color: "#6B6E8D" }}>
                         If you need immediate support, call{" "}
