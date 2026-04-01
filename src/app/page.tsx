@@ -400,7 +400,7 @@ export default function HomePage() {
       <div className="section-divider" />
 
       {/* ══════════════════════════════════════════════
-          SUPPORTERS
+          VAULT + SUPPORTERS — side by side context
       ══════════════════════════════════════════════ */}
       <section id="supporters" className="relative overflow-hidden">
         <div className="section relative z-10">
@@ -461,6 +461,39 @@ export default function HomePage() {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════
+          VAULT — secure document storage
+      ══════════════════════════════════════════════ */}
+      <section className="relative overflow-hidden" style={{ background: "linear-gradient(180deg, #FDFCFB 0%, #FEF9F0 35%, #FFF8ED 65%, #FDFCFB 100%)" }}>
+        <div className="section relative z-10">
+          <Reveal>
+            <div className="mx-auto max-w-3xl text-center">
+              <p className="tag-pill mb-6 mx-auto" style={{ width: "fit-content" }}>
+                <span className="h-1.5 w-1.5 rounded-full" style={{ background: "#E59524" }} />
+                Vault
+              </p>
+              <h2 className="heading-lg">Your most important<br />documents, protected.</h2>
+              <p className="mt-5 text-[17px] leading-relaxed max-w-lg mx-auto" style={{ color: "#475569" }}>
+                Death certificates, wills, insurance policies, account records &mdash; stored behind a PIN in one secure place. Share specific documents with specific people, and revoke access at any time.
+              </p>
+              <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-xl mx-auto">
+                {[
+                  { label: "PIN-protected", color: "#8A8EE5" },
+                  { label: "Upload any file", color: "#E59524" },
+                  { label: "Selective sharing", color: "#5A8A6E" },
+                  { label: "Encrypted at rest", color: "#8F82CD" },
+                ].map((item) => (
+                  <div key={item.label} className="rounded-xl p-3 text-center" style={{ backgroundColor: "rgba(255,255,255,0.6)", backdropFilter: "blur(12px)", border: "1px solid rgba(255,255,255,0.7)" }}>
+                    <div className="w-1.5 h-1.5 rounded-full mx-auto mb-2" style={{ backgroundColor: item.color }} />
+                    <p className="text-[12px] font-medium" style={{ color: "var(--color-foreground)" }}>{item.label}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </Reveal>
@@ -566,5 +599,5 @@ const faqTeaser = [
   { q: "Do I need documents to start?", a: "No. Start with what you know. Add documents when you're ready." },
   { q: "Is this only for recent loss?", a: "No. Whether it's been days or years, we start with what matters now." },
   { q: "What's free and what's paid?", a: "During our soft launch, everything is free \u2014 Care Plan, Inner Light, LightKeeper, Benefits Discovery, and Find Care. Premium tiers with advanced Assist automation are coming soon." },
-  { q: "How is this different from ChatGPT or a grief app?", a: "Grief apps offer reflection. ChatGPT gives broad answers. LightPath builds a structured plan for your specific situation\u2014with real forms, real deadlines, and real people." },
+  { q: "How is this different from ChatGPT or a grief app?", a: "Grief apps offer reflection. ChatGPT gives broad answers. LightPath builds a structured plan with 147 tasks across 18 categories, drafts your paperwork, scans 40+ benefit programs, adapts to your emotional state in real time, and stores your documents in a secure vault." },
 ];

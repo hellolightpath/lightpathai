@@ -78,7 +78,7 @@ export default function FAQPage() {
 const allFaqs = [
   {
     q: "What is LightPathAI?",
-    a: "LightPathAI is a structured, trauma-informed AI system built for navigating sudden loss. It generates a personalized Care Plan based on your situation, uses AI Assist to draft letters, fill forms, and guide every task, surfaces benefits you may be eligible for, offers AI companions matched to your specific loss, and gives you a private space for emotional grounding. Everything is designed for someone who shouldn\u2019t have to figure this out alone.",
+    a: "LightPathAI is a structured, trauma-informed AI system built for navigating loss. It generates a personalized Care Plan with 147 task templates across 18 categories, uses AI Assist to draft letters and fill forms, scans 40+ benefit programs for eligibility, offers 16 specialized AI companions matched to your type of loss, and provides 88 clinical interventions across 16 therapeutic frameworks for emotional grounding. It adapts to your faith, jurisdiction, grief stage, and emotional state in real time.",
   },
   {
     q: "Do I need to know everything to start?",
@@ -98,7 +98,7 @@ const allFaqs = [
   },
   {
     q: "How does Benefits Discovery work?",
-    a: "LightPathAI analyzes your specific situation \u2014 your state, the type of loss, your relationship to the deceased, employment status, and more \u2014 then identifies benefits you may qualify for. Social Security survivor benefits, employer life insurance, unclaimed property, veterans benefits, tax credits, and state-specific programs. We surface what applies, track every deadline, and walk you through filing.",
+    a: "LightPathAI scans 40+ benefit programs against your specific situation \u2014 your state, loss type, relationship to the deceased, veteran status, employment, and more. Programs include Social Security survivor benefits, VA burial and DIC benefits, employer death benefits, pension survivor benefits, retirement account inheritance, unclaimed property, and state-specific programs. We surface what applies, track every deadline, and walk you through filing.",
   },
   {
     q: "What is LightKeeper?",
@@ -106,7 +106,7 @@ const allFaqs = [
   },
   {
     q: "Is Inner Light therapy?",
-    a: "No. Inner Light is a private, self-guided space for reflection, journaling, and grounding exercises that adapt to where you are emotionally. It supports your healing process, but it is not a substitute for professional therapy or crisis intervention. If you\u2019re in immediate danger, call 911. If you\u2019re in emotional crisis, call or text 988.",
+    a: "No. Inner Light is a private, self-guided space with 88 clinical interventions drawn from 16 therapeutic frameworks \u2014 including DBT, ACT, somatic experiencing, continuing bonds, and narrative repair. It adapts to your emotional state, tracks your patterns across 15 feeling states, and recommends tools based on what\u2019s helped before. A clinical safety layer prevents premature deep work. It is not a substitute for professional therapy. If you\u2019re in crisis, call or text 988.",
   },
   {
     q: "Can a supporter help me through LightPathAI?",
@@ -118,7 +118,7 @@ const allFaqs = [
   },
   {
     q: "How is this different from a checklist I found online?",
-    a: "A generic checklist doesn\u2019t know your state, your family structure, your deadlines, or what documents you already have. It can\u2019t draft the letters for you, find benefits you didn\u2019t know existed, or connect you with someone who\u2019s been through what you\u2019re going through. LightPathAI does all of that \u2014 personalized, guided, and built around your specific loss.",
+    a: "A generic checklist doesn\u2019t know your state, your family structure, your deadlines, or what documents you already have. LightPathAI has 147 task templates that adapt to your jurisdiction, faith, role (executor vs. supporter), and relationship. It drafts letters, fills forms, scans 40+ benefit programs, adapts to your emotional state across 5 real-time support modes, and stores your sensitive documents in a PIN-protected vault.",
   },
   {
     q: "Can my family use this together?",

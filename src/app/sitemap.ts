@@ -6,6 +6,7 @@ const BASE = "https://getlightpath.ai";
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
     "",
+    "/features",
     "/partners",
     "/enterprise",
     "/providers",
