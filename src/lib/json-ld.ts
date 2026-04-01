@@ -13,7 +13,7 @@ export function organizationJsonLd() {
       "https://instagram.com/lightpathai",
     ],
     description:
-      "A personalized plan, clear next steps, and real human support for when you don't know where to start.",
+      "A personalized plan, clear next steps, and intelligent support for when you don't know where to start.",
   };
 }
 

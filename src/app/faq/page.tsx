@@ -78,7 +78,7 @@ export default function FAQPage() {
 const allFaqs = [
   {
     q: "What is LightPathAI?",
-    a: "LightPathAI is a structured, trauma-informed AI system built for navigating sudden loss. It generates a personalized Care Plan based on your situation, uses AI Assist to draft letters, fill forms, and guide every task, surfaces benefits you may be eligible for, connects you with a trained peer companion, and gives you a private space for emotional grounding. Everything is designed for someone who shouldn\u2019t have to figure this out alone.",
+    a: "LightPathAI is a structured, trauma-informed AI system built for navigating sudden loss. It generates a personalized Care Plan based on your situation, uses AI Assist to draft letters, fill forms, and guide every task, surfaces benefits you may be eligible for, offers AI companions matched to your specific loss, and gives you a private space for emotional grounding. Everything is designed for someone who shouldn\u2019t have to figure this out alone.",
   },
   {
     q: "Do I need to know everything to start?",
@@ -86,7 +86,7 @@ const allFaqs = [
   },
   {
     q: "Is this really free?",
-    a: "Your personalized Care Plan and core guidance are completely free. Everyone deserves support after a loss, regardless of what they can afford. Premium features like LightKeeper peer companion matching and advanced Assist automation are available through an optional upgrade.",
+    a: "Your personalized Care Plan and core guidance are completely free. Everyone deserves support after a loss, regardless of what they can afford. During our soft launch, every feature is free. Premium tiers with advanced Assist automation will be available in the future.",
   },
   {
     q: "Is LightPathAI only for the first few days after a death?",
@@ -102,7 +102,7 @@ const allFaqs = [
   },
   {
     q: "What is LightKeeper?",
-    a: "LightKeeper pairs you with a trained peer companion \u2014 a real person who has lived through a similar loss. Not a therapist. Not a stranger with advice. Someone who understands because they\u2019ve been there, matched to you by loss type, life stage, and background.",
+    a: "LightKeeper is an AI companion system with 16 specialized personas \u2014 each trained on a specific type of loss, from parent loss to suicide bereavement to caregiver grief. Your companion remembers your story across conversations, adapts to your emotional state in real time, and is available whenever you need \u2014 day or night, no scheduling, no waitlists.",
   },
   {
     q: "Is Inner Light therapy?",

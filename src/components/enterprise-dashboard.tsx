@@ -259,8 +259,8 @@ const features = [
   {
     id: "lightkeeper",
     name: "LightKeeper",
-    tagline: "Peer companionship",
-    desc: "Matched with a trained peer companion — someone who has lived through a similar loss. Not therapy. The steady comfort of a real person who says: \"I've been there.\"",
+    tagline: "AI companionship",
+    desc: "16 specialized AI companions matched by loss type and relationship. Remembers your story, adapts to your emotional state, and is there whenever you need \u2014 day or night.",
     color: "#E59524",
     icon: (
       <svg width="18" height="18" viewBox="0 0 16 16" fill="none">

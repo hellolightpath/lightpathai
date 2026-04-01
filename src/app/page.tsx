@@ -205,6 +205,92 @@ export default function HomePage() {
       </section>
 
       {/* ══════════════════════════════════════════════
+          EMOTIONAL INTELLIGENCE — the differentiator
+      ══════════════════════════════════════════════ */}
+      <section className="relative overflow-hidden" style={{ background: "linear-gradient(180deg, #2E3658 0%, #2A3352 30%, #262F4C 70%, #2E3658 100%)" }}>
+        <NightSky />
+        <div className="relative z-10 mx-auto max-w-5xl px-6 py-24 sm:py-32">
+          <Reveal>
+            <div className="text-center mb-14 sm:mb-20">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.2em]" style={{ color: "rgba(138,142,229,0.65)" }}>
+                Emotional intelligence
+              </p>
+              <h2 className="mt-5 text-[1.75rem] sm:text-[2.75rem] lg:text-[3.25rem] font-serif font-normal text-white leading-[1.06] max-w-3xl mx-auto" style={{ letterSpacing: "-0.03em" }}>
+                A platform that feels{" "}<br className="hidden sm:block" />
+                <span style={{ color: "var(--white-40)" }}>what you&rsquo;re going through.</span>
+              </h2>
+              <p className="mt-5 text-[16px] max-w-xl mx-auto leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
+                LightPath doesn&rsquo;t just organize tasks. It reads your emotional state in real time and reshapes itself around what you need right now.
+              </p>
+            </div>
+          </Reveal>
+
+          {/* Support Modes */}
+          <div className="grid grid-cols-1 sm:grid-cols-5 gap-3 sm:gap-4 mb-16">
+            {[
+              { mode: "Crisis", desc: "Everything stops. Safety resources, grounding, nothing else.", color: "#D4725C", active: true },
+              { mode: "Grounding", desc: "Stabilization tools prioritized. Gentle pacing.", color: "#E5A030", active: false },
+              { mode: "Rest", desc: "Minimal content. Comfort only. Late-night quiet.", color: "#8F82CD", active: false },
+              { mode: "Gentle action", desc: "Soft tasks. One step at a time. No pressure.", color: "#D4A0C0", active: false },
+              { mode: "Reflection", desc: "Full access. Meaning-making. Celebration unlocked.", color: "#7BA88E", active: false },
+            ].map((item, i) => (
+              <Reveal key={item.mode} delay={i * 60}>
+                <div className="rounded-xl p-5 h-full" style={{ backgroundColor: item.active ? "rgba(255,255,255,0.08)" : "rgba(255,255,255,0.03)", border: `1px solid ${item.active ? "rgba(255,255,255,0.12)" : "rgba(255,255,255,0.06)"}` }}>
+                  <div className="flex items-center gap-2 mb-2">
+                    <div className="w-2 h-2 rounded-full" style={{ backgroundColor: item.color }} />
+                    <span className="text-[13px] font-semibold text-white">{item.mode}</span>
+                  </div>
+                  <p className="text-[12px] leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>{item.desc}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+
+          {/* Intelligence signals */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {[
+              {
+                title: "Grief wave detection",
+                desc: "Detects acute emotional drops in real time. When the wave hits, the platform shifts \u2014 suppressing tasks, surfacing grounding tools, and protecting you from overwhelm.",
+                color: "#8A8EE5",
+              },
+              {
+                title: "Rumination awareness",
+                desc: "Distinguishes intrusive thought patterns from healthy reflection. Adjusts recommendations to gently redirect circular thinking without dismissing your process.",
+                color: "#E59524",
+              },
+              {
+                title: "Faith-aware timing",
+                desc: "Recognizes cultural and faith milestones \u2014 Islamic Arba\u2019in, Jewish Shloshim, Hindu Shraddha \u2014 and adjusts grief phase computation and task timing accordingly.",
+                color: "#D4A0C0",
+              },
+            ].map((item, i) => (
+              <Reveal key={item.title} delay={i * 80}>
+                <div className="rounded-xl p-6" style={{ backgroundColor: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.07)" }}>
+                  <div className="w-2 h-2 rounded-full mb-3" style={{ backgroundColor: item.color }} />
+                  <h3 className="text-[16px] font-semibold text-white mb-2">{item.title}</h3>
+                  <p className="text-[13px] leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>{item.desc}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+
+          {/* Clinical credibility bar */}
+          <Reveal delay={200}>
+            <div className="mt-14 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-[13px]" style={{ color: "rgba(255,255,255,0.25)" }}>
+              <span>88 clinical interventions</span>
+              <span className="hidden sm:inline">&middot;</span>
+              <span>16 therapeutic frameworks</span>
+              <span className="hidden sm:inline">&middot;</span>
+              <span>5 real-time support modes</span>
+              <span className="hidden sm:inline">&middot;</span>
+              <span>9 therapeutic progression tracks</span>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════
           THE SUPPORT SYSTEM
       ══════════════════════════════════════════════ */}
       <section className="relative overflow-hidden">
@@ -323,15 +409,25 @@ export default function HomePage() {
               <div>
                 <p className="tag-pill mb-6" style={{ width: "fit-content" }}>
                   <span className="h-1.5 w-1.5 rounded-full" style={{ background: "#8A8EE5" }} />
-                  For supporters
+                  Circle of Care
                 </p>
                 <h2 className="heading-lg">Help without<br />guessing.</h2>
                 <p className="mt-5 text-[17px] leading-relaxed" style={{ color: "#475569" }}>
-                  Invite someone into your plan. They see only what you share. Nothing more.
+                  Invite up to 5 trusted people into your plan. Assign tasks, share documents, and let them carry some of the weight &mdash; while you stay in control of what they see.
                 </p>
-                <Link href="#features" className="mt-8 text-[14px] font-semibold inline-flex items-center gap-2 transition-all duration-300 hover:translate-x-1.5 hover:gap-3" style={{ color: "#8A8EE5" }}>
-                  Learn more <span>&rarr;</span>
-                </Link>
+                <div className="mt-6 space-y-3">
+                  {[
+                    "Assign specific tasks to specific people",
+                    "Granular privacy \u2014 each supporter sees only what you share",
+                    "Dual context: built for both grievers and those supporting them",
+                    "Revoke access any time, no questions asked",
+                  ].map((text) => (
+                    <div key={text} className="flex items-start gap-3">
+                      <div className="mt-1.5 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "#8A8EE5" }} />
+                      <span className="text-[14px] leading-relaxed" style={{ color: "#475569" }}>{text}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
 
               <div className="relative min-h-[280px]">
@@ -469,6 +565,6 @@ export default function HomePage() {
 const faqTeaser = [
   { q: "Do I need documents to start?", a: "No. Start with what you know. Add documents when you're ready." },
   { q: "Is this only for recent loss?", a: "No. Whether it's been days or years, we start with what matters now." },
-  { q: "What's free and what's paid?", a: "Your Care Plan, task guidance, and Inner Light are free. Premium adds drafted documents, live human review, and benefits discovery with claims filing." },
+  { q: "What's free and what's paid?", a: "During our soft launch, everything is free \u2014 Care Plan, Inner Light, LightKeeper, Benefits Discovery, and Find Care. Premium tiers with advanced Assist automation are coming soon." },
   { q: "How is this different from ChatGPT or a grief app?", a: "Grief apps offer reflection. ChatGPT gives broad answers. LightPath builds a structured plan for your specific situation\u2014with real forms, real deadlines, and real people." },
 ];

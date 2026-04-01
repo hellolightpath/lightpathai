@@ -222,8 +222,8 @@ export default function PartnersPage() {
               },
               {
                 icon: icons.users("#8F82CD"),
-                title: "LightKeeper companions",
-                desc: "Matched peer companions with verified lived experience. Emotional support that scales without burdening your clinical staff.",
+                title: "LightKeeper AI companions",
+                desc: "16 specialized AI companions matched by loss type and relationship. Emotional support that scales without burdening your clinical staff \u2014 available 24/7.",
                 color: "#8F82CD",
               },
               {
@@ -403,10 +403,10 @@ export default function PartnersPage() {
 
           <div className="mt-16 max-w-3xl mx-auto space-y-4">
             {[
-              { text: "Clinical-grade emotional support — 50+ interventions across 14 grief frameworks", color: "#8A8EE5" },
-              { text: "Real human companions (LightKeepers) matched by loss type, not chatbots", color: "#E59524" },
+              { text: "Clinical-grade emotional support — 88 interventions across 16 grief frameworks", color: "#8A8EE5" },
+              { text: "16 specialized AI companions (LightKeepers) with relational memory, matched by loss type", color: "#E59524" },
               { text: "Jurisdiction-aware estate guidance — accurate to each family\u2019s state", color: "#8F82CD" },
-              { text: "Benefits discovery surfaces an average of $55,000+ per family", color: "#D4A0C0" },
+              { text: "Benefits discovery scans 40+ programs \u2014 survivor benefits, insurance, pensions, tax credits", color: "#D4A0C0" },
               { text: "Find Care marketplace — vetted attorneys, therapists, and financial advisors", color: "#5A8A6E" },
               { text: "100% free for families during launch — zero cost barrier to adoption", color: "#63D583" },
               { text: "Privacy-first architecture — grief data treated with more care than financial data", color: "#8A8EE5" },

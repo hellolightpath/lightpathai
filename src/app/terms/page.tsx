@@ -17,7 +17,7 @@ export default function TermsPage() {
             <Reveal>
               <h1 className="heading-xl">Terms of Service</h1>
               <p className="mt-3 text-sm" style={{ color: "#94A3B8" }}>
-                Last updated: February 2026
+                Last updated: March 2026
               </p>
             </Reveal>
           </div>
@@ -46,43 +46,73 @@ export default function TermsPage() {
 
 const sections = [
   {
-    title: "1. Acceptance of Terms",
+    title: "Welcome",
     content:
-      "By accessing or using LightPathAI (\u201CService\u201D), you agree to be bound by these Terms of Service. If you do not agree to these terms, you may not use the Service.",
+      "LightPath is a grief support and healing companion designed to help you navigate life after loss. By creating an account or using LightPath, you agree to these terms. If you do not agree, please do not use the service.",
   },
   {
-    title: "2. Description of Service",
+    title: "What LightPath Is \u2014 and What It Is Not",
     content:
-      "LightPathAI provides a personalized Care Plan, document management, emotional wellness tools, and peer companionship to help individuals navigate life after a loss. The Service is provided \u201Cas is\u201D and may be updated or modified at any time.",
+      "LightPath provides informational support, task guidance, emotional wellness tools, and AI-powered companionship for people experiencing grief or supporting someone who is. LightPath is NOT a substitute for professional mental health care, therapy, counseling, legal advice, or financial guidance. Our tools are designed for self-guided emotional support and practical task management \u2014 they are not clinical interventions. If you are experiencing a mental health emergency, please contact your local emergency services or a crisis helpline immediately.",
   },
   {
-    title: "3. User Accounts",
+    title: "Crisis Disclaimer",
     content:
-      "You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You must notify us immediately of any unauthorized use of your account.",
+      "If you are in immediate danger, call 911 (or your local emergency number). For crisis support, call or text 988 (Suicide & Crisis Lifeline) or text HOME to 741741 (Crisis Text Line). LightPath may detect signs of distress and surface crisis resources, but we are not an emergency service and cannot guarantee real-time intervention.",
   },
   {
-    title: "4. Acceptable Use",
+    title: "AI Companion Disclaimer",
     content:
-      "You agree not to use the Service for any unlawful purpose, to infringe on the rights of others, or to interfere with the operation of the Service. We reserve the right to suspend or terminate accounts that violate these terms.",
+      "LightPath includes AI-powered features, including the LightKeeper companion and Inner Light emotional tools. These companions are powered by artificial intelligence, not human therapists or counselors. AI responses are generated to be supportive and empathetic but may not always be accurate or appropriate for your specific situation. AI companions do not replace human connection, professional therapy, or medical advice. You should not rely on AI-generated content for making legal, medical, financial, or safety decisions. AI-generated documents, letters, and forms are templates only. You are responsible for reviewing and verifying all AI-generated content before submitting it to any institution, agency, or organization. Benefits discovery results are informational and do not guarantee eligibility.",
   },
   {
-    title: "5. Intellectual Property",
+    title: "AI Safety Limitations and Your Responsibility",
     content:
-      "All content, features, and functionality of the Service are owned by LightPathAI and are protected by copyright, trademark, and other intellectual property laws. Your data remains yours \u2014 we claim no ownership over content you create or upload.",
+      "You acknowledge that the AI in LightPath may generate responses that are inaccurate, incomplete, or not appropriate for your specific emotional or psychological state. The AI cannot reliably detect suicidal thoughts, self-harm intent, or all crisis situations. While LightPath includes automated crisis detection, this is a supplementary safety measure and is not guaranteed to identify every crisis. You must not rely on LightPath to detect or respond to a mental health emergency. If you are experiencing suicidal thoughts, self-harm urges, or any mental health emergency, stop using LightPath immediately and contact emergency services (911), the 988 Suicide & Crisis Lifeline (call or text 988), or the Crisis Text Line (text HOME to 741741).",
   },
   {
-    title: "6. Limitation of Liability",
+    title: "Your Account",
     content:
-      "To the fullest extent permitted by law, LightPathAI shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the Service.",
+      "You must be at least 18 years old to use LightPath. You are responsible for maintaining the security of your account credentials and for all activity under your account. You agree to provide accurate information during registration. If you believe your account has been compromised, please contact us immediately at hello@getlightpath.ai.",
   },
   {
-    title: "7. Changes to Terms",
+    title: "Your Data",
     content:
-      "We reserve the right to modify these terms at any time. We will provide reasonable notice of significant changes. Continued use of the Service after changes constitutes acceptance of the updated terms.",
+      "The information you share with LightPath \u2014 including your grief journey details, journal entries, emotional check-ins, and conversations \u2014 is deeply personal. We treat it with the care and respect it deserves. Please see our Privacy Policy for complete details on how we collect, store, protect, and use your data.",
   },
   {
-    title: "8. Contact Us",
+    title: "Acceptable Use",
     content:
-      "If you have any questions about these Terms, please contact us at legal@getlightpath.ai.",
+      "LightPath is a supportive community built on empathy and respect. You agree not to: use the platform to harass, threaten, or harm others; share content that is illegal, hateful, or intentionally harmful; misrepresent your identity or impersonate others; attempt to access other users\u2019 data or accounts; use automated tools to scrape or collect data from the platform; or use LightPath for any commercial purpose without our written consent.",
+  },
+  {
+    title: "Benefits Discovery Disclaimer",
+    content:
+      "Benefits discovery is an informational tool only. We do not guarantee eligibility for any benefits, including Social Security survivor benefits, life insurance proceeds, VA benefits, pension distributions, or any other financial entitlements. Actual eligibility is determined solely by the relevant government agency, insurance company, or organization. We are not liable for benefits you do not receive, deadlines you may miss, or inaccuracies in benefit estimates. Always verify benefit information directly with the issuing organization.",
+  },
+  {
+    title: "Limitation of Liability",
+    content:
+      "LightPath is provided \u201Cas is\u201D and \u201Cas available\u201D without warranties of any kind, express or implied. To the maximum extent permitted by law, LightPath and its officers, directors, employees, and agents shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the service. Our total liability for any claim shall not exceed the amount you paid us in the twelve months preceding the claim. Nothing in the service constitutes professional medical, legal, financial, or tax advice.",
+  },
+  {
+    title: "Dispute Resolution",
+    content:
+      "Before filing any claim, you agree to contact us at hello@getlightpath.ai and attempt to resolve the dispute informally for at least 30 days. If informal resolution fails, disputes will be resolved through binding arbitration administered by JAMS under its Streamlined Arbitration Rules, conducted in the State of California. You agree to waive any right to a jury trial or to participate in a class action. California law governs these terms without regard to conflict of law principles.",
+  },
+  {
+    title: "Termination",
+    content:
+      "You may delete your account at any time through your Profile settings. When you delete your account, your data enters a 30-day grace period during which you can contact us to restore it. After 30 days, your data is permanently deleted in accordance with our Privacy Policy. We may also suspend or terminate your account if you violate these terms.",
+  },
+  {
+    title: "Changes to These Terms",
+    content:
+      "We may update these terms as LightPath evolves. We will notify you of significant changes through the app or by email. Your continued use of LightPath after changes are posted constitutes your acceptance of the updated terms.",
+  },
+  {
+    title: "Contact",
+    content:
+      "If you have questions about these terms, we are here for you. Reach out to us at hello@getlightpath.ai.",
   },
 ];

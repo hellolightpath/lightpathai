@@ -367,7 +367,7 @@ export default function EnterprisePage() {
                 {
                   icon: icons.shieldPlus("#8A8EE5"),
                   title: "Care that continues",
-                  desc: "Ongoing structured support \u2014 tasks, documents, emotional tools, and peer companionship. Families remember who showed up.",
+                  desc: "Ongoing structured support \u2014 tasks, documents, emotional tools, and AI companionship. Families remember who showed up.",
                   color: "#8A8EE5",
                   accent: "Beyond the payout",
                 },
