@@ -25,6 +25,7 @@ const columns = [
     title: "Company",
     links: [
       { label: "Our Story", href: "/our-story" },
+      { label: "Press", href: "/press" },
       { label: "Partners", href: "/partners" },
       { label: "Enterprise", href: "/enterprise" },
       { label: "For Providers", href: "/providers" },
