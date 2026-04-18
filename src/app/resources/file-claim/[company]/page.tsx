@@ -41,7 +41,7 @@ export default async function InsuranceClaimGuidePage({
         <div className="section relative z-10 pt-36 sm:pt-44 pb-8 sm:pb-12 max-w-2xl mx-auto">
           <Reveal>
             <Link
-              href="/guides"
+              href="/resources"
               className="text-xs font-medium uppercase tracking-wider mb-6 inline-block"
               style={{ color: "var(--color-primary)" }}
             >

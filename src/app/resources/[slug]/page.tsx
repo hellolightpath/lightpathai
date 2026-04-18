@@ -6,10 +6,21 @@ import { WarmGlow } from "@/components/warm-glow";
 import { blogPosts, getPostBySlug, getAllSlugs } from "@/lib/blog-data";
 import type { BlogPost } from "@/lib/blog-data";
 import { articleJsonLd } from "@/lib/json-ld";
+import seoGuides from "@/data/seo-guides.json";
+import stateGuides from "@/data/seo-guides-by-state.json";
+
+type TaskGuide = (typeof seoGuides)[number];
+const allTaskGuides: TaskGuide[] = [...seoGuides, ...stateGuides];
+
+function getGuideBySlug(slug: string): TaskGuide | undefined {
+  return allTaskGuides.find((g) => g.slug === slug);
+}
 
 /* ─── Static generation ─── */
 export function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
+  const blogSlugs = getAllSlugs().map((slug) => ({ slug }));
+  const guideSlugs = allTaskGuides.map((g) => ({ slug: g.slug }));
+  return [...blogSlugs, ...guideSlugs];
 }
 
 export function generateMetadata({
@@ -17,12 +28,22 @@ export function generateMetadata({
 }: {
   params: { slug: string };
 }): Metadata {
+  // Check blog posts first, then task guides
   const post = getPostBySlug(params.slug);
-  if (!post) return { title: "Post Not Found" };
-  return {
-    title: `${post.title} | LightPathAI Resources`,
-    description: post.excerpt,
-  };
+  if (post) {
+    return {
+      title: `${post.title} | LightPathAI Resources`,
+      description: post.excerpt,
+    };
+  }
+  const guide = getGuideBySlug(params.slug);
+  if (guide) {
+    return {
+      title: guide.seo_title,
+      description: guide.seo_description,
+    };
+  }
+  return { title: "Not Found" };
 }
 
 /* ═══════════════════════════════════════════════════
@@ -881,11 +902,90 @@ const postVisuals: Record<string, Record<number, React.ReactNode>> = {
 /* ═══════════════════════════════════════════════════
    PAGE COMPONENT
    ═══════════════════════════════════════════════════ */
+/* ═══════════════════════════════════════════════════
+   TASK GUIDE COMPONENT (for SEO guide pages)
+   ═══════════════════════════════════════════════════ */
+
+function TaskGuideView({ guide }: { guide: TaskGuide }) {
+  const stateNote = "state_note" in guide ? (guide as any).state_note : null;
+  return (
+    <>
+      <section className="relative overflow-hidden">
+        <WarmGlow />
+        <div className="section relative z-10 pt-36 sm:pt-44 pb-8 sm:pb-12 max-w-2xl mx-auto">
+          <Reveal>
+            <Link href="/resources" className="text-xs font-medium uppercase tracking-wider mb-6 inline-block" style={{ color: "var(--color-primary)" }}>
+              &larr; All resources
+            </Link>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] mb-4" style={{ color: "var(--color-primary)" }}>
+              Step-by-step guide
+            </p>
+            <h1 className="text-[1.75rem] sm:text-[2.25rem] font-serif font-normal leading-[1.12]" style={{ color: "var(--color-foreground)", letterSpacing: "-0.03em" }}>
+              {guide.title}
+            </h1>
+            {guide.description && (
+              <p className="mt-4 text-base leading-relaxed" style={{ color: "var(--color-muted)" }}>{guide.description}</p>
+            )}
+          </Reveal>
+        </div>
+      </section>
+      <section className="section pb-20 max-w-2xl mx-auto">
+        {stateNote && (
+          <Reveal>
+            <div className="p-5 rounded-xl mb-8 border" style={{ backgroundColor: "rgba(138,142,229,0.04)", borderColor: "rgba(138,142,229,0.12)" }}>
+              <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "var(--color-primary)" }}>State-specific information</p>
+              <p className="text-sm leading-relaxed" style={{ color: "var(--color-foreground)" }}>{stateNote}</p>
+            </div>
+          </Reveal>
+        )}
+        {guide.overview && (
+          <Reveal>
+            <p className="text-base leading-relaxed mb-10" style={{ color: "var(--color-foreground)" }}>{guide.overview}</p>
+          </Reveal>
+        )}
+        {guide.steps && guide.steps.length > 0 && (
+          <Reveal>
+            <h2 className="text-lg font-serif mb-6" style={{ color: "var(--color-foreground)" }}>Steps</h2>
+            <ol className="space-y-4">
+              {guide.steps.map((step, i) => (
+                <li key={i} className="flex gap-4">
+                  <span className="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-xs font-medium text-white" style={{ backgroundColor: "var(--color-primary)" }}>{i + 1}</span>
+                  <p className="text-sm leading-relaxed pt-1" style={{ color: "var(--color-foreground)" }}>{step}</p>
+                </li>
+              ))}
+            </ol>
+          </Reveal>
+        )}
+        <Reveal>
+          <div className="mt-12 p-8 rounded-2xl text-center" style={{ backgroundColor: "var(--color-surface-alt)" }}>
+            <p className="font-serif text-lg mb-2" style={{ color: "var(--color-foreground)" }}>This is 1 of 30+ tasks you may need to handle</p>
+            <p className="text-sm mb-6 max-w-md mx-auto" style={{ color: "var(--color-muted)" }}>
+              LightPath creates a personalized care plan that tracks every task, deadline, and benefit for your specific situation. Free forever.
+            </p>
+            <Link href="https://dev-lightpath-app.pages.dev" className="inline-block px-8 py-3.5 rounded-full text-sm font-medium text-white transition-all hover:opacity-90" style={{ backgroundColor: "var(--color-primary)" }}>
+              Start your care plan — free
+            </Link>
+          </div>
+        </Reveal>
+      </section>
+    </>
+  );
+}
+
+/* ═══════════════════════════════════════════════════
+   MAIN PAGE COMPONENT — routes to blog or guide
+   ═══════════════════════════════════════════════════ */
+
 export default function BlogPostPage({
   params,
 }: {
   params: { slug: string };
 }) {
+  // Check if it's a task guide first
+  const guide = getGuideBySlug(params.slug);
+  if (guide) return <TaskGuideView guide={guide} />;
+
+  // Otherwise, render as blog post
   const post = getPostBySlug(params.slug);
   if (!post) notFound();
 
