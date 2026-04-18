@@ -1,0 +1,3259 @@
+[
+  {
+    "id": "immediate.body_transportation",
+    "title": "Arrange for Body Transportation",
+    "slug": "arrange-for-body-transportation",
+    "description": "The funeral director can arrange this, but knowing your options helps you stay in control of costs and timing",
+    "overview": "This is one of the hardest first steps. Move slowly. There",
+    "steps": [
+      "Confirm the body has been officially released (hospital",
+      "or coroner)",
+      "Choose a provider: funeral home",
+      "or body donation program",
+      "Call to arrange pickup and ask about timing",
+      "and required documents",
+      "Request copies of all transport paperwork for your records"
+    ],
+    "seo_title": "Arrange for Body Transportation \u2014 Free Guide | LightPath",
+    "seo_description": "The funeral director can arrange this, but knowing your options helps you stay in control of costs and timing",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "immediate.secure_belongings",
+    "title": "Secure Personal Belongings",
+    "slug": "secure-personal-belongings",
+    "description": "Belongings often need to be collected within days \\u2014 this prevents loss and protects sentimental items",
+    "overview": "If the death occurred away from home (hospital, hospice, care facility), personal belongings need to be collected and secured. This prevents loss and protects sentimental items.",
+    "steps": [
+      "Get a list of belongings from the facility",
+      "Collect jewelry",
+      "and personal effects",
+      "Sign any release forms required by the facility",
+      "Store items securely until decisions about estate distribution are made",
+      "Photograph items for inventory purposes"
+    ],
+    "seo_title": "Secure Personal Belongings \u2014 Free Guide | LightPath",
+    "seo_description": "Belongings often need to be collected within days \\u2014 this prevents loss and protects sentimental items",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "immediate.house_secure",
+    "title": "Make Sure the House Is Secure",
+    "slug": "make-sure-the-house-is-secure",
+    "description": "Secure the home and protect property from unauthorized access",
+    "overview": "Securing the home prevents theft and maintains insurance coverage. This is especially important if the home will be unoccupied. Don",
+    "steps": [
+      "Change locks if necessary or if keys are unaccounted for",
+      "Ensure all windows and doors are secure",
+      "Check that homeowner/renter insurance is current",
+      "Set lights on timers if home will be unoccupied",
+      "Notify neighbors and ask them to watch the property",
+      "Make arrangements for any pets or plants"
+    ],
+    "seo_title": "Make Sure the House Is Secure \u2014 Free Guide | LightPath",
+    "seo_description": "Secure the home and protect property from unauthorized access",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "immediate.order_death_certificates",
+    "title": "Get Death Certificates (You\\u2019ll Need Multiple)",
+    "slug": "get-death-certificates-you-u2019ll-need-multiple",
+    "description": "Order certified copies \\u2014 almost every step ahead will require one",
+    "overview": "You",
+    "steps": [
+      "Ask the funeral home to order certificates on your behalf (easiest option)",
+      "Or contact the county vital records office directly",
+      "Request 10-15 certified copies (you can order more later if needed)",
+      "Keep track of which copies you submit and to whom"
+    ],
+    "seo_title": "Get Death Certificates (You\\u2019ll Need Multiple) \u2014 Free Guide | LightPath",
+    "seo_description": "Order certified copies \\u2014 almost every step ahead will require one",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "immediate.notifications_core",
+    "title": "Tell the People Who Need to Know Right Away",
+    "slug": "tell-the-people-who-need-to-know-right-away",
+    "description": "Employer, landlord, medical appointments \\u2014 some things can\\u2019t wait long",
+    "overview": "Some notifications are time-sensitive: employers may have benefits deadlines, landlords need to know about lease status, and medical appointments should be canceled.",
+    "steps": [
+      "Notify employer within 24-48 hours if they were employed",
+      "Contact landlord if they rented their home",
+      "Cancel any upcoming medical appointments",
+      "Notify home health or hospice services to stop care",
+      "Contact any care facilities"
+    ],
+    "seo_title": "Tell the People Who Need to Know Right Away \u2014 Free Guide | LightPath",
+    "seo_description": "Employer, landlord, medical appointments \\u2014 some things can\\u2019t wait long",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "immediate.digital_estate",
+    "title": "Digital Estate & Online Accounts",
+    "slug": "digital-estate-online-accounts",
+    "description": "Secure digital accounts and preserve important online access",
+    "overview": "Digital accounts need immediate attention to prevent data loss, stop recurring charges, and preserve memories. Some accounts have time limits for requesting data.",
+    "steps": [
+      "Locate password manager or password list",
+      "Secure email accounts (needed for password resets)",
+      "Document any cryptocurrency or digital assets",
+      "Check for auto-pay subscriptions",
+      "Download important photos/documents before accounts close",
+      "Note social media accounts for memorialization later"
+    ],
+    "seo_title": "Digital Estate & Online Accounts \u2014 Free Guide | LightPath",
+    "seo_description": "Secure digital accounts and preserve important online access",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "funeral.final_wishes",
+    "title": "Look for Final Wishes / Instructions",
+    "slug": "look-for-final-wishes-instructions",
+    "description": "Search for any documented funeral preferences or pre-planned arrangements",
+    "overview": "Many people leave instructions about their funeral wishes. Finding these can provide guidance and peace of mind that you",
+    "steps": [
+      "Check for a letter of instruction or personal directive",
+      "Look in will or estate documents",
+      "Check with their attorney or financial advisor",
+      "Ask close family members about conversations they may have had",
+      "Check for pre-paid funeral arrangements at local funeral homes",
+      "Look through email for any funeral home correspondence"
+    ],
+    "seo_title": "Look for Final Wishes / Instructions \u2014 Free Guide | LightPath",
+    "seo_description": "Search for any documented funeral preferences or pre-planned arrangements",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "funeral.contact_clergy",
+    "title": "Contact Clergy / Spiritual Leader",
+    "slug": "contact-clergy-spiritual-leader",
+    "description": "Reach out to religious or spiritual community for service support",
+    "overview": "If your loved one was connected to a religious or spiritual community, their clergy or leader can provide guidance on traditions, officiate services, and offer spiritual support.",
+    "steps": [
+      "Identify their place of worship or spiritual community",
+      "Contact clergy/spiritual leader to inform them of the death",
+      "Discuss religious/spiritual requirements for the service",
+      "Ask about availability to officiate",
+      "Inquire about using the facility for services",
+      "Discuss any religious preparation of the body if applicable"
+    ],
+    "seo_title": "Contact Clergy / Spiritual Leader \u2014 Free Guide | LightPath",
+    "seo_description": "Reach out to religious or spiritual community for service support",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "funeral.disposition_choice",
+    "title": "Decide Between Burial and Cremation",
+    "slug": "decide-between-burial-and-cremation",
+    "description": "Choose the disposition method for remains",
+    "overview": "There is no right answer, only what feels right for your family and honors your loved one. Take time to consider their wishes if known, along with family, cultural, and religious traditions.",
+    "steps": [
+      "Check if the deceased left instructions (will",
+      "conversations)",
+      "Consider family",
+      "and religious traditions",
+      "Compare options: traditional burial",
+      "donation to science",
+      "Get price quotes from multiple providers",
+      "Discuss with family members who want to be involved",
+      "Make the decision together when possible"
+    ],
+    "seo_title": "Decide Between Burial and Cremation \u2014 Free Guide | LightPath",
+    "seo_description": "Choose the disposition method for remains",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "funeral.ceremony_format",
+    "title": "Decide on Ceremony Format",
+    "slug": "decide-on-ceremony-format",
+    "description": "Choose the type of service: traditional, celebration of life, private, etc.",
+    "overview": "The ceremony format should reflect your loved one",
+    "steps": [
+      "Consider what type of gathering would honor them best",
+      "Decide on formality level (traditional vs. casual)",
+      "Choose between religious",
+      "or blended ceremony",
+      "Determine size (intimate vs. large gathering)",
+      "Decide on timing (before burial/cremation",
+      "or both)",
+      "Consider virtual/streaming options for remote attendees"
+    ],
+    "seo_title": "Decide on Ceremony Format \u2014 Free Guide | LightPath",
+    "seo_description": "Choose the type of service: traditional, celebration of life, private, etc.",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "funeral.wake_plan",
+    "title": "Plan the Wake",
+    "slug": "plan-the-wake",
+    "description": "Organize a viewing or visitation for family and friends",
+    "overview": "A wake or visitation allows people to pay respects, view the body if desired, and support each other. It can be formal or informal, at a funeral home or another location.",
+    "steps": [
+      "Decide if you want a viewing/visitation",
+      "Choose location: funeral home",
+      "or private home",
+      "Set date and time (often the evening before the funeral)",
+      "Decide on open or closed casket if applicable",
+      "Arrange for guest book and photos/memorabilia",
+      "Plan refreshments if offering"
+    ],
+    "seo_title": "Plan the Wake \u2014 Free Guide | LightPath",
+    "seo_description": "Organize a viewing or visitation for family and friends",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "funeral.service_plan",
+    "title": "Plan the Funeral Service",
+    "slug": "plan-the-funeral-service",
+    "description": "Coordinate the main funeral ceremony details",
+    "overview": "The funeral service is the formal ceremony honoring your loved one. It can include religious elements, personal tributes, music, and rituals meaningful to your family.",
+    "steps": [
+      "Confirm date",
+      "and location",
+      "Select officiant (clergy",
+      "or family member)",
+      "Choose readers and speakers for tributes",
+      "Select music (processional",
+      "recessional)",
+      "Decide on pallbearers if applicable",
+      "Choose flowers or request donations in lieu",
+      "Arrange for programs/orders of service"
+    ],
+    "seo_title": "Plan the Funeral Service \u2014 Free Guide | LightPath",
+    "seo_description": "Coordinate the main funeral ceremony details",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "benefits.va_funeral",
+    "title": "Contact the VA for Funeral Benefits",
+    "slug": "contact-the-va-for-funeral-benefits",
+    "description": "Apply for veteran burial benefits and honors",
+    "overview": "Veterans may be eligible for burial benefits including a burial allowance, government headstone, burial flag, and military honors. Contact the VA as soon as possible. Some benefits have filing deadlines.",
+    "steps": [
+      "Locate DD-214 (military discharge papers). If unavailable",
+      "request from National Archives (eVetRecs)",
+      "Contact VA at 1-800-827-1000 or visit VA.gov",
+      "Apply for burial allowance (service-connected and non-service-connected rates differ; check VA.gov/burials-memorials for current-year amounts",
+      "as they adjust annually)",
+      "Request government headstone or marker (available even if buried in a private cemetery)",
+      "Request Presidential Memorial Certificate",
+      "Request burial flag (provided at no cost)",
+      "Arrange for military honors (flag folding",
+      "taps). At least 2 service members provided by law"
+    ],
+    "seo_title": "Contact the VA for Funeral Benefits \u2014 Free Guide | LightPath",
+    "seo_description": "Apply for veteran burial benefits and honors",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "funeral.funding_sources",
+    "title": "Find Sources of Funeral Funding",
+    "slug": "find-sources-of-funeral-funding",
+    "description": "Identify ways to pay for funeral expenses",
+    "overview": "Funeral costs can be significant. There are multiple potential sources of funding including life insurance, veteran benefits, employer benefits, and assistance programs.",
+    "steps": [
+      "Check for pre-paid funeral arrangements",
+      "Review life insurance policies for funeral coverage",
+      "Check employer for final paycheck and benefits",
+      "Look into Social Security lump sum death payment ($255)",
+      "Apply for VA burial benefits if veteran",
+      "Research state/county burial assistance programs",
+      "Consider crowdfunding if needed",
+      "Ask funeral home about payment plans"
+    ],
+    "seo_title": "Find Sources of Funeral Funding \u2014 Free Guide | LightPath",
+    "seo_description": "Identify ways to pay for funeral expenses",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "funeral.obituary",
+    "title": "Write and Publish the Obituary",
+    "slug": "write-and-publish-the-obituary",
+    "description": "Honor their story in a way that feels true \u2014 we can help you find the words",
+    "overview": "An obituary shares news of the death and celebrates your loved one",
+    "steps": [
+      "Gather biographical information: birth date",
+      "achievements",
+      "Collect photos for print and online versions",
+      "Write or delegate writing the obituary",
+      "Include funeral/memorial service information",
+      "Decide where to publish: newspaper",
+      "online memorials",
+      "Submit to chosen publications with photo",
+      "Review proof before publication"
+    ],
+    "seo_title": "Write and Publish the Obituary \u2014 Free Guide | LightPath",
+    "seo_description": "Honor their story in a way that feels true \u2014 we can help you find the words",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "funeral.memorial_plan",
+    "title": "Plan a Memorial Service",
+    "slug": "plan-a-memorial-service",
+    "description": "A space for the people who loved them to come together",
+    "overview": "A memorial service can happen anytime. There",
+    "steps": [
+      "Choose a date (can be weeks or months later)",
+      "Select a location: place of worship",
+      "outdoors",
+      "Decide on format and formality",
+      "Select officiant or emcee",
+      "Choose music",
+      "and speakers",
+      "Plan visual displays: photos",
+      "memorabilia",
+      "Arrange reception or gathering afterward"
+    ],
+    "seo_title": "Plan a Memorial Service \u2014 Free Guide | LightPath",
+    "seo_description": "A space for the people who loved them to come together",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "funeral.celebration_plan",
+    "title": "Plan a Celebration of Life",
+    "slug": "plan-a-celebration-of-life",
+    "description": "A more personal, flexible gathering \u2014 on your timeline and in your way",
+    "overview": "A celebration of life focuses on happy memories rather than mourning. It",
+    "steps": [
+      "Choose a meaningful date (birthday",
+      "or convenient time)",
+      "Select a location they loved: favorite restaurant",
+      "beach",
+      "Plan activities they enjoyed: music",
+      "favorite foods",
+      "Create memory-sharing opportunities: open mic",
+      "photo displays",
+      "Incorporate their personality: colors",
+      "style"
+    ],
+    "seo_title": "Plan a Celebration of Life \u2014 Free Guide | LightPath",
+    "seo_description": "A more personal, flexible gathering \u2014 on your timeline and in your way",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "notify.family_friends",
+    "title": "Tell Your Closest People",
+    "slug": "tell-your-closest-people",
+    "description": "Share the news with family and friends \\u2014 you don\\u2019t have to do this alone",
+    "overview": "You don",
+    "steps": [
+      "Make a list of people to notify",
+      "prioritizing closest first",
+      "Decide what information to share about the death",
+      "Make personal calls to immediate family",
+      "Ask a trusted person to help notify extended circle",
+      "Consider a phone tree or group message for wider network",
+      "Share funeral/memorial plans when ready",
+      "Let people know how they can help"
+    ],
+    "seo_title": "Tell Your Closest People \u2014 Free Guide | LightPath",
+    "seo_description": "Share the news with family and friends \\u2014 you don\\u2019t have to do this alone",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "notify.employer",
+    "title": "Inform Employer & Colleagues",
+    "slug": "inform-employer-colleagues",
+    "description": "Contact the deceased",
+    "overview": "This call might feel strange \\u2014 telling someone\\u2019s workplace they\\u2019re gone. It\\u2019s okay to feel that way. HR departments handle this more often than you\\u2019d think, and they can walk you through final pay, benefits, and next steps.",
+    "steps": [
+      "Call HR department or direct supervisor",
+      "Ask about final paycheck and any outstanding compensation",
+      "Inquire about life insurance through employer",
+      "Ask about COBRA health insurance continuation options",
+      "Request information on pension/retirement benefits",
+      "Arrange to return company property",
+      "Ask about any death benefits or employee assistance"
+    ],
+    "seo_title": "Inform Employer & Colleagues \u2014 Free Guide | LightPath",
+    "seo_description": "Contact the deceased",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "notify.professionals",
+    "title": "Contact Accountant / Attorney / Financial Advisor",
+    "slug": "contact-accountant-attorney-financial-advisor",
+    "description": "Notify professional advisors who worked with the deceased",
+    "overview": "Professional advisors often have important information about estate planning, taxes, and finances. They can also help guide you through the administration process.",
+    "steps": [
+      "Locate contact information for accountant",
+      "financial advisor",
+      "Notify each of the death",
+      "Ask attorney about will",
+      "and estate documents",
+      "Ask accountant about tax obligations and final returns",
+      "Ask financial advisor about investment accounts and beneficiaries",
+      "Request copies of any relevant documents they hold",
+      "Discuss ongoing services needed for estate administration"
+    ],
+    "seo_title": "Contact Accountant / Attorney / Financial Advisor \u2014 Free Guide | LightPath",
+    "seo_description": "Notify professional advisors who worked with the deceased",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "notify.public_announcement",
+    "title": "Manage Public Announcements",
+    "slug": "manage-public-announcements",
+    "description": "Handle social media, community, and public notifications",
+    "overview": "Beyond personal notifications, you may want to make broader announcements through social media, community groups, or organizations they were part of.",
+    "steps": [
+      "Decide who will manage social media notifications",
+      "Post announcement on their social media (or yours)",
+      "Notify clubs",
+      "and groups they belonged to",
+      "Contact alumni associations if applicable",
+      "Notify professional associations or unions",
+      "Consider memorializing their social media accounts",
+      "Set up a way for people to share condolences"
+    ],
+    "seo_title": "Manage Public Announcements \u2014 Free Guide | LightPath",
+    "seo_description": "Handle social media, community, and public notifications",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "notify.credit_bureaus",
+    "title": "Notify Credit Bureaus",
+    "slug": "notify-credit-bureaus",
+    "description": "Report the death to credit bureaus to prevent identity theft",
+    "overview": "This step protects your loved one\\u2019s identity and gives you peace of mind that their name won\\u2019t be misused. Once it\\u2019s done, you won\\u2019t have to think about it again.",
+    "steps": [
+      "Request a copy of credit report from each bureau",
+      "Send death certificate to: Equifax",
+      "TransUnion",
+      "Request a \"deceased alert\" be placed on the credit file",
+      "Consider placing a credit freeze for extra protection",
+      "Monitor for any suspicious activity",
+      "Keep confirmation of notifications"
+    ],
+    "seo_title": "Notify Credit Bureaus \u2014 Free Guide | LightPath",
+    "seo_description": "Report the death to credit bureaus to prevent identity theft",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "debt.expense_log",
+    "title": "Begin a Record of Expenses",
+    "slug": "begin-a-record-of-expenses",
+    "description": "Start tracking all expenses related to the death and estate",
+    "overview": "Keeping careful records of all expenses is important for estate accounting, tax purposes, and potential reimbursement from the estate.",
+    "steps": [
+      "Create a spreadsheet or document to track expenses",
+      "Record all funeral and burial costs",
+      "Track travel expenses for family members",
+      "Document any payments you make on their behalf",
+      "Keep all receipts organized",
+      "Note which expenses are estate obligations vs. personal choices"
+    ],
+    "seo_title": "Begin a Record of Expenses \u2014 Free Guide | LightPath",
+    "seo_description": "Start tracking all expenses related to the death and estate",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "debt.discover_bills",
+    "title": "Identify Bills and Debts",
+    "slug": "identify-bills-and-debts",
+    "description": "Make a comprehensive list of all recurring bills and financial obligations",
+    "overview": "Understanding the full financial picture is essential. Check mail, email, and bank statements to identify all accounts and obligations.",
+    "steps": [
+      "Gather recent mail",
+      "and bank/credit card statements",
+      "List all recurring bills: utilities",
+      "insurance",
+      "List all financial accounts: bank",
+      "retirement",
+      "Check for automatic payments from bank accounts",
+      "Note which bills need to continue vs. cancel",
+      "Identify any debts: mortgage",
+      "medical"
+    ],
+    "seo_title": "Identify Bills and Debts \u2014 Free Guide | LightPath",
+    "seo_description": "Make a comprehensive list of all recurring bills and financial obligations",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "debt.mortgage",
+    "title": "Handle the Mortgage",
+    "slug": "handle-the-mortgage",
+    "description": "Address mortgage payments and ownership transition",
+    "overview": "Mortgage handling depends on ownership structure and whether you want to keep or sell the property. Contact the lender early to understand your options.",
+    "steps": [
+      "Locate mortgage documents and identify lender",
+      "Contact lender to report the death",
+      "Ask about payment options and forbearance if needed",
+      "Determine how the property was titled (joint",
+      "trust)",
+      "Understand if the mortgage is assumable",
+      "Continue payments if keeping the property",
+      "Discuss options if planning to sell"
+    ],
+    "seo_title": "Handle the Mortgage \u2014 Free Guide | LightPath",
+    "seo_description": "Address mortgage payments and ownership transition",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "debt.credit_cards",
+    "title": "Settle Credit Card Debt",
+    "slug": "settle-credit-card-debt",
+    "description": "Notify credit card companies and address outstanding balances",
+    "overview": "Credit card debt is typically paid from the estate, not by family members. Notify companies of the death to stop interest and prevent fraud.",
+    "steps": [
+      "List all credit cards and outstanding balances",
+      "Contact each credit card company to report the death",
+      "Request account statements",
+      "Stop any automatic payments to/from the cards",
+      "Check for credit card death benefits (some cards have life insurance)",
+      "Work with estate to pay valid debts",
+      "Be aware of debt collector rules"
+    ],
+    "seo_title": "Settle Credit Card Debt \u2014 Free Guide | LightPath",
+    "seo_description": "Notify credit card companies and address outstanding balances",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "debt.medical",
+    "title": "Settle Medical Debt",
+    "slug": "settle-medical-debt",
+    "description": "Address outstanding medical bills from final illness",
+    "overview": "Medical bills from a final illness can be significant. Review bills carefully for errors and understand what insurance should cover before paying.",
+    "steps": [
+      "Collect all medical bills received",
+      "Verify bills against insurance Explanation of Benefits (EOB)",
+      "Check for billing errors or duplicate charges",
+      "Submit any unpaid claims to insurance",
+      "Apply for hospital financial assistance if needed",
+      "Negotiate payment plans or debt reduction",
+      "Pay valid debts from estate assets"
+    ],
+    "seo_title": "Settle Medical Debt \u2014 Free Guide | LightPath",
+    "seo_description": "Address outstanding medical bills from final illness",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "debt.pay_priority",
+    "title": "Pay Outstanding Debts",
+    "slug": "pay-outstanding-debts",
+    "description": "Prioritize and pay valid estate debts in proper order",
+    "overview": "Estate debts must be paid in a specific order of priority before assets are distributed. Understanding this order protects you from liability.",
+    "steps": [
+      "Wait until you have full picture of assets and debts",
+      "Understand priority order: funeral",
+      "unsecured",
+      "Pay funeral and final medical expenses first",
+      "Pay estate administration costs (legal",
+      "accounting)",
+      "Reserve funds for taxes",
+      "Pay secured debts (mortgage",
+      "car loans)",
+      "Pay unsecured debts (credit cards) last"
+    ],
+    "seo_title": "Pay Outstanding Debts \u2014 Free Guide | LightPath",
+    "seo_description": "Prioritize and pay valid estate debts in proper order",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "tax.final_returns",
+    "title": "Handle Taxes & Final Returns",
+    "slug": "handle-taxes-final-returns",
+    "description": "File final individual tax return and estate tax obligations",
+    "overview": "A final individual tax return must be filed for the year of death. Depending on estate size, additional estate or inheritance tax returns may be required.",
+    "steps": [
+      "Gather tax records and prior year returns",
+      "File final individual income tax return (Form 1040)",
+      "Note \"DECEASED\" and date of death on return",
+      "Apply for estate EIN if estate has income",
+      "File estate income tax return (Form 1041) if required",
+      "Determine if estate tax return (Form 706) is required",
+      "Check state estate or inheritance tax requirements",
+      "Consider working with a CPA or tax attorney"
+    ],
+    "seo_title": "Handle Taxes & Final Returns \u2014 Free Guide | LightPath",
+    "seo_description": "File final individual tax return and estate tax obligations",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "debt.dispute",
+    "title": "Dispute or Negotiate a Debt",
+    "slug": "dispute-or-negotiate-a-debt",
+    "description": "Challenge questionable debts or negotiate settlements",
+    "overview": "Not all claimed debts are valid. You have the right to dispute debts and negotiate settlements. Debt collectors must follow specific rules.",
+    "steps": [
+      "Request debt validation in writing within 30 days of first contact",
+      "Review documentation provided",
+      "Check if debt is past statute of limitations",
+      "Verify you're legally responsible (not just a relative)",
+      "Dispute invalid debts in writing",
+      "Negotiate settlements for valid debts (often 50-70% of balance)",
+      "Get settlement agreements in writing before paying"
+    ],
+    "seo_title": "Dispute or Negotiate a Debt \u2014 Free Guide | LightPath",
+    "seo_description": "Challenge questionable debts or negotiate settlements",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "estate.bank_account",
+    "title": "Open an Estate Bank Account",
+    "slug": "open-an-estate-bank-account",
+    "description": "Set up a dedicated account for estate funds",
+    "overview": "An estate bank account keeps estate finances separate from personal funds. This is required for proper estate accounting and protects you from liability.",
+    "steps": [
+      "Obtain Estate EIN from IRS (online application)",
+      "Gather required documents: death certificate",
+      "ID",
+      "Choose a bank (existing bank relationship often easiest)",
+      "Open estate checking account in estate name",
+      "Deposit estate funds and income into this account",
+      "Pay estate expenses from this account only",
+      "Keep detailed records of all transactions"
+    ],
+    "seo_title": "Open an Estate Bank Account \u2014 Free Guide | LightPath",
+    "seo_description": "Set up a dedicated account for estate funds",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "benefits.ssa_survivors",
+    "title": "Claim Social Security Survivors Benefits",
+    "slug": "claim-social-security-survivors-benefits",
+    "description": "File for survivor benefits with the Social Security Administration",
+    "overview": "Surviving spouses and dependent children may be eligible for monthly survivor benefits based on the deceased",
+    "steps": [
+      "Gather required documents: death certificate",
+      "birth certificates for dependent children",
+      "Call Social Security at 1-800-772-1213 to schedule an appointment (TTY 1-800-325-0778)",
+      "Or visit your local Social Security office. Use ssa.gov/locator to find one",
+      "Complete the application. Most survivor claims require an in-person or phone appointment",
+      "though some steps can begin online at ssa.gov",
+      "Apply for the one-time lump sum death benefit ($255; must be filed within 2 years of death)",
+      "Ask about benefits for dependent children under 18 (or up to 19 if in high school)",
+      "If divorced: you may still qualify if the marriage lasted 10+ years and you haven't remarried before age 60",
+      "Important: remarriage before age 60 generally disqualifies surviving spouse benefits (remarriage after 60 does not)"
+    ],
+    "seo_title": "Claim Social Security Survivors Benefits \u2014 Free Guide | LightPath",
+    "seo_description": "File for survivor benefits with the Social Security Administration",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "benefits.va_survivor",
+    "title": "Apply for Veterans Benefits",
+    "slug": "apply-for-veterans-benefits",
+    "description": "File for VA survivor benefits if the deceased was a veteran",
+    "overview": "Veterans",
+    "steps": [
+      "Locate DD-214 (military discharge papers)",
+      "Check eligibility for DIC (monthly payments to surviving spouse)",
+      "Apply for Survivors Pension if income-eligible",
+      "Check for education benefits (Dependents Educational Assistance)",
+      "Apply through VA.gov or call 1-800-827-1000",
+      "Consider working with a Veterans Service Organization for help",
+      "Check for state-specific veteran survivor benefits"
+    ],
+    "seo_title": "Apply for Veterans Benefits \u2014 Free Guide | LightPath",
+    "seo_description": "File for VA survivor benefits if the deceased was a veteran",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "benefits.life_insurance",
+    "title": "Submit a Life Insurance Claim",
+    "slug": "submit-a-life-insurance-claim",
+    "description": "This benefit was set up to support you \u2014 here is how to access it",
+    "overview": "Life insurance claims are typically straightforward but require proper documentation. Most claims are paid within 30-60 days.",
+    "steps": [
+      "Locate all life insurance policies",
+      "Check with employer for group life insurance",
+      "Check for policies with mortgage",
+      "or other accounts",
+      "Contact each insurance company to request claim forms",
+      "Complete claim forms and gather required documents",
+      "Submit certified death certificate with each claim",
+      "Follow up if you don't hear back within 2 weeks"
+    ],
+    "seo_title": "Submit a Life Insurance Claim \u2014 Free Guide | LightPath",
+    "seo_description": "This benefit was set up to support you \u2014 here is how to access it",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "benefits.employer",
+    "title": "Claim Employer Benefits",
+    "slug": "claim-employer-benefits",
+    "description": "Final pay, insurance, retirement funds, and other benefits you may be owed",
+    "overview": "Employers may owe final pay, accrued vacation, life insurance, retirement distributions, and other benefits. HR can explain what",
+    "steps": [
+      "Request meeting with HR or benefits administrator",
+      "Ask about final paycheck and accrued PTO payout",
+      "Inquire about group life insurance policies",
+      "Ask about retirement account distributions (401k",
+      "pension)",
+      "Request information on health insurance continuation (COBRA)",
+      "Ask about any death benefits or employee assistance",
+      "Return company property and get receipt"
+    ],
+    "seo_title": "Claim Employer Benefits \u2014 Free Guide | LightPath",
+    "seo_description": "Final pay, insurance, retirement funds, and other benefits you may be owed",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "benefits.retirement",
+    "title": "Apply for Pension / Retirement Benefits",
+    "slug": "apply-for-pension-retirement-benefits",
+    "description": "Retirement savings may pass to you \u2014 the rules depend on the account type and your relationship",
+    "overview": "Retirement accounts and pensions may provide survivor benefits. These typically pass directly to beneficiaries outside of probate.",
+    "steps": [
+      "Locate all retirement accounts (401k",
+      "pension)",
+      "Review beneficiary designations on each account",
+      "Contact plan administrators to report death",
+      "Request claim forms for survivor benefits",
+      "Determine if the 10-year distribution rule (SECURE Act) applies to you as a beneficiary",
+      "If spouse: evaluate spousal rollover vs. inherited IRA vs. lump sum. Each has different tax treatment",
+      "If non-spouse: plan your 10-year distribution strategy to minimize tax burden",
+      "Consult a financial advisor or CPA before making distribution decisions",
+      "Roll over inherited IRAs properly to maintain tax benefits"
+    ],
+    "seo_title": "Apply for Pension / Retirement Benefits \u2014 Free Guide | LightPath",
+    "seo_description": "Retirement savings may pass to you \u2014 the rules depend on the account type and your relationship",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "benefits.local_aid",
+    "title": "Apply for State / County Assistance",
+    "slug": "apply-for-state-county-assistance",
+    "description": "Research state and local aid programs for survivors",
+    "overview": "Many states and counties offer assistance programs for survivors, including burial assistance, emergency funds, and ongoing support.",
+    "steps": [
+      "Research state-specific survivor benefits",
+      "Check county social services programs",
+      "Apply for burial assistance if income-eligible",
+      "Check for emergency assistance funds",
+      "Look into utility assistance programs (LIHEAP)",
+      "Research state crime victim compensation (if applicable)",
+      "Check for state veteran benefits (if applicable)"
+    ],
+    "seo_title": "Apply for State / County Assistance \u2014 Free Guide | LightPath",
+    "seo_description": "Research state and local aid programs for survivors",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "benefits.one_time_payments",
+    "title": "Apply for One-Time Payments",
+    "slug": "apply-for-one-time-payments",
+    "description": "Claim all available one-time death payments and benefits",
+    "overview": "Several programs provide one-time payments to survivors. These are often overlooked but can provide meaningful financial help.",
+    "steps": [
+      "Apply for Social Security lump sum death payment ($255 to spouse)",
+      "Check union death benefits",
+      "Check fraternal organization benefits (Elks",
+      "etc.)",
+      "Check professional association benefits",
+      "Review credit card and loan death benefits",
+      "Check for accidental death benefits if applicable",
+      "Review any membership organizations for death benefits"
+    ],
+    "seo_title": "Apply for One-Time Payments \u2014 Free Guide | LightPath",
+    "seo_description": "Claim all available one-time death payments and benefits",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "benefits.tracker",
+    "title": "Track Benefit Applications",
+    "slug": "track-benefit-applications",
+    "description": "Create system to track all benefit claims and follow-ups",
+    "overview": "With multiple benefit applications pending, tracking helps ensure nothing falls through the cracks and follow-ups happen on time.",
+    "steps": [
+      "Create tracking spreadsheet or use our template",
+      "Log all applications with dates submitted",
+      "Record reference/confirmation numbers",
+      "Set follow-up reminders for 2-3 weeks out",
+      "Document all communications",
+      "Track status of each application",
+      "Note payments received"
+    ],
+    "seo_title": "Track Benefit Applications \u2014 Free Guide | LightPath",
+    "seo_description": "Create system to track all benefit claims and follow-ups",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "house.prepare_vacancy",
+    "title": "Prepare the House for Vacancy",
+    "slug": "prepare-the-house-for-vacancy",
+    "description": "Ready the home for being unoccupied",
+    "overview": "If the home will be empty, a few small steps reduce risk, protect valuables, and prevent expensive surprises.",
+    "steps": [
+      "Confirm who has keys and access",
+      "Remove valuables and sensitive documents",
+      "Set light timers or smart plugs",
+      "Pause deliveries and confirm mail forwarding",
+      "Set a simple check-in routine (weekly is enough)",
+      "If the home will be vacant for weeks",
+      "notify the insurer that the property is vacant",
+      "If appropriate",
+      "ask a neighbor to keep an eye out"
+    ],
+    "seo_title": "Prepare the House for Vacancy \u2014 Free Guide | LightPath",
+    "seo_description": "Ready the home for being unoccupied",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "house.forward_mail",
+    "title": "Forward USPS Mail",
+    "slug": "forward-usps-mail",
+    "description": "Set up mail forwarding to prevent important mail from being lost",
+    "overview": "Forwarding mail helps you catch bills, benefit notices, and account letters without chasing them later.",
+    "steps": [
+      "Decide where mail should go (your address",
+      "PO box)",
+      "Forward mail or place a temporary hold if you need time to decide",
+      "Track which institutions still send to the old address and update them over time",
+      "Save confirmation details"
+    ],
+    "seo_title": "Forward USPS Mail \u2014 Free Guide | LightPath",
+    "seo_description": "Set up mail forwarding to prevent important mail from being lost",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "house.utilities",
+    "title": "Handle Utilities and Home Accounts",
+    "slug": "handle-utilities-and-home-accounts",
+    "description": "Transfer or cancel utility accounts as needed",
+    "overview": "Utilities often continue billing automatically. A simple plan prevents shutoffs, late fees, and confusion.",
+    "steps": [
+      "List active utilities and services (electric",
+      "security)",
+      "Decide what to keep active (especially if the home is vacant)",
+      "Contact each provider to update the account holder or close the account",
+      "Record confirmations and reference numbers",
+      "Save final bills and receipts"
+    ],
+    "seo_title": "Handle Utilities and Home Accounts \u2014 Free Guide | LightPath",
+    "seo_description": "Transfer or cancel utility accounts as needed",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "house.home_insurance",
+    "title": "Keep Home Insurance Active",
+    "slug": "keep-home-insurance-active",
+    "description": "Ensure homeowners insurance remains active during estate transition",
+    "overview": "Keeping insurance active protects the home during a vulnerable time. Vacant homes sometimes require special policy handling.",
+    "steps": [
+      "Locate the homeowners policy and renewal date",
+      "Contact the insurer to report the death and confirm coverage remains active",
+      "If the home is vacant",
+      "ask whether vacancy coverage or an endorsement is required",
+      "Record the agent name and confirmation details",
+      "Save updated policy documents"
+    ],
+    "seo_title": "Keep Home Insurance Active \u2014 Free Guide | LightPath",
+    "seo_description": "Ensure homeowners insurance remains active during estate transition",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "house.rental_lease",
+    "title": "Rental Lease and Landlord Notification",
+    "slug": "rental-lease-and-landlord-notification",
+    "description": "Notify landlord and handle lease termination for rented property",
+    "overview": "If your loved one rented, notifying the landlord early helps prevent unnecessary charges and clarifies next steps.",
+    "steps": [
+      "Find the lease or landlord contact details",
+      "Notify the landlord and ask about the move-out process",
+      "Ask how to handle keys",
+      "and deposit return",
+      "Record deadlines and required documents",
+      "Save all correspondence"
+    ],
+    "seo_title": "Rental Lease and Landlord Notification \u2014 Free Guide | LightPath",
+    "seo_description": "Notify landlord and handle lease termination for rented property",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "house.deed_transfer",
+    "title": "Transfer the House Deed or Title",
+    "slug": "transfer-the-house-deed-or-title",
+    "description": "Transfer property ownership to heirs or beneficiaries",
+    "overview": "Property ownership changes often require probate, trust documents, or county filing. You do not have to solve this immediately, but tracking it early prevents delays later.",
+    "steps": [
+      "Confirm how the home is titled (individual",
+      "trust)",
+      "Confirm whether probate is required or if a trust handles transfer",
+      "If needed",
+      "file the required documents with the county recorder",
+      "Update property tax mailing address",
+      "Save confirmations and copies"
+    ],
+    "seo_title": "Transfer the House Deed or Title \u2014 Free Guide | LightPath",
+    "seo_description": "Transfer property ownership to heirs or beneficiaries",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.locate_will",
+    "title": "Locate the Will or Trust Documents",
+    "slug": "locate-the-will-or-trust-documents",
+    "description": "Find and review the will and estate planning documents",
+    "overview": "If a will or trust exists, it often determines who can act and what steps come next. If you do not find anything, that is okay. There are still clear paths forward.",
+    "steps": [
+      "Home files: desk",
+      "labeled folders",
+      "Digital files: email",
+      "password manager notes",
+      "Attorney or estate planner",
+      "Bank safe deposit box (may require special access)",
+      "Prior tax or legal invoices for contact clues",
+      "Ask family members if they know of a will"
+    ],
+    "seo_title": "Locate the Will or Trust Documents \u2014 Free Guide | LightPath",
+    "seo_description": "Find and review the will and estate planning documents",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.executor_responsibilities",
+    "title": "Understand Executor Responsibilities",
+    "slug": "understand-executor-responsibilities",
+    "description": "Learn what being an executor involves and your legal duties",
+    "overview": "The executor or personal representative is the person responsible for managing the estate process. Even if you are not sure who that is yet, you can still take practical steps now.",
+    "steps": [
+      "Secure documents and protect assets",
+      "Notify key institutions",
+      "Track bills",
+      "and estate expenses",
+      "Determine whether probate is required",
+      "Pay valid debts in the correct order",
+      "Distribute remaining assets according to the will",
+      "or state law"
+    ],
+    "seo_title": "Understand Executor Responsibilities \u2014 Free Guide | LightPath",
+    "seo_description": "Learn what being an executor involves and your legal duties",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.probate_path",
+    "title": "Choose the Right Legal Path (Probate, Trust, Small Estate)",
+    "slug": "choose-the-right-legal-path-probate-trust-small-estate",
+    "description": "Determine if probate is needed or if simpler options apply",
+    "overview": "Some estates require probate. Some do not. The goal here is to choose the simplest correct path for your state and situation.",
+    "steps": [
+      "Confirm if a trust exists",
+      "Confirm if property is owned and how it is titled",
+      "Identify high-level assets (home",
+      "major accounts)",
+      "Check whether your state offers a small estate process",
+      "If unsure",
+      "prepare a short summary to share with an attorney or court clerk"
+    ],
+    "seo_title": "Choose the Right Legal Path (Probate, Trust, Small Estate) \u2014 Free Guide | LightPath",
+    "seo_description": "Determine if probate is needed or if simpler options apply",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.probate_file",
+    "title": "File for Probate (if required)",
+    "slug": "file-for-probate-if-required",
+    "description": "Begin the probate process with the local court",
+    "overview": "Probate is the court process that gives someone legal authority to manage the estate. It applies whether or not there is a will. Intestate estates (no will) also go through probate. Requirements vary by state, but the general workflow is consistent.",
+    "steps": [
+      "Gather core documents (death certificate",
+      "proof of relationship)",
+      "Identify the county where probate is filed (typically where the person lived at time of death)",
+      "Determine if the estate qualifies for simplified/small estate procedures (thresholds vary by state",
+      "000)",
+      "File the initial petition with the probate court",
+      "Receive Letters Testamentary (with will) or Letters of Administration (without will)",
+      "Notify creditors as required by your state (often by publication and direct mail)",
+      "Inventory estate assets and file with the court if required",
+      "Track all court deadlines and required notices carefully"
+    ],
+    "seo_title": "File for Probate (if required) \u2014 Free Guide | LightPath",
+    "seo_description": "Begin the probate process with the local court",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.intestate",
+    "title": "If There Is No Will (Intestate)",
+    "slug": "if-there-is-no-will-intestate",
+    "description": "Navigate estate administration when no will exists",
+    "overview": "If there is no will, your state has rules for who can act and who inherits. You do not need to memorize them. You only need a clear next step.",
+    "steps": [
+      "Confirm that no will or trust exists (as best you can)",
+      "Identify the closest next of kin",
+      "Determine whether probate is required or if a small estate process applies",
+      "Prepare a short family summary so decisions are clear and consistent"
+    ],
+    "seo_title": "If There Is No Will (Intestate) \u2014 Free Guide | LightPath",
+    "seo_description": "Navigate estate administration when no will exists",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.trusts",
+    "title": "Handle Trusts and Trustees",
+    "slug": "handle-trusts-and-trustees",
+    "description": "Administer trust assets and understand trustee responsibilities",
+    "overview": "If the deceased had assets in a trust, many transfers can happen outside probate, often faster and more privately. The successor trustee manages this process.",
+    "steps": [
+      "Locate the trust document and any amendments",
+      "Identify the successor trustee named in the trust",
+      "Review trust terms for distribution instructions",
+      "Confirm which assets are titled in the trust (home",
+      "investments)",
+      "Provide death certificate to institutions holding trust assets",
+      "Contact each institution to update trustee authority",
+      "Make distributions according to trust terms",
+      "Track all distributions and keep detailed records for beneficiaries",
+      "File any required tax returns for the trust (Form 1041 if trust earned income)"
+    ],
+    "seo_title": "Handle Trusts and Trustees \u2014 Free Guide | LightPath",
+    "seo_description": "Administer trust assets and understand trustee responsibilities",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "vault.store_documents",
+    "title": "Store Legal Documents Securely (Vault)",
+    "slug": "store-legal-documents-securely-vault",
+    "description": "Organize and safely store important estate documents",
+    "overview": "Keeping key documents in one secure place reduces rework later. Upload what you have. You can add more over time.",
+    "steps": [
+      "Death certificate copies",
+      "Will or trust documents",
+      "ID and relationship documents (marriage",
+      "birth certificates)",
+      "Probate filings or letters of authority (if obtained)",
+      "Insurance policies and key account statements (optional)"
+    ],
+    "seo_title": "Store Legal Documents Securely (Vault) \u2014 Free Guide | LightPath",
+    "seo_description": "Organize and safely store important estate documents",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "emotional.suicide_loss_support",
+    "title": "Connect with Suicide Loss Support",
+    "slug": "connect-with-suicide-loss-support",
+    "description": "Find specialized support communities for survivors of suicide loss",
+    "overview": "Losing someone to suicide brings a unique and complex grief. Feelings of guilt, anger, confusion, and ",
+    "steps": [
+      "Explore the American Foundation for Suicide Prevention (AFSP) survivor resources",
+      "Look into Alliance of Hope for Suicide Loss Survivors (online community)",
+      "Consider attending a local Survivors of Suicide Loss support group",
+      "Read about the unique aspects of suicide grief. It can help normalize your feelings",
+      "If you have children",
+      "consider age-appropriate resources from the Dougy Center"
+    ],
+    "seo_title": "Connect with Suicide Loss Support \u2014 Free Guide | LightPath",
+    "seo_description": "Find specialized support communities for survivors of suicide loss",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "emotional.overdose_loss_support",
+    "title": "Connect with Substance Loss Support",
+    "slug": "connect-with-substance-loss-support",
+    "description": "Find support communities that understand grief after overdose or substance-related loss",
+    "overview": "Losing someone to an overdose or substance use carries its own particular pain, often compounded by stigma, complicated feelings, and a society that doesn\\",
+    "steps": [
+      "Contact SAMHSA National Helpline (1-800-662-4357) for referrals and support",
+      "Explore The Grief Recovery After Substance Passing (GRASP) community",
+      "Look into local Compassionate Friends chapters with substance loss groups",
+      "Consider individual therapy with a grief counselor experienced in substance loss",
+      "Read about disenfranchised grief. It can help you feel less alone"
+    ],
+    "seo_title": "Connect with Substance Loss Support \u2014 Free Guide | LightPath",
+    "seo_description": "Find support communities that understand grief after overdose or substance-related loss",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "emotional.violence_loss_support",
+    "title": "Connect with Homicide and Violence Loss Support",
+    "slug": "connect-with-homicide-and-violence-loss-support",
+    "description": "Find specialized support for families who lost someone to violence or homicide",
+    "overview": "Losing someone to violence \u2014 homicide, assault, or any act of intentional harm \u2014 brings a grief that is complicated by trauma, the criminal justice system, media attention, and a sense of injustice. You may feel rage, terror, helplessness, or numbness. These are all normal responses to an abnormal event.",
+    "steps": [
+      "Contact the National Center for Victims of Crime Helpline: 1-855-4-VICTIM (1-855-484-2846)",
+      "Ask your local police department about their Victim Advocate \u2014 they can guide you through the criminal justice process at no cost",
+      "Look into Parents of Murdered Children (POMC) or Homicide Survivors for local support groups",
+      "File for state Victim Compensation (see separate task) \u2014 covers funeral",
+      "and lost income",
+      "Consider trauma-specific therapy (EMDR",
+      "or trauma-focused CBT) \u2014 your grief may need trauma treatment alongside grief support",
+      "If there is media attention",
+      "you have the right to decline all press. A victim advocate can handle media on your behalf"
+    ],
+    "seo_title": "Connect with Homicide and Violence Loss Support \u2014 Free Guide | LightPath",
+    "seo_description": "Find specialized support for families who lost someone to violence or homicide",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "emotional.accident_loss_support",
+    "title": "Navigate Grief After a Sudden or Accidental Death",
+    "slug": "navigate-grief-after-a-sudden-or-accidental-death",
+    "description": "Find support for the unique challenges of losing someone suddenly and without warning",
+    "overview": "When someone dies in an accident \u2014 a car crash, a fall, a workplace incident, or any sudden event \u2014 there is no chance to prepare, no chance to say goodbye. The shock can last weeks or months. Grief after sudden death often includes intense ",
+    "steps": [
+      "Understand that shock and disbelief are normal \u2014 sudden loss grief has its own timeline",
+      "If the death involved a vehicle",
+      "an investigation may be ongoing \u2014 a victim advocate can explain the process",
+      "Consider whether a wrongful death claim may apply \u2014 consult an attorney within 30 days (statutes of limitations vary by state)",
+      "Check for accidental death insurance (AD&D) \u2014 on credit cards",
+      "and personal policies (see separate task)",
+      "Look into the Tragedy Assistance Program for Survivors (TAPS) if military-related",
+      "or local sudden loss support groups",
+      "If you have children",
+      "consider age-appropriate support through the Dougy Center or local children\\'s grief programs"
+    ],
+    "seo_title": "Navigate Grief After a Sudden or Accidental Death \u2014 Free Guide | LightPath",
+    "seo_description": "Find support for the unique challenges of losing someone suddenly and without warning",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "emotional.pregnancy_infant_loss_support",
+    "title": "Connect with Pregnancy and Infant Loss Support",
+    "slug": "connect-with-pregnancy-and-infant-loss-support",
+    "description": "Find specialized support for miscarriage, stillbirth, SIDS, or infant death",
+    "overview": "The loss of a baby \u2014 through miscarriage, stillbirth, SIDS, or infant death \u2014 is a grief that the world often minimizes. People may say ",
+    "steps": [
+      "Contact Share Pregnancy and Infant Loss Support: nationalshare.org or 1-800-821-6819",
+      "Look into local hospital bereavement programs \u2014 many NICU and L&D units have specialized support",
+      "Explore the MISS Foundation (missfoundation.org) for ongoing community and support",
+      "If the loss was a stillbirth",
+      "you may be eligible for bereavement leave and some state benefit programs \u2014 check with your employer and state",
+      "Consider creating a memory box",
+      "or other meaningful ritual if it feels right",
+      "If you have other children",
+      "the Dougy Center has age-specific resources for siblings"
+    ],
+    "seo_title": "Connect with Pregnancy and Infant Loss Support \u2014 Free Guide | LightPath",
+    "seo_description": "Find specialized support for miscarriage, stillbirth, SIDS, or infant death",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "emotional.child_loss_memorial",
+    "title": "Create a Meaningful Memorial",
+    "slug": "create-a-meaningful-memorial",
+    "description": "Explore ways to honor and remember your child",
+    "overview": "There is no loss like the loss of a child. Memorializing them, in whatever way feels right, can be a tender part of carrying their memory forward. There is no timeline for this.",
+    "steps": [
+      "Consider a memorial that feels right: garden",
+      "memory box",
+      "Explore organizations like The Compassionate Friends or MISS Foundation",
+      "If desired",
+      "create a memory book or digital memorial",
+      "Look into local child loss support groups or retreats",
+      "Consider a yearly ritual or tradition to honor their memory"
+    ],
+    "seo_title": "Create a Meaningful Memorial \u2014 Free Guide | LightPath",
+    "seo_description": "Explore ways to honor and remember your child",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.custody_guardianship",
+    "title": "Address Custody or Guardianship for Dependents",
+    "slug": "address-custody-or-guardianship-for-dependents",
+    "description": "Ensure minor children or adult dependents have proper legal care arrangements",
+    "overview": "If your loved one was a parent or caregiver, ensuring their dependents have stable, legal care is one of the most important steps. This can feel overwhelming, but there are clear paths forward.",
+    "steps": [
+      "Check if the deceased named a guardian in their will or estate plan",
+      "If no guardian named",
+      "consult a family law attorney about custody options",
+      "If you are the surviving parent",
+      "confirm your legal custody status",
+      "For adult dependents",
+      "explore conservatorship or supported decision-making",
+      "Gather documents: birth certificates",
+      "school records",
+      "If needed"
+    ],
+    "seo_title": "Address Custody or Guardianship for Dependents \u2014 Free Guide | LightPath",
+    "seo_description": "Ensure minor children or adult dependents have proper legal care arrangements",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "financial.ssa_survivors_dependents",
+    "title": "Apply for Social Security Survivor Benefits for Children",
+    "slug": "apply-for-social-security-survivor-benefits-for-children",
+    "description": "File for monthly survivor benefits for minor children of the deceased",
+    "overview": "Children of a deceased parent may be entitled to monthly Social Security survivor benefits, up to 75% of the deceased\\",
+    "steps": [
+      "Gather required documents: death certificate",
+      "children\\'s birth certificates",
+      "deceased\\'s Social Security number",
+      "Call Social Security at 1-800-772-1213 to schedule an appointment",
+      "You cannot apply online. Applications for children must be done by phone or in person",
+      "Bring proof of relationship (birth certificate",
+      "adoption decree)",
+      "Ask about benefits for the surviving parent (caretaker benefits if children are under 16)",
+      "Benefits can be retroactive up to 6 months from application date"
+    ],
+    "seo_title": "Apply for Social Security Survivor Benefits for Children \u2014 Free Guide | LightPath",
+    "seo_description": "File for monthly survivor benefits for minor children of the deceased",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "debt.student_loans",
+    "title": "Discharge Student Loans",
+    "slug": "discharge-student-loans",
+    "description": "Apply for student loan discharge due to death of borrower",
+    "overview": "Federal student loans are discharged upon the death of the borrower. The remaining balance is forgiven. Parent PLUS loans are also discharged upon the death of the student. Private student loans may require estate payment. Check each loan agreement.",
+    "steps": [
+      "Identify all student loans. Log in to studentaid.gov to see all federal loans in one place",
+      "For federal loans: contact the loan servicer and request a death discharge application",
+      "Submit a certified copy of the death certificate to the servicer",
+      "Federal loans are fully discharged. Any remaining balance is forgiven with no tax consequence",
+      "For Parent PLUS loans: submit death certificate of the student to discharge the parent\\'s obligation",
+      "For private student loans: contact each lender IN WRITING to request a death discharge. Private loans do not have automatic discharge like federal loans. Some forgive the balance",
+      "request debt validation in writing",
+      "IMPORTANT: Do NOT make payments on federal loans while waiting for discharge processing",
+      "If any payments were made after the date of death",
+      "request a refund from the servicer"
+    ],
+    "seo_title": "Discharge Student Loans \u2014 Free Guide | LightPath",
+    "seo_description": "Apply for student loan discharge due to death of borrower",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "financial.joint_accounts",
+    "title": "Handle Joint Bank Accounts",
+    "slug": "handle-joint-bank-accounts",
+    "description": "Manage joint checking and savings accounts after a death",
+    "overview": "Joint accounts with rights of survivorship automatically pass to the surviving account holder (no probate needed). However, you must still notify the bank, remove the deceased from the account, and update any automatic payments. Sole accounts of the deceased may be frozen until probate is settled.",
+    "steps": [
+      "Identify all bank accounts (checking",
+      "money market)",
+      "Determine account type: joint with rights of survivorship",
+      "or sole ownership",
+      "For joint accounts: visit the bank with a death certificate to remove the deceased\\'s name",
+      "Update any automatic bill payments",
+      "or recurring transfers",
+      "For sole accounts of the deceased: these become part of the estate. The bank may freeze them",
+      "Request Letters Testamentary or Letters of Administration to access sole accounts as executor",
+      "Close or transfer accounts as appropriate once estate settlement allows"
+    ],
+    "seo_title": "Handle Joint Bank Accounts \u2014 Free Guide | LightPath",
+    "seo_description": "Manage joint checking and savings accounts after a death",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "debt.car_loan",
+    "title": "Handle Vehicle Loan or Lease",
+    "slug": "handle-vehicle-loan-or-lease",
+    "description": "Transfer, assume, or pay off vehicle financing and update title",
+    "overview": "If the deceased had a vehicle loan, you generally have three options: assume the loan (if the lender allows), refinance in your name, or sell/return the vehicle. For leases, most companies allow early termination due to death without penalty. Check for GAP insurance which may cover any remaining balance.",
+    "steps": [
+      "Locate the vehicle title and loan/lease documents",
+      "Contact the lender or leasing company to report the death",
+      "Ask about loan assumption",
+      "or early lease termination options",
+      "Check for GAP insurance (covers difference between loan balance and vehicle value)",
+      "Check for credit life insurance on the loan (may pay off remaining balance)",
+      "Transfer the vehicle title at your state\\'s DMV. You\\'ll need the death certificate and title",
+      "Update vehicle insurance to the new owner\\'s name",
+      "If selling: get the vehicle appraised and complete the sale through the estate"
+    ],
+    "seo_title": "Handle Vehicle Loan or Lease \u2014 Free Guide | LightPath",
+    "seo_description": "Transfer, assume, or pay off vehicle financing and update title",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "digital.crypto_assets",
+    "title": "Secure Digital & Crypto Assets",
+    "slug": "secure-digital-crypto-assets",
+    "description": "Locate and secure cryptocurrency, domain names, and online accounts with financial value",
+    "overview": "Digital assets like cryptocurrency, domain names, online businesses, and digital media libraries can have significant financial value. Unlike traditional assets, many of these require passwords, private keys, or seed phrases that may be lost if not secured quickly. Time is critical for volatile assets like cryptocurrency.",
+    "steps": [
+      "Search for cryptocurrency wallets. Check hardware devices (Ledger",
+      "and mobile apps",
+      "Look for seed phrases or private keys in safes",
+      "or written records",
+      "Do NOT attempt to move crypto assets without proper legal authority (executor appointment)",
+      "Identify domain names",
+      "etc.)",
+      "Secure any revenue-generating accounts (YouTube",
+      "etc.)",
+      "Check for digital media libraries with value (Steam"
+    ],
+    "seo_title": "Secure Digital & Crypto Assets \u2014 Free Guide | LightPath",
+    "seo_description": "Locate and secure cryptocurrency, domain names, and online accounts with financial value",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "documents.check_likely_places",
+    "title": "Check Likely Places for Documents",
+    "slug": "check-likely-places-for-documents",
+    "description": "Search common locations where your loved one may have kept important papers",
+    "overview": "Important documents are often stored in predictable places. Taking a systematic approach helps you find what you need for legal, financial, and insurance processes. Start with the most obvious spots before expanding your search.",
+    "steps": [
+      "Check home office desks",
+      "and drawers",
+      "Look in a home safe or fireproof box",
+      "Ask family members if they know where documents were kept",
+      "Check with their attorney",
+      "or financial advisor",
+      "Contact their bank about a safe deposit box",
+      "Search through email for digital copies of statements and policies"
+    ],
+    "seo_title": "Check Likely Places for Documents \u2014 Free Guide | LightPath",
+    "seo_description": "Search common locations where your loved one may have kept important papers",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "documents.set_aside_important",
+    "title": "Set Aside Important Documents",
+    "slug": "set-aside-important-documents",
+    "description": "Gather and secure the essential documents needed for estate settlement",
+    "overview": "Once you begin finding documents, keep them organized and secure. These papers will be needed multiple times for claims, legal filings, and account closures. Having them ready saves time and reduces stress when institutions request them.",
+    "steps": [
+      "Gather the will",
+      "and any estate planning documents",
+      "Collect insurance policies (life",
+      "health)",
+      "Find financial statements (bank",
+      "retirement)",
+      "Locate property deeds and vehicle titles",
+      "Gather tax returns from the past three years",
+      "Store everything in a single secure location"
+    ],
+    "seo_title": "Set Aside Important Documents \u2014 Free Guide | LightPath",
+    "seo_description": "Gather and secure the essential documents needed for estate settlement",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "documents.scan_organize",
+    "title": "Scan and Organize Documents",
+    "slug": "scan-and-organize-documents",
+    "description": "Create digital copies and organize all estate documents for easy access",
+    "overview": "Creating digital copies protects against loss and makes it easy to share documents with attorneys, accountants, and institutions. A well-organized system will save hours of searching as you work through estate tasks.",
+    "steps": [
+      "Scan or photograph all important documents",
+      "Organize digital files into clear folders (legal",
+      "property)",
+      "Back up digital copies to a secure cloud service or USB drive",
+      "Create a master inventory listing every document and its location",
+      "Share access with co-executors or trusted family members if appropriate"
+    ],
+    "seo_title": "Scan and Organize Documents \u2014 Free Guide | LightPath",
+    "seo_description": "Create digital copies and organize all estate documents for easy access",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "documents.dispose_sensitive",
+    "title": "Safely Dispose of Sensitive Information",
+    "slug": "safely-dispose-of-sensitive-information",
+    "description": "Shred or destroy documents that could be used for identity theft",
+    "overview": "After the estate is settled, sensitive documents that are no longer needed should be securely destroyed. Identity theft targeting deceased individuals is common, so proper disposal protects your loved one\\",
+    "steps": [
+      "Wait until the estate is fully settled before disposing of anything",
+      "Keep tax returns for at least seven years",
+      "Shred documents containing Social Security numbers",
+      "or personal identifiers",
+      "Destroy old credit cards",
+      "and blank checks",
+      "Dispose of expired identification documents securely",
+      "Consider a professional shredding service for large volumes"
+    ],
+    "seo_title": "Safely Dispose of Sensitive Information \u2014 Free Guide | LightPath",
+    "seo_description": "Shred or destroy documents that could be used for identity theft",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "identity.learn_risks",
+    "title": "Learn About Identity Theft Risks",
+    "slug": "learn-about-identity-theft-risks",
+    "description": "Understand how deceased individuals are targeted for identity theft and how to prevent it",
+    "overview": "Sadly, identity theft targeting deceased individuals is a growing problem. Criminals use obituaries and public records to steal identities. Learning about these risks early helps you take the right steps to protect your loved one\\",
+    "steps": [
+      "Understand that death records become public",
+      "making the deceased a target",
+      "Know that thieves may try to open accounts",
+      "or claim benefits",
+      "Learn the key protective steps: freezing credit",
+      "securing documents",
+      "Set up fraud alerts with the three major credit bureaus",
+      "Monitor for suspicious activity for at least 12 months"
+    ],
+    "seo_title": "Learn About Identity Theft Risks \u2014 Free Guide | LightPath",
+    "seo_description": "Understand how deceased individuals are targeted for identity theft and how to prevent it",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "identity.notify_ssa",
+    "title": "Report the Death to Social Security",
+    "slug": "report-the-death-to-social-security",
+    "description": "Notify Social Security to prevent benefits fraud and begin the claims process",
+    "overview": "Reporting the death to the Social Security Administration is one of the most important early steps. The funeral home can often do this for you if you provide the Social Security number. SSA will also notify Medicare on your behalf.",
+    "steps": [
+      "Provide the Social Security number to the funeral home (they typically report the death)",
+      "If the funeral home did not report it",
+      "call SSA at 1-800-772-1213",
+      "Do not use the online portal - deaths must be reported by phone or in person",
+      "Ask about any benefits the deceased was receiving that need to stop",
+      "Inquire about survivor benefits and the one-time lump sum death payment"
+    ],
+    "seo_title": "Report the Death to Social Security \u2014 Free Guide | LightPath",
+    "seo_description": "Notify Social Security to prevent benefits fraud and begin the claims process",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "identity.secure_documents",
+    "title": "Secure Identifying Documents",
+    "slug": "secure-identifying-documents",
+    "description": "Safeguard Social Security card, passport, driver\\",
+    "overview": "Identification documents in the wrong hands can be used for fraud. Collect and secure all forms of identification as soon as possible. Some documents will need to be returned to issuing agencies, while others should be kept for estate records.",
+    "steps": [
+      "Collect Social Security card and store securely",
+      "Gather driver\\'s license or state ID",
+      "Locate passport(s) - to be returned to the State Department",
+      "Find military ID or veteran\\'s card if applicable",
+      "Secure any professional licenses or certifications",
+      "Store all IDs in a locked location until properly disposed of"
+    ],
+    "seo_title": "Secure Identifying Documents \u2014 Free Guide | LightPath",
+    "seo_description": "Safeguard Social Security card, passport, driver\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "identity.notify_dmv",
+    "title": "Notify the DMV",
+    "slug": "notify-the-dmv",
+    "description": "Report the death to the Department of Motor Vehicles to cancel the driver\\",
+    "overview": "Notifying the DMV cancels the deceased\\",
+    "steps": [
+      "Contact your state\\'s DMV to learn the notification process",
+      "Gather required documents: death certificate",
+      "and proof of authority",
+      "Submit the notification in person",
+      "or online depending on your state",
+      "Ask about transferring any vehicle titles at the same time",
+      "Request confirmation of the license cancellation for your records"
+    ],
+    "seo_title": "Notify the DMV \u2014 Free Guide | LightPath",
+    "seo_description": "Report the death to the Department of Motor Vehicles to cancel the driver\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "identity.notify_financial",
+    "title": "Notify Financial Institutions",
+    "slug": "notify-financial-institutions",
+    "description": "Alert banks, brokerages, and lenders to prevent unauthorized access to accounts",
+    "overview": "Notifying financial institutions about the death protects accounts from unauthorized access and begins the process of transferring or closing them. Each institution has its own process and documentation requirements.",
+    "steps": [
+      "Make a list of all banks",
+      "and investment accounts",
+      "Call each institution to report the death and ask about their process",
+      "Provide a certified death certificate to each institution",
+      "Ask about any joint accounts",
+      "or POD/TOD designations",
+      "Request account freezes on sole-owner accounts until estate settlement",
+      "Keep notes on each call: who you spoke with",
+      "and next steps"
+    ],
+    "seo_title": "Notify Financial Institutions \u2014 Free Guide | LightPath",
+    "seo_description": "Alert banks, brokerages, and lenders to prevent unauthorized access to accounts",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "identity.notify_licensure",
+    "title": "Notify Professional Licensure Associations",
+    "slug": "notify-professional-licensure-associations",
+    "description": "Cancel professional licenses, memberships, and certifications",
+    "overview": "If your loved one held professional licenses (medical, legal, real estate, financial, etc.), these should be reported to the licensing boards. This prevents misuse and is often required by the licensing authority.",
+    "steps": [
+      "Identify any professional licenses the deceased held",
+      "Contact each licensing board or association to report the death",
+      "Provide death certificate copies as required",
+      "Ask about any refunds for prepaid licensing fees",
+      "Request confirmation of license cancellation"
+    ],
+    "seo_title": "Notify Professional Licensure Associations \u2014 Free Guide | LightPath",
+    "seo_description": "Cancel professional licenses, memberships, and certifications",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "identity.cancel_voter",
+    "title": "Cancel Voter Registration",
+    "slug": "cancel-voter-registration",
+    "description": "Notify your state or local election office to remove the deceased from voter rolls",
+    "overview": "While some states automatically remove deceased individuals from voter rolls when death records are processed, this does not happen everywhere or immediately. Proactively notifying your local election office helps prevent misuse.",
+    "steps": [
+      "Contact your county or state election office",
+      "Ask about their process for removing a deceased voter",
+      "Provide any requested documentation (death certificate",
+      "voter registration info)",
+      "Request confirmation of removal"
+    ],
+    "seo_title": "Cancel Voter Registration \u2014 Free Guide | LightPath",
+    "seo_description": "Notify your state or local election office to remove the deceased from voter rolls",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "identity.return_passport",
+    "title": "Return Passport to the Department of State",
+    "slug": "return-passport-to-the-department-of-state",
+    "description": "Cancel and return the passport to prevent identity fraud",
+    "overview": "A valid passport is a valuable document for identity thieves. The U.S. Department of State requests that passports of deceased persons be returned for cancellation. You can mail it or bring it to a passport agency.",
+    "steps": [
+      "Locate the deceased\\'s passport",
+      "Write a letter requesting cancellation",
+      "including the deceased\\'s full name",
+      "and date of death",
+      "Include a copy of the death certificate",
+      "Mail the passport",
+      "and death certificate copy to the address listed on the State Department website",
+      "If you want the passport returned as a keepsake",
+      "state this in your letter - they will cancel it and send it back"
+    ],
+    "seo_title": "Return Passport to the Department of State \u2014 Free Guide | LightPath",
+    "seo_description": "Cancel and return the passport to prevent identity fraud",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "insurance.employer_life",
+    "title": "File Employer Life Insurance Claim",
+    "slug": "file-employer-life-insurance-claim",
+    "description": "Claim any group life insurance provided through the workplace",
+    "overview": "Many employers provide group life insurance as a workplace benefit, sometimes without employees even knowing. Contact the employer\\",
+    "steps": [
+      "Contact the deceased\\'s employer HR or benefits department",
+      "Ask about group life insurance",
+      "and accidental death (AD&D) policies",
+      "Request claim forms and instructions for each policy",
+      "Gather required documents: death certificate",
+      "beneficiary proof",
+      "Submit completed claim forms with all documentation",
+      "Follow up within 30 days if you have not received a response"
+    ],
+    "seo_title": "File Employer Life Insurance Claim \u2014 Free Guide | LightPath",
+    "seo_description": "Claim any group life insurance provided through the workplace",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "insurance.accidental_death",
+    "title": "File Accidental Death Insurance Claim",
+    "slug": "file-accidental-death-insurance-claim",
+    "description": "Claim accidental death and dismemberment (AD&D) benefits if the death was accidental",
+    "overview": "Accidental death and dismemberment (AD&D) insurance pays an additional benefit if the death was caused by an accident. This is often included with employer life insurance or available as a standalone policy. It pays in addition to regular life insurance.",
+    "steps": [
+      "Check all insurance policies and employer benefits for AD&D coverage",
+      "Determine if the cause of death qualifies under the AD&D policy terms",
+      "Request claim forms from each AD&D insurer",
+      "Provide the death certificate indicating cause of death",
+      "Submit claim forms with all required documentation",
+      "Be prepared for a longer review process if the cause of death is ambiguous"
+    ],
+    "seo_title": "File Accidental Death Insurance Claim \u2014 Free Guide | LightPath",
+    "seo_description": "Claim accidental death and dismemberment (AD&D) benefits if the death was accidental",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "insurance.mortgage_credit_life",
+    "title": "File Mortgage or Credit Life Insurance Claim",
+    "slug": "file-mortgage-or-credit-life-insurance-claim",
+    "description": "Check for and claim any mortgage protection or credit life insurance",
+    "overview": "Mortgage life insurance (also called credit life insurance) pays off the remaining mortgage balance upon the borrower\\",
+    "steps": [
+      "Check mortgage documents for any credit life or mortgage protection insurance",
+      "Contact the mortgage lender to ask if a policy exists",
+      "Review credit card statements for credit protection insurance premiums",
+      "Request claim forms from each insurer",
+      "Submit claims with death certificate and proof of the outstanding balance"
+    ],
+    "seo_title": "File Mortgage or Credit Life Insurance Claim \u2014 Free Guide | LightPath",
+    "seo_description": "Check for and claim any mortgage protection or credit life insurance",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "insurance.credit_card_protection",
+    "title": "Check for Credit Protection Insurance on Cards",
+    "slug": "check-for-credit-protection-insurance-on-cards",
+    "description": "Some credit cards have optional payment protection that covers the balance upon death",
+    "overview": "Credit card protection insurance (also called payment protection or debt cancellation coverage) is an optional add-on that some cardholders purchase. If active, it may pay off the outstanding balance or cover minimum payments for a period after the cardholder\\",
+    "steps": [
+      "Review credit card statements for monthly charges labeled \"protection plan\" or \"payment protection",
+      "Call each credit card company to ask if any protection plan is active",
+      "Request claim forms if protection insurance is found",
+      "Submit the claim with a death certificate and account information",
+      "Continue making minimum payments on cards without protection to avoid late fees during estate settlement"
+    ],
+    "seo_title": "Check for Credit Protection Insurance on Cards \u2014 Free Guide | LightPath",
+    "seo_description": "Some credit cards have optional payment protection that covers the balance upon death",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "insurance.funeral_burial",
+    "title": "Claim Funeral or Burial Insurance",
+    "slug": "claim-funeral-or-burial-insurance",
+    "description": "File a claim on any pre-need funeral plan or burial insurance policy",
+    "overview": "Funeral or burial insurance (also called final expense insurance) is a small life insurance policy specifically meant to cover funeral and burial costs. If your loved one had a pre-need plan with a funeral home, that is a separate arrangement.",
+    "steps": [
+      "Check for any funeral or burial insurance policies in the deceased\\'s records",
+      "Contact the funeral home to ask if a pre-need (prepaid) plan exists",
+      "If a burial insurance policy is found",
+      "contact the insurer to file a claim",
+      "Provide the death certificate and policy information",
+      "Coordinate payment directly with the funeral home if possible"
+    ],
+    "seo_title": "Claim Funeral or Burial Insurance \u2014 Free Guide | LightPath",
+    "seo_description": "File a claim on any pre-need funeral plan or burial insurance policy",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "insurance.auto_update",
+    "title": "Update or Cancel Auto Insurance",
+    "slug": "update-or-cancel-auto-insurance",
+    "description": "Transfer, update, or cancel the deceased\\",
+    "overview": "Auto insurance needs to be addressed promptly. If you are keeping the vehicle, the policy needs to be transferred to your name. If the vehicle will be sold or donated, the policy should be cancelled after the vehicle is no longer in the estate.",
+    "steps": [
+      "Contact the auto insurance company to report the death",
+      "Ask about your options: transfer the policy",
+      "or cancel",
+      "If keeping the vehicle",
+      "get the policy transferred to your name",
+      "If selling or donating",
+      "maintain coverage until the vehicle leaves your possession",
+      "Request any refund for unused premium after cancellation"
+    ],
+    "seo_title": "Update or Cancel Auto Insurance \u2014 Free Guide | LightPath",
+    "seo_description": "Transfer, update, or cancel the deceased\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "insurance.homeowners_update",
+    "title": "Update or Cancel Homeowners Insurance",
+    "slug": "update-or-cancel-homeowners-insurance",
+    "description": "Transfer or update homeowners or renters insurance to reflect the change in ownership",
+    "overview": "Homeowners insurance must stay active to protect the property, but the policy may need to be updated. If the home will be vacant for an extended period, you may need a vacant property endorsement, as standard policies may not cover vacant homes.",
+    "steps": [
+      "Contact the homeowners insurance company to report the death",
+      "Ask about transferring the policy to a surviving owner or the estate",
+      "If the home will be vacant",
+      "ask about a vacancy endorsement or policy",
+      "Update the mailing address for correspondence if needed",
+      "Do not cancel until the property is sold or transferred"
+    ],
+    "seo_title": "Update or Cancel Homeowners Insurance \u2014 Free Guide | LightPath",
+    "seo_description": "Transfer or update homeowners or renters insurance to reflect the change in ownership",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "insurance.health_claims",
+    "title": "File Pending Health Insurance Claims",
+    "slug": "file-pending-health-insurance-claims",
+    "description": "Submit any outstanding medical claims and review final medical bills",
+    "overview": "There may be outstanding medical bills from the deceased\\",
+    "steps": [
+      "Gather all medical bills received after the death",
+      "Check if the health insurance is still active (it typically ends at the end of the month of death)",
+      "Submit any unpaid claims to the insurance company",
+      "Review Explanation of Benefits (EOB) statements for accuracy",
+      "Dispute any incorrect charges with the provider",
+      "Negotiate payment plans for remaining balances if needed"
+    ],
+    "seo_title": "File Pending Health Insurance Claims \u2014 Free Guide | LightPath",
+    "seo_description": "Submit any outstanding medical claims and review final medical bills",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "insurance.travel",
+    "title": "Check Travel Insurance",
+    "slug": "check-travel-insurance",
+    "description": "File a claim if the death occurred while traveling or if there are travel-related expenses",
+    "overview": "If the death occurred while traveling, travel insurance may cover repatriation costs, emergency medical expenses, and trip cancellation. Also check credit cards, as many premium cards include travel insurance benefits.",
+    "steps": [
+      "Check if the deceased had a travel insurance policy for the trip",
+      "Review credit cards for built-in travel insurance benefits",
+      "Contact the travel insurance company or credit card issuer",
+      "File claims for covered expenses: repatriation",
+      "trip cancellation",
+      "Gather supporting documentation: receipts",
+      "death certificate"
+    ],
+    "seo_title": "Check Travel Insurance \u2014 Free Guide | LightPath",
+    "seo_description": "File a claim if the death occurred while traveling or if there are travel-related expenses",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "accounts.list_all",
+    "title": "Create a List of All Accounts",
+    "slug": "create-a-list-of-all-accounts",
+    "description": "Compile a comprehensive inventory of every account your loved one held",
+    "overview": "Before you can close, transfer, or manage any accounts, you need to know what exists. This includes bank accounts, credit cards, investment accounts, subscriptions, memberships, and online services. A thorough inventory prevents surprises later.",
+    "steps": [
+      "Review mail",
+      "and bank statements for recurring charges and account activity",
+      "Check the deceased\\'s wallet",
+      "and computer for saved accounts",
+      "Search email for account confirmation and password reset messages",
+      "Review tax returns for interest",
+      "and income sources",
+      "Ask family members about any accounts they know of",
+      "Check with former employers about retirement or pension accounts"
+    ],
+    "seo_title": "Create a List of All Accounts \u2014 Free Guide | LightPath",
+    "seo_description": "Compile a comprehensive inventory of every account your loved one held",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "accounts.close_credit_cards",
+    "title": "Close or Transfer Credit Card Accounts",
+    "slug": "close-or-transfer-credit-card-accounts",
+    "description": "Handle the deceased\\",
+    "overview": "Credit card accounts in the deceased\\",
+    "steps": [
+      "List all credit cards (check wallet",
+      "and online accounts)",
+      "Call each issuer to report the death - request the \"deceased account\" department",
+      "Cancel recurring charges and autopay before closing accounts",
+      "Pay outstanding balances from estate funds (not personal funds)",
+      "Request a final statement for each account",
+      "Destroy all physical cards"
+    ],
+    "seo_title": "Close or Transfer Credit Card Accounts \u2014 Free Guide | LightPath",
+    "seo_description": "Handle the deceased\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "accounts.close_bank",
+    "title": "Close or Transfer Bank Accounts",
+    "slug": "close-or-transfer-bank-accounts",
+    "description": "Handle checking, savings, and money market accounts at banks and credit unions",
+    "overview": "Bank accounts are handled based on how they are titled. Joint accounts with right of survivorship pass to the surviving owner. Accounts with a payable-on-death (POD) beneficiary transfer directly. Sole-owner accounts become part of the estate.",
+    "steps": [
+      "Visit each bank with the death certificate and your proof of authority (letters testamentary)",
+      "Determine account ownership: sole",
+      "or POD/beneficiary",
+      "For joint accounts",
+      "remove the deceased and update the account",
+      "For POD accounts",
+      "the beneficiary can claim with death certificate and ID",
+      "For sole-owner accounts",
+      "the estate will need to go through probate or small estate procedures",
+      "Open an estate checking account if needed to manage estate funds"
+    ],
+    "seo_title": "Close or Transfer Bank Accounts \u2014 Free Guide | LightPath",
+    "seo_description": "Handle checking, savings, and money market accounts at banks and credit unions",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "accounts.cancel_subscriptions",
+    "title": "Cancel Memberships and Subscriptions",
+    "slug": "cancel-memberships-and-subscriptions",
+    "description": "Stop recurring charges for services, memberships, and subscriptions",
+    "overview": "Subscriptions and memberships can add up quickly if not cancelled. Check credit card and bank statements for recurring charges. Cancel services you no longer need - some may offer refunds for unused portions.",
+    "steps": [
+      "Review credit card and bank statements for the past 3 months for recurring charges",
+      "Check email for subscription confirmation messages",
+      "Make a list of all subscriptions: streaming",
+      "etc.",
+      "Cancel each subscription - most can be done online or by phone",
+      "Request refunds for any prepaid memberships with unused time",
+      "Check for annual subscriptions that may not appear in monthly statements"
+    ],
+    "seo_title": "Cancel Memberships and Subscriptions \u2014 Free Guide | LightPath",
+    "seo_description": "Stop recurring charges for services, memberships, and subscriptions",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "accounts.close_online",
+    "title": "Close or Memorialize Online Accounts",
+    "slug": "close-or-memorialize-online-accounts",
+    "description": "Handle social media, email, and other online accounts",
+    "overview": "Online accounts need to be either memorialized, closed, or transferred. Each platform has its own process for handling accounts of deceased users. Major platforms like Facebook, Instagram, and Google have specific policies and request forms.",
+    "steps": [
+      "Make a list of all online accounts (social media",
+      "forums)",
+      "Decide whether to memorialize or delete each social media account",
+      "Submit memorialization or deletion requests through each platform\\'s process",
+      "Download any photos",
+      "or data you want to preserve before closing accounts",
+      "Close shopping accounts (Amazon",
+      "etc.) and remove saved payment methods",
+      "Cancel email accounts last - you may need them to recover other account information"
+    ],
+    "seo_title": "Close or Memorialize Online Accounts \u2014 Free Guide | LightPath",
+    "seo_description": "Handle social media, email, and other online accounts",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "property.list_assets",
+    "title": "List All Property and Assets",
+    "slug": "list-all-property-and-assets",
+    "description": "Create a comprehensive inventory of all real property, personal property, and financial assets",
+    "overview": "A complete asset inventory is essential for estate settlement, tax filings, and equitable distribution. This includes real estate, vehicles, bank accounts, investments, personal property of value, and any business interests.",
+    "steps": [
+      "List all real estate (homes",
+      "timeshares)",
+      "List all vehicles (cars",
+      "trailers)",
+      "List all financial accounts (banks",
+      "insurance)",
+      "List valuable personal property (jewelry",
+      "electronics)",
+      "List business interests and intellectual property",
+      "Note how each asset is titled (sole"
+    ],
+    "seo_title": "List All Property and Assets \u2014 Free Guide | LightPath",
+    "seo_description": "Create a comprehensive inventory of all real property, personal property, and financial assets",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "property.evaluate_worth",
+    "title": "Evaluate Assets\\",
+    "slug": "evaluate-assets",
+    "description": "Get appraisals and valuations for estate assets to determine their fair market value",
+    "overview": "Accurate valuations are needed for estate tax purposes, equitable distribution among heirs, and some legal filings. The date-of-death fair market value is the key figure for most estate purposes.",
+    "steps": [
+      "Get real estate appraised by a licensed appraiser",
+      "Get vehicles valued using Kelley Blue Book or NADA Guides",
+      "Request account balances as of the date of death from financial institutions",
+      "Get valuable personal property appraised (jewelry",
+      "collectibles)",
+      "Value business interests through a professional business valuation if needed",
+      "Document all valuations for estate records and tax filings"
+    ],
+    "seo_title": "Evaluate Assets\\ \u2014 Free Guide | LightPath",
+    "seo_description": "Get appraisals and valuations for estate assets to determine their fair market value",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "property.transfer_non_probate",
+    "title": "Transfer Non-Probate Assets",
+    "slug": "transfer-non-probate-assets",
+    "description": "Handle assets that pass directly to beneficiaries without going through probate",
+    "overview": "Many assets transfer automatically outside of probate based on how they are titled or because they have named beneficiaries. These include joint accounts, POD/TOD accounts, life insurance, retirement accounts, and property held in trust.",
+    "steps": [
+      "Identify all assets with named beneficiaries (life insurance",
+      "POD/TOD)",
+      "Identify jointly held assets with right of survivorship",
+      "Contact each institution to begin the transfer process",
+      "Provide death certificate and beneficiary identification",
+      "Follow each institution\\'s specific claim or transfer process",
+      "Keep records of all transfers for tax purposes"
+    ],
+    "seo_title": "Transfer Non-Probate Assets \u2014 Free Guide | LightPath",
+    "seo_description": "Handle assets that pass directly to beneficiaries without going through probate",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.letters_of_administration",
+    "title": "Obtain Letters of Administration",
+    "slug": "obtain-letters-of-administration",
+    "description": "Get court-issued authority to act on behalf of the estate",
+    "overview": "Letters testamentary (if there is a will) or letters of administration (if there is no will) give you legal authority to act on behalf of the estate. This document is required by banks, insurance companies, and government agencies before they will work with you.",
+    "steps": [
+      "File the will (if one exists) with the local probate court",
+      "Petition the court for appointment as executor or administrator",
+      "Attend the court hearing if required",
+      "Receive letters testamentary or letters of administration from the court",
+      "Order multiple certified copies - you will need them for every institution",
+      "Understand your fiduciary duties as executor or administrator"
+    ],
+    "seo_title": "Obtain Letters of Administration \u2014 Free Guide | LightPath",
+    "seo_description": "Get court-issued authority to act on behalf of the estate",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.notice_to_creditors",
+    "title": "Publish Notice to Creditors",
+    "slug": "publish-notice-to-creditors",
+    "description": "Formally notify potential creditors of the death as required by probate law",
+    "overview": "Most states require that a notice to creditors be published in a local newspaper as part of the probate process. This gives creditors a limited time (typically 3-6 months) to file claims against the estate. After this period, most unsettled debts are barred.",
+    "steps": [
+      "Check your state\\'s requirements for creditor notification",
+      "Publish the notice in the required local newspaper(s)",
+      "Send direct notices to known creditors",
+      "Track the notification period deadline",
+      "Review and respond to any creditor claims that are filed",
+      "After the period expires",
+      "pay valid claims from estate assets"
+    ],
+    "seo_title": "Publish Notice to Creditors \u2014 Free Guide | LightPath",
+    "seo_description": "Formally notify potential creditors of the death as required by probate law",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.estate_checking",
+    "title": "Open an Estate Checking Account",
+    "slug": "open-an-estate-checking-account",
+    "description": "Set up a dedicated bank account to manage estate income and expenses",
+    "overview": "An estate checking account keeps estate finances separate from your personal finances. All estate income (like rent, investment returns, or account closures) should flow into this account, and all estate expenses (debts, taxes, distributions) should be paid from it.",
+    "steps": [
+      "Apply for an Employer Identification Number (EIN) for the estate from the IRS",
+      "Choose a bank and bring: death certificate",
+      "and your ID",
+      "Open the account in the name of the estate (e.g."
+    ],
+    "seo_title": "Open an Estate Checking Account \u2014 Free Guide | LightPath",
+    "seo_description": "Set up a dedicated bank account to manage estate income and expenses",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.close_estate",
+    "title": "Close the Estate",
+    "slug": "close-the-estate",
+    "description": "Complete the final steps to formally close the estate through probate court",
+    "overview": "Closing the estate is the final step in the probate process. It happens after all debts are paid, taxes are filed, and assets have been distributed to beneficiaries. The executor must file a final accounting with the court.",
+    "steps": [
+      "Ensure all debts and taxes have been paid",
+      "Prepare a final accounting of all estate transactions",
+      "Distribute remaining assets to beneficiaries per the will or state law",
+      "Get receipts from beneficiaries acknowledging they received their distributions",
+      "File the final accounting with the probate court",
+      "Request the court formally discharge you as executor"
+    ],
+    "seo_title": "Close the Estate \u2014 Free Guide | LightPath",
+    "seo_description": "Complete the final steps to formally close the estate through probate court",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.distribute_assets",
+    "title": "Distribute Remaining Assets to Heirs",
+    "slug": "distribute-remaining-assets-to-heirs",
+    "description": "Transfer the remaining estate assets to beneficiaries according to the will or state law",
+    "overview": "After all debts, taxes, and expenses are paid, the remaining assets are distributed to beneficiaries. If there is a will, follow its instructions. If there is no will, state intestacy laws determine who receives what.",
+    "steps": [
+      "Confirm all debts",
+      "and expenses are paid (including the creditor notice period)",
+      "Review the will for specific bequests and residuary distribution",
+      "If no will",
+      "research your state\\'s intestacy laws for distribution rules",
+      "Prepare distribution documents for each beneficiary",
+      "Transfer assets (deeds",
+      "checks)",
+      "Get signed receipts from each beneficiary"
+    ],
+    "seo_title": "Distribute Remaining Assets to Heirs \u2014 Free Guide | LightPath",
+    "seo_description": "Transfer the remaining estate assets to beneficiaries according to the will or state law",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "belongings.prepare",
+    "title": "Prepare to Deal with Personal Belongings",
+    "slug": "prepare-to-deal-with-personal-belongings",
+    "description": "Take your time before sorting through your loved one\\",
+    "overview": "Sorting through a loved one\\",
+    "steps": [
+      "Know that there is no timeline - do this when you are ready",
+      "Consider asking a trusted friend or family member to help",
+      "Start with less emotional items (kitchen",
+      "garage) before clothes and personal items",
+      "Have boxes or bags ready: keep",
+      "and \"decide later",
+      "Take breaks as often as you need - this is emotionally exhausting work",
+      "Consider keeping one or two meaningful items for yourself before beginning the larger sort"
+    ],
+    "seo_title": "Prepare to Deal with Personal Belongings \u2014 Free Guide | LightPath",
+    "seo_description": "Take your time before sorting through your loved one\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "belongings.inventory",
+    "title": "Create an Inventory of Personal Belongings",
+    "slug": "create-an-inventory-of-personal-belongings",
+    "description": "Document personal property for the estate and to help with fair distribution",
+    "overview": "A written or photo inventory of personal belongings helps with estate settlement, insurance claims, and fair distribution among family members. This is especially important for items of sentimental or monetary value.",
+    "steps": [
+      "Photograph each room and notable items",
+      "List items of significant monetary value (jewelry",
+      "collectibles)",
+      "Note items mentioned in the will as specific bequests",
+      "Document sentimental items that family members may want",
+      "Get appraisals for high-value items if needed for estate purposes"
+    ],
+    "seo_title": "Create an Inventory of Personal Belongings \u2014 Free Guide | LightPath",
+    "seo_description": "Document personal property for the estate and to help with fair distribution",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "belongings.keepsakes",
+    "title": "Agree on Family Keepsakes",
+    "slug": "agree-on-family-keepsakes",
+    "description": "Work with family members to decide who receives sentimental items",
+    "overview": "Dividing personal items among family members can be emotionally charged. A fair, transparent process helps prevent conflict and ensures everyone feels heard. If the will specifies who gets what, follow those instructions first.",
+    "steps": [
+      "Check the will for any specific bequests of personal items",
+      "Have an open conversation with family about how to handle distribution",
+      "Consider a round-robin selection process for items not specified in the will",
+      "Allow everyone to express what items hold meaning for them",
+      "Document who receives what for estate records",
+      "Be patient - disagreements are normal and can be worked through with time"
+    ],
+    "seo_title": "Agree on Family Keepsakes \u2014 Free Guide | LightPath",
+    "seo_description": "Work with family members to decide who receives sentimental items",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "belongings.distribute_dispose",
+    "title": "Distribute or Dispose of Household Items",
+    "slug": "distribute-or-dispose-of-household-items",
+    "description": "Handle the remaining household items through donation, sale, or disposal",
+    "overview": "After family keepsakes have been claimed and estate items accounted for, the remaining household items need to be handled. Options include donating to charity, selling, giving to friends, or disposing of items that cannot be reused.",
+    "steps": [
+      "Sort remaining items into donate",
+      "and discard piles",
+      "Research local charities that accept household donations (many offer pickup)",
+      "Consider an estate sale company for valuable items",
+      "Give items to friends and neighbors who may want them",
+      "Arrange for disposal of items that cannot be donated or sold",
+      "Get donation receipts for tax deductions if applicable"
+    ],
+    "seo_title": "Distribute or Dispose of Household Items \u2014 Free Guide | LightPath",
+    "seo_description": "Handle the remaining household items through donation, sale, or disposal",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "belongings.estate_sale",
+    "title": "Consider an Estate Sale",
+    "slug": "consider-an-estate-sale",
+    "description": "Learn about estate sales as an option for handling a large volume of household items",
+    "overview": "An estate sale can be an efficient way to liquidate a household of belongings. Professional estate sale companies handle pricing, advertising, staging, and selling. They typically take 25-50% of the proceeds as their fee.",
+    "steps": [
+      "Research estate sale companies in your area and read reviews",
+      "Get quotes from at least two or three companies",
+      "Understand the fee structure and what services are included",
+      "Remove any items you want to keep before the sale company arrives",
+      "Sign a contract and schedule the sale",
+      "After the sale",
+      "discard)"
+    ],
+    "seo_title": "Consider an Estate Sale \u2014 Free Guide | LightPath",
+    "seo_description": "Learn about estate sales as an option for handling a large volume of household items",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "tax.estate_income",
+    "title": "File Income Taxes for the Estate",
+    "slug": "file-income-taxes-for-the-estate",
+    "description": "File Form 1041 if the estate earned income during the settlement period",
+    "overview": "If the estate earns more than $600 in income (from interest, rent, dividends, or asset sales) after the date of death, a separate estate income tax return (Form 1041) must be filed. This is different from the deceased\\",
+    "steps": [
+      "Determine if the estate earned $600+ in income after the date of death",
+      "Apply for an EIN for the estate if you have not already",
+      "Track all estate income and deductions from the date of death forward",
+      "File Form 1041 with the IRS by the applicable deadline",
+      "Issue Schedule K-1 to beneficiaries for any income passed through to them",
+      "Consider hiring a CPA or tax professional for this specialized return"
+    ],
+    "seo_title": "File Income Taxes for the Estate \u2014 Free Guide | LightPath",
+    "seo_description": "File Form 1041 if the estate earned income during the settlement period",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "tax.apply_ein",
+    "title": "Apply for an Estate EIN",
+    "slug": "apply-for-an-estate-ein",
+    "description": "Get an Employer Identification Number from the IRS for the estate",
+    "overview": "An Employer Identification Number (EIN) is like a Social Security number for the estate. You need it to open an estate bank account, file estate tax returns, and conduct estate business. The application is free and takes about 10 minutes online.",
+    "steps": [
+      "Go to IRS.gov and find the online EIN application",
+      "Select \"Estate\" as the entity type",
+      "Enter the deceased\\'s information and your information as executor",
+      "Provide the date of death",
+      "Complete the application and receive the EIN immediately",
+      "Save the EIN confirmation letter for your records"
+    ],
+    "seo_title": "Apply for an Estate EIN \u2014 Free Guide | LightPath",
+    "seo_description": "Get an Employer Identification Number from the IRS for the estate",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "tax.estate_tax",
+    "title": "Determine If Estate Tax Is Owed",
+    "slug": "determine-if-estate-tax-is-owed",
+    "description": "Check whether the estate exceeds the federal estate tax exemption threshold",
+    "overview": "Federal estate tax only applies to very large estates \u2014 most families do not owe it. However, some states have their own estate or inheritance taxes with lower thresholds, so it is worth checking.",
+    "steps": [
+      "Calculate the total value of the estate (all assets at date-of-death fair market value)",
+      "Compare to the federal exemption threshold",
+      "Check your state for any state-level estate or inheritance tax",
+      "If the estate may be taxable",
+      "consult an estate tax attorney or CPA immediately",
+      "File Form 706 (Federal Estate Tax Return) within 9 months of death if required",
+      "File any applicable state estate or inheritance tax returns"
+    ],
+    "seo_title": "Determine If Estate Tax Is Owed \u2014 Free Guide | LightPath",
+    "seo_description": "Check whether the estate exceeds the federal estate tax exemption threshold",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "employer.pto_payout",
+    "title": "Check for Unused PTO Payout",
+    "slug": "check-for-unused-pto-payout",
+    "description": "Find out if the deceased is owed payment for unused vacation or sick time",
+    "overview": "Whether unused PTO is paid out depends on the employer\\",
+    "steps": [
+      "Contact the employer\\'s HR department",
+      "Ask about unused vacation",
+      "or PTO balances",
+      "Check your state\\'s laws on PTO payout requirements",
+      "Ask about the final paycheck and any commissions or bonuses owed",
+      "Provide the estate\\'s information for payment"
+    ],
+    "seo_title": "Check for Unused PTO Payout \u2014 Free Guide | LightPath",
+    "seo_description": "Find out if the deceased is owed payment for unused vacation or sick time",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "employer.stock_equity",
+    "title": "Ask About Stock Options, RSUs, and Equity",
+    "slug": "ask-about-stock-options-rsus-and-equity",
+    "description": "Check if the deceased had any unvested stock options or equity compensation",
+    "overview": "If your loved one worked for a company that offered equity compensation, there may be stock options, restricted stock units (RSUs), or other equity grants. The treatment of these upon death varies - some vest immediately, some expire, and some transfer to beneficiaries.",
+    "steps": [
+      "Contact HR about any equity compensation plans",
+      "Ask for a statement of all vested and unvested grants",
+      "Review the plan documents for death provisions",
+      "Determine which grants vest upon death and which are forfeited",
+      "Exercise any vested stock options before any post-death expiration deadline",
+      "Transfer vested shares to the estate or beneficiaries"
+    ],
+    "seo_title": "Ask About Stock Options, RSUs, and Equity \u2014 Free Guide | LightPath",
+    "seo_description": "Check if the deceased had any unvested stock options or equity compensation",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "employer.cobra",
+    "title": "Inquire About COBRA Health Insurance",
+    "slug": "inquire-about-cobra-health-insurance",
+    "description": "Understand your options for continuing health coverage through COBRA",
+    "overview": "If the deceased was the primary health insurance holder through an employer, surviving dependents may be eligible for COBRA continuation coverage. COBRA allows you to keep the same health plan for up to 36 months, though you will pay the full premium.",
+    "steps": [
+      "Ask the employer about COBRA eligibility for surviving dependents",
+      "Review the COBRA election notice (the employer must send this within 14 days)",
+      "Understand the costs - COBRA premiums can be expensive since you pay the full amount",
+      "Compare COBRA costs with marketplace (ACA) plans",
+      "Make your election within 60 days of the qualifying event",
+      "Coverage is retroactive to the date of the event once elected"
+    ],
+    "seo_title": "Inquire About COBRA Health Insurance \u2014 Free Guide | LightPath",
+    "seo_description": "Understand your options for continuing health coverage through COBRA",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "employer.workers_comp",
+    "title": "Check for Workers\\",
+    "slug": "check-for-workers",
+    "description": "Determine if the death was work-related and eligible for workers\\",
+    "overview": "If the death was caused by or related to the deceased\\",
+    "steps": [
+      "Determine if the death was caused by or related to work",
+      "Contact the employer about filing a workers\\' compensation claim",
+      "File a claim with the state workers\\' compensation board",
+      "Provide medical records linking the death to work",
+      "Apply for dependent benefits if eligible"
+    ],
+    "seo_title": "Check for Workers\\ \u2014 Free Guide | LightPath",
+    "seo_description": "Determine if the death was work-related and eligible for workers\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "employer.return_property",
+    "title": "Return Employer Property",
+    "slug": "return-employer-property",
+    "description": "Return company laptop, phone, keys, ID badge, and other work property",
+    "overview": "The employer will likely need company property returned. This includes laptops, phones, ID badges, keys, parking passes, and any company documents. Contact HR to arrange a convenient return and ask about collecting your loved one\\",
+    "steps": [
+      "Contact HR about returning employer property",
+      "Gather company laptop",
+      "and chargers",
+      "Collect ID badges",
+      "and access cards",
+      "Return any company vehicles",
+      "or uniforms",
+      "Ask about collecting personal items from the workspace",
+      "Get confirmation of all items returned"
+    ],
+    "seo_title": "Return Employer Property \u2014 Free Guide | LightPath",
+    "seo_description": "Return company laptop, phone, keys, ID badge, and other work property",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "employer.collect_personal",
+    "title": "Collect Personal Items from the Workplace",
+    "slug": "collect-personal-items-from-the-workplace",
+    "description": "Retrieve your loved one\\",
+    "overview": "Your loved one may have had personal items at their workplace - photos, personal effects, mugs, plants, or other items. Coordinate with HR or a sympathetic coworker to collect these items at a time that works for you.",
+    "steps": [
+      "Contact HR to arrange a time to collect personal items",
+      "Ask a friend or family member to come with you for support",
+      "Bring boxes or bags for collecting items",
+      "Check desk drawers",
+      "and locker if applicable",
+      "Thank coworkers who may want to express their condolences"
+    ],
+    "seo_title": "Collect Personal Items from the Workplace \u2014 Free Guide | LightPath",
+    "seo_description": "Retrieve your loved one\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "health.cancel_insurance",
+    "title": "Cancel or Transfer Health Insurance",
+    "slug": "cancel-or-transfer-health-insurance",
+    "description": "Handle health, dental, and vision insurance policies",
+    "overview": "The deceased\\",
+    "steps": [
+      "Contact the health insurance company to report the death",
+      "Ask about coverage end dates for the deceased and any dependents",
+      "If dependents were covered",
+      "explore COBRA or marketplace options",
+      "Cancel dental and vision insurance if only the deceased was covered",
+      "Request any premium refunds for unused coverage",
+      "Keep records of all cancellation confirmations"
+    ],
+    "seo_title": "Cancel or Transfer Health Insurance \u2014 Free Guide | LightPath",
+    "seo_description": "Handle health, dental, and vision insurance policies",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "health.hsa_fsa",
+    "title": "Transfer or Close HSA/FSA Accounts",
+    "slug": "transfer-or-close-hsa-fsa-accounts",
+    "description": "Handle Health Savings Account or Flexible Spending Account balances",
+    "overview": "HSAs and FSAs are treated differently after death. An HSA with a named spouse beneficiary transfers tax-free. An HSA going to a non-spouse is treated as taxable income. FSA funds are typically forfeited unless there are eligible unreimbursed expenses.",
+    "steps": [
+      "Contact the HSA or FSA administrator",
+      "Determine who the named beneficiary is for the HSA",
+      "If spouse is beneficiary",
+      "the HSA becomes theirs - no tax consequence",
+      "If non-spouse beneficiary",
+      "the fair market value is taxable income to them",
+      "For FSAs",
+      "submit any outstanding reimbursement claims immediately",
+      "Understand that FSA balances are usually forfeited if there are no eligible claims"
+    ],
+    "seo_title": "Transfer or Close HSA/FSA Accounts \u2014 Free Guide | LightPath",
+    "seo_description": "Handle Health Savings Account or Flexible Spending Account balances",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "health.return_equipment",
+    "title": "Return Rented Medical Equipment",
+    "slug": "return-rented-medical-equipment",
+    "description": "Return rented durable medical equipment and check ownership of purchased items",
+    "overview": "If your loved one used medical equipment (hospital bed, wheelchair, oxygen concentrator, CPAP machine), determine whether it was rented or purchased. Rented equipment needs to be returned to stop rental charges. Purchased equipment can be donated.",
+    "steps": [
+      "List all medical equipment in the home",
+      "Check whether each item was rented or purchased (review bills and insurance records)",
+      "Contact the equipment supplier to arrange return of rented items",
+      "Stop any automatic payments for rental equipment",
+      "Donate purchased equipment to a medical equipment lending organization if desired"
+    ],
+    "seo_title": "Return Rented Medical Equipment \u2014 Free Guide | LightPath",
+    "seo_description": "Return rented durable medical equipment and check ownership of purchased items",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "health.dispose_medications",
+    "title": "Dispose of Medications Properly",
+    "slug": "dispose-of-medications-properly",
+    "description": "Safely dispose of prescription and over-the-counter medications",
+    "overview": "Unused medications should be disposed of safely to prevent misuse, accidental ingestion (especially by children), and environmental harm. The FDA recommends specific disposal methods depending on the medication type.",
+    "steps": [
+      "Gather all prescription and over-the-counter medications",
+      "Check if any medications are on the FDA\\'s flush list (dangerous if accidentally ingested)",
+      "Find a local drug take-back program or drop-off location (preferred method)",
+      "If no take-back option is available",
+      "mix medications with coffee grounds or kitty litter in a sealed bag",
+      "Remove personal information from prescription labels before disposing of containers",
+      "Notify the pharmacy to cancel any automatic refills"
+    ],
+    "seo_title": "Dispose of Medications Properly \u2014 Free Guide | LightPath",
+    "seo_description": "Safely dispose of prescription and over-the-counter medications",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "health.cancel_medical_alert",
+    "title": "Cancel Medical Alert Systems",
+    "slug": "cancel-medical-alert-systems",
+    "description": "Cancel any personal emergency response or medical alert monitoring services",
+    "overview": "If your loved one used a medical alert system (Life Alert, Medical Guardian, Bay Alarm Medical, etc.), the service needs to be cancelled to stop monthly charges. Return the equipment if it was rented.",
+    "steps": [
+      "Identify any medical alert services",
+      "Contact the provider to cancel the service",
+      "Return any rented equipment (pendant",
+      "base station)",
+      "Request confirmation of cancellation and final billing",
+      "Check for any early termination fees (negotiate these given the circumstances)"
+    ],
+    "seo_title": "Cancel Medical Alert Systems \u2014 Free Guide | LightPath",
+    "seo_description": "Cancel any personal emergency response or medical alert monitoring services",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "retirement.transfer_accounts",
+    "title": "Transfer or Distribute Inherited Retirement Accounts",
+    "slug": "transfer-or-distribute-inherited-retirement-accounts",
+    "description": "Handle 401(k), IRA, and pension accounts according to IRS rules",
+    "overview": "Inherited retirement accounts have specific IRS rules that depend on whether you are a spouse or non-spouse beneficiary. Spouse beneficiaries have the most flexibility (rollover to their own IRA, treat as their own, or take a lump sum). Non-spouse beneficiaries generally must withdraw everything within 10 years under the SECURE Act. Getting this right can save tens of thousands in unnecessary taxes.",
+    "steps": [
+      "Inventory all retirement accounts: 401(k)",
+      "and annuities",
+      "Gather account statements",
+      "and the most recent tax return showing retirement income",
+      "Contact each plan administrator to report the death and request beneficiary claim forms",
+      "Verify the named beneficiary on each account -- this determines your legal options",
+      "not the will",
+      "Determine your beneficiary category: surviving spouse",
+      "or general non-spouse beneficiary",
+      "Review distribution options for each account based on your category and the account type (traditional vs. Roth"
+    ],
+    "seo_title": "Transfer or Distribute Inherited Retirement Accounts \u2014 Free Guide | LightPath",
+    "seo_description": "Handle 401(k), IRA, and pension accounts according to IRS rules",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "retirement.rmd_year_of_death",
+    "title": "Take Required Minimum Distributions for Year of Death",
+    "slug": "take-required-minimum-distributions-for-year-of-death",
+    "description": "Ensure RMDs are taken if the deceased was of RMD age and had not yet taken it for the year",
+    "overview": "If the deceased was required to take a Required Minimum Distribution (RMD) from their retirement accounts for the year of death and had not yet taken it, the beneficiary must take it. Failure to do so results in a 25% penalty tax.",
+    "steps": [
+      "Determine if the deceased was of RMD age (73 or older for most people)",
+      "Check if the RMD for the year of death was already taken",
+      "If not yet taken",
+      "calculate the remaining RMD amount",
+      "The beneficiary (not the estate) is responsible for taking the RMD",
+      "Withdraw the RMD amount before December 31 of the year of death",
+      "Report the distribution on the beneficiary\\'s tax return"
+    ],
+    "seo_title": "Take Required Minimum Distributions for Year of Death \u2014 Free Guide | LightPath",
+    "seo_description": "Ensure RMDs are taken if the deceased was of RMD age and had not yet taken it for the year",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "retirement.annuities",
+    "title": "Transfer or Liquidate Annuities",
+    "slug": "transfer-or-liquidate-annuities",
+    "description": "Handle any annuity contracts the deceased held",
+    "overview": "Annuities have their own death benefit provisions that depend on the contract type and whether the annuity was in the accumulation or payout phase. Contact the insurance company that issued the annuity to understand your options as beneficiary.",
+    "steps": [
+      "Locate any annuity contracts in the deceased\\'s records",
+      "Contact the issuing insurance company to report the death",
+      "Request the beneficiary claim forms",
+      "Understand your payout options: lump sum",
+      "or 5-year rule",
+      "Consider the tax implications of each option",
+      "Submit the claim with death certificate and beneficiary documentation"
+    ],
+    "seo_title": "Transfer or Liquidate Annuities \u2014 Free Guide | LightPath",
+    "seo_description": "Handle any annuity contracts the deceased held",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "vehicles.transfer_title",
+    "title": "Transfer Vehicle Registration and Title",
+    "slug": "transfer-vehicle-registration-and-title",
+    "description": "Transfer vehicle ownership to a new owner through the DMV",
+    "overview": "Vehicle titles must be transferred after a death. The process varies by state and depends on how the vehicle was titled (sole owner, joint, or transfer-on-death). Contact your state DMV for specific requirements.",
+    "steps": [
+      "Locate the vehicle title and registration documents",
+      "Check how the vehicle is titled \u2014 look at the exact names and wording on the title (sole",
+      "or trust)",
+      "Determine if there is an outstanding loan \u2014 check the title for lien notation or contact the lender",
+      "Gather required documents: certified death certificate",
+      "and Letters Testamentary if going through probate",
+      "Visit the DMV to complete the title transfer (or send a delegate with a limited Power of Attorney)",
+      "Update the vehicle registration in the new owner\\'s name",
+      "Contact the auto insurer immediately \u2014 the deceased\\'s policy does NOT cover new drivers for personal use",
+      "Save the new title"
+    ],
+    "seo_title": "Transfer Vehicle Registration and Title \u2014 Free Guide | LightPath",
+    "seo_description": "Transfer vehicle ownership to a new owner through the DMV",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "vehicles.other_vehicles",
+    "title": "Handle Boats, RVs, Motorcycles, and Trailers",
+    "slug": "handle-boats-rvs-motorcycles-and-trailers",
+    "description": "Address registration and title transfer for non-automobile vehicles",
+    "overview": "Boats, RVs, motorcycles, ATVs, and trailers each have their own registration and title transfer requirements. Some are registered through the DMV while others (boats) may be registered through a separate marine or wildlife agency.",
+    "steps": [
+      "Inventory all non-automobile vehicles and recreational equipment",
+      "Locate titles and registration documents for each",
+      "Contact the appropriate agency for each vehicle type (DMV",
+      "etc.)",
+      "Determine if you will keep",
+      "or donate each vehicle",
+      "Complete title transfers or sale documentation",
+      "Cancel or transfer insurance policies for each vehicle"
+    ],
+    "seo_title": "Handle Boats, RVs, Motorcycles, and Trailers \u2014 Free Guide | LightPath",
+    "seo_description": "Address registration and title transfer for non-automobile vehicles",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "selfcare.update_own_will",
+    "title": "Update Your Own Will and Estate Plan",
+    "slug": "update-your-own-will-and-estate-plan",
+    "description": "Review and update your own estate planning documents after your loss",
+    "overview": "The death of a loved one often means your own estate plan needs updating. If the deceased was named in your will, as a beneficiary, power of attorney, or healthcare proxy, those documents need to be revised.",
+    "steps": [
+      "Review your own will and remove or replace the deceased",
+      "Update your power of attorney if the deceased was your agent",
+      "Review your healthcare proxy/advance directive",
+      "Update your own beneficiary designations (retirement accounts",
+      "life insurance)",
+      "Consider creating or updating a trust if appropriate",
+      "Consult an estate planning attorney for complex situations"
+    ],
+    "seo_title": "Update Your Own Will and Estate Plan \u2014 Free Guide | LightPath",
+    "seo_description": "Review and update your own estate planning documents after your loss",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "selfcare.update_beneficiaries",
+    "title": "Update Your Own Beneficiary Designations",
+    "slug": "update-your-own-beneficiary-designations",
+    "description": "Review and update beneficiaries on your own accounts and policies",
+    "overview": "If the deceased was named as beneficiary on your life insurance, retirement accounts, or bank accounts, those designations need to be updated. Beneficiary designations override your will, so keeping them current is critical.",
+    "steps": [
+      "List all accounts where you have named beneficiaries",
+      "Check: life insurance",
+      "brokerage (TOD)",
+      "Remove the deceased and name new primary and contingent beneficiaries",
+      "Contact each institution to request beneficiary change forms",
+      "Submit the updated forms and confirm the changes were made",
+      "Keep copies of all updated beneficiary designations"
+    ],
+    "seo_title": "Update Your Own Beneficiary Designations \u2014 Free Guide | LightPath",
+    "seo_description": "Review and update beneficiaries on your own accounts and policies",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "selfcare.adjust_budget",
+    "title": "Adjust Your Household Budget",
+    "slug": "adjust-your-household-budget",
+    "description": "Review and update your budget to reflect your new financial reality",
+    "overview": "Your household income and expenses will change after a death. Some expenses decrease (food, clothing) while others may increase (childcare, home maintenance, lawn care). Creating an updated budget helps you plan ahead and avoid financial surprises.",
+    "steps": [
+      "List your current income sources (salary",
+      "investment income)",
+      "Add any new income (survivor benefits",
+      "inheritance)",
+      "List all current monthly expenses",
+      "Identify expenses that will change (increase or decrease)",
+      "Create a new monthly budget",
+      "Build an emergency fund if you do not have one"
+    ],
+    "seo_title": "Adjust Your Household Budget \u2014 Free Guide | LightPath",
+    "seo_description": "Review and update your budget to reflect your new financial reality",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "selfcare.grief_counselor",
+    "title": "Find a Grief Counselor or Therapist",
+    "slug": "find-a-grief-counselor-or-therapist",
+    "description": "Connect with a professional who specializes in grief and loss",
+    "overview": "Grief is a deeply personal experience, and professional support can make a meaningful difference. A grief counselor or therapist can help you process your emotions, develop coping strategies, and navigate the challenges ahead. There is no wrong time to seek help.",
+    "steps": [
+      "Ask your doctor",
+      "or faith community for referrals",
+      "Check your health insurance for covered mental health providers",
+      "Look for therapists who specialize in grief and bereavement",
+      "Consider whether you prefer in-person or virtual sessions",
+      "Schedule an initial session to see if the therapist is a good fit",
+      "Know that it is okay to try a different therapist if the first one is not right"
+    ],
+    "seo_title": "Find a Grief Counselor or Therapist \u2014 Free Guide | LightPath",
+    "seo_description": "Connect with a professional who specializes in grief and loss",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "selfcare.support_group",
+    "title": "Join a Bereavement Support Group",
+    "slug": "join-a-bereavement-support-group",
+    "description": "Connect with others who understand what you are going through",
+    "overview": "Support groups provide a space to share your experience with others who truly understand grief. Hearing others\\",
+    "steps": [
+      "Search for local bereavement support groups (hospice organizations often host them)",
+      "Consider online support groups if local options are limited",
+      "Look for groups specific to your type of loss (spouse",
+      "etc.)",
+      "Attend a session to see if the group feels right",
+      "Know that it is okay to try different groups until you find a good fit",
+      "Consider both peer-led and professionally facilitated groups"
+    ],
+    "seo_title": "Join a Bereavement Support Group \u2014 Free Guide | LightPath",
+    "seo_description": "Connect with others who understand what you are going through",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "selfcare.support_children",
+    "title": "Support Grieving Children",
+    "slug": "support-grieving-children",
+    "description": "Help children process their grief in age-appropriate ways",
+    "overview": "Children grieve differently from adults and may need extra support. Their understanding of death depends on their age and development. Open, honest, age-appropriate conversations help children feel safe and supported.",
+    "steps": [
+      "Use clear",
+      "honest language appropriate to the child\\'s age (avoid euphemisms like \"went to sleep\")",
+      "Reassure children that they are safe and will be cared for",
+      "Maintain routines as much as possible - consistency provides comfort",
+      "Allow children to express their feelings (sadness",
+      "confusion are all normal)",
+      "Notify their school so teachers can provide additional support",
+      "Consider a children\\'s grief counselor or support group if needed"
+    ],
+    "seo_title": "Support Grieving Children \u2014 Free Guide | LightPath",
+    "seo_description": "Help children process their grief in age-appropriate ways",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "selfcare.mortgage_update",
+    "title": "Contact Mortgage Lender to Update Records",
+    "slug": "contact-mortgage-lender-to-update-records",
+    "description": "Notify the mortgage company and understand your options for the mortgage",
+    "overview": "If the deceased was on the mortgage, you need to contact the lender. The Garn-St. Germain Act protects surviving family members from having the mortgage called due - meaning the lender cannot force you to refinance or pay the full balance. You may just need to update the records.",
+    "steps": [
+      "Contact the mortgage servicer to report the death",
+      "Provide a death certificate",
+      "Ask about assuming the mortgage in your name (the Garn-St. Germain Act protects this right)",
+      "Update the escrow account for property taxes and insurance",
+      "Consider refinancing only if it benefits you (lower rate",
+      "removing PMI)",
+      "Continue making payments to avoid default"
+    ],
+    "seo_title": "Contact Mortgage Lender to Update Records \u2014 Free Guide | LightPath",
+    "seo_description": "Notify the mortgage company and understand your options for the mortgage",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "selfcare.unclaimed_property",
+    "title": "Search all 50 states for unclaimed property",
+    "slug": "search-all-50-states-for-unclaimed-property",
+    "description": "Sweep every US state and DC for money, accounts, or assets held in the deceased\\",
+    "overview": "$15.5 billion in unclaimed property sits with US state treasurers \u2014 forgotten bank accounts, uncashed checks, life insurance payouts, safe deposit box contents, court deposits, and more. Property may be held by the state where a company was incorporated, not where the deceased lived, so sweeping every state is worth the time. LightPath searches all 50 states and DC with one click using the Unclaimed Property Sweep.",
+    "steps": [
+      "Tap \"Search for unclaimed property\" \u2014 LightPath sweeps all 50 states + DC",
+      "Review the state-by-state results; each state shows its own search portal and exact search steps",
+      "For each match found",
+      "follow the state\\'s claim process (usually online)",
+      "Submit required documentation (death certificate",
+      "proof of heir relationship)",
+      "Also try name variations \u2014 maiden names",
+      "common misspellings",
+      "If the deceased owned a business",
+      "run a separate search under the business name"
+    ],
+    "seo_title": "Search all 50 states for unclaimed property \u2014 Free Guide | LightPath",
+    "seo_description": "Sweep every US state and DC for money, accounts, or assets held in the deceased\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "selfcare.cosigner_check",
+    "title": "Check If Deceased Was a Co-signer on Loans",
+    "slug": "check-if-deceased-was-a-co-signer-on-loans",
+    "description": "Determine if the deceased co-signed any loans that still have a balance",
+    "overview": "If the deceased was a co-signer on loans for family members or others, those borrowers may be affected. The lender could call the loan due or require a new co-signer. It is important to identify these situations early.",
+    "steps": [
+      "Review the deceased\\'s financial records for any co-signed loans",
+      "Check credit reports for loans that may not be obvious",
+      "Contact lenders of any co-signed loans to report the death",
+      "Ask about the impact on the remaining borrower",
+      "Help the borrower explore options: refinancing",
+      "etc."
+    ],
+    "seo_title": "Check If Deceased Was a Co-signer on Loans \u2014 Free Guide | LightPath",
+    "seo_description": "Determine if the deceased co-signed any loans that still have a balance",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "immediate.pet_care",
+    "title": "Arrange Care for Pets",
+    "slug": "arrange-care-for-pets",
+    "description": "Make sure your loved one\\",
+    "overview": "Pets were important family members and they may be experiencing their own sense of loss. They need immediate care - food, walks, medication, and comfort. Decide who will care for them in the short term and begin thinking about a long-term plan.",
+    "steps": [
+      "Make sure pets have food",
+      "and their regular medication",
+      "Arrange for someone to walk",
+      "and care for them daily",
+      "Try to maintain their regular routine to minimize their distress",
+      "Check if the deceased left any instructions about pet care in their will or notes",
+      "Begin thinking about a permanent home if you cannot keep them",
+      "Contact local animal rescue organizations if you need help finding placement"
+    ],
+    "seo_title": "Arrange Care for Pets \u2014 Free Guide | LightPath",
+    "seo_description": "Make sure your loved one\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "immediate.organ_donation",
+    "title": "Check Organ and Tissue Donation Wishes",
+    "slug": "check-organ-and-tissue-donation-wishes",
+    "description": "Determine if your loved one wanted to be an organ or tissue donor",
+    "overview": "Organ and tissue donation is time-sensitive. If your loved one indicated they wanted to be a donor (on their driver\\",
+    "steps": [
+      "Check the deceased\\'s driver\\'s license or state ID for a donor designation",
+      "Search the national organ donor registry",
+      "Ask family members if the deceased expressed donation wishes",
+      "If donation is desired",
+      "notify the hospital or medical examiner immediately",
+      "Understand that donation does not delay funeral arrangements or alter appearance"
+    ],
+    "seo_title": "Check Organ and Tissue Donation Wishes \u2014 Free Guide | LightPath",
+    "seo_description": "Determine if your loved one wanted to be an organ or tissue donor",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "documents.safe_deposit_box",
+    "title": "Access Safe Deposit Box",
+    "slug": "access-safe-deposit-box",
+    "description": "Determine how to legally access the deceased\\",
+    "overview": "Safe deposit boxes may contain wills, insurance policies, deeds, and other critical documents. Access laws vary significantly by state - some allow limited access before probate (to search for a will or burial instructions), while others require letters testamentary. Contact the bank early to understand the process.",
+    "steps": [
+      "Locate the safe deposit box key and identify which bank holds the box",
+      "Contact the bank to ask about their post-death access policy",
+      "Determine if your state allows limited pre-probate access for will searches",
+      "Gather required documents: death certificate",
+      "letters testamentary if required",
+      "Arrange for a bank officer to be present when opening the box (often required)",
+      "Inventory all contents and store them securely"
+    ],
+    "seo_title": "Access Safe Deposit Box \u2014 Free Guide | LightPath",
+    "seo_description": "Determine how to legally access the deceased\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.poa_termination",
+    "title": "Notify Power of Attorney Agents",
+    "slug": "notify-power-of-attorney-agents",
+    "description": "Inform all agents and institutions that any powers of attorney are now terminated",
+    "overview": "All powers of attorney automatically terminate at death. However, agents and institutions that hold copies of the POA may not know about the death and could continue acting under the authority. Written notification prevents unauthorized transactions.",
+    "steps": [
+      "Identify everyone who held power of attorney for the deceased",
+      "Identify all institutions (banks",
+      "brokerages) that have a POA on file",
+      "Send written notice of death and POA termination to each agent",
+      "Send written notice to each institution holding a copy of the POA",
+      "Include a copy of the death certificate with each notice",
+      "Keep copies of all notifications for your records"
+    ],
+    "seo_title": "Notify Power of Attorney Agents \u2014 Free Guide | LightPath",
+    "seo_description": "Inform all agents and institutions that any powers of attorney are now terminated",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "accounts.loyalty_programs",
+    "title": "Transfer Loyalty Program Points and Miles",
+    "slug": "transfer-loyalty-program-points-and-miles",
+    "description": "Check airline miles, hotel points, and credit card rewards before accounts are closed",
+    "overview": "Loyalty program points and miles often have significant value but can be forfeited if accounts are closed. Each program has different policies - some allow transfers to family members while others forfeit points upon death. Act before closing the underlying accounts.",
+    "steps": [
+      "Identify all loyalty program memberships (airlines",
+      "retail)",
+      "Check each program\\'s policy on transfer upon death",
+      "Contact programs that allow transfer and provide required documentation",
+      "Transfer or redeem points before closing the associated credit cards or accounts",
+      "Note: some programs have 12-24 month deadlines before points are deleted"
+    ],
+    "seo_title": "Transfer Loyalty Program Points and Miles \u2014 Free Guide | LightPath",
+    "seo_description": "Check airline miles, hotel points, and credit card rewards before accounts are closed",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "funeral.memorial_donations",
+    "title": "Set Up Memorial Donations",
+    "slug": "set-up-memorial-donations",
+    "description": "Organize a memorial fund or direct charitable donations in your loved one\\",
+    "overview": "Many families choose ",
+    "steps": [
+      "Decide on a charity or cause that was meaningful to your loved one",
+      "Contact the charity to set up a memorial fund page if desired",
+      "Include donation information in the obituary",
+      "Consider using a community foundation for a permanent endowment",
+      "Track donations received so thank-you notes can be sent",
+      "Understand that donations to 501(c)(3) organizations are tax-deductible for the donor"
+    ],
+    "seo_title": "Set Up Memorial Donations \u2014 Free Guide | LightPath",
+    "seo_description": "Organize a memorial fund or direct charitable donations in your loved one\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "notify.schools",
+    "title": "Notify Children\\",
+    "slug": "notify-children",
+    "description": "Inform teachers, counselors, and school administration about the loss",
+    "overview": "Letting the school know helps teachers provide appropriate support and understanding. The school counselor can watch for behavioral changes and offer resources. Emergency contacts and pickup authorization may also need updating.",
+    "steps": [
+      "Contact the school principal or front office to share the news",
+      "Ask to speak with the child\\'s teacher(s) and school counselor",
+      "Update emergency contact information and pickup authorization",
+      "Ask about grief counseling resources available through the school",
+      "Discuss any accommodations the child may need (reduced homework",
+      "quiet space)",
+      "Let the school know your preferences for how the information is shared with classmates"
+    ],
+    "seo_title": "Notify Children\\ \u2014 Free Guide | LightPath",
+    "seo_description": "Inform teachers, counselors, and school administration about the loss",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "financial.529_plans",
+    "title": "Transfer 529 College Savings Plans",
+    "slug": "transfer-529-college-savings-plans",
+    "description": "Change ownership of 529 education savings accounts if the deceased was the account owner",
+    "overview": "If the deceased owned 529 college savings plans for children or grandchildren, ownership needs to transfer to a successor owner. If no successor was named, the process may require probate. The funds are for the named beneficiary\\",
+    "steps": [
+      "Identify all 529 plans the deceased owned",
+      "Contact each plan administrator",
+      "Check if a successor owner was named on the account",
+      "If a successor was named",
+      "complete the ownership transfer forms",
+      "If no successor was named",
+      "the plan may need to go through probate",
+      "Ensure the beneficiary designation remains correct"
+    ],
+    "seo_title": "Transfer 529 College Savings Plans \u2014 Free Guide | LightPath",
+    "seo_description": "Change ownership of 529 education savings accounts if the deceased was the account owner",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "government.return_ss_payments",
+    "title": "Return Social Security Payments Received After Death",
+    "slug": "return-social-security-payments-received-after-death",
+    "description": "Verify that any Social Security payments received after death have been returned",
+    "overview": "Social Security cannot pay benefits for the month of death, even if the person died on the last day of the month. Any direct deposits received after death must be returned. Usually the bank handles this, but you need to verify.",
+    "steps": [
+      "Check the bank account for Social Security deposits received after the date of death",
+      "Contact the bank to confirm they are aware of the death and will return any post-death payments",
+      "If the payment was deposited by check and cashed",
+      "contact SSA to arrange repayment",
+      "Do not spend any Social Security payments received after the date of death",
+      "Keep records of all returned payments"
+    ],
+    "seo_title": "Return Social Security Payments Received After Death \u2014 Free Guide | LightPath",
+    "seo_description": "Verify that any Social Security payments received after death have been returned",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "house.notify_hoa",
+    "title": "Notify the HOA",
+    "slug": "notify-the-hoa",
+    "description": "Inform the homeowners association about the death and address any outstanding obligations",
+    "overview": "If the property is in an HOA community, the association needs to be notified. Outstanding dues must be paid, property maintenance must continue, and the HOA may have transfer requirements or fees when the property changes ownership.",
+    "steps": [
+      "Contact the HOA management office to report the death",
+      "Ask about any outstanding dues or assessments",
+      "Ensure property maintenance continues to comply with HOA rules",
+      "Ask about transfer fees and requirements if the property will change ownership",
+      "Update the contact information for the property"
+    ],
+    "seo_title": "Notify the HOA \u2014 Free Guide | LightPath",
+    "seo_description": "Inform the homeowners association about the death and address any outstanding obligations",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "documents.dd214",
+    "title": "Request Military Discharge Papers (DD-214)",
+    "slug": "request-military-discharge-papers-dd-214",
+    "description": "Obtain the DD-214 form needed for VA benefits, burial honors, and headstone",
+    "overview": "The DD-214 (Certificate of Release or Discharge from Active Duty) is required to access many veteran benefits including burial in a national cemetery, military honors at the funeral, VA headstone, and survivor benefits. If you cannot find the original, you can request a copy.",
+    "steps": [
+      "Search the deceased\\'s records for the original DD-214",
+      "Check with the county recorder\\'s office (veterans sometimes file DD-214s there)",
+      "If not found",
+      "request a copy through the National Personnel Records Center",
+      "Submit a request online through eVetRecs or by mailing Standard Form 180",
+      "Allow 10-30 days for processing (expedited for funeral planning)",
+      "Keep the DD-214 secure - it contains sensitive information"
+    ],
+    "seo_title": "Request Military Discharge Papers (DD-214) \u2014 Free Guide | LightPath",
+    "seo_description": "Obtain the DD-214 form needed for VA benefits, burial honors, and headstone",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "immediate.autopsy_decision",
+    "title": "Understand Autopsy Decisions",
+    "slug": "understand-autopsy-decisions",
+    "description": "Know your rights regarding autopsies - when they are mandatory and when you can request one",
+    "overview": "In cases of violent, sudden, or suspicious death, the coroner or medical examiner may require an autopsy. For other deaths, the family has the right to request a private autopsy (at their expense) or decline one. Understanding your rights helps you make an informed decision.",
+    "steps": [
+      "Understand that some autopsies are mandated by law (violent",
+      "or suspicious deaths)",
+      "If an autopsy is mandated",
+      "it will proceed regardless of family wishes",
+      "If not mandated",
+      "consider whether an autopsy would provide useful information",
+      "If you want a private autopsy",
+      "000)",
+      "Know that religious objections can sometimes influence timing but may not prevent required autopsies"
+    ],
+    "seo_title": "Understand Autopsy Decisions \u2014 Free Guide | LightPath",
+    "seo_description": "Know your rights regarding autopsies - when they are mandatory and when you can request one",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "property.firearms",
+    "title": "Secure and Transfer Firearms",
+    "slug": "secure-and-transfer-firearms",
+    "description": "Safely secure firearms and follow legal transfer requirements",
+    "overview": "If the deceased owned firearms, they need to be secured immediately for safety and then transferred legally. Standard firearms should go through a licensed dealer (FFL) with background checks. NFA items (suppressors, automatic weapons, short-barreled rifles) require special ATF registration transfers.",
+    "steps": [
+      "Locate and safely secure all firearms immediately",
+      "Determine who in the family can legally possess the firearms",
+      "For standard firearms",
+      "plan transfers through a licensed firearms dealer (FFL)",
+      "For NFA items",
+      "file ATF Form 5 (Application for Tax-Exempt Transfer) - transfers to heirs are tax-free",
+      "If no one wants the firearms",
+      "contact local law enforcement about surrendering them",
+      "Never attempt to sell or transfer firearms without following federal and state laws"
+    ],
+    "seo_title": "Secure and Transfer Firearms \u2014 Free Guide | LightPath",
+    "seo_description": "Safely secure firearms and follow legal transfer requirements",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.guardianship_minors",
+    "title": "File for Guardianship of Minor Children",
+    "slug": "file-for-guardianship-of-minor-children",
+    "description": "Petition the court for legal guardianship if no surviving parent is available",
+    "overview": "If the deceased was a single parent or both parents have died, someone must petition the court for legal guardianship of minor children. Even if the will names a guardian, the court must formally appoint them. This is time-sensitive to ensure the children have a legal caretaker.",
+    "steps": [
+      "Check the will for a named guardian",
+      "Consult a family law attorney about filing a guardianship petition",
+      "File the petition with the local probate or family court",
+      "Attend the court hearing",
+      "If there are competing claims",
+      "the court will decide based on the child\\'s best interests",
+      "Once appointed",
+      "the guardian has legal authority for the child\\'s care",
+      "and health decisions"
+    ],
+    "seo_title": "File for Guardianship of Minor Children \u2014 Free Guide | LightPath",
+    "seo_description": "Petition the court for legal guardianship if no surviving parent is available",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "property.timeshare",
+    "title": "Address Timeshare Obligations",
+    "slug": "address-timeshare-obligations",
+    "description": "Determine if the deceased owned a timeshare and understand heir obligations",
+    "overview": "Deeded timeshares pass to heirs with ongoing maintenance fees that can be significant ($900-$3,000+ per year). Heirs have the right to formally disclaim the timeshare through probate court, typically within about 9 months. Important: do not use the timeshare before disclaiming or you lose the right to refuse it.",
+    "steps": [
+      "Check for any timeshare deeds or contracts in the deceased\\'s records",
+      "Review maintenance fee obligations and any outstanding balances",
+      "If you want to keep it",
+      "transfer the deed through the timeshare company",
+      "If you want to refuse it",
+      "file a formal disclaimer with the probate court promptly",
+      "Do NOT use the timeshare before making your decision - use forfeits the right to disclaim",
+      "Be wary of timeshare exit companies that charge high upfront fees"
+    ],
+    "seo_title": "Address Timeshare Obligations \u2014 Free Guide | LightPath",
+    "seo_description": "Determine if the deceased owned a timeshare and understand heir obligations",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "property.business_succession",
+    "title": "Handle Business Succession or Wind-Down",
+    "slug": "handle-business-succession-or-wind-down",
+    "description": "Address the deceased\\",
+    "overview": "If the deceased owned a business, immediate action may be needed. A sole proprietorship legally ceases at death. An LLC or partnership is governed by its operating agreement. Employees need to be paid, contracts addressed, and operations either continued or wound down.",
+    "steps": [
+      "Determine the business structure (sole proprietorship",
+      "corporation)",
+      "Review the operating agreement or partnership agreement for succession provisions",
+      "If sole proprietorship",
+      "arrange for someone to manage day-to-day operations immediately",
+      "Ensure employees receive their final paychecks and benefits",
+      "Notify key clients",
+      "and suppliers",
+      "Consult a business attorney about options: sell",
+      "or wind down"
+    ],
+    "seo_title": "Handle Business Succession or Wind-Down \u2014 Free Guide | LightPath",
+    "seo_description": "Address the deceased\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "benefits.healthcare_coverage",
+    "title": "Healthcare coverage \u2014 avoid the 60-day cliff",
+    "slug": "healthcare-coverage-avoid-the-60-day-cliff",
+    "description": "COBRA, ACA Marketplace, Medicare, Medicaid, CHIP \u2014 what applies to the surviving family",
+    "overview": "Death triggers health insurance urgency: surviving spouse and dependents may lose the decedent\\",
+    "steps": [
+      "Tap \"Check healthcare coverage options\" \u2014 LightPath returns eligibility across COBRA",
+      "CHAMPVA",
+      "If decedent had employer health plan: contact HR TODAY to preserve COBRA election right",
+      "Within 60 days: elect COBRA OR enroll in ACA Marketplace Special Enrollment",
+      "For children: apply for Medicaid/CHIP at insurekidsnow.gov (no deadline)",
+      "For surviving spouse 65+: enroll in Medicare (premium-free Part A based on decedent\\'s record)",
+      "For veteran surviving spouses: check CHAMPVA eligibility"
+    ],
+    "seo_title": "Healthcare coverage \u2014 avoid the 60-day cliff \u2014 Free Guide | LightPath",
+    "seo_description": "COBRA, ACA Marketplace, Medicare, Medicaid, CHIP \u2014 what applies to the surviving family",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.victim_compensation_claim",
+    "title": "Victim compensation (homicide / DUI / violent crime deaths)",
+    "slug": "victim-compensation-homicide-dui-violent-crime-deaths",
+    "description": "If the death was caused by a crime, every US state has a Victim Compensation Program",
+    "overview": "Every US state has a Victim Compensation Program funded by criminal fines and the federal VOCA Act. These programs reimburse families of homicide, DUI fatality, and violent crime victims for funeral expenses, counseling, lost support, and crime scene cleanup. Many grieving families don\\",
+    "steps": [
+      "Tap \"Look up state victim compensation\" \u2014 LightPath returns your state\\'s program",
+      "Verify the death was caused by a crime AND the crime was reported to police within the state\\'s reporting window (typically 72 hours)",
+      "Contact the state program using the phone number provided",
+      "Request application materials and a victim advocate (free)",
+      "Gather required documents: certified death certificate",
+      "proof of relationship",
+      "File the application before the state deadline (typically 1-3 years from crime)"
+    ],
+    "seo_title": "Victim compensation (homicide / DUI / violent crime deaths) \u2014 Free Guide | LightPath",
+    "seo_description": "If the death was caused by a crime, every US state has a Victim Compensation Program",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "selfcare.deceased_identity_protection",
+    "title": "Protect deceased identity from post-death fraud",
+    "slug": "protect-deceased-identity-from-post-death-fraud",
+    "description": "Obituaries are a gift to identity thieves \u2014 take 8 steps within 30 days to block fraud",
+    "overview": "Post-death identity theft is one of the fastest-growing fraud categories. Every year roughly 2.5 million deceased Americans have their identities stolen. Criminals scrape obituaries for name, DOB, date of death, last address, and survivors\\",
+    "steps": [
+      "Tap \"Get identity protection checklist\" \u2014 LightPath returns personalized 8-step plan",
+      "URGENT (step 1): mail certified death certificate to all 3 credit bureaus with \"Deceased\" flag request",
+      "URGENT (step 2): confirm SSA death notification (funeral director usually handles",
+      "verify)",
+      "URGENT (step 3): file IRS Form 56 to redirect IRS mail and flag fraudulent returns",
+      "Pull baseline credit report from all 3 bureaus at annualcreditreport.com",
+      "Cancel driver\\'s license at state DMV",
+      "File FTC Identity Theft Report at identitytheft.gov (formal federal record)",
+      "Set 4-month calendar reminder to re-check credit reports for 18+ months (post-death fraud often happens 3-9 months AFTER death)"
+    ],
+    "seo_title": "Protect deceased identity from post-death fraud \u2014 Free Guide | LightPath",
+    "seo_description": "Obituaries are a gift to identity thieves \u2014 take 8 steps within 30 days to block fraud",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "property.vehicle_vessel_firearm_discovery",
+    "title": "Find vehicles, boats, and firearms",
+    "slug": "find-vehicles-boats-and-firearms",
+    "description": "Search DMV, USCG, and firearm registries for titled and registered property",
+    "overview": "Three categories of registered property that executors commonly overlook: vehicles (state DMV), vessels (state for small boats, USCG for documented >5 net tons), and firearms (ATF for NFA items; some states have their own registries). LightPath returns per-category guidance with pre-filled search URLs where possible.",
+    "steps": [
+      "Tap \"Find registered assets\" \u2014 LightPath returns per-category guidance",
+      "Vehicles: contact state DMV with death certificate + letters testamentary",
+      "Boats: search USCG NVDC (free) for documented vessels; contact state DMV for small boats",
+      "Firearms: physical discovery + state registry (CA",
+      "OR) + ATF for NFA items",
+      "For any firearms found: hire a licensed FFL for inventory and legal transport",
+      "For NFA items (silencers",
+      "SBRs): consult an NFA-experienced attorney and file ATF Form 5"
+    ],
+    "seo_title": "Find vehicles, boats, and firearms \u2014 Free Guide | LightPath",
+    "seo_description": "Search DMV, USCG, and firearm registries for titled and registered property",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "tax.executor_tax_checklist",
+    "title": "Executor tax checklist \u2014 IRS forms + deadlines",
+    "slug": "executor-tax-checklist-irs-forms-deadlines",
+    "description": "Get a personalized checklist of every IRS form the executor must file, with deadlines",
+    "overview": "The decedent has ongoing tax obligations the executor must handle: a final Form 1040 for the year of death, possibly an estate Form 1041 for estate income, an estate EIN, Form 56 to notify the IRS of the executor relationship, Form 4506-T for prior-year transcripts, and in rare high-value estates a Form 706 estate tax return. LightPath produces a personalized checklist with deadlines calculated from the date of death.",
+    "steps": [
+      "Tap \"Get executor tax checklist",
+      "LightPath returns a step-by-step checklist personalized to the decedent and executor",
+      "Step 1: file Form 56 to notify IRS of executor relationship",
+      "Step 2: apply for estate EIN online (15 minutes",
+      "instant)",
+      "Step 3: request Form 4506-T transcripts \u2014 reveals all prior income sources",
+      "Step 4: file final Form 1040 by April 15 of the year following death",
+      "Step 5: if estate earns $600+ in income",
+      "file Form 1041",
+      "Step 6: check if Form 706 required (only for estates >$13.61M)"
+    ],
+    "seo_title": "Executor tax checklist \u2014 IRS forms + deadlines \u2014 Free Guide | LightPath",
+    "seo_description": "Get a personalized checklist of every IRS form the executor must file, with deadlines",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "debt.student_loan_discharge",
+    "title": "Discharge the deceased\\",
+    "slug": "discharge-the-deceased",
+    "description": "All federal student loans are discharged on death \u2014 the family must notify each servicer to trigger it",
+    "overview": "Every federal student loan (Direct, FFEL, Perkins, Parent PLUS) is DISCHARGED upon the borrower\\",
+    "steps": [
+      "Pull the decedent\\'s credit report from annualcreditreport.com (free)",
+      "Identify every student loan \u2014 federal AND private",
+      "For each federal loan: mail a certified death certificate to the servicer\\'s death-discharge address (LightPath provides the list)",
+      "For each private loan: call the lender to check their death discharge policy",
+      "Keep copies of every certified death certificate sent",
+      "Track discharge confirmations \u2014 federal typically 30-60 days"
+    ],
+    "seo_title": "Discharge the deceased\\ \u2014 Free Guide | LightPath",
+    "seo_description": "All federal student loans are discharged on death \u2014 the family must notify each servicer to trigger it",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.public_records_asset_sweep",
+    "title": "Sweep SEC, USPTO, and FAA for uncommon assets",
+    "slug": "sweep-sec-uspto-and-faa-for-uncommon-assets",
+    "description": "Find stock insider filings, patents, trademarks, and registered aircraft",
+    "overview": "Three niche but high-value asset classes that executors rarely check: (1) SEC EDGAR insider filings disclose stock holdings if the decedent was ever an officer, director, or 10%+ shareholder of a US public company; (2) USPTO Patents and Trademarks are valuable intellectual property assets that may need renewal or transfer; (3) FAA Aircraft Registry lists any registered aircraft owned. LightPath sweeps all three services in one call.",
+    "steps": [
+      "Tap \"Sweep public records for uncommon assets",
+      "SEC EDGAR: automated search across Form 3/4/5/144 insider filings",
+      "USPTO: pre-filled Patent Public Search + TESS trademark search URLs",
+      "FAA: pre-filled N-Number Registry search URL",
+      "Review each category for matches",
+      "For any matches: verify the identity",
+      "aviation attorney for aircraft)"
+    ],
+    "seo_title": "Sweep SEC, USPTO, and FAA for uncommon assets \u2014 Free Guide | LightPath",
+    "seo_description": "Find stock insider filings, patents, trademarks, and registered aircraft",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "digital.breached_accounts_discovery",
+    "title": "Discover online accounts via breach history",
+    "slug": "discover-online-accounts-via-breach-history",
+    "description": "Use data breach history to find every service the deceased had an online account on",
+    "overview": "This is a clever reverse-engineering approach: if the decedent\\",
+    "steps": [
+      "Compile every email address the decedent commonly used",
+      "Tap \"Discover accounts via breach history",
+      "LightPath queries HIBP for each email and returns a list of breached services the decedent had accounts on",
+      "Review the grouped results: social media",
+      "other",
+      "For each service: use its official deceased-user flow to memorialize",
+      "or close the account",
+      "HIGH PRIORITY: close any financial accounts first",
+      "especially if the breach exposed credit card or password data"
+    ],
+    "seo_title": "Discover online accounts via breach history \u2014 Free Guide | LightPath",
+    "seo_description": "Use data breach history to find every service the deceased had an online account on",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "memorial.obituary_discovery",
+    "title": "Find existing obituaries and grave records",
+    "slug": "find-existing-obituaries-and-grave-records",
+    "description": "Search every major obituary aggregator and Find A Grave for existing memorials",
+    "overview": "Another family member may have already published an obituary. The deceased may have contributed to a genealogy database or have a grave registered with photos on Find A Grave. Surviving family may want to find obituaries for past family members (parents, grandparents) to build a complete memorial record. LightPath searches 6 major obituary and memorial services in one call.",
+    "steps": [
+      "Tap \"Search obituaries and memorials",
+      "LightPath returns pre-filled search URLs for Legacy.com",
+      "and Forever Missed",
+      "Start with Legacy.com (most likely for current obituaries)",
+      "Then Find A Grave to locate the burial site and check for headstone photos",
+      "For older obituaries (pre-2000)",
+      "paid to view clippings",
+      "If no obituary exists and the family wants a free permanent memorial",
+      "create one on EverLoved or Forever Missed"
+    ],
+    "seo_title": "Find existing obituaries and grave records \u2014 Free Guide | LightPath",
+    "seo_description": "Search every major obituary aggregator and Find A Grave for existing memorials",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "digital.domain_discovery",
+    "title": "Find domains the deceased owned",
+    "slug": "find-domains-the-deceased-owned",
+    "description": "Discover websites, blogs, and email domains registered under the decedent\\",
+    "overview": "Many people register domain names and forget about them \u2014 a blog from 2010, a small business site, a personal portfolio, old email forwarding. Auto-renewal charges continue on credit cards even after the owner dies. LightPath runs a forward RDAP lookup for any domain you suspect, plus a guided reverse-WHOIS search by the decedent\\",
+    "steps": [
+      "List every email address the decedent commonly used (personal",
+      "Yahoo)",
+      "Tap \"Find domains\" \u2014 LightPath runs reverse WHOIS by each email",
+      "For every domain found: run the forward RDAP lookup to see registrar",
+      "and nameservers",
+      "For domains with upcoming expiration: decide whether to renew or let lapse",
+      "For domains with content you want to preserve: archive before any transfer or cancellation",
+      "Contact each registrar to transfer ownership to an heir or cancel auto-renewal"
+    ],
+    "seo_title": "Find domains the deceased owned \u2014 Free Guide | LightPath",
+    "seo_description": "Discover websites, blogs, and email domains registered under the decedent\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "benefits.form5500_search",
+    "title": "Search every retirement plan from every employer",
+    "slug": "search-every-retirement-plan-from-every-employer",
+    "description": "Use DOL Form 5500 filings to find retirement plans from every job the deceased ever had",
+    "overview": "Every private-sector employer with 100+ employees must file Form 5500 annually with the Department of Labor, disclosing every 401(k), pension, ESOP, and welfare plan they operate. The filings are public and include the Plan Administrator contact info \u2014 the key to claiming a forgotten benefit. LightPath pre-fills search URLs for every employer you list.",
+    "steps": [
+      "Compile a complete work history for the decedent \u2014 every job",
+      "every year",
+      "Tap \"Search Form 5500 by employer\" \u2014 LightPath returns pre-filled search URLs",
+      "For each employer: review matching plans",
+      "note the Plan Administrator contact info",
+      "Call each Plan Administrator \u2014 ask if a vested benefit exists for the decedent",
+      "For any matches: request the claim package",
+      "file with death certificate + proof of authority",
+      "For small balances (<$5K) the plan may have rolled the benefit to an IRA \u2014 ask about force-out IRAs"
+    ],
+    "seo_title": "Search every retirement plan from every employer \u2014 Free Guide | LightPath",
+    "seo_description": "Use DOL Form 5500 filings to find retirement plans from every job the deceased ever had",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "benefits.treasury_pbgc_search",
+    "title": "Search for uncashed savings bonds + missing pensions",
+    "slug": "search-for-uncashed-savings-bonds-missing-pensions",
+    "description": "Search Treasury Hunt for uncashed US savings bonds and PBGC for missing pensions from terminated plans",
+    "overview": "Two free federal services can find forgotten money: Treasury Hunt (U.S. Department of Treasury) searches for matured but uncashed savings bonds \u2014 millions of dollars go uncashed because grandparents bought them as gifts decades ago. PBGC Missing Participants finds pensions from terminated private-sector retirement plans where the company couldn\\",
+    "steps": [
+      "Tap \"Search bonds + pensions\" \u2014 LightPath guides both searches",
+      "PBGC search: click the pre-filled URL",
+      "call 1-800-400-7242 to claim",
+      "Treasury Hunt: try the online tool; if it is offline",
+      "file PD Form 1048 by mail with Treasury Retail Securities Services",
+      "Also search by any former employer names you know \u2014 each could have its own pension",
+      "For matches: provide death certificate",
+      "and the decedent\\'s SSN to claim"
+    ],
+    "seo_title": "Search for uncashed savings bonds + missing pensions \u2014 Free Guide | LightPath",
+    "seo_description": "Search Treasury Hunt for uncashed US savings bonds and PBGC for missing pensions from terminated plans",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "property.real_estate_discovery",
+    "title": "Discover hidden real estate",
+    "slug": "discover-hidden-real-estate",
+    "description": "Find every property the deceased owned \u2014 known and unknown \u2014 across all 50 states",
+    "overview": "Many families only know about the deceased\\",
+    "steps": [
+      "Tap \"Search for real estate\" \u2014 LightPath returns aggregator links and direct county assessor portals",
+      "Start with NETR Online (publicrecords.netronline.com) \u2014 aggregates every US county assessor in one place",
+      "For major metros",
+      "etc.)",
+      "Search owner name variations: maiden name",
+      "business names",
+      "Also search each state the deceased ever lived in \u2014 property may still be in their name from decades ago",
+      "For each match: note parcel number",
+      "and current status (active/delinquent)",
+      "Cross-reference with any business entities you know they owned \u2014 property held in LLC or trust may not appear under their personal name"
+    ],
+    "seo_title": "Discover hidden real estate \u2014 Free Guide | LightPath",
+    "seo_description": "Find every property the deceased owned \u2014 known and unknown \u2014 across all 50 states",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "legal.business_entity_discovery",
+    "title": "Discover hidden business entities",
+    "slug": "discover-hidden-business-entities",
+    "description": "Find every LLC, corporation, partnership, or nonprofit the deceased was listed on \u2014 across all 50 state Secretaries of State",
+    "overview": "Many people don\\",
+    "steps": [
+      "Tap \"Search for business entities\" \u2014 LightPath searches every state Secretary of State",
+      "Review each result: company name",
+      "registered agent)",
+      "For ACTIVE entities: contact the registered agent to redirect mail; file dissolution paperwork if winding down; or transfer ownership per the operating agreement",
+      "For DISSOLVED entities: check for residual assets (bank accounts",
+      "unclaimed property held under the business name)",
+      "Update the estate inventory with any newly discovered business interests",
+      "For any entity with employees",
+      "consult a business attorney immediately \u2014 payroll and COBRA obligations are time-sensitive"
+    ],
+    "seo_title": "Discover hidden business entities \u2014 Free Guide | LightPath",
+    "seo_description": "Find every LLC, corporation, partnership, or nonprofit the deceased was listed on \u2014 across all 50 state Secretaries of State",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "notify.doctors_pharmacy",
+    "title": "Notify Doctors and Pharmacy",
+    "slug": "notify-doctors-and-pharmacy",
+    "description": "Inform the deceased\\",
+    "overview": "Notifying doctors and pharmacies stops automatic prescription refills and prevents unnecessary charges. It also gives providers the opportunity to close the patient\\",
+    "steps": [
+      "Contact the primary care physician\\'s office",
+      "Notify any specialists the deceased was seeing",
+      "Contact the pharmacy to cancel all prescriptions and automatic refills",
+      "Ask about any outstanding bills or copays",
+      "Request copies of medical records if they may be needed for insurance claims or legal purposes"
+    ],
+    "seo_title": "Notify Doctors and Pharmacy \u2014 Free Guide | LightPath",
+    "seo_description": "Inform the deceased\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "funeral.thank_you_notes",
+    "title": "Record Gifts and Send Thank-You Notes",
+    "slug": "record-gifts-and-send-thank-you-notes",
+    "description": "Keep track of flowers, food, donations, and kindnesses received, and acknowledge them",
+    "overview": "People express their condolences in many ways - flowers, food, cards, donations, and acts of service. Keeping a record makes it easier to send thank-you notes when you are ready. There is no rush, but acknowledging kindness helps maintain connections.",
+    "steps": [
+      "Keep a running list of everything received: flowers",
+      "and favors",
+      "Note who sent each item (ask someone to help track during the funeral)",
+      "When you are ready",
+      "write brief personal thank-you notes",
+      "Pre-printed acknowledgment cards are perfectly acceptable if personal notes feel overwhelming",
+      "Thank pallbearers",
+      "and others who helped with special roles"
+    ],
+    "seo_title": "Record Gifts and Send Thank-You Notes \u2014 Free Guide | LightPath",
+    "seo_description": "Keep track of flowers, food, donations, and kindnesses received, and acknowledge them",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "funeral.choose_funeral_home",
+    "title": "Choose a Funeral Home",
+    "slug": "choose-a-funeral-home",
+    "description": "Select a funeral home that fits your family\\",
+    "overview": "If your loved one didn\\",
+    "steps": [
+      "Ask family and friends for recommendations",
+      "Call 2-3 funeral homes and request their General Price List (they are legally required to provide this)",
+      "Compare prices for the specific services you need (not packages)",
+      "Ask about payment plans if cost is a concern",
+      "Confirm they can accommodate your cultural",
+      "or personal preferences",
+      "Ask what is included vs. what costs extra (transportation",
+      "facility use)"
+    ],
+    "seo_title": "Choose a Funeral Home \u2014 Free Guide | LightPath",
+    "seo_description": "Select a funeral home that fits your family\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "tax.irs_form_56",
+    "title": "File IRS Form 56 (Notice of Fiduciary Relationship)",
+    "slug": "file-irs-form-56-notice-of-fiduciary-relationship",
+    "description": "Notify the IRS that you are the personal representative handling the deceased\\",
+    "overview": "Form 56 tells the IRS who is authorized to act on behalf of the deceased for tax purposes. Filing this ensures you receive all tax notices and correspondence. It\\",
+    "steps": [
+      "Download Form 56 from IRS.gov",
+      "Enter the deceased\\'s name",
+      "and date of death",
+      "Enter your name and address as the fiduciary",
+      "Check the appropriate box for your authority (will",
+      "etc.)",
+      "Attach a copy of Letters Testamentary or court appointment",
+      "Mail to the IRS service center for the deceased\\'s last address"
+    ],
+    "seo_title": "File IRS Form 56 (Notice of Fiduciary Relationship) \u2014 Free Guide | LightPath",
+    "seo_description": "Notify the IRS that you are the personal representative handling the deceased\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "tax.state_returns",
+    "title": "File State Tax Returns",
+    "slug": "file-state-tax-returns",
+    "description": "File the deceased\\",
+    "overview": "Most states with income tax require a final state return in addition to the federal return. Some states also require a separate estate income tax or inheritance tax return. Deadlines and forms vary by state.",
+    "steps": [
+      "Determine if your state has a personal income tax (exceptions: TX",
+      "NH)",
+      "File the deceased\\'s final state income tax return using your state\\'s standard form",
+      "Write \"DECEASED\" and date of death on the return",
+      "Check if your state requires a fiduciary income tax return for the estate",
+      "Check if your state has an estate tax or inheritance tax (12 states + DC have estate tax; 6 states have inheritance tax)",
+      "File any required state estate or inheritance tax returns by the deadline"
+    ],
+    "seo_title": "File State Tax Returns \u2014 Free Guide | LightPath",
+    "seo_description": "File the deceased\\",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  },
+  {
+    "id": "belongings.donate_charity",
+    "title": "Donate Belongings to Charity",
+    "slug": "donate-belongings-to-charity",
+    "description": "Donate usable items and keep documentation for estate tax deductions",
+    "overview": "Donating your loved one\\",
+    "steps": [
+      "Separate items suitable for donation (clothing",
+      "books)",
+      "Research local charities that accept donations (Goodwill",
+      "local shelters)",
+      "For items worth over $500",
+      "get a written receipt with item descriptions",
+      "For items worth over $5",
+      "get a qualified appraisal",
+      "Take photos of donated items before they leave",
+      "Keep all donation receipts with tax records"
+    ],
+    "seo_title": "Donate Belongings to Charity \u2014 Free Guide | LightPath",
+    "seo_description": "Donate usable items and keep documentation for estate tax deductions",
+    "cta": "Track your progress on LightPath \u2014 free forever."
+  }
+]
