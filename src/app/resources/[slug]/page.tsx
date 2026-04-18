@@ -903,72 +903,246 @@ const postVisuals: Record<string, Record<number, React.ReactNode>> = {
    PAGE COMPONENT
    ═══════════════════════════════════════════════════ */
 /* ═══════════════════════════════════════════════════
-   TASK GUIDE COMPONENT (for SEO guide pages)
+   TASK GUIDE COMPONENT (elevated design)
    ═══════════════════════════════════════════════════ */
+
+const STAGE_META: Record<string, { label: string; color: string }> = {
+  immediate: { label: "First 48 Hours", color: "#E59524" },
+  funeral: { label: "Funeral & Memorial", color: "#D97A8B" },
+  notify: { label: "Notifying People", color: "#6BA3D9" },
+  debt: { label: "Bills & Debt", color: "#CC8A20" },
+  benefits: { label: "Benefits & Claims", color: "#8A8EE5" },
+  house: { label: "Home & Property", color: "#63D583" },
+  legal: { label: "Legal & Estate", color: "#8F82CD" },
+  documents: { label: "Important Documents", color: "#8E96A6" },
+  insurance: { label: "Insurance", color: "#6BA3D9" },
+  tax: { label: "Taxes & Filing", color: "#CC8A20" },
+  employer: { label: "Workplace & Employer", color: "#63D583" },
+  digital: { label: "Digital & Online", color: "#6BA3D9" },
+  health: { label: "Health & Medical", color: "#D97A8B" },
+  retirement: { label: "Retirement", color: "#CC8A20" },
+  vehicles: { label: "Vehicles", color: "#8E96A6" },
+  selfcare: { label: "Self-Care & Healing", color: "#D97A8B" },
+  emotional: { label: "Emotional Support", color: "#8F82CD" },
+  financial: { label: "Financial", color: "#CC8A20" },
+  estate: { label: "Estate", color: "#8F82CD" },
+  property: { label: "Property & Assets", color: "#63D583" },
+  belongings: { label: "Personal Belongings", color: "#8E96A6" },
+  accounts: { label: "Accounts & Subscriptions", color: "#6BA3D9" },
+  identity: { label: "Identity Protection", color: "#E59524" },
+  vault: { label: "Documents", color: "#8E96A6" },
+  memorial: { label: "Memorial", color: "#D97A8B" },
+  government: { label: "Government", color: "#8E96A6" },
+};
 
 function TaskGuideView({ guide }: { guide: TaskGuide }) {
   const stateNote = "state_note" in guide ? (guide as any).state_note : null;
+  const stateName = "state" in guide ? (guide as any).state : null;
+  const stage = guide.id.split(".")[0];
+  const meta = STAGE_META[stage] || { label: "Guide", color: "#8A8EE5" };
+  const stepCount = guide.steps?.length || 0;
+  const readingTime = `${Math.max(2, Math.ceil(stepCount * 0.7))} min read`;
+
   return (
-    <>
-      <section className="relative overflow-hidden">
-        <WarmGlow />
-        <div className="section relative z-10 pt-36 sm:pt-44 pb-8 sm:pb-12 max-w-2xl mx-auto">
+    <section className="relative overflow-hidden" style={{ marginTop: "-64px" }}>
+      <WarmGlow />
+
+      <div className="relative z-10 px-6 sm:px-8 pt-32 sm:pt-40 pb-20 sm:pb-28">
+        <div className="mx-auto max-w-3xl">
+          {/* Back link */}
           <Reveal>
-            <Link href="/resources" className="text-xs font-medium uppercase tracking-wider mb-6 inline-block" style={{ color: "var(--color-primary)" }}>
-              &larr; All resources
+            <Link
+              href="/resources"
+              className="inline-flex items-center gap-1.5 text-[13px] font-medium mb-10 transition-colors hover:opacity-70"
+              style={{ color: "#8A8EE5" }}
+            >
+              <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+              </svg>
+              All resources
             </Link>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] mb-4" style={{ color: "var(--color-primary)" }}>
-              Step-by-step guide
-            </p>
-            <h1 className="text-[1.75rem] sm:text-[2.25rem] font-serif font-normal leading-[1.12]" style={{ color: "var(--color-foreground)", letterSpacing: "-0.03em" }}>
-              {guide.title}
-            </h1>
-            {guide.description && (
-              <p className="mt-4 text-base leading-relaxed" style={{ color: "var(--color-muted)" }}>{guide.description}</p>
-            )}
           </Reveal>
-        </div>
-      </section>
-      <section className="section pb-20 max-w-2xl mx-auto">
-        {stateNote && (
+
+          {/* Hero */}
           <Reveal>
-            <div className="p-5 rounded-xl mb-8 border" style={{ backgroundColor: "rgba(138,142,229,0.04)", borderColor: "rgba(138,142,229,0.12)" }}>
-              <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "var(--color-primary)" }}>State-specific information</p>
-              <p className="text-sm leading-relaxed" style={{ color: "var(--color-foreground)" }}>{stateNote}</p>
+            <div className="mb-12">
+              <div className="flex items-center gap-3 mb-5">
+                <span
+                  className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-semibold"
+                  style={{ background: `${meta.color}10`, color: meta.color }}
+                >
+                  {meta.label}
+                </span>
+                <span className="text-[12px]" style={{ color: "#94A3B8" }}>
+                  {readingTime}
+                </span>
+                {stateName && (
+                  <span className="text-[12px]" style={{ color: "#94A3B8" }}>
+                    &middot; {stateName}
+                  </span>
+                )}
+              </div>
+              <h1
+                className="text-[2rem] sm:text-[2.5rem] lg:text-[3rem] font-serif font-normal leading-[1.1] mb-4"
+                style={{ letterSpacing: "-0.03em", color: "#1C1C2E" }}
+              >
+                {guide.title}
+              </h1>
+              {guide.description && (
+                <p className="text-[17px] leading-relaxed max-w-2xl" style={{ color: "#6B6E8D" }}>
+                  {guide.description}
+                </p>
+              )}
             </div>
           </Reveal>
-        )}
-        {guide.overview && (
-          <Reveal>
-            <p className="text-base leading-relaxed mb-10" style={{ color: "var(--color-foreground)" }}>{guide.overview}</p>
-          </Reveal>
-        )}
-        {guide.steps && guide.steps.length > 0 && (
-          <Reveal>
-            <h2 className="text-lg font-serif mb-6" style={{ color: "var(--color-foreground)" }}>Steps</h2>
-            <ol className="space-y-4">
-              {guide.steps.map((step, i) => (
-                <li key={i} className="flex gap-4">
-                  <span className="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-xs font-medium text-white" style={{ backgroundColor: "var(--color-primary)" }}>{i + 1}</span>
-                  <p className="text-sm leading-relaxed pt-1" style={{ color: "var(--color-foreground)" }}>{step}</p>
+
+          {/* State-specific callout */}
+          {stateNote && (
+            <Reveal delay={50}>
+              <div
+                className="p-6 rounded-2xl mb-10 border"
+                style={{
+                  background: "linear-gradient(135deg, rgba(138,142,229,0.03) 0%, rgba(138,142,229,0.08) 100%)",
+                  borderColor: "rgba(138,142,229,0.12)",
+                }}
+              >
+                <div className="flex items-start gap-3">
+                  <span className="flex-shrink-0 mt-0.5 text-lg">&#9432;</span>
+                  <div>
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.15em] mb-2" style={{ color: "#8A8EE5" }}>
+                      State-specific information
+                    </p>
+                    <p className="text-[15px] leading-relaxed" style={{ color: "#1C1C2E" }}>
+                      {stateNote}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Reveal>
+          )}
+
+          {/* Overview */}
+          {guide.overview && (
+            <Reveal delay={50}>
+              <div className="blog-prose mb-10">
+                <p>{guide.overview}</p>
+              </div>
+            </Reveal>
+          )}
+
+          {/* Steps — elevated card design */}
+          {guide.steps && guide.steps.length > 0 && (
+            <Reveal delay={50}>
+              <div className="mb-12">
+                <h2
+                  className="text-[1.5rem] sm:text-[1.75rem] font-serif font-normal mb-8"
+                  style={{ color: "#1C1C2E", letterSpacing: "-0.02em" }}
+                >
+                  What to do
+                </h2>
+                <div className="space-y-4">
+                  {guide.steps.map((step, i) => (
+                    <Reveal key={i} delay={50 + i * 30}>
+                      <div
+                        className="flex gap-5 p-5 sm:p-6 rounded-2xl border transition-all duration-300 hover:-translate-y-0.5"
+                        style={{
+                          backgroundColor: "rgba(255,255,255,0.6)",
+                          backdropFilter: "blur(16px)",
+                          WebkitBackdropFilter: "blur(16px)",
+                          borderColor: "rgba(138,142,229,0.06)",
+                        }}
+                      >
+                        <span
+                          className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-[13px] font-semibold"
+                          style={{ backgroundColor: `${meta.color}12`, color: meta.color }}
+                        >
+                          {i + 1}
+                        </span>
+                        <p className="text-[15px] leading-relaxed pt-1" style={{ color: "#1C1C2E" }}>
+                          {step}
+                        </p>
+                      </div>
+                    </Reveal>
+                  ))}
+                </div>
+              </div>
+            </Reveal>
+          )}
+
+          {/* Helpful context */}
+          <Reveal delay={100}>
+            <div
+              className="p-6 sm:p-8 rounded-2xl mb-12 border"
+              style={{
+                backgroundColor: "rgba(255,255,255,0.4)",
+                backdropFilter: "blur(20px)",
+                WebkitBackdropFilter: "blur(20px)",
+                borderColor: "rgba(138,142,229,0.08)",
+              }}
+            >
+              <h3 className="text-[15px] font-semibold mb-3" style={{ color: "#1C1C2E" }}>
+                Good to know
+              </h3>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2.5">
+                  <span className="w-1.5 h-1.5 rounded-full flex-shrink-0 mt-2" style={{ backgroundColor: meta.color }} />
+                  <p className="text-[14px] leading-relaxed" style={{ color: "#6B6E8D" }}>
+                    Take your time with this. There is no &ldquo;right&rdquo; pace for any of these tasks.
+                  </p>
                 </li>
-              ))}
-            </ol>
+                <li className="flex items-start gap-2.5">
+                  <span className="w-1.5 h-1.5 rounded-full flex-shrink-0 mt-2" style={{ backgroundColor: meta.color }} />
+                  <p className="text-[14px] leading-relaxed" style={{ color: "#6B6E8D" }}>
+                    Keep copies of every document you submit. You will need them again.
+                  </p>
+                </li>
+                <li className="flex items-start gap-2.5">
+                  <span className="w-1.5 h-1.5 rounded-full flex-shrink-0 mt-2" style={{ backgroundColor: meta.color }} />
+                  <p className="text-[14px] leading-relaxed" style={{ color: "#6B6E8D" }}>
+                    If you feel overwhelmed, it is okay to ask for help or to pause.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </Reveal>
-        )}
-        <Reveal>
-          <div className="mt-12 p-8 rounded-2xl text-center" style={{ backgroundColor: "var(--color-surface-alt)" }}>
-            <p className="font-serif text-lg mb-2" style={{ color: "var(--color-foreground)" }}>This is 1 of 30+ tasks you may need to handle</p>
-            <p className="text-sm mb-6 max-w-md mx-auto" style={{ color: "var(--color-muted)" }}>
-              LightPath creates a personalized care plan that tracks every task, deadline, and benefit for your specific situation. Free forever.
-            </p>
-            <Link href="https://dev-lightpath-app.pages.dev" className="inline-block px-8 py-3.5 rounded-full text-sm font-medium text-white transition-all hover:opacity-90" style={{ backgroundColor: "var(--color-primary)" }}>
-              Start your care plan — free
-            </Link>
-          </div>
-        </Reveal>
-      </section>
-    </>
+
+          {/* CTA */}
+          <Reveal delay={100}>
+            <div
+              className="p-8 sm:p-10 rounded-3xl text-center"
+              style={{
+                background: "linear-gradient(160deg, #F8F7FF 0%, #F0EFF8 50%, #EDE9F5 100%)",
+                border: "1px solid rgba(138,142,229,0.1)",
+              }}
+            >
+              <p
+                className="font-serif text-[1.5rem] sm:text-[1.75rem] font-normal mb-3 leading-tight"
+                style={{ color: "#1C1C2E", letterSpacing: "-0.03em" }}
+              >
+                This is one of 30+ tasks you may need to handle
+              </p>
+              <p className="text-[15px] mb-8 max-w-md mx-auto leading-relaxed" style={{ color: "#6B6E8D" }}>
+                LightPath creates a personalized care plan that tracks every task, deadline, and benefit
+                for your specific situation. Free forever.
+              </p>
+              <Link
+                href="https://dev-lightpath-app.pages.dev"
+                className="inline-block px-10 py-4 rounded-full text-[15px] font-medium text-white transition-all duration-300 hover:opacity-90 hover:-translate-y-0.5"
+                style={{
+                  backgroundColor: "#8A8EE5",
+                  boxShadow: "0 4px 20px rgba(138,142,229,0.3)",
+                }}
+              >
+                Start your care plan &mdash; free
+              </Link>
+              <p className="mt-4 text-[12px]" style={{ color: "#94A3B8" }}>
+                No credit card. No commitment. Just guidance when you need it.
+              </p>
+            </div>
+          </Reveal>
+        </div>
+      </div>
+    </section>
   );
 }
 
