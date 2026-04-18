@@ -1106,38 +1106,49 @@ function TaskGuideView({ guide }: { guide: TaskGuide }) {
             </div>
           </Reveal>
 
-          {/* CTA */}
+          {/* CTA — matches blog article CTA exactly */}
           <Reveal delay={100}>
             <div
-              className="p-8 sm:p-10 rounded-3xl text-center"
+              className="rounded-2xl p-8 sm:p-10 text-center mt-12 relative overflow-hidden"
               style={{
-                background: "linear-gradient(160deg, #F8F7FF 0%, #F0EFF8 50%, #EDE9F5 100%)",
-                border: "1px solid rgba(138,142,229,0.1)",
+                background: "rgba(255,255,255,0.55)",
+                backdropFilter: "blur(24px) saturate(1.3)",
+                WebkitBackdropFilter: "blur(24px) saturate(1.3)",
+                border: "1px solid rgba(138,142,229,0.15)",
+                boxShadow: "0 4px 32px rgba(138,142,229,0.06), 0 1px 4px rgba(0,0,0,0.02)",
               }}
             >
+              {/* Top accent gradient */}
+              <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 3, background: `linear-gradient(90deg, ${meta.color}, #8F82CD)` }} />
               <p
-                className="font-serif text-[1.5rem] sm:text-[1.75rem] font-normal mb-3 leading-tight"
-                style={{ color: "#1C1C2E", letterSpacing: "-0.03em" }}
+                className="text-[1.375rem] sm:text-[1.625rem] font-serif font-normal leading-[1.2] mb-3"
+                style={{ color: "#1C1C2E", letterSpacing: "-0.02em" }}
               >
-                This is one of 30+ tasks you may need to handle
+                This is one of 30+ tasks families navigate after a loss
               </p>
-              <p className="text-[15px] mb-8 max-w-md mx-auto leading-relaxed" style={{ color: "#6B6E8D" }}>
-                LightPath creates a personalized care plan that tracks every task, deadline, and benefit
-                for your specific situation. Free forever.
+              <p
+                className="text-[15px] leading-relaxed mb-6 max-w-md mx-auto"
+                style={{ color: "#6B6E8D" }}
+              >
+                LightPath creates a personalized care plan that tracks every task, deadline, and benefit for your situation. Free forever.
               </p>
               <Link
-                href="https://dev-lightpath-app.pages.dev"
-                className="inline-block px-10 py-4 rounded-full text-[15px] font-medium text-white transition-all duration-300 hover:opacity-90 hover:-translate-y-0.5"
+                href="/demo"
+                className="inline-flex items-center gap-2 rounded-full font-sans font-medium text-[15px] transition-all duration-300 ease-out"
                 style={{
-                  backgroundColor: "#8A8EE5",
-                  boxShadow: "0 4px 20px rgba(138,142,229,0.3)",
+                  padding: "0.875rem 2rem",
+                  background: "rgba(90, 95, 180, 0.85)",
+                  color: "white",
+                  border: "1px solid rgba(255,255,255,0.15)",
+                  boxShadow: "0 1px 3px rgba(90,95,180,0.2), 0 4px 16px rgba(90,95,180,0.12)",
+                  letterSpacing: "0.015em",
                 }}
               >
-                Start your care plan &mdash; free
+                Get early access
+                <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
               </Link>
-              <p className="mt-4 text-[12px]" style={{ color: "#94A3B8" }}>
-                No credit card. No commitment. Just guidance when you need it.
-              </p>
             </div>
           </Reveal>
         </div>
