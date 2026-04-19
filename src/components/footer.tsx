@@ -5,12 +5,10 @@ const columns = [
   {
     title: "Product",
     links: [
-      { label: "All Features", href: "/features" },
-      { label: "Care Plan", href: "/features" },
-      { label: "Benefits", href: "/features" },
-      { label: "LightKeeper", href: "/features" },
-      { label: "Inner Light", href: "/features" },
-      { label: "Find Care", href: "/features" },
+      { label: "How it works", href: "/#features" },
+      { label: "For Partners", href: "/partners" },
+      { label: "For Enterprise", href: "/enterprise" },
+      { label: "For Providers", href: "/providers" },
     ],
   },
   {
@@ -25,10 +23,8 @@ const columns = [
     title: "Company",
     links: [
       { label: "Our Story", href: "/our-story" },
-      { label: "Press", href: "/press" },
       { label: "Partners", href: "/partners" },
       { label: "Enterprise", href: "/enterprise" },
-      { label: "For Providers", href: "/providers" },
     ],
   },
   {
