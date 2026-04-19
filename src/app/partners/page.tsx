@@ -19,7 +19,7 @@ export default function PartnersPage() {
         <NightSky />
         <StarField />
         <div className="absolute inset-0 z-[1]" style={{ background: "radial-gradient(ellipse 80% 60% at 50% 70%, rgba(212,160,192,0.06), transparent)" }} />
-        <div className="relative z-10 flex flex-col items-center text-center px-6 sm:px-8 mx-auto max-w-[72rem] pt-56 sm:pt-68 pb-32 sm:pb-40">
+        <div className="relative z-10 flex flex-col items-center text-center px-6 sm:px-8 mx-auto max-w-[72rem] pt-52 sm:pt-64 pb-28 sm:pb-36">
           <Reveal>
             <h1 className="text-[2.25rem] sm:text-[3.25rem] lg:text-[4rem] font-serif font-normal leading-[1.04] max-w-3xl mx-auto text-white" style={{ letterSpacing: "-0.04em" }}>
               The service ends.{" "}<br className="hidden sm:block" />
