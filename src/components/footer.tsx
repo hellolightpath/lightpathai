@@ -59,7 +59,7 @@ export function Footer() {
             <p className="mt-3 text-sm leading-relaxed" style={{ color: "#8A847A" }}>
               For families navigating what comes after loss.
             </p>
-            <a href="mailto:hello@getlightpath.ai" className="mt-3 inline-block text-sm transition-colors duration-200" style={{ color: "#8A847A" }} onMouseOver={(e)=>(e.currentTarget.style.color="#9598E8")} onMouseOut={(e)=>(e.currentTarget.style.color="#8A847A")}>
+            <a href="mailto:hello@getlightpath.ai" className="mt-3 inline-block text-sm text-[#8A847A] hover:text-[#9598E8] transition-colors duration-200">
               hello@getlightpath.ai
             </a>
             {/* Social links */}
