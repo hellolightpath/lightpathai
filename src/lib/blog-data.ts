@@ -780,7 +780,7 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "A growing number of companies recognize that three days is nowhere near sufficient. These organizations are redesigning their bereavement policies not just as a compassionate gesture, but as a strategic investment in retention, culture, and employer brand.",
           "Some companies now offer 20 days of paid bereavement leave for immediate family loss, 10 days for extended family, and separate provisions for pregnancy loss. Others provide ongoing grief counseling, flexible return-to-work programs, and partnerships with grief support platforms like LightPath to ensure employees have structured support beyond just time away.",
-          "If your company is ready to rethink bereavement support, LightPath\u2019s enterprise program gives employees immediate access to a personalized care plan, document assistance, and AI companion support \u2014 turning bereavement benefits from a checkbox policy into genuine, lasting support.",
+          "If your company is ready to rethink bereavement support, LightPath\u2019s enterprise program gives employees immediate access to a personalized care plan, document assistance, and peer companion matching \u2014 turning bereavement benefits from a checkbox policy into genuine, lasting support.",
         ],
       },
     ],

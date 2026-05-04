@@ -139,27 +139,6 @@
     box-shadow: 0 0 0 1px rgba(255,255,255,0.6), 0 2px 8px rgba(0,0,0,0.05), 0 8px 32px rgba(120,125,210,0.12);
   }
 
-  /* Hero primary — solid, high-contrast for light hero backgrounds */
-  .btn-hero-primary {
-    @apply btn-base text-white;
-    background: linear-gradient(180deg, rgba(118,122,210,0.9) 0%, rgba(100,104,195,0.95) 100%);
-    box-shadow: 0 1px 2px rgba(90,95,180,0.15), 0 4px 16px rgba(90,95,180,0.2), inset 0 1px 0 rgba(255,255,255,0.2);
-    border: 1px solid rgba(255,255,255,0.15);
-  }
-  .btn-hero-primary::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, rgba(255,255,255,0.15) 0%, transparent 60%);
-    border-radius: inherit;
-    pointer-events: none;
-  }
-  .btn-hero-primary:hover {
-    background: linear-gradient(180deg, rgba(108,112,200,0.95) 0%, rgba(90,94,185,1) 100%);
-    transform: translateY(-2px);
-    box-shadow: 0 2px 4px rgba(90,95,180,0.2), 0 8px 24px rgba(90,95,180,0.3), inset 0 1px 0 rgba(255,255,255,0.25);
-  }
-
   /* Compact primary for navbar */
   .btn-primary-sm {
     @apply btn-base text-white text-sm;
@@ -772,9 +751,9 @@
   display: inline-flex;
   align-items: center;
   gap: 0.375rem;
-  padding: 0.375rem 0.75rem;
+  padding: 0.5rem 1rem;
   border-radius: 9999px;
-  font-size: 0.6875rem;
+  font-size: 0.8125rem;
   font-weight: 500;
   background: rgba(255,255,255,0.5);
   backdrop-filter: blur(12px);
@@ -788,15 +767,6 @@
 .blog-filter-pill:hover {
   background: rgba(255,255,255,0.7);
   border-color: rgba(138,142,229,0.15);
-}
-
-/* Hide scrollbar for filter pills horizontal scroll */
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
 }
 
 /* Blog checklist graphic */
@@ -1101,4 +1071,3 @@ body::after {
   .logo-animated::before { animation: none !important; }
   .logo-animated::after { animation: none !important; }
 }
-/* cache bust 1776571009 */

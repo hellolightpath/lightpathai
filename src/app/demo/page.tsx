@@ -4,11 +4,9 @@ import { useState, type FormEvent } from "react";
 import { Reveal } from "@/components/reveal";
 import { LivingSky } from "@/components/living-sky";
 
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
 export default function DemoPage() {
   const [submitted, setSubmitted] = useState(false);
-  const [errorMsg, setErrorMsg] = useState("");
+  const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
@@ -19,23 +17,8 @@ export default function DemoPage() {
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    setErrorMsg("");
-
-    // Client-side validation
-    if (!formData.name.trim()) {
-      setErrorMsg("Please enter your name.");
-      return;
-    }
-    if (!formData.email.trim() || !EMAIL_RE.test(formData.email.trim())) {
-      setErrorMsg("Please enter a valid email address.");
-      return;
-    }
-    if (!formData.role) {
-      setErrorMsg("Please select a role.");
-      return;
-    }
-
     setLoading(true);
+    setError(false);
 
     try {
       const res = await fetch("/api/demo", {
@@ -44,10 +27,7 @@ export default function DemoPage() {
         body: JSON.stringify(formData),
       });
 
-      if (!res.ok) {
-        const data = await res.json().catch(() => null);
-        throw new Error(data?.error || "Request failed");
-      }
+      if (!res.ok) throw new Error("Request failed");
 
       setSubmitted(true);
 
@@ -57,12 +37,8 @@ export default function DemoPage() {
           role: formData.role,
         });
       }
-    } catch (err) {
-      setErrorMsg(
-        err instanceof Error && err.message !== "Request failed"
-          ? err.message
-          : "Something went wrong. Please try again, or reach us at hello@getlightpath.ai."
-      );
+    } catch {
+      setError(true);
     } finally {
       setLoading(false);
     }
@@ -167,67 +143,35 @@ export default function DemoPage() {
                       </p>
                     </div>
 
-                    {errorMsg && (
-                      <div className="rounded-xl p-4" style={{ background: "rgba(254,226,226,0.6)", border: "1px solid rgba(220,38,38,0.1)" }}>
+                    {error && (
+                      <div className="rounded-xl p-4" style={{ background: "rgba(254,226,226,0.6)" }}>
                         <p className="text-sm" style={{ color: "#DC2626" }}>
-                          {errorMsg}
+                          Something went wrong. Please try again, or reach us at{" "}
+                          <a href="mailto:hello@getlightpath.ai" className="underline">hello@getlightpath.ai</a>.
                         </p>
                       </div>
                     )}
 
                     <div>
                       <label htmlFor="name" className="block text-[13px] font-medium mb-1.5" style={{ color: "#3D3F5E" }}>Name</label>
-                      <input
-                        id="name"
-                        type="text"
-                        required
-                        maxLength={200}
-                        value={formData.name}
-                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        className="form-input"
-                        placeholder="Your name"
-                      />
+                      <input id="name" type="text" required value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className="form-input" placeholder="Your name" />
                     </div>
 
                     <div>
                       <label htmlFor="email" className="block text-[13px] font-medium mb-1.5" style={{ color: "#3D3F5E" }}>Email</label>
-                      <input
-                        id="email"
-                        type="email"
-                        required
-                        maxLength={200}
-                        value={formData.email}
-                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        className="form-input"
-                        placeholder="you@company.com"
-                      />
+                      <input id="email" type="email" required value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className="form-input" placeholder="you@company.com" />
                     </div>
 
                     <div>
                       <label htmlFor="company" className="block text-[13px] font-medium mb-1.5" style={{ color: "#3D3F5E" }}>
                         Company <span style={{ color: "#94A3B8", fontWeight: 400 }}>(optional)</span>
                       </label>
-                      <input
-                        id="company"
-                        type="text"
-                        maxLength={200}
-                        value={formData.company}
-                        onChange={(e) => setFormData({ ...formData, company: e.target.value })}
-                        className="form-input"
-                        placeholder="Your organization"
-                      />
+                      <input id="company" type="text" value={formData.company} onChange={(e) => setFormData({ ...formData, company: e.target.value })} className="form-input" placeholder="Your organization" />
                     </div>
 
                     <div>
                       <label htmlFor="role" className="block text-[13px] font-medium mb-1.5" style={{ color: "#3D3F5E" }}>I am a...</label>
-                      <select
-                        id="role"
-                        required
-                        value={formData.role}
-                        onChange={(e) => setFormData({ ...formData, role: e.target.value })}
-                        className="form-input appearance-none"
-                        style={{ color: formData.role ? "#1C1C1E" : undefined }}
-                      >
+                      <select id="role" required value={formData.role} onChange={(e) => setFormData({ ...formData, role: e.target.value })} className="form-input appearance-none" style={{ color: formData.role ? "#1C1C1E" : undefined }}>
                         <option value="" disabled>Select one...</option>
                         <option value="family">Grieving family member</option>
                         <option value="supporter">Supporter helping someone</option>
@@ -241,7 +185,7 @@ export default function DemoPage() {
                     <button
                       type="submit"
                       disabled={loading}
-                      className="w-full inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium text-[15px] transition-all duration-300 ease-out relative overflow-hidden disabled:opacity-60 disabled:cursor-not-allowed"
+                      className="w-full inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium text-[15px] transition-all duration-300 ease-out relative overflow-hidden disabled:opacity-60"
                       style={{
                         padding: "0.875rem 2rem",
                         background: "rgba(90, 95, 180, 0.85)",
@@ -251,21 +195,11 @@ export default function DemoPage() {
                         letterSpacing: "0.015em",
                       }}
                     >
-                      {loading ? (
-                        <>
-                          <svg className="animate-spin h-4 w-4" fill="none" viewBox="0 0 24 24">
-                            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
-                          </svg>
-                          Sending...
-                        </>
-                      ) : (
-                        <>
-                          Request a demo
-                          <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                          </svg>
-                        </>
+                      {loading ? "Sending..." : "Request a demo"}
+                      {!loading && (
+                        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
                       )}
                     </button>
 

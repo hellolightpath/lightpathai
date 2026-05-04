@@ -22,22 +22,22 @@ const lora = Lora({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://getlightpath.ai"),
-  title: "LightPathAI | Redefining Care for Life\u2019s Hardest Transitions",
+  title: "LightPathAI | Redefining care for life's hardest transitions",
   description:
-    "Supporting people through loss. A personalized plan, intelligent guidance, and real support when you need it most.",
+    "A personalized plan, clear next steps, and real human support for when you don't know where to start.",
   openGraph: {
-    title: "LightPathAI | Redefining Care for Life\u2019s Hardest Transitions",
+    title: "LightPathAI | Redefining care for life's hardest transitions",
     description:
-      "Supporting people through loss. A personalized plan, intelligent guidance, and real support when you need it most.",
+      "A personalized plan, clear next steps, and real human support for when you don't know where to start.",
     url: "https://getlightpath.ai",
     siteName: "LightPathAI",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "LightPathAI | Redefining Care for Life\u2019s Hardest Transitions",
+    title: "LightPathAI | Redefining care for life's hardest transitions",
     description:
-      "Supporting people through loss. A personalized plan, intelligent guidance, and real support when you need it most.",
+      "A personalized plan, clear next steps, and real human support for when you don't know where to start.",
   },
 };
 

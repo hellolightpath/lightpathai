@@ -10,14 +10,13 @@ const columns = [
       { label: "Benefits", href: "/#features" },
       { label: "LightKeeper", href: "/#features" },
       { label: "Inner Light", href: "/#features" },
-      { label: "Find Care", href: "/#features" },
     ],
   },
   {
     title: "Support",
     links: [
       { label: "FAQ", href: "/faq" },
-      { label: "Resources", href: "/resources" },
+      { label: "Resources", href: "/blog" },
       { label: "Contact", href: "/demo" },
     ],
   },
@@ -25,9 +24,7 @@ const columns = [
     title: "Company",
     links: [
       { label: "Our Story", href: "/our-story" },
-      { label: "Partners", href: "/partners" },
-      { label: "Enterprise", href: "/enterprise" },
-      { label: "For Providers", href: "/providers" },
+      { label: "For Organizations", href: "/enterprise" },
     ],
   },
   {
@@ -47,9 +44,9 @@ export function Footer() {
 
       <div className="mx-auto max-w-6xl px-6 pt-16 pb-10">
         {/* Link columns */}
-        <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-5">
           {/* Brand column */}
-          <div className="col-span-2 sm:col-span-1 lg:col-span-1">
+          <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 group">
               <Image src="/logo.png" alt="LightPathAI" width={26} height={26} className="transition-transform duration-300 group-hover:scale-110" />
               <span className="text-base font-sans font-semibold" style={{ color: "var(--color-foreground)" }}>
@@ -57,7 +54,10 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-1 text-[13px] font-medium tracking-wide" style={{ color: "var(--color-primary)", opacity: 0.7 }}>
-              Redefining care for life&rsquo;s hardest transitions
+              The Platform for Human Recovery
+            </p>
+            <p className="mt-3 text-sm leading-relaxed" style={{ color: "var(--color-muted)" }}>
+              Supporting people through loss.
             </p>
             <a href="mailto:hello@getlightpath.ai" className="mt-3 inline-block text-sm text-[#94A3B8] hover:text-[#8A8EE5] transition-colors duration-200">
               hello@getlightpath.ai
@@ -82,7 +82,7 @@ export function Footer() {
               <h4 className="text-xs font-sans font-semibold uppercase tracking-wider" style={{ color: "var(--color-foreground)" }}>
                 {col.title}
               </h4>
-              <ul className="mt-3 space-y-2">
+              <ul className="mt-4 space-y-2.5">
                 {col.links.map((link) => (
                   <li key={link.label}>
                     <Link

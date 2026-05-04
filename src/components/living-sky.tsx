@@ -29,12 +29,12 @@ export function LivingSky() {
         }}
       />
 
-      {/* Breathing center glow — pulses gently, brighter */}
+      {/* Breathing center glow — pulses gently */}
       <div
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(ellipse 75% 62% at 50% 42%, rgba(255,255,255,1) 0%, rgba(255,253,248,0.8) 20%, rgba(255,250,242,0.5) 45%, transparent 75%)",
+            "radial-gradient(ellipse 70% 58% at 50% 42%, rgba(255,255,255,0.97) 0%, rgba(255,252,245,0.72) 25%, rgba(255,248,240,0.42) 50%, transparent 78%)",
           animation: mounted && !reducedMotion ? "skyBreathe 8s ease-in-out infinite" : "none",
         }}
       />
@@ -142,36 +142,6 @@ export function LivingSky() {
                 "radial-gradient(ellipse at center, rgba(210,200,238,0.3) 0%, rgba(200,195,232,0.15) 40%, transparent 65%)",
               filter: "blur(40px)",
               animation: "orbDrift2 20s ease-in-out infinite reverse",
-            }}
-          />
-
-          {/* Orb 8 — Very light peachy-pink whisper (bottom-center) */}
-          <div
-            className="absolute rounded-full will-change-transform"
-            style={{
-              width: "40%",
-              height: "35%",
-              bottom: "5%",
-              left: "25%",
-              background:
-                "radial-gradient(ellipse at center, rgba(245,210,200,0.25) 0%, rgba(240,200,190,0.12) 40%, transparent 65%)",
-              filter: "blur(50px)",
-              animation: "orbDrift3 15s ease-in-out infinite reverse",
-            }}
-          />
-
-          {/* Orb 9 — Faint peachy warmth (top-right edge) */}
-          <div
-            className="absolute rounded-full will-change-transform"
-            style={{
-              width: "25%",
-              height: "28%",
-              top: "15%",
-              right: "5%",
-              background:
-                "radial-gradient(ellipse at center, rgba(248,218,210,0.2) 0%, rgba(242,210,200,0.1) 40%, transparent 65%)",
-              filter: "blur(40px)",
-              animation: "orbDrift1 13s ease-in-out infinite",
             }}
           />
 

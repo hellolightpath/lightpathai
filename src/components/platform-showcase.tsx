@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import Link from "next/link";
 import { Reveal } from "@/components/reveal";
 
 /* ═══════════════════════════════════════════════
@@ -17,12 +16,12 @@ const features = [
     labelColor: "#8A8EE5",
     heading: "Your personalized",
     headingSub: "Care Plan.",
-    description: "147 task templates across 18 categories \u2014 from funeral arrangements to insurance claims to digital accounts. Prioritized by urgency, tailored to your state and jurisdiction, with step-by-step guidance for every task.",
+    description: "Prioritized by urgency. Tailored to your state, role, and timeline. Every task includes what to do, who to contact, and when.",
     bullets: [
       { text: "AI Assist drafts letters, fills forms, and handles paperwork" },
-      { text: "Jurisdiction-aware \u2014 guidance adapts to your state\u2019s laws" },
-      { text: "Faith-aware milestones for Islamic, Jewish, Hindu, and other traditions" },
-      { text: "Assign tasks to supporters \u2014 they see only what you share" },
+      { text: "Assign and share tasks with family or a trusted helper" },
+      { text: "Deadlines and reminders so nothing falls through" },
+      { text: "Track progress across 20+ task categories" },
     ],
   },
   {
@@ -43,14 +42,14 @@ const features = [
     id: "keeper",
     label: "LightKeeper",
     labelColor: "#E59524",
-    heading: "A companion who meets",
-    headingSub: "you where you are.",
-    description: "16 specialized AI companions, each deeply attuned to a specific kind of loss. They remember your story, adapt to your emotional state, and never rush you. Always available, always private.",
+    heading: "Someone who\u2019s been",
+    headingSub: "where you are.",
+    description: "Not therapy. Not a chatbot. A real person with verified lived experience, trained in emotional support, and matched to your story.",
     bullets: [
-      { text: "Matched by loss type, relationship, and life stage" },
-      { text: "Relational memory \u2014 picks up where you left off" },
+      { text: "Matched by loss type and life stage" },
+      { text: "Verified lived experience, trained companion" },
       { text: "Private and confidential conversations" },
-      { text: "Available any time \u2014 no scheduling, no waitlists" },
+      { text: "Available when you need \u2014 no scheduling" },
     ],
   },
   {
@@ -67,24 +66,9 @@ const features = [
       { text: "Tracks your patterns and recommends what helps" },
     ],
   },
-  {
-    id: "findcare",
-    label: "Find Care",
-    labelColor: "#5A8A6E",
-    heading: "The right help, matched",
-    headingSub: "to your moment.",
-    description: "LightPath connects you with vetted grief professionals \u2014 attorneys, therapists, financial advisors, funeral directors \u2014 matched to your loss type, location, and what you need right now.",
-    bullets: [
-      { text: "Matched by loss type, location, and grief stage" },
-      { text: "Vetted professionals across 14 service categories" },
-      { text: "Integrated with your Care Plan tasks" },
-      { text: "Free government resources surfaced automatically" },
-    ],
-    crossLink: { text: "Are you a professional?", href: "/providers", cta: "Join our network \u2192" },
-  },
 ];
 
-const MOCKUPS = [CarePlanMockup, BenefitsMockup, KeeperMockup, InnerLightMockup, FindCareMockup];
+const MOCKUPS = [CarePlanMockup, BenefitsMockup, KeeperMockup, InnerLightMockup];
 
 export function PlatformShowcase() {
   return (
@@ -100,9 +84,14 @@ export function PlatformShowcase() {
               <div className="mb-12 sm:mb-14 lg:mb-16 mx-auto" style={{ maxWidth: "8rem", height: "1px", background: "linear-gradient(90deg, transparent, rgba(138,142,229,0.15), transparent)" }} />
             )}
 
-            <div className="grid gap-10 lg:gap-14 lg:grid-cols-[5fr_6fr] items-center">
-              {/* Text side — always first on mobile */}
-              <Reveal delay={0} className={isReversed ? "lg:order-2" : ""}>
+            <div className="grid gap-10 lg:gap-16 lg:grid-cols-2 items-center">
+              {/* Mockup side */}
+              <Reveal delay={200} variant={isReversed ? "left" : "right"} className={isReversed ? "" : "lg:order-2"}>
+                <Mockup />
+              </Reveal>
+
+              {/* Text side */}
+              <Reveal delay={0} className={isReversed ? "" : "lg:order-1"}>
                 <div className="psc-text-block">
                   {/* Feature number + label */}
                   <div className="flex items-center gap-3 mb-5 psc-stagger" style={{ "--stagger": 0 } as React.CSSProperties}>
@@ -163,28 +152,7 @@ export function PlatformShowcase() {
                       </div>
                     ))}
                   </div>
-
-                  {/* Optional cross-link */}
-                  {(f as typeof f & { crossLink?: { text: string; href: string; cta: string } }).crossLink && (
-                    <div className="mt-6 psc-stagger" style={{ "--stagger": 7 } as React.CSSProperties}>
-                      <Link
-                        href={(f as typeof f & { crossLink: { text: string; href: string; cta: string } }).crossLink.href}
-                        className="inline-flex items-center gap-1.5 text-[13px] transition-colors duration-200"
-                        style={{ color: "var(--color-body)" }}
-                        onMouseEnter={(e) => (e.currentTarget.style.color = f.labelColor)}
-                        onMouseLeave={(e) => (e.currentTarget.style.color = "var(--color-body)")}
-                      >
-                        <span>{(f as typeof f & { crossLink: { text: string; href: string; cta: string } }).crossLink.text}</span>
-                        <span style={{ color: f.labelColor, fontWeight: 600 }}>{(f as typeof f & { crossLink: { text: string; href: string; cta: string } }).crossLink.cta}</span>
-                      </Link>
-                    </div>
-                  )}
                 </div>
-              </Reveal>
-
-              {/* Mockup side — after text on mobile, alternates on desktop */}
-              <Reveal delay={200} variant={isReversed ? "left" : "right"} className={isReversed ? "lg:order-1" : ""}>
-                <Mockup />
               </Reveal>
             </div>
           </div>
@@ -328,20 +296,6 @@ export function PlatformShowcase() {
         @keyframes pscStreakPulse {
           0%, 100% { transform: scale(1); }
           50% { transform: scale(1.15); }
-        }
-
-        /* FindCare typing dots */
-        .psc-typing-dot {
-          display: inline-block;
-          width: 4px;
-          height: 4px;
-          border-radius: 50%;
-          background: rgba(0,0,0,0.2);
-          animation: pscTypingDot 1.2s ease-in-out infinite;
-        }
-        @keyframes pscTypingDot {
-          0%, 100% { opacity: 0.3; transform: translateY(0); }
-          50% { opacity: 1; transform: translateY(-2px); }
         }
       `}</style>
     </div>
@@ -1040,253 +994,6 @@ function InnerLightMockup() {
             ))}
           </div>
           <span className="text-[9px] font-semibold" style={{ color: "#8A8EE5" }}>5-day streak</span>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function FindCareMockup() {
-  const [step, setStep] = useState(0);
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-
-    let timers: ReturnType<typeof setTimeout>[] = [];
-    let running = true;
-
-    function clearTimers() {
-      timers.forEach(clearTimeout);
-      timers = [];
-    }
-
-    function runCycle() {
-      if (!running) return;
-      clearTimers();
-      setStep(0);
-      timers.push(setTimeout(() => { if (running) setStep(1); }, 500));   // category pills
-      timers.push(setTimeout(() => { if (running) setStep(2); }, 1200));  // "Suggested for you"
-      timers.push(setTimeout(() => { if (running) setStep(3); }, 1800));  // provider 1
-      timers.push(setTimeout(() => { if (running) setStep(4); }, 2600));  // provider 2
-      timers.push(setTimeout(() => { if (running) setStep(5); }, 3400));  // provider 3
-      timers.push(setTimeout(() => { if (running) setStep(6); }, 5000));  // highlight match
-      timers.push(setTimeout(() => { if (running) runCycle(); }, 8000));  // restart
-    }
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          runCycle();
-          observer.unobserve(el);
-        }
-      },
-      { threshold: 0.3 }
-    );
-
-    observer.observe(el);
-    return () => {
-      running = false;
-      observer.disconnect();
-      clearTimers();
-    };
-  }, []);
-
-  const categories = [
-    { label: "All", active: false },
-    { label: "Counseling", active: true, color: "#6B5BA7" },
-    { label: "Legal", active: false },
-    { label: "Financial", active: false },
-    { label: "Funeral", active: false },
-  ];
-
-  const providers = [
-    {
-      name: "Dr. Sarah Chen",
-      type: "Grief Counselor",
-      typeColor: "#6B5BA7",
-      typeBg: "rgba(107,91,167,0.08)",
-      rating: "4.9",
-      reviews: "127",
-      location: "San Francisco, CA",
-      specialty: "Spouse & Partner Loss",
-      specialtyColor: "#5A8A6E",
-      specialtyBg: "rgba(90,138,110,0.08)",
-      verified: true,
-      remote: true,
-    },
-    {
-      name: "Bay Area Grief Center",
-      type: "Support Groups",
-      typeColor: "#6B5BA7",
-      typeBg: "rgba(107,91,167,0.08)",
-      rating: "4.8",
-      reviews: "89",
-      location: "Oakland, CA",
-      specialty: "All Loss Types",
-      specialtyColor: "#8A8EE5",
-      specialtyBg: "rgba(138,142,229,0.08)",
-      verified: true,
-      remote: false,
-    },
-    {
-      name: "Hospice Bereavement Program",
-      type: "Free Resource",
-      typeColor: "#5A8A6E",
-      typeBg: "rgba(90,138,110,0.08)",
-      rating: "",
-      reviews: "",
-      location: "Your Area",
-      specialty: "13 Months Free",
-      specialtyColor: "#63D583",
-      specialtyBg: "rgba(99,213,131,0.08)",
-      verified: true,
-      remote: true,
-    },
-  ];
-
-  const highlighted = step >= 6;
-
-  return (
-    <div ref={ref} className="rounded-2xl overflow-hidden" style={mockupCardStyle}>
-      {/* Header */}
-      <div className="px-5 py-3.5 flex items-center justify-between" style={{ borderBottom: "1px solid rgba(0,0,0,0.04)" }}>
-        <div className="flex items-center gap-2">
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
-            <circle cx="7" cy="7" r="4.5" stroke="#5A8A6E" strokeWidth="1.2" />
-            <path d="M10.5 10.5l3 3" stroke="#5A8A6E" strokeWidth="1.2" strokeLinecap="round" />
-          </svg>
-          <span className="text-[11px] font-semibold" style={{ color: "var(--color-foreground)" }}>Find Care</span>
-        </div>
-        <div className="flex items-center gap-1.5">
-          <svg width="10" height="10" viewBox="0 0 16 16" fill="none">
-            <path d="M8 2l1.5 3.5L13 7l-3.5 1.5L8 12l-1.5-3.5L3 7l3.5-1.5L8 2z" fill="#5A8A6E" opacity="0.5" />
-          </svg>
-          <span className="text-[9px] font-medium" style={{ color: "#5A8A6E" }}>Matched to you</span>
-        </div>
-      </div>
-
-      <div className="px-5 py-4 flex-1">
-        {/* Scanning overlay */}
-        <div
-          className="absolute inset-0 z-10 flex flex-col items-center justify-center rounded-2xl"
-          style={{
-            background: "rgba(255,255,255,0.97)",
-            opacity: step === 0 ? 1 : 0,
-            pointerEvents: step === 0 ? "auto" : "none",
-            transition: "opacity 0.4s ease-out",
-          }}
-        >
-          <svg width="24" height="24" viewBox="0 0 16 16" fill="none" className="psc-assist-spin mb-3">
-            <circle cx="7" cy="7" r="4.5" stroke="#5A8A6E" strokeWidth="1.2" />
-            <path d="M10.5 10.5l3 3" stroke="#5A8A6E" strokeWidth="1.2" strokeLinecap="round" />
-          </svg>
-          <p className="text-[11px] font-medium psc-assist-text" style={{ color: "#5A8A6E" }}>Finding professionals near you&hellip;</p>
-          <p className="text-[9px] mt-1" style={{ color: "var(--color-muted)" }}>Based on your loss type, location, and needs</p>
-        </div>
-
-        {/* Category pills */}
-        <div style={{ opacity: step >= 1 ? 1 : 0, transform: `translateY(${step >= 1 ? 0 : 6}px)`, transition: "opacity 0.4s ease-out, transform 0.4s ease-out" }}>
-          <div className="flex gap-1.5 mb-4 overflow-hidden">
-            {categories.map((c) => (
-              <span
-                key={c.label}
-                className="text-[9px] font-semibold px-2.5 py-1 rounded-full shrink-0 whitespace-nowrap"
-                style={{
-                  background: c.active ? (c.color || "#5A8A6E") : "rgba(255,255,255,0.6)",
-                  color: c.active ? "white" : "var(--color-body)",
-                  border: c.active ? "none" : "1px solid rgba(0,0,0,0.04)",
-                }}
-              >
-                {c.label}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* Suggested label */}
-        <div style={{ opacity: step >= 2 ? 1 : 0, transform: `translateY(${step >= 2 ? 0 : 4}px)`, transition: "opacity 0.4s ease-out, transform 0.4s ease-out" }}>
-          <div className="flex items-center gap-1.5 mb-3">
-            <svg width="10" height="10" viewBox="0 0 16 16" fill="none">
-              <path d="M8 2l1.5 3.5L13 7l-3.5 1.5L8 12l-1.5-3.5L3 7l3.5-1.5L8 2z" fill="#5A8A6E" />
-            </svg>
-            <span className="text-[9px] font-semibold uppercase tracking-[0.1em]" style={{ color: "#5A8A6E" }}>Suggested for you</span>
-          </div>
-        </div>
-
-        {/* Provider cards */}
-        <div className="space-y-2">
-          {providers.map((p, i) => (
-            <div
-              key={p.name}
-              style={{
-                opacity: step >= i + 3 ? 1 : 0,
-                transform: `translateY(${step >= i + 3 ? 0 : 6}px)`,
-                transition: "all 0.5s ease-out",
-              }}
-            >
-              <div
-                className="rounded-xl px-3.5 py-3"
-                style={{
-                  background: (highlighted && i === 0) ? "rgba(90,138,110,0.03)" : "rgba(255,255,255,0.6)",
-                  border: (highlighted && i === 0) ? "1px solid rgba(90,138,110,0.15)" : "1px solid rgba(0,0,0,0.03)",
-                  transform: (highlighted && i === 0) ? "scale(1.015)" : "scale(1)",
-                  transition: "all 0.3s ease",
-                }}
-              >
-                <div className="flex items-start gap-3">
-                  {/* Avatar */}
-                  <div
-                    className="h-9 w-9 rounded-lg flex items-center justify-center shrink-0 text-[11px] font-bold"
-                    style={{
-                      background: `linear-gradient(135deg, ${p.typeColor}18, ${p.typeColor}08)`,
-                      color: p.typeColor,
-                    }}
-                  >
-                    {p.name.split(" ").map(w => w[0]).slice(0, 2).join("")}
-                  </div>
-
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-1.5">
-                      <span className="text-[12px] font-semibold truncate" style={{ color: "var(--color-foreground)" }}>{p.name}</span>
-                      {p.verified && (
-                        <svg width="11" height="11" viewBox="0 0 16 16" fill="none" className="shrink-0">
-                          <circle cx="8" cy="8" r="6" fill="rgba(90,138,110,0.1)" />
-                          <path d="M5.5 8l2 2 3.5-4" stroke="#5A8A6E" strokeWidth="1.3" strokeLinecap="round" />
-                        </svg>
-                      )}
-                    </div>
-
-                    <div className="flex items-center gap-1.5 mt-1 flex-wrap">
-                      <span className="text-[8px] px-1.5 py-px rounded-full font-semibold" style={{ background: p.typeBg, color: p.typeColor }}>{p.type}</span>
-                      <span className="text-[8px] px-1.5 py-px rounded-full font-semibold" style={{ background: p.specialtyBg, color: p.specialtyColor }}>{p.specialty}</span>
-                    </div>
-
-                    <div className="flex items-center gap-2 mt-1.5">
-                      {p.rating && (
-                        <div className="flex items-center gap-0.5">
-                          <svg width="8" height="8" viewBox="0 0 12 12" fill="none">
-                            <path d="M6 1l1.5 3 3.5.5-2.5 2.5.5 3.5L6 9l-3 1.5.5-3.5L1 4.5 4.5 4 6 1z" fill="#E59524" />
-                          </svg>
-                          <span className="text-[9px] font-semibold" style={{ color: "var(--color-foreground)" }}>{p.rating}</span>
-                          <span className="text-[8px]" style={{ color: "var(--color-muted)" }}>({p.reviews})</span>
-                        </div>
-                      )}
-                      <span className="text-[8px]" style={{ color: "var(--color-muted)" }}>{p.location}</span>
-                      {p.remote && (
-                        <span className="text-[7px] px-1 py-px rounded font-medium" style={{ background: "rgba(138,142,229,0.06)", color: "#8A8EE5" }}>Remote</span>
-                      )}
-                    </div>
-                  </div>
-
-                  <svg width="12" height="12" viewBox="0 0 16 16" fill="none" style={{ color: (highlighted && i === 0) ? "#5A8A6E" : "var(--color-muted)", opacity: (highlighted && i === 0) ? 0.6 : 0.3, transition: "all 0.3s", marginTop: "4px" }}>
-                    <path d="M6 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                  </svg>
-                </div>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
     </div>
