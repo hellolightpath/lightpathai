@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Lora } from "next/font/google";
+import { Inter, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
@@ -14,30 +14,32 @@ const inter = Inter({
   display: "swap",
 });
 
-const lora = Lora({
+const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  style: ["normal", "italic"],
   variable: "--font-serif",
   display: "swap",
 });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://getlightpath.ai"),
-  title: "LightPathAI | Redefining care for life's hardest transitions",
+  title: "LightPathAI | The grief intelligence platform",
   description:
-    "A personalized plan, clear next steps, and real human support for when you don't know where to start.",
+    "When someone dies, their family is left alone. No guide. No coordination. No safety net. LightPath is the intelligence layer that handles what comes after loss — so the human can grieve.",
   openGraph: {
-    title: "LightPathAI | Redefining care for life's hardest transitions",
+    title: "LightPathAI | The grief intelligence platform",
     description:
-      "A personalized plan, clear next steps, and real human support for when you don't know where to start.",
+      "When someone dies, their family is left alone. No guide. No coordination. No safety net. LightPath is the intelligence layer that handles what comes after loss.",
     url: "https://getlightpath.ai",
     siteName: "LightPathAI",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "LightPathAI | Redefining care for life's hardest transitions",
+    title: "LightPathAI | The grief intelligence platform",
     description:
-      "A personalized plan, clear next steps, and real human support for when you don't know where to start.",
+      "When someone dies, their family is left alone. LightPath is the intelligence layer that handles what comes after loss.",
   },
 };
 
@@ -47,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${lora.variable} scroll-smooth`}>
+    <html lang="en" className={`${inter.variable} ${cormorant.variable} scroll-smooth`}>
       <body className="font-sans">
         <script
           type="application/ld+json"

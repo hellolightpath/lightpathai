@@ -56,7 +56,7 @@ const sections = [
   {
     title: "3. Data Storage & Security",
     content:
-      "Your data is encrypted in transit and at rest. We use industry-standard security practices including regular security audits and role-based access controls to protect your information.",
+      "Your data is encrypted in transit. Data is stored on infrastructure that provides encryption at rest by default (Supabase / Postgres). We use role-based access controls and conduct internal security reviews. We are working toward a formal security certification ahead of public launch; current posture is described in plain language on our /trust page.",
   },
   {
     title: "4. Third-Party Services",

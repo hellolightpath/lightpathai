@@ -8,7 +8,7 @@ import { StarField } from "@/components/star-field";
 export const metadata: Metadata = {
   title: "Our Story | LightPathAI",
   description:
-    "LightPathAI was born from a deeply personal journey. Built to bring light to life's darkest moments.",
+    "On the evening of her first wedding anniversary, our founder Sara lost her husband. LightPath was built from that loss — to make sure no one navigates what comes after alone.",
 };
 
 export default function OurStoryPage() {
@@ -20,11 +20,12 @@ export default function OurStoryPage() {
         <StarField />
         <div className="section relative z-10 flex flex-col items-center text-center pt-52 sm:pt-64 pb-24 sm:pb-32">
           <Reveal>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] mb-6" style={{ color: "rgba(229,149,36,0.8)" }}>
-              Forged from darkness. Built with purpose.
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] mb-6" style={{ color: "rgba(149,152,232,0.8)" }}>
+              From the founder
             </p>
-            <h1 className="text-[2rem] sm:text-[3rem] lg:text-[3.75rem] font-serif font-normal leading-[1.04] max-w-3xl text-white" style={{ letterSpacing: "-0.04em" }}>
-              We are on a mission to bring light to the darkest moments of life.
+            <h1 className="text-[2rem] sm:text-[3rem] lg:text-[3.75rem] font-serif font-normal leading-[1.06] max-w-3xl text-white" style={{ letterSpacing: "-0.04em" }}>
+              On the evening of our first<br />wedding anniversary,<br />
+              <span style={{ color: "rgba(255,255,255,0.6)" }}>I lost my husband.</span>
             </h1>
           </Reveal>
         </div>
@@ -37,26 +38,25 @@ export default function OurStoryPage() {
 
             {/* Our Founding Story */}
             <Reveal>
-              <p className="text-[11px] font-semibold uppercase tracking-[0.2em]" style={{ color: "var(--color-primary)" }}>
-                Our Founding Story
+              <p className="text-[11px] font-semibold uppercase tracking-[0.2em]" style={{ color: "#9598E8" }}>
+                Our founding story
               </p>
-              <p className="mt-6 text-[1.35rem] sm:text-[1.5rem] font-serif leading-[1.35]" style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>
-                LightPathAI was born from a deeply personal journey.
+              <p className="mt-6 text-[1.35rem] sm:text-[1.5rem] font-serif leading-[1.35]" style={{ color: "#3D3630", letterSpacing: "-0.02em" }}>
+                LightPath was built from a single, lived experience.
               </p>
             </Reveal>
 
             <Reveal>
-              <div className="mt-10 space-y-5 text-[17px] leading-relaxed" style={{ color: "var(--color-body)" }}>
+              <div className="mt-10 space-y-5 text-[17px] leading-[1.7]" style={{ color: "#5C564F" }}>
                 <p>
                   On the evening of her first wedding anniversary, our founder Sara lost her husband
-                  in a tragic car accident. In an instant, her world as she knew it disappeared. And
-                  as life often shows us, when it rains, it pours. Grief did not come alone. It
-                  washed away her sense of self and the future she had imagined. Work felt distant,
-                  the world felt quiet, and even the strongest parts of her felt shattered.
+                  in a tragic car accident. In an instant, the future she had imagined disappeared.
                 </p>
 
                 <p>
-                  Beyond the emotional burden of grief, there was everything that comes with loss.
+                  Beyond grief, there was everything that comes with loss. Paperwork. Phone calls.
+                  Decisions. Hours and hours of administrative work, while in shock. Doing the hard
+                  while dealing with the impossible.
                 </p>
               </div>
             </Reveal>
@@ -90,23 +90,20 @@ export default function OurStoryPage() {
             </Reveal>
 
             <Reveal>
-              <div className="space-y-5 text-[17px] leading-relaxed" style={{ color: "var(--color-body)" }}>
+              <div className="space-y-5 text-[17px] leading-[1.7]" style={{ color: "#5C564F" }}>
                 <p>
-                  Through connection, cherishing stories, and the courage to keep living, Sara slowly
-                  found her way back to the light. New relationships, rediscovery, and the simple act
-                  of sharing truth helped her feel whole again. She learned to celebrate life not in
-                  spite of its fragility, but because of it.
+                  Slowly, through connection, through cherishing stories, through the courage to keep
+                  living, Sara found her way back. Not over it. Through it. With it.
                 </p>
                 <p>
-                  Along that journey, she met countless others carrying the same weight. People facing
-                  grief while also carrying the weight of everything that comes with losing a loved one.
-                  Doing the hard while dealing with the impossible. That is when she knew there had to
-                  be a better way.
+                  Along the way, she met countless others carrying the same weight. People facing grief
+                  while also navigating what comes after a death. Doing the hard while dealing with the
+                  impossible. That is when she knew there had to be a better way.
                 </p>
                 <p>
-                  LightPathAI was created from that realization. A way to make those days lighter.
-                  A system that helps people navigate what comes after loss with more clarity, more
-                  support, and a path forward when everything feels overwhelming.
+                  LightPath was built from that realization. A system that helps people navigate what
+                  comes after loss — with more clarity, more compassion, and a path forward when
+                  everything feels overwhelming.
                 </p>
               </div>
             </Reveal>
@@ -165,13 +162,15 @@ export default function OurStoryPage() {
       <section className="relative overflow-hidden" style={{ background: "linear-gradient(180deg, transparent, rgba(245,243,250,0.5))" }}>
         <div className="section relative z-10 text-center">
           <Reveal>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] mb-6" style={{ color: "var(--color-primary)" }}>Our mission</p>
-            <h2 className="text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem] font-serif font-normal leading-[1.15] mx-auto max-w-3xl" style={{ color: "var(--color-foreground)", letterSpacing: "-0.035em" }}>
-              To ensure that no one navigates life&rsquo;s hardest transitions alone. And that
-              everyone has a path that leads them back to the light.
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] mb-6" style={{ color: "#9598E8" }}>Our mission</p>
+            <h2 className="text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem] font-serif font-normal leading-[1.15] mx-auto max-w-3xl" style={{ color: "#3D3630", letterSpacing: "-0.035em" }}>
+              No one should navigate what comes after loss alone.
             </h2>
+            <p className="mt-6 text-[17px] max-w-xl mx-auto leading-[1.7]" style={{ color: "#5C564F" }}>
+              We are building the infrastructure the grief field has been missing.
+            </p>
             <Link href="/demo" className="btn-primary mt-10">
-              Get early access
+              When you&rsquo;re ready
             </Link>
           </Reveal>
         </div>

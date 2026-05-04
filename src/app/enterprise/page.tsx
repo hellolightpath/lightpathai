@@ -8,7 +8,7 @@ import { EnterpriseDashboard } from "@/components/enterprise-dashboard";
 export const metadata: Metadata = {
   title: "For Employers & Life Insurance | LightPathAI",
   description:
-    "Real bereavement support for your employees and policyholders. Not just time off. Not just counseling.",
+    "Bereavement leave ends. Grief doesn't. LightPath is the bereavement infrastructure your EAP doesn't ship — for employers and life insurance carriers.",
 };
 
 /* ── Inline SVG Icons (only those used on this page) ── */
@@ -161,10 +161,10 @@ export default function EnterprisePage() {
 
           <div className="max-w-4xl mx-auto grid gap-16 sm:gap-y-20 sm:gap-x-20 grid-cols-1 sm:grid-cols-2 justify-items-center">
             {[
-              { category: "Emotional toll", stat: "1 in 4", desc: "employees are navigating grief at any given time.", color: "#8A8EE5", source: "Grief Recovery Institute" },
-              { category: "Retention risk", stat: "79%", desc: "of grieving employees considered leaving their job.", color: "#E59524", source: "SHRM Grief & Bereavement Survey" },
-              { category: "Support gap", stat: "85%", desc: "say they received no meaningful support from their employer.", color: "#8F82CD", source: "Grief Recovery Institute" },
-              { category: "Business impact", stat: "$75B", desc: "in annual productivity lost to grief in the U.S.", color: "#63D583", source: "Harvard Business Review" },
+              { category: "Emotional toll", stat: "1 in 4", desc: "employees are navigating grief at any given time.", color: "#9598E8", source: "Grief Recovery Institute" },
+              { category: "Retention risk", stat: "79%", desc: "of grieving employees considered leaving their job.", color: "#D4856A", source: "SHRM Grief & Bereavement Survey" },
+              { category: "Support gap", stat: "<5%", desc: "of employers offer any dedicated grief support.", color: "#9598E8", source: "Internal benefits-coverage research" },
+              { category: "Business impact", stat: "$225.8B", desc: "in annual productivity lost to grieving employees in the U.S.", color: "#7A9E7A", source: "CDC 2023" },
             ].map((d, i) => (
               <Reveal key={d.stat} delay={i * 100}>
                 <div className="text-center">
@@ -270,8 +270,8 @@ export default function EnterprisePage() {
                     detail: "Documents generated, pre-filled, and routed. They know exactly what to send and where.",
                     color: "#E59524",
                     icon: icons.fileText("#E59524"),
-                    metric: "40+",
-                    metricLabel: "documents guided",
+                    metric: "39",
+                    metricLabel: "benefit programs",
                   },
                   {
                     time: "Month 1\u20133",

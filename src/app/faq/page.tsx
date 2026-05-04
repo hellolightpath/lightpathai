@@ -76,7 +76,7 @@ export default function FAQPage() {
 const allFaqs = [
   {
     q: "What is LightPathAI?",
-    a: "LightPathAI is a structured, trauma-informed AI system built for navigating sudden loss. It generates a personalized Care Plan based on your situation, uses AI Assist to draft letters, fill forms, and guide every task, surfaces benefits you may be eligible for, connects you with a trained peer companion, and gives you a private space for emotional grounding. Everything is designed for someone who shouldn\u2019t have to figure this out alone.",
+    a: "LightPath is the grief intelligence platform \u2014 built for navigating loss. It generates a personalized Care Plan based on your situation, drafts letters and forms with AI Assist, surfaces benefits you may be eligible for, connects you with a trained peer companion, and gives you a private space for reflection. Built on peer-reviewed grief research, with clinical advisors from Stanford, Columbia, and Yale.",
   },
   {
     q: "Do I need to know everything to start?",
@@ -112,7 +112,7 @@ const allFaqs = [
   },
   {
     q: "How is my information protected?",
-    a: "Your data is encrypted, never sold, and never used for advertising. Sensitive actions like viewing or sharing documents require additional verification. You control exactly what is shared and with whom. Privacy isn\u2019t a feature we offer \u2014 it\u2019s a principle we built on.",
+    a: "Your data is encrypted in transit, stored on a secure infrastructure, never sold, and never used for advertising. Sensitive actions like viewing or sharing documents require additional verification. You control exactly what is shared and with whom. Privacy is a principle we built on, not a feature we sell.",
   },
   {
     q: "How is this different from a checklist I found online?",

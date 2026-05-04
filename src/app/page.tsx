@@ -16,19 +16,20 @@ export default function HomePage() {
       <section className="relative overflow-hidden min-h-[90vh]" style={{ marginTop: "-64px" }}>
         <LivingSky />
         <div className="relative z-10 flex flex-col items-center text-center px-6 pt-52 sm:pt-64 pb-24 sm:pb-32 hero-animate">
-          <h1 className="text-[2.5rem] sm:text-[3.5rem] lg:text-[4.25rem] font-serif font-normal leading-[1.04] max-w-3xl" style={{ letterSpacing: "-0.04em" }}>
-            <span style={{ color: "#6B6E8D" }}>Redefining care for</span>
+          <h1 className="text-[2.5rem] sm:text-[3.75rem] lg:text-[4.75rem] font-serif font-normal leading-[1.04] max-w-3xl" style={{ letterSpacing: "-0.04em", color: "#3D3630" }}>
+            The grief intelligence
             <br />
-            <span style={{ color: "#1C1C2E" }}>life&rsquo;s hardest transitions</span>
+            platform.
           </h1>
 
-          <p className="mt-8 max-w-md text-[17px] leading-relaxed" style={{ color: "#6B6E8D" }}>
-            When you lose someone, everything feels impossible. We help you find the path forward.
+          <p className="mt-8 max-w-xl text-[17px] sm:text-[18px] leading-[1.7]" style={{ color: "#5C564F" }}>
+            When someone dies, their family is left alone. No guide. No coordination. No safety net.<br />
+            LightPath is the intelligence layer that handles what comes after loss — so the human can grieve.
           </p>
 
           <div className="mt-10">
             <Link href="/demo" className="btn-primary">
-              Get early access
+              When you&rsquo;re ready
             </Link>
           </div>
 
@@ -51,67 +52,66 @@ export default function HomePage() {
 
           {/* Section label */}
           <Reveal>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-center mb-5" style={{ color: "rgba(138,142,229,0.65)" }}>
-              What grieving families face
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-center mb-5" style={{ color: "rgba(149,152,232,0.7)" }}>
+              The Problem
             </p>
           </Reveal>
 
           {/* Bold headline */}
           <Reveal>
             <h2 className="text-center text-[1.75rem] sm:text-[3rem] lg:text-[3.75rem] font-serif font-normal leading-[1.08] max-w-3xl mx-auto" style={{ color: "#FFFFFF", letterSpacing: "-0.04em" }}>
-              Through the weight of loss.<br />
-              <span className="text-[1.25rem] sm:text-[2rem] lg:text-[2.5rem]" style={{ color: "var(--white-40)" }}>The emotional burden and the practical chaos.</span>
+              When someone dies,<br />
+              their family is left alone.
             </h2>
+            <p className="mt-6 text-center text-[15px] sm:text-[17px] max-w-xl mx-auto leading-[1.7]" style={{ color: "var(--white-60)" }}>
+              No guide. No coordination. No safety net.<br />
+              Just chaos at life&rsquo;s hardest moment.
+            </p>
           </Reveal>
 
 
-          {/* Stats — presented as human stories, not dashboard metrics */}
+          {/* Stats — three deck-aligned proof points */}
           <Reveal delay={150}>
-          <div className="mt-12 sm:mt-16 grid gap-6 sm:gap-8 md:grid-cols-2 items-stretch">
+          <div className="mt-14 sm:mt-20 grid gap-6 sm:gap-8 md:grid-cols-3 items-stretch">
 
-            {/* ── The emotional weight ── */}
+            {/* ── 3M deaths ── */}
               <div className="impact-card h-full">
-                <p className="text-[13px] font-serif italic mb-4" style={{ color: "var(--white-40)" }}>The emotional weight</p>
-                <div className="space-y-4">
-                  <div>
-                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.25rem, 5.5vw, 3rem)", color: "var(--color-primary)", letterSpacing: "-0.04em" }}>3M+</span>
-                    <p className="mt-1.5 text-[14px] leading-relaxed" style={{ color: "var(--white-60)" }}>
-                      families face loss each year — most with no one to guide them through it.
-                    </p>
-                  </div>
-                  <div style={{ borderTop: "1px solid var(--white-8)", paddingTop: "1rem" }}>
-                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.25rem, 5.5vw, 3rem)", color: "var(--color-primary)", letterSpacing: "-0.04em" }}>57%</span>
-                    <p className="mt-1.5 text-[14px] leading-relaxed" style={{ color: "var(--white-60)" }}>
-                      say they felt completely unprepared for everything that followed.
-                    </p>
-                  </div>
-                </div>
+                <span className="font-serif leading-none block" style={{ fontSize: "clamp(2.5rem, 6vw, 3.5rem)", color: "#9598E8", letterSpacing: "-0.04em" }}>3M</span>
+                <p className="mt-3 text-[14px] leading-[1.65]" style={{ color: "var(--white-70)" }}>
+                  deaths in the U.S. every year.
+                </p>
+                <p className="mt-1.5 text-[13px] leading-[1.6]" style={{ color: "var(--white-50)" }}>
+                  Each leaves 5+ grieving family members.
+                </p>
               </div>
 
-            {/* ── The practical chaos ── */}
+            {/* ── 570 hrs of tasks ── */}
               <div className="impact-card h-full">
-                <p className="text-[13px] font-serif italic mb-4" style={{ color: "var(--white-40)" }}>The practical chaos</p>
-                <div className="space-y-4">
-                  <div>
-                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.25rem, 5.5vw, 3rem)", color: "#E59524", letterSpacing: "-0.04em" }}>570 hrs</span>
-                    <p className="mt-1.5 text-[14px] leading-relaxed" style={{ color: "var(--white-60)" }}>
-                      of paperwork, phone calls, and decisions — stretched over 16 months on average.
-                    </p>
-                  </div>
-                  <div style={{ borderTop: "1px solid var(--white-8)", paddingTop: "1rem" }}>
-                    <span className="font-serif leading-none" style={{ fontSize: "clamp(2.25rem, 5.5vw, 3rem)", color: "#E59524", letterSpacing: "-0.04em" }}>$15.5B</span>
-                    <p className="mt-1.5 text-[14px] leading-relaxed" style={{ color: "var(--white-60)" }}>
-                      in benefits go unclaimed every year — because no one told families they existed.
-                    </p>
-                  </div>
-                </div>
+                <span className="font-serif leading-none block" style={{ fontSize: "clamp(2.5rem, 6vw, 3.5rem)", color: "#D4856A", letterSpacing: "-0.04em" }}>570 hrs</span>
+                <p className="mt-3 text-[14px] leading-[1.65]" style={{ color: "var(--white-70)" }}>
+                  of tasks per loss.
+                </p>
+                <p className="mt-1.5 text-[13px] leading-[1.6]" style={{ color: "var(--white-50)" }}>
+                  Paperwork, calls, decisions — while in shock.
+                </p>
+              </div>
+
+            {/* ── 1 in 10 prolonged grief disorder ── */}
+              <div className="impact-card h-full">
+                <span className="font-serif leading-none block" style={{ fontSize: "clamp(2.5rem, 6vw, 3.5rem)", color: "#9598E8", letterSpacing: "-0.04em" }}>1 in 10</span>
+                <p className="mt-3 text-[14px] leading-[1.65]" style={{ color: "var(--white-70)" }}>
+                  develop prolonged grief disorder.
+                </p>
+                <p className="mt-1.5 text-[13px] leading-[1.6]" style={{ color: "var(--white-50)" }}>
+                  Clinical condition. In DSM-5. Largely untreated.
+                </p>
               </div>
           </div>
           </Reveal>
 
           {/* Sources */}
-          <p className="mt-8 text-center text-[11px]" style={{ color: "var(--white-20)" }}>
-            Sources: CDC NVSS 2024 &middot; Columbia Univ. Center for Prolonged Grief &middot; EstateExec &middot; PBGC &middot; AARP Grief Experience Study
+          <p className="mt-10 text-center text-[11px]" style={{ color: "var(--white-30)" }}>
+            Sources: CDC NVSS 2024 · APA 2023 · DSM-5-TR (2022) · Columbia Center for Prolonged Grief
           </p>
 
         </div>
@@ -192,11 +192,14 @@ export default function HomePage() {
         <div className="section relative z-10">
           <Reveal>
             <div className="text-center mb-16 sm:mb-24">
-              <p className="label mb-4">What LightPath does</p>
-              <h2 className="text-[1.75rem] sm:text-[2.75rem] lg:text-[3.25rem] font-serif font-normal leading-[1.06] max-w-2xl mx-auto" style={{ color: "var(--color-foreground)", letterSpacing: "-0.03em" }}>
-                A clear path through{" "}<br className="hidden sm:block" />
-                <span style={{ color: "var(--color-body)" }}>the hardest part.</span>
+              <p className="label mb-4">The Solution</p>
+              <h2 className="text-[1.75rem] sm:text-[2.75rem] lg:text-[3.25rem] font-serif font-normal leading-[1.06] max-w-2xl mx-auto" style={{ color: "#3D3630", letterSpacing: "-0.03em" }}>
+                Not an app.{" "}<br className="hidden sm:block" />
+                <span style={{ color: "#5C564F" }}>An intelligence layer.</span>
               </h2>
+              <p className="mt-6 text-[16px] sm:text-[17px] max-w-xl mx-auto leading-[1.7]" style={{ color: "#5C564F" }}>
+                One platform. Three pillars. Six capabilities for families. Day one — and every day after.
+              </p>
             </div>
           </Reveal>
 
@@ -217,13 +220,13 @@ export default function HomePage() {
         <div className="relative z-10 px-6 sm:px-8 mx-auto max-w-[72rem] py-24 sm:py-36">
           <Reveal>
             <div className="text-center mb-14 sm:mb-20">
-              <p className="label mb-4">The support system</p>
-              <h2 className="text-[1.75rem] sm:text-[2.75rem] lg:text-[3.25rem] font-serif font-normal leading-[1.06] max-w-3xl mx-auto" style={{ color: "var(--color-foreground)", letterSpacing: "-0.03em" }}>
-                Families are already surrounded{" "}<br className="hidden sm:block" />
-                <span style={{ color: "var(--color-body)" }}>by people who care.</span>
+              <p className="label mb-4">The Ecosystem</p>
+              <h2 className="text-[1.75rem] sm:text-[2.75rem] lg:text-[3.25rem] font-serif font-normal leading-[1.06] max-w-3xl mx-auto" style={{ color: "#3D3630", letterSpacing: "-0.03em" }}>
+                Families at the center.{" "}<br className="hidden sm:block" />
+                <span style={{ color: "#5C564F" }}>An embedded marketplace around them.</span>
               </h2>
-              <p className="mt-5 text-[17px] max-w-lg mx-auto leading-relaxed" style={{ color: "var(--color-body)" }}>
-                We activate their support system to deliver real help.
+              <p className="mt-5 text-[16px] max-w-lg mx-auto leading-[1.7]" style={{ color: "#5C564F" }}>
+                Every partner that touches loss can extend real care — not just paperwork.
               </p>
             </div>
           </Reveal>
@@ -318,15 +321,15 @@ export default function HomePage() {
             <div className="mx-auto max-w-5xl grid gap-14 lg:grid-cols-2 items-center">
               <div>
                 <p className="tag-pill mb-6" style={{ width: "fit-content" }}>
-                  <span className="h-1.5 w-1.5 rounded-full" style={{ background: "#8A8EE5" }} />
+                  <span className="h-1.5 w-1.5 rounded-full" style={{ background: "#9598E8" }} />
                   For supporters
                 </p>
-                <h2 className="heading-lg">Help without<br />guessing.</h2>
-                <p className="mt-5 text-[17px] leading-relaxed" style={{ color: "#475569" }}>
+                <h2 className="heading-lg" style={{ color: "#3D3630" }}>Help without<br />guessing.</h2>
+                <p className="mt-5 text-[17px] leading-[1.7]" style={{ color: "#5C564F" }}>
                   Invite someone into your plan. They see only what you share. Nothing more.
                 </p>
-                <Link href="#features" className="mt-8 text-[14px] font-semibold inline-flex items-center gap-2 transition-all duration-300 hover:translate-x-1.5 hover:gap-3" style={{ color: "#8A8EE5" }}>
-                  Learn more <span>&rarr;</span>
+                <Link href="#features" className="mt-8 text-[14px] font-semibold inline-flex items-center gap-2 transition-all duration-300 hover:translate-x-1.5 hover:gap-3" style={{ color: "#9598E8" }}>
+                  How supporters help <span>&rarr;</span>
                 </Link>
               </div>
 
@@ -375,12 +378,12 @@ export default function HomePage() {
         <StarField />
         <div className="relative px-6 sm:px-8 mx-auto max-w-[72rem] text-center py-24 sm:py-32 z-[2]">
           <Reveal>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.2em]" style={{ color: "rgba(138,142,229,0.7)" }}>For partners &amp; organizations</p>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em]" style={{ color: "rgba(149,152,232,0.75)" }}>For partners &amp; organizations</p>
             <h2 className="mt-6 text-[1.75rem] sm:text-[2.75rem] lg:text-[3.25rem] font-serif font-normal text-white leading-[1.04] max-w-2xl mx-auto" style={{ letterSpacing: "-0.04em" }}>
-              Bring LightPathAI to<br />the families you serve.
+              The infrastructure<br />the grief field has been missing.
             </h2>
-            <p className="mt-5 text-[16px] max-w-lg mx-auto leading-relaxed" style={{ color: "var(--white-50)" }}>
-              Whether you&rsquo;re a hospice, funeral home, employer, or insurer — we make it easy to offer real support.
+            <p className="mt-5 text-[16px] max-w-xl mx-auto leading-[1.7]" style={{ color: "var(--white-60)" }}>
+              Hospice. Funeral homes. Employers. Insurers. Every partner pays and sends families.
             </p>
           </Reveal>
           <Reveal delay={200}>
@@ -433,14 +436,14 @@ export default function HomePage() {
                 <Image src="/logo.png" alt="LightPathAI" width={56} height={56} className="logo-animated-img" />
               </div>
             </div>
-            <h2 className="text-[2rem] sm:text-[3.25rem] lg:text-[3.75rem] font-serif font-normal leading-[1.04]" style={{ color: "#1C1C1E", letterSpacing: "-0.04em" }}>
-              You found us.<br />That took courage.
+            <h2 className="text-[2rem] sm:text-[3.25rem] lg:text-[3.75rem] font-serif font-normal leading-[1.04]" style={{ color: "#3D3630", letterSpacing: "-0.04em" }}>
+              One small step today.
             </h2>
-            <p className="mt-6 text-xl font-serif" style={{ color: "var(--color-body)" }}>
-              Whenever you&rsquo;re ready, we&rsquo;re here.
+            <p className="mt-6 text-[18px] sm:text-xl leading-[1.7]" style={{ color: "#5C564F" }}>
+              We&rsquo;ll be here when you&rsquo;re ready.
             </p>
             <Link href="/demo" className="btn-primary mt-10">
-              Get early access
+              When you&rsquo;re ready
             </Link>
           </Reveal>
         </div>
