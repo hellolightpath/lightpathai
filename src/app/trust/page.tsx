@@ -238,7 +238,7 @@ const advisors = [
   {
     name: "Rebecca Sands, MD",
     role: "Clinical advisor",
-    body: "Chief of Palliative Care at Stanford Medicine. Brings the perspective of clinicians at the moment of loss, where the bereavement journey actually begins.",
+    body: "Chief of Palliative Care at Stanford Medicine. Brings the perspective of clinicians at the moment of loss, where the work of grief actually begins.",
   },
   {
     name: "Tyler Tate, MD",

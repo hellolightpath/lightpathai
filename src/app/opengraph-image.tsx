@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { readFileSync } from "fs";
 import { join } from "path";
 
-export const alt = "LightPathAI — Redefining care for life's hardest transitions";
+export const alt = "LightPathAI: the grief intelligence platform";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

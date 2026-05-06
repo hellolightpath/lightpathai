@@ -93,9 +93,8 @@ export default function OurStoryPage() {
                   impossible. That is when she knew there had to be a better way.
                 </p>
                 <p>
-                  LightPath was built from that realization. A system that helps people navigate what
-                  comes after loss with more clarity, more compassion, and a path forward when
-                  everything feels overwhelming.
+                  LightPath was built from that. A platform for the year that follows a death. The
+                  forms. The frameworks. The companion. The help, when the help is what you need.
                 </p>
               </div>
             </Reveal>

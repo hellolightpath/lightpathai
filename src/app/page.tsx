@@ -106,7 +106,7 @@ export default function HomePage() {
                 <span style={{ color: "var(--color-body)" }}>and every day after.</span>
               </h2>
               <p className="mt-7 text-[16px] sm:text-[17px] leading-[1.8] max-w-md" style={{ color: "var(--color-body)" }}>
-                Six capabilities. One adaptive platform. The right thing at the right moment, never more.
+                Six capabilities. One adaptive platform.
               </p>
             </div>
           </Reveal>
@@ -117,42 +117,42 @@ export default function HomePage() {
                 num: "01",
                 eyebrow: "Your Path",
                 title: "Knows what needs doing.",
-                body: "A personalized, jurisdiction-aware plan. The deadlines that matter, the calls that have to be made, in the right order. 167 task templates, your state, your role, your timeline.",
+                body: "A plan that knows your state, your role, and the timeline you are actually living. We surface the deadlines that cannot wait, draft the forms before you sit down to fill them, and order the work in a way that makes sense for the week you are in.",
               },
               {
                 num: "02",
                 eyebrow: "Connect",
                 title: "Holds the emotional weight.",
-                body: "An AI companion built on peer-reviewed grief research. Adapts to where you are. Remembers what you said. Never claims to know what loss feels like.",
+                body: "An AI companion grounded in peer-reviewed grief research. It adapts to where you are, remembers what you have shared, and never claims to know what loss feels like. A steady presence between sessions, between calls, between the days you would rather not face alone.",
               },
               {
                 num: "03",
                 eyebrow: "Discover",
                 title: "Teaches you through it.",
-                body: "Clinical frameworks and guides written into the platform. The work of researchers at Stanford, Columbia, Yale, distilled into something you can use at 2am.",
+                body: "Seventeen grief frameworks, written into the platform. The work of clinicians at Stanford, Columbia, and Yale, in a form you can read at your kitchen counter at three in the morning and not feel lectured.",
               },
               {
                 num: "04",
                 eyebrow: "Benefits",
                 title: "Finds the money you do not know is yours.",
-                body: "39 federal and state programs scanned for your situation. Survivor benefits, life insurance, unclaimed property, tax credits. Surfaced, tracked, filed.",
+                body: "We scan thirty-nine federal and state programs against your specific situation: survivor benefits, life insurance, unclaimed property, tax credits, programs unique to your state. Surfaced, tracked, and walked through to filing. Most families find eight to fifteen thousand dollars.",
               },
               {
                 num: "05",
                 eyebrow: "Find Care",
                 title: "Connects you to the right help.",
-                body: "22 categories of grief-aware professionals, matched to where you are. Therapists. Estate attorneys. Funeral directors. End-of-life doulas.",
+                body: "Twenty-two categories of grief-aware professionals. Therapists, estate attorneys, funeral directors, end-of-life doulas, and the rest of the roster nobody compiles in one place. Matched on loss type, life stage, and what you are facing this week.",
               },
               {
                 num: "06",
                 eyebrow: "Intelligence",
                 title: "Adapts in real time.",
-                body: "Five emotional modes. The platform reads what is in front of you and reshapes itself. You never pick a mode. The platform already knows.",
+                body: "Five emotional modes, read continuously from how you use the platform. Crisis. Gentle. Steady. Reflective. Growth. You never pick a mode. We never ask how you are feeling. The platform already knows.",
               },
             ].map((item, i) => (
               <Reveal key={item.num} delay={i * 50}>
                 <div
-                  className="grid grid-cols-12 gap-6 sm:gap-10 items-baseline py-10 sm:py-12"
+                  className="grid grid-cols-12 gap-6 sm:gap-10 items-baseline py-10 sm:py-14"
                   style={{ borderTop: "1px solid var(--color-border-light)" }}
                 >
                   <p
@@ -162,18 +162,18 @@ export default function HomePage() {
                     {item.num}
                   </p>
                   <div className="col-span-10 sm:col-span-6">
-                    <p className="text-[11px] uppercase mb-2.5" style={{ color: "var(--color-muted)", letterSpacing: "0.22em" }}>
+                    <p className="text-[11px] uppercase mb-3" style={{ color: "var(--color-muted)", letterSpacing: "0.22em" }}>
                       {item.eyebrow}
                     </p>
                     <h3
-                      className="text-[1.4rem] sm:text-[1.875rem] lg:text-[2.125rem] font-serif leading-[1.1]"
-                      style={{ letterSpacing: "-0.025em", color: "var(--color-foreground)", fontWeight: 500 }}
+                      className="font-serif leading-[1.1] text-[1.5rem] sm:text-[2rem] lg:text-[2.25rem]"
+                      style={{ color: "var(--color-foreground)", letterSpacing: "-0.025em", fontWeight: 500 }}
                     >
                       {item.title}
                     </h3>
                   </div>
                   <p
-                    className="col-span-12 sm:col-span-5 text-[15px] sm:text-[16px] leading-[1.75]"
+                    className="col-span-12 sm:col-span-5 text-[15px] sm:text-[16px] leading-[1.8]"
                     style={{ color: "var(--color-body)" }}
                   >
                     {item.body}
@@ -210,6 +210,66 @@ export default function HomePage() {
           <Reveal delay={120}>
             <PhaseExplorer />
           </Reveal>
+        </div>
+      </section>
+
+      {/* ─────────────────────────────────────────────────────────────
+          MANIFESTO — what we will never do.
+          Modeled on Modern Loss's refusal-as-identity move. Brand-canon
+          non-negotiables made public. No competitor does this.
+          ───────────────────────────────────────────────────────────── */}
+      <section className="relative" style={{ background: "var(--color-surface)" }}>
+        <div className="mx-auto max-w-[72rem] px-6 sm:px-10 py-28 sm:py-40">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
+            <div className="lg:col-span-4">
+              <Reveal>
+                <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-coral)", letterSpacing: "0.22em" }}>
+                  What we refuse
+                </p>
+                <h2 className="text-[2rem] sm:text-[2.75rem] lg:text-[3rem] font-serif leading-[1.05]" style={{ letterSpacing: "-0.04em", color: "var(--color-foreground)", fontWeight: 500 }}>
+                  We will never.
+                </h2>
+                <p className="mt-7 text-[16px] leading-[1.8] max-w-sm" style={{ color: "var(--color-body)" }}>
+                  The brand is defined as much by what it refuses as by what it builds. These are non-negotiable.
+                </p>
+              </Reveal>
+            </div>
+            <div className="lg:col-span-8">
+              <Reveal delay={120}>
+                <ul>
+                  {[
+                    "Ask how you are feeling.",
+                    "Gamify your grief. No streaks, no points, no levels.",
+                    "Sell your data, anywhere, ever.",
+                    "Pretend to know what loss feels like.",
+                    "Simulate or speak as the person you lost.",
+                    "Gate the crisis line behind a sign-up.",
+                    "Use grief as a marketing aesthetic.",
+                  ].map((line, i) => (
+                    <li
+                      key={i}
+                      className="grid grid-cols-12 gap-5 sm:gap-8 items-baseline py-7 sm:py-8"
+                      style={{ borderTop: "1px solid var(--color-border-light)" }}
+                    >
+                      <span
+                        className="col-span-2 sm:col-span-1 text-[11px] uppercase"
+                        style={{ color: "var(--color-coral)", letterSpacing: "0.18em" }}
+                      >
+                        {String(i + 1).padStart(2, "0")}
+                      </span>
+                      <span
+                        className="col-span-10 sm:col-span-11 font-serif text-[1.25rem] sm:text-[1.5rem] lg:text-[1.75rem] leading-[1.25]"
+                        style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em", fontWeight: 500 }}
+                      >
+                        {line}
+                      </span>
+                    </li>
+                  ))}
+                  <li style={{ borderTop: "1px solid var(--color-border-light)", height: 0 }} aria-hidden="true" />
+                </ul>
+              </Reveal>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -273,7 +333,7 @@ export default function HomePage() {
                   For partners and organizations
                 </p>
                 <h2 className="text-[2rem] sm:text-[2.75rem] lg:text-[3rem] font-serif leading-[1.05]" style={{ letterSpacing: "-0.035em", color: "var(--color-foreground)", fontWeight: 500 }}>
-                  We meet families where loss happens.
+                  Embedded at the point of loss.
                 </h2>
               </Reveal>
             </div>
