@@ -52,33 +52,37 @@ export default function HomePage() {
             The grief intelligence platform
           </p>
           <h1
-            className="font-serif leading-[0.98] mx-auto"
+            className="font-serif leading-[1.02] mx-auto"
             style={{
-              fontSize: "clamp(2.5rem, 7vw, 6rem)",
-              letterSpacing: "-0.045em",
+              fontSize: "clamp(2.5rem, 6.5vw, 5.75rem)",
+              letterSpacing: "-0.04em",
               color: "var(--color-foreground)",
               fontWeight: 500,
-              maxWidth: "20ch",
+              maxWidth: "22ch",
             }}
           >
-            Care for the year
+            Redefining care for
             <br />
-            <span style={{ color: "var(--color-body)" }}>after a death.</span>
+            <span style={{ color: "var(--color-body)" }}>life&rsquo;s hardest transitions.</span>
           </h1>
           <p
-            className="mt-10 mx-auto font-serif italic"
-            style={{
-              fontSize: "clamp(1.25rem, 2.2vw, 1.625rem)",
-              color: "var(--color-primary-deep)",
-              letterSpacing: "-0.015em",
-              fontWeight: 500,
-              maxWidth: "32rem",
-            }}
+            className="mt-10 mx-auto text-[17px] sm:text-[18px] leading-[1.75]"
+            style={{ color: "var(--color-body)", maxWidth: "36rem" }}
           >
-            Just enough light to not fall.
+            Through the weight of loss, we guide grieving families find the path forward.
           </p>
-          <div className="mt-14">
-            <Link href="/demo" className="btn-primary">When you&rsquo;re ready</Link>
+          <div className="mt-12 flex flex-col sm:flex-row gap-5 items-center justify-center">
+            <Link href="/demo" className="btn-primary">
+              Request a demo
+            </Link>
+            <Link
+              href="/enterprise"
+              className="text-[14px] font-medium inline-flex items-center gap-2 transition-colors duration-300 hover:opacity-70"
+              style={{ color: "var(--color-foreground)" }}
+            >
+              For organizations
+              <span aria-hidden="true">→</span>
+            </Link>
           </div>
         </div>
       </section>
