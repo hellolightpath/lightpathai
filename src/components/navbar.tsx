@@ -6,6 +6,7 @@ import { HorizonMark } from "@/components/horizon-mark";
 
 const links = [
   { href: "/#features", label: "How it works" },
+  { href: "/providers", label: "For Providers" },
   { href: "/enterprise", label: "For Organizations" },
   { href: "/our-story", label: "Our Story" },
   { href: "/blog", label: "Resources" },

@@ -6,7 +6,7 @@ import { faqPageJsonLd } from "@/lib/json-ld";
 export const metadata: Metadata = {
   title: "FAQ | LightPathAI",
   description:
-    "Answers about Care Plans, documents, privacy, supporters, Inner Light, and LightKeeper.",
+    "Answers about Care Plans, documents, privacy, supporters, Inner Light, and benefits.",
 };
 
 export default function FAQPage() {
@@ -87,7 +87,7 @@ export default function FAQPage() {
 const allFaqs = [
   {
     q: "What is LightPathAI?",
-    a: "LightPath is the grief intelligence platform, built for navigating loss. It generates a personalized Care Plan based on your situation, drafts letters and forms with AI Assist, surfaces benefits you may be eligible for, connects you with a trained peer companion, and gives you a private space for reflection. Built on peer-reviewed grief research, with clinical advisors from Stanford, Columbia, and Yale.",
+    a: "LightPath is the grief intelligence platform. Six capabilities, one adaptive layer. A jurisdiction-aware Care Plan, an AI companion that meets you where you are, peer-reviewed clinical content, automatic benefits discovery, a curated marketplace of grief-aware professionals, and an intelligence layer that reshapes the experience based on what you are facing today. Built with clinical advisors from Stanford, Columbia, and Yale.",
   },
   {
     q: "Do I need to know everything to start?",
@@ -95,7 +95,7 @@ const allFaqs = [
   },
   {
     q: "Is this really free?",
-    a: "Your personalized Care Plan and core guidance are completely free. Everyone deserves support after a loss, regardless of what they can afford. Premium features like LightKeeper peer companion matching and advanced Assist automation are available through an optional upgrade.",
+    a: "Your Care Plan, the AI companion, the clinical content, and the benefits scan are free. Always. Premium adds drafted documents with live human review, deeper benefits filing, and advanced automation. Crisis resources are never paywalled.",
   },
   {
     q: "Is LightPathAI only for the first few days after a death?",
@@ -110,8 +110,8 @@ const allFaqs = [
     a: "LightPathAI analyzes your specific situation: your state, the type of loss, your relationship to the deceased, employment status, and more. Then it identifies benefits you may qualify for. Social Security survivor benefits, employer life insurance, unclaimed property, veterans benefits, tax credits, and state-specific programs. We surface what applies, track every deadline, and walk you through filing.",
   },
   {
-    q: "What is LightKeeper?",
-    a: "LightKeeper pairs you with a trained peer companion. A real person who has lived through a similar loss. Not a therapist. Not a stranger with advice. Someone who understands because they\u2019ve been there, matched to you by loss type, life stage, and background.",
+    q: "What is the AI companion?",
+    a: "Connect is an AI companion built on peer-reviewed grief research. It adapts to what you are facing today, remembers what you said yesterday, and never claims to know what loss feels like. It is not a therapist. It is not a friend. It is a steady presence between sessions, between calls, between days you would rather not have to face alone.",
   },
   {
     q: "Is Inner Light therapy?",
@@ -127,7 +127,7 @@ const allFaqs = [
   },
   {
     q: "How is this different from a checklist I found online?",
-    a: "A generic checklist doesn\u2019t know your state, your family structure, your deadlines, or what documents you already have. It can\u2019t draft the letters for you, find benefits you didn\u2019t know existed, or connect you with someone who\u2019s been through what you\u2019re going through. LightPathAI does all of that. Personalized, guided, and built around your specific loss.",
+    a: "A generic checklist does not know your state, your family structure, your deadlines, or what documents you already have. It cannot draft the letters, find the benefits you did not know existed, or adapt to where you are emotionally on a given Tuesday. LightPath does all of that. Personalized, jurisdiction-aware, built around your specific loss.",
   },
   {
     q: "Can my family use this together?",

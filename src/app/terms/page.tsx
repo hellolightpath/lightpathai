@@ -63,7 +63,7 @@ const sections = [
   {
     title: "2. Description of Service",
     content:
-      "LightPathAI provides a personalized Care Plan, document management, emotional wellness tools, and peer companionship to help individuals navigate life after a loss. The Service is provided \u201Cas is\u201D and may be updated or modified at any time.",
+      "LightPathAI provides a personalized Care Plan, document management, emotional wellness tools, an AI companion, and access to a curated marketplace of grief-aware professionals to help individuals navigate life after a loss. The Service is provided \u201Cas is\u201D and may be updated or modified at any time.",
   },
   {
     title: "3. User Accounts",

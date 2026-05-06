@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Reveal } from "@/components/reveal";
 import { LivingSky } from "@/components/living-sky";
 import { HorizonMark } from "@/components/horizon-mark";
+import { PhaseExplorer } from "@/components/phase-explorer";
 
 export default function HomePage() {
   return (
@@ -25,7 +26,7 @@ export default function HomePage() {
             to not fall.
           </h1>
           <p className="mt-10 max-w-md mx-auto text-[17px] sm:text-[18px] leading-[1.75]" style={{ color: "var(--color-body)" }}>
-            When someone you love dies, everything changes at once. We help you carry what comes after.
+            When someone you love dies, everything that comes after lands at once. We carry it with you.
           </p>
           <div className="mt-12">
             <Link href="/demo" className="btn-primary">When you&rsquo;re ready</Link>
@@ -50,13 +51,16 @@ export default function HomePage() {
               <br />
               <span style={{ color: "rgba(255,255,255,0.45)" }}>their family is left alone.</span>
             </h2>
+            <p className="mt-7 max-w-lg text-[16px] sm:text-[17px] leading-[1.7]" style={{ color: "rgba(255,255,255,0.55)" }}>
+              No guide. No coordination. No safety net. Hundreds of tasks land while the world is loud and quiet at once.
+            </p>
           </Reveal>
 
           <div className="mt-20 sm:mt-28 grid gap-14 sm:gap-16 sm:grid-cols-3 max-w-5xl">
             {[
-              { num: "3M", body: "U.S. families face this every year." },
-              { num: "570 hrs", body: "of paperwork, calls, decisions. While in shock." },
-              { num: "1 in 10", body: "develop prolonged grief disorder. Largely untreated." },
+              { num: "3M", body: "U.S. families face a death every year." },
+              { num: "570 hrs", body: "of paperwork, calls, and decisions per loss. While in shock." },
+              { num: "1 in 10", body: "develop prolonged grief disorder. Clinical condition. Largely untreated." },
             ].map((stat, i) => (
               <Reveal key={stat.num} delay={i * 90}>
                 <div>
@@ -94,13 +98,16 @@ export default function HomePage() {
           <Reveal>
             <div className="max-w-2xl">
               <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
-                What we do
+                For families
               </p>
               <h2 className="text-[2rem] sm:text-[3rem] lg:text-[3.5rem] font-serif leading-[1.04]" style={{ letterSpacing: "-0.04em", color: "var(--color-foreground)", fontWeight: 500 }}>
-                Built for the hardest days,
+                Day one,
                 <br />
                 <span style={{ color: "var(--color-body)" }}>and every day after.</span>
               </h2>
+              <p className="mt-7 text-[16px] sm:text-[17px] leading-[1.8] max-w-md" style={{ color: "var(--color-body)" }}>
+                Six capabilities. One adaptive platform. The right thing at the right moment, never more.
+              </p>
             </div>
           </Reveal>
 
@@ -108,28 +115,44 @@ export default function HomePage() {
             {[
               {
                 num: "01",
-                title: "A plan for your specific loss.",
-                body: "Personalized, jurisdiction-aware, with the deadlines that matter and the calls that have to be made.",
+                eyebrow: "Your Path",
+                title: "Knows what needs doing.",
+                body: "A personalized, jurisdiction-aware plan. The deadlines that matter, the calls that have to be made, in the right order. 167 task templates, your state, your role, your timeline.",
               },
               {
                 num: "02",
-                title: "The benefits no one told you existed.",
-                body: "Survivor benefits, life insurance, unclaimed property, tax credits, programs by state. We surface, track, and walk you through filing.",
+                eyebrow: "Connect",
+                title: "Holds the emotional weight.",
+                body: "An AI companion built on peer-reviewed grief research. Adapts to where you are. Remembers what you said. Never claims to know what loss feels like.",
               },
               {
                 num: "03",
-                title: "Someone who has been through this.",
-                body: "A trained peer companion matched by loss type, life stage, and background. Not a therapist. Not a stranger.",
+                eyebrow: "Discover",
+                title: "Teaches you through it.",
+                body: "Clinical frameworks and guides written into the platform. The work of researchers at Stanford, Columbia, Yale, distilled into something you can use at 2am.",
               },
               {
                 num: "04",
-                title: "A space for what you cannot say out loud.",
-                body: "Private journaling, breathing, guided reflection. Built on peer-reviewed grief frameworks. Clinical, never preachy.",
+                eyebrow: "Benefits",
+                title: "Finds the money you do not know is yours.",
+                body: "39 federal and state programs scanned for your situation. Survivor benefits, life insurance, unclaimed property, tax credits. Surfaced, tracked, filed.",
+              },
+              {
+                num: "05",
+                eyebrow: "Find Care",
+                title: "Connects you to the right help.",
+                body: "22 categories of grief-aware professionals, matched to where you are. Therapists. Estate attorneys. Funeral directors. End-of-life doulas.",
+              },
+              {
+                num: "06",
+                eyebrow: "Intelligence",
+                title: "Adapts in real time.",
+                body: "Five emotional modes. The platform reads what is in front of you and reshapes itself. You never pick a mode. The platform already knows.",
               },
             ].map((item, i) => (
-              <Reveal key={item.num} delay={i * 70}>
+              <Reveal key={item.num} delay={i * 50}>
                 <div
-                  className="grid grid-cols-12 gap-6 sm:gap-10 items-baseline py-10 sm:py-14"
+                  className="grid grid-cols-12 gap-6 sm:gap-10 items-baseline py-10 sm:py-12"
                   style={{ borderTop: "1px solid var(--color-border-light)" }}
                 >
                   <p
@@ -138,12 +161,17 @@ export default function HomePage() {
                   >
                     {item.num}
                   </p>
-                  <h3
-                    className="col-span-10 sm:col-span-6 text-[1.5rem] sm:text-[2rem] lg:text-[2.25rem] font-serif leading-[1.1]"
-                    style={{ letterSpacing: "-0.025em", color: "var(--color-foreground)", fontWeight: 500 }}
-                  >
-                    {item.title}
-                  </h3>
+                  <div className="col-span-10 sm:col-span-6">
+                    <p className="text-[11px] uppercase mb-2.5" style={{ color: "var(--color-muted)", letterSpacing: "0.22em" }}>
+                      {item.eyebrow}
+                    </p>
+                    <h3
+                      className="text-[1.4rem] sm:text-[1.875rem] lg:text-[2.125rem] font-serif leading-[1.1]"
+                      style={{ letterSpacing: "-0.025em", color: "var(--color-foreground)", fontWeight: 500 }}
+                    >
+                      {item.title}
+                    </h3>
+                  </div>
                   <p
                     className="col-span-12 sm:col-span-5 text-[15px] sm:text-[16px] leading-[1.75]"
                     style={{ color: "var(--color-body)" }}
@@ -156,6 +184,32 @@ export default function HomePage() {
             {/* Closing rule under final item */}
             <div style={{ borderTop: "1px solid var(--color-border-light)" }} />
           </div>
+        </div>
+      </section>
+
+      {/* ─────────────────────────────────────────────────────────────
+          PHASE EXPLORER — interactive, type-led product tour.
+          Five phases of grief; click through to see what LightPath
+          surfaces at each. No mockups. Pure typography.
+          ───────────────────────────────────────────────────────────── */}
+      <section className="relative" style={{ background: "#FAFAF8" }}>
+        <div className="mx-auto max-w-[72rem] px-6 sm:px-10 py-28 sm:py-40">
+          <Reveal>
+            <div className="max-w-2xl mb-16 sm:mb-20">
+              <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
+                The intelligence layer
+              </p>
+              <h2 className="text-[2rem] sm:text-[3rem] lg:text-[3.5rem] font-serif leading-[1.04]" style={{ letterSpacing: "-0.04em", color: "var(--color-foreground)", fontWeight: 500 }}>
+                We adapt as you adapt.
+              </h2>
+              <p className="mt-7 text-[16px] sm:text-[17px] leading-[1.8] max-w-xl" style={{ color: "var(--color-body)" }}>
+                The platform reads what is in front of you and reshapes itself. You never pick a mode. We do not ask how you are feeling. Click through five phases to see what changes, and what stays steady.
+              </p>
+            </div>
+          </Reveal>
+          <Reveal delay={120}>
+            <PhaseExplorer />
+          </Reveal>
         </div>
       </section>
 

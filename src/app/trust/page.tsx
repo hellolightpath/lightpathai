@@ -225,7 +225,7 @@ const principles = [
   {
     num: "05",
     title: "Clinical honesty, not theater.",
-    body: "Inner Light is a private self-guided space, not therapy. LightKeeper connects you with trained peer companions who have lived through similar loss, not licensed clinicians. We say what we are, and what we are not.",
+    body: "Inner Light is a private self-guided space, not therapy. Connect is an AI companion grounded in peer-reviewed research, not a clinician. Find Care surfaces grief-aware professionals when human help is what you need. We say what we are, and what we are not.",
   },
 ];
 

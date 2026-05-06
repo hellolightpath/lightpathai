@@ -152,7 +152,7 @@ export default function EnterprisePage() {
                   "Every task, deadline, and document, organized for their state and their loss.",
                   "A claim becomes a care moment. The check still arrives. The support arrives with it.",
                   "Bereavement leave ends. The 13 months of guidance keep going.",
-                  "A trained peer companion who has been through what they are facing.",
+                  "An AI companion that adapts to where they are, every visit.",
                 ].map((line) => (
                   <p
                     key={line}
@@ -201,7 +201,7 @@ export default function EnterprisePage() {
               {
                 num: "03",
                 title: "Clinical-grade emotional support.",
-                body: "88 verified interventions across 17 grief frameworks. Built with researchers from Stanford, Columbia, and Yale. Peer companions matched by loss type and life stage.",
+                body: "88 verified interventions across 17 grief frameworks. An AI companion that adapts to where each person is. Built with researchers from Stanford, Columbia, and Yale.",
               },
               {
                 num: "04",
