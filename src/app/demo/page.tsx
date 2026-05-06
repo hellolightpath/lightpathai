@@ -2,7 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import { Reveal } from "@/components/reveal";
-import { LivingSky } from "@/components/living-sky";
+import { HorizonMark } from "@/components/horizon-mark";
 
 export default function DemoPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -31,7 +31,6 @@ export default function DemoPage() {
 
       setSubmitted(true);
 
-      // Fire GA4 custom event
       if (typeof window !== "undefined" && (window as any).gtag) {
         (window as any).gtag("event", "demo_form_submission", {
           role: formData.role,
@@ -45,177 +44,215 @@ export default function DemoPage() {
   }
 
   return (
-    <section className="relative overflow-hidden min-h-screen" style={{ marginTop: "-64px" }}>
-      <LivingSky />
+    <section className="relative min-h-screen" style={{ marginTop: "-64px", background: "var(--color-surface)" }}>
+      <div className="relative z-10 mx-auto max-w-[64rem] px-6 sm:px-10 pt-40 sm:pt-56 pb-24 sm:pb-32">
 
-      <div className="relative z-10 px-6 sm:px-8 pt-32 sm:pt-40 pb-20 sm:pb-28">
-        <div className="mx-auto max-w-6xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+        {/* Editorial hero — full width above, single column */}
+        <div className="max-w-3xl">
+          <Reveal>
+            <h1
+              className="text-[3rem] sm:text-[4.5rem] lg:text-[5.25rem] font-serif leading-[1.0]"
+              style={{ letterSpacing: "-0.045em", color: "var(--color-foreground)", fontWeight: 500 }}
+            >
+              When you&rsquo;re ready,
+              <br />
+              <span style={{ color: "var(--color-body)" }}>we&rsquo;ll be here.</span>
+            </h1>
+            <p className="mt-9 text-[17px] leading-[1.75] max-w-md" style={{ color: "var(--color-body)" }}>
+              Tell us a little about yourself. We respond within a day.
+            </p>
+          </Reveal>
+        </div>
 
-            {/* ── Left Column: Story ── */}
-            <Reveal>
-              <div className="lg:pt-8">
-                <p
-                  className="inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 text-[13px] font-medium tracking-wide"
-                  style={{
-                    background: "rgba(255,255,255,0.5)",
-                    backdropFilter: "blur(12px)",
-                    WebkitBackdropFilter: "blur(12px)",
-                    border: "1px solid rgba(255,255,255,0.5)",
-                    color: "#5B5F9E",
-                  }}
-                >
-                  <span className="h-1.5 w-1.5 rounded-full" style={{ background: "#8A8EE5" }} />
-                  Get started
-                </p>
-
-                <h1
-                  className="mt-8 text-[2.25rem] sm:text-[3rem] lg:text-[3.5rem] font-serif font-normal leading-[1.06]"
-                  style={{ letterSpacing: "-0.04em", color: "#1C1C2E" }}
-                >
-                  Let&rsquo;s find the{" "}
-                  <br className="hidden sm:block" />
-                  right path for you
-                </h1>
-
-                <p className="mt-6 text-[17px] leading-relaxed max-w-md" style={{ color: "#6B6E8D" }}>
-                  Whether you&rsquo;re navigating loss yourself or supporting those who are,
-                  we&rsquo;d love to show you how LightPath can help.
-                </p>
-              </div>
-            </Reveal>
-
-            {/* ── Right Column: Form ── */}
-            <Reveal delay={150}>
-              <div className="w-full max-w-lg mx-auto lg:mx-0">
-                {submitted ? (
-                  <div
-                    className="rounded-3xl p-8 sm:p-10 text-center"
-                    style={{
-                      background: "rgba(255,255,255,0.55)",
-                      backdropFilter: "blur(24px) saturate(1.3)",
-                      WebkitBackdropFilter: "blur(24px) saturate(1.3)",
-                      border: "1px solid rgba(255,255,255,0.5)",
-                      boxShadow: "0 4px 32px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02)",
-                    }}
-                  >
-                    <div
-                      className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl"
-                      style={{ background: "rgba(99,213,131,0.12)", border: "1px solid rgba(99,213,131,0.2)" }}
-                    >
-                      <svg className="h-8 w-8" style={{ color: "#63D583" }} fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                      </svg>
-                    </div>
-                    <h2 className="mt-6 text-2xl font-serif" style={{ color: "#1C1C2E", letterSpacing: "-0.02em" }}>
-                      Thank you
-                    </h2>
-                    <p className="mt-3 text-[15px] leading-relaxed" style={{ color: "#6B6E8D" }}>
-                      We&rsquo;ll be in touch soon with a time that works for you.
-                    </p>
-                    <div className="mt-6 rounded-xl p-4" style={{ background: "rgba(255,255,255,0.4)", border: "1px solid rgba(255,255,255,0.4)" }}>
-                      <p className="text-[13px] leading-relaxed" style={{ color: "#6B6E8D" }}>
-                        If you need immediate support, call{" "}
-                        <a href="tel:988" className="font-semibold" style={{ color: "#1C1C2E" }}>988</a>{" "}
-                        (Suicide &amp; Crisis Lifeline) or{" "}
-                        <a href="tel:911" className="font-semibold" style={{ color: "#1C1C2E" }}>911</a>.
-                      </p>
-                    </div>
+        {/* Form column — narrower than hero, sits below */}
+        <div className="mt-20 sm:mt-28 max-w-md">
+            {submitted ? (
+              <Reveal>
+                <div className="max-w-md">
+                  <div className="mb-8">
+                    <HorizonMark size={36} theme="light" />
                   </div>
-                ) : (
-                  <form
-                    onSubmit={handleSubmit}
-                    className="rounded-3xl p-7 sm:p-9 space-y-5"
-                    style={{
-                      background: "rgba(255,255,255,0.55)",
-                      backdropFilter: "blur(24px) saturate(1.3)",
-                      WebkitBackdropFilter: "blur(24px) saturate(1.3)",
-                      border: "1px solid rgba(255,255,255,0.5)",
-                      boxShadow: "0 4px 32px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02)",
-                    }}
+                  <h2
+                    className="text-[2rem] sm:text-[2.5rem] font-serif leading-[1.05]"
+                    style={{ letterSpacing: "-0.035em", color: "var(--color-foreground)", fontWeight: 500 }}
                   >
-                    <div className="mb-2">
-                      <h2 className="text-xl font-serif font-normal" style={{ color: "#1C1C2E", letterSpacing: "-0.02em" }}>
-                        Request a demo
-                      </h2>
-                      <p className="mt-1.5 text-[14px]" style={{ color: "#6B6E8D" }}>
-                        Tell us a bit about yourself and we&rsquo;ll set up a time.
-                      </p>
-                    </div>
+                    Thank you.
+                  </h2>
+                  <p className="mt-5 text-[16px] leading-[1.75]" style={{ color: "var(--color-body)" }}>
+                    We&rsquo;ll be in touch within a day.
+                  </p>
+                </div>
+              </Reveal>
+            ) : (
+              <Reveal delay={120}>
+                <form onSubmit={handleSubmit} className="max-w-md space-y-9">
+                  {error && (
+                    <p className="text-[13px] pb-1" style={{ color: "var(--color-coral)", borderBottom: "1px solid rgba(193,122,110,0.25)" }}>
+                      Something went wrong. Try again, or reach us at{" "}
+                      <a href="mailto:hello@getlightpath.ai" className="underline">hello@getlightpath.ai</a>.
+                    </p>
+                  )}
 
-                    {error && (
-                      <div className="rounded-xl p-4" style={{ background: "rgba(254,226,226,0.6)" }}>
-                        <p className="text-sm" style={{ color: "#DC2626" }}>
-                          Something went wrong. Please try again, or reach us at{" "}
-                          <a href="mailto:hello@getlightpath.ai" className="underline">hello@getlightpath.ai</a>.
-                        </p>
-                      </div>
-                    )}
+                  <FieldUnderline
+                    id="name"
+                    label="Name"
+                    type="text"
+                    required
+                    value={formData.name}
+                    onChange={(v) => setFormData({ ...formData, name: v })}
+                  />
 
-                    <div>
-                      <label htmlFor="name" className="block text-[13px] font-medium mb-1.5" style={{ color: "#3D3F5E" }}>Name</label>
-                      <input id="name" type="text" required value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className="form-input" placeholder="Your name" />
-                    </div>
+                  <FieldUnderline
+                    id="email"
+                    label="Email"
+                    type="email"
+                    required
+                    value={formData.email}
+                    onChange={(v) => setFormData({ ...formData, email: v })}
+                  />
 
-                    <div>
-                      <label htmlFor="email" className="block text-[13px] font-medium mb-1.5" style={{ color: "#3D3F5E" }}>Email</label>
-                      <input id="email" type="email" required value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className="form-input" placeholder="you@company.com" />
-                    </div>
+                  <FieldUnderline
+                    id="company"
+                    label="Company"
+                    optional
+                    type="text"
+                    value={formData.company}
+                    onChange={(v) => setFormData({ ...formData, company: v })}
+                  />
 
-                    <div>
-                      <label htmlFor="company" className="block text-[13px] font-medium mb-1.5" style={{ color: "#3D3F5E" }}>
-                        Company <span style={{ color: "#94A3B8", fontWeight: 400 }}>(optional)</span>
+                  <fieldset className="space-y-3">
+                    <legend
+                      className="text-[12px] uppercase mb-1"
+                      style={{ color: "var(--color-muted)", letterSpacing: "0.18em" }}
+                    >
+                      This is for
+                    </legend>
+                    {[
+                      { v: "family", label: "Me, or someone I love" },
+                      { v: "supporter", label: "Someone I&rsquo;m supporting" },
+                      { v: "organization", label: "My organization" },
+                    ].map((opt) => (
+                      <label
+                        key={opt.v}
+                        className="flex items-center gap-3 cursor-pointer group"
+                      >
+                        <input
+                          type="radio"
+                          name="role"
+                          value={opt.v}
+                          required
+                          checked={formData.role === opt.v}
+                          onChange={(e) => setFormData({ ...formData, role: e.target.value })}
+                          className="sr-only peer"
+                        />
+                        <span
+                          aria-hidden="true"
+                          className="h-[14px] w-[14px] rounded-full transition-colors duration-200"
+                          style={{
+                            border: `1px solid ${formData.role === opt.v ? "var(--color-primary)" : "var(--color-border)"}`,
+                            background: formData.role === opt.v ? "var(--color-primary)" : "transparent",
+                            boxShadow: formData.role === opt.v ? "inset 0 0 0 3px var(--color-surface)" : "none",
+                          }}
+                        />
+                        <span
+                          className="text-[15px] transition-colors duration-200"
+                          style={{ color: formData.role === opt.v ? "var(--color-foreground)" : "var(--color-body)" }}
+                          dangerouslySetInnerHTML={{ __html: opt.label }}
+                        />
                       </label>
-                      <input id="company" type="text" value={formData.company} onChange={(e) => setFormData({ ...formData, company: e.target.value })} className="form-input" placeholder="Your organization" />
-                    </div>
+                    ))}
+                  </fieldset>
 
-                    <div>
-                      <label htmlFor="role" className="block text-[13px] font-medium mb-1.5" style={{ color: "#3D3F5E" }}>I am a...</label>
-                      <select id="role" required value={formData.role} onChange={(e) => setFormData({ ...formData, role: e.target.value })} className="form-input appearance-none" style={{ color: formData.role ? "#1C1C1E" : undefined }}>
-                        <option value="" disabled>Select one...</option>
-                        <option value="family">Grieving family member</option>
-                        <option value="supporter">Supporter helping someone</option>
-                        <option value="hospice">Hospice or funeral home</option>
-                        <option value="employer">Employer</option>
-                        <option value="insurance">Life insurance provider</option>
-                        <option value="other">Other</option>
-                      </select>
-                    </div>
-
+                  <div className="pt-3">
                     <button
                       type="submit"
-                      disabled={loading}
-                      className="w-full inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium text-[15px] transition-all duration-300 ease-out relative overflow-hidden disabled:opacity-60"
-                      style={{
-                        padding: "0.875rem 2rem",
-                        background: "rgba(90, 95, 180, 0.85)",
-                        color: "white",
-                        border: "1px solid rgba(255,255,255,0.15)",
-                        boxShadow: "0 1px 3px rgba(90,95,180,0.2), 0 4px 16px rgba(90,95,180,0.12)",
-                        letterSpacing: "0.015em",
-                      }}
+                      disabled={loading || !formData.role}
+                      className="btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
                     >
-                      {loading ? "Sending..." : "Request a demo"}
-                      {!loading && (
-                        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                        </svg>
-                      )}
+                      {loading ? "Sending" : "Send"}
                     </button>
-
-                    <p className="text-center text-[13px] leading-relaxed" style={{ color: "#94A3B8" }}>
-                      We&rsquo;ll respond within 1 business day.
-                      <br />
-                      No pressure, no sales pitch. Just a conversation.
-                    </p>
-                  </form>
-                )}
-              </div>
-            </Reveal>
-
-          </div>
+                  </div>
+                </form>
+              </Reveal>
+            )}
         </div>
+
+        {/* Crisis line — quiet, persistent below the form */}
+        <div className="mt-24 sm:mt-32 max-w-md">
+          <p className="text-[11px] uppercase mb-3" style={{ color: "var(--color-muted)", letterSpacing: "0.22em" }}>
+            Need support right now?
+          </p>
+          <p className="text-[14px] leading-[1.7]" style={{ color: "var(--color-body)" }}>
+            Call or text{" "}
+            <a href="tel:988" className="font-semibold" style={{ color: "var(--color-coral)" }}>988</a>.
+            Crisis Text Line: text{" "}
+            <span className="font-semibold" style={{ color: "var(--color-coral)" }}>HOME</span>{" "}
+            to{" "}
+            <a href="sms:741741" className="font-semibold" style={{ color: "var(--color-coral)" }}>741741</a>.
+          </p>
+        </div>
+
       </div>
     </section>
+  );
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Underline-only form field. No glass, no boxes. Editorial.
+   ───────────────────────────────────────────────────────────── */
+function FieldUnderline({
+  id,
+  label,
+  type,
+  value,
+  onChange,
+  required,
+  optional,
+}: {
+  id: string;
+  label: string;
+  type: "text" | "email";
+  value: string;
+  onChange: (v: string) => void;
+  required?: boolean;
+  optional?: boolean;
+}) {
+  const [focused, setFocused] = useState(false);
+  const filled = value.length > 0;
+
+  return (
+    <div>
+      <div className="flex items-baseline justify-between">
+        <label
+          htmlFor={id}
+          className="text-[12px] uppercase"
+          style={{
+            color: "var(--color-muted)",
+            letterSpacing: "0.18em",
+          }}
+        >
+          {label}
+        </label>
+        {optional && (
+          <span className="text-[11px]" style={{ color: "var(--color-subtle)", letterSpacing: "0.04em" }}>
+            optional
+          </span>
+        )}
+      </div>
+      <input
+        id={id}
+        type={type}
+        required={required}
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        onFocus={() => setFocused(true)}
+        onBlur={() => setFocused(false)}
+        className="block w-full bg-transparent outline-none text-[17px] py-2 transition-colors duration-200"
+        style={{
+          color: "var(--color-foreground)",
+          borderBottom: `1px solid ${focused ? "var(--color-primary)" : filled ? "var(--color-border)" : "var(--color-border-light)"}`,
+        }}
+      />
+    </div>
   );
 }
