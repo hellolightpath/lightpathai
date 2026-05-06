@@ -1,8 +1,8 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Reveal } from "@/components/reveal";
 import { HorizonMark } from "@/components/horizon-mark";
 import { PhaseExplorer } from "@/components/phase-explorer";
+import { LiveProductDemo } from "@/components/live-product-demo";
 
 export default function HomePage() {
   return (
@@ -198,13 +198,13 @@ export default function HomePage() {
       </section>
 
       {/* ─────────────────────────────────────────────────────────────
-          WHAT WE DO — four sparse typographic moments.
-          No mockups, no bullets, no icons. Type only.
+          LIVE PRODUCT DEMO — five capabilities, tabbed, in order.
+          The product made visible without becoming a screenshot.
           ───────────────────────────────────────────────────────────── */}
       <section id="features" className="relative" style={{ background: "var(--color-surface)" }}>
         <div className="mx-auto max-w-[72rem] px-6 sm:px-10 py-28 sm:py-40">
           <Reveal>
-            <div className="max-w-2xl">
+            <div className="max-w-2xl mb-16 sm:mb-20">
               <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
                 For families
               </p>
@@ -215,50 +215,9 @@ export default function HomePage() {
               </h2>
             </div>
           </Reveal>
-
-          <div className="mt-20 sm:mt-28">
-            {[
-              { num: "01", eyebrow: "Your Path",   title: "Knows what needs doing." },
-              { num: "02", eyebrow: "Connect",     title: "Holds the emotional weight." },
-              { num: "03", eyebrow: "Discover",    title: "Teaches you through it." },
-              { num: "04", eyebrow: "Benefits",    title: "Finds the money you don't know is yours." },
-              { num: "05", eyebrow: "Find Care",   title: "Connects you to the right help." },
-              { num: "06", eyebrow: "Intelligence", title: "Adapts in real time." },
-            ].map((item, i) => (
-              <Reveal key={item.num} delay={i * 50}>
-                <div
-                  className="grid grid-cols-12 gap-6 sm:gap-12 items-baseline py-10 sm:py-14"
-                  style={{ borderTop: "1px solid var(--color-border-light)" }}
-                >
-                  <p
-                    className="col-span-2 sm:col-span-1 text-[12px] uppercase"
-                    style={{ color: "var(--color-primary)", letterSpacing: "0.18em" }}
-                  >
-                    {item.num}
-                  </p>
-                  <p
-                    className="col-span-10 sm:col-span-3 text-[12px] uppercase"
-                    style={{ color: "var(--color-muted)", letterSpacing: "0.22em" }}
-                  >
-                    {item.eyebrow}
-                  </p>
-                  <h3
-                    className="col-span-12 sm:col-span-8 font-serif leading-[1.05]"
-                    style={{
-                      fontSize: "clamp(1.5rem, 3.5vw, 2.5rem)",
-                      color: "var(--color-foreground)",
-                      letterSpacing: "-0.03em",
-                      fontWeight: 500,
-                    }}
-                  >
-                    {item.title}
-                  </h3>
-                </div>
-              </Reveal>
-            ))}
-            {/* Closing rule under final item */}
-            <div style={{ borderTop: "1px solid var(--color-border-light)" }} />
-          </div>
+          <Reveal delay={120}>
+            <LiveProductDemo />
+          </Reveal>
         </div>
       </section>
 
@@ -288,111 +247,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─────────────────────────────────────────────────────────────
-          MANIFESTO — what we will never do.
-          Modeled on Modern Loss's refusal-as-identity move. Brand-canon
-          non-negotiables made public. No competitor does this.
-          ───────────────────────────────────────────────────────────── */}
-      <section className="relative" style={{ background: "var(--color-surface)" }}>
-        <div className="mx-auto max-w-[72rem] px-6 sm:px-10 py-28 sm:py-40">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
-            <div className="lg:col-span-4">
-              <Reveal>
-                <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-coral)", letterSpacing: "0.22em" }}>
-                  What we refuse
-                </p>
-                <h2 className="text-[2rem] sm:text-[2.75rem] lg:text-[3rem] font-serif leading-[1.05]" style={{ letterSpacing: "-0.04em", color: "var(--color-foreground)", fontWeight: 500 }}>
-                  We will never.
-                </h2>
-                <p className="mt-7 text-[16px] leading-[1.8] max-w-sm" style={{ color: "var(--color-body)" }}>
-                  The brand is defined as much by what it refuses as by what it builds. These are non-negotiable.
-                </p>
-              </Reveal>
-            </div>
-            <div className="lg:col-span-8">
-              <Reveal delay={120}>
-                <ul>
-                  {[
-                    "Ask how you are feeling.",
-                    "Gamify grief.",
-                    "Sell your data.",
-                    "Simulate the person you lost.",
-                    "Gate the crisis line.",
-                  ].map((line, i) => (
-                    <li
-                      key={i}
-                      className="grid grid-cols-12 gap-5 sm:gap-8 items-baseline py-7 sm:py-8"
-                      style={{ borderTop: "1px solid var(--color-border-light)" }}
-                    >
-                      <span
-                        className="col-span-2 sm:col-span-1 text-[11px] uppercase"
-                        style={{ color: "var(--color-coral)", letterSpacing: "0.18em" }}
-                      >
-                        {String(i + 1).padStart(2, "0")}
-                      </span>
-                      <span
-                        className="col-span-10 sm:col-span-11 font-serif text-[1.25rem] sm:text-[1.5rem] lg:text-[1.75rem] leading-[1.25]"
-                        style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em", fontWeight: 500 }}
-                      >
-                        {line}
-                      </span>
-                    </li>
-                  ))}
-                  <li style={{ borderTop: "1px solid var(--color-border-light)", height: 0 }} aria-hidden="true" />
-                </ul>
-              </Reveal>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─────────────────────────────────────────────────────────────
-          FOUNDER — quiet portrait + signed line.
-          The whole point of this brand. No SaaS card.
-          ───────────────────────────────────────────────────────────── */}
-      <section className="relative" style={{ background: "#FAFAF8" }}>
-        <div className="mx-auto max-w-[64rem] px-6 sm:px-10 py-28 sm:py-40">
-          <div className="grid grid-cols-1 sm:grid-cols-12 gap-12 sm:gap-16 items-start">
-            <div className="sm:col-span-4">
-              <Reveal>
-                <div className="relative aspect-[4/5] w-full overflow-hidden" style={{ borderRadius: "2px" }}>
-                  <Image
-                    src="/sara-founder.jpg"
-                    alt="Sara Tashakorinia, founder of LightPath"
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 640px) 100vw, 320px"
-                  />
-                </div>
-              </Reveal>
-            </div>
-            <div className="sm:col-span-8 sm:pt-6">
-              <Reveal delay={120}>
-                <p className="text-[11px] font-semibold uppercase mb-8" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
-                  From the founder
-                </p>
-                <p
-                  className="font-serif italic text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem] leading-[1.25]"
-                  style={{ letterSpacing: "-0.02em", color: "var(--color-foreground)", fontWeight: 500 }}
-                >
-                  &ldquo;On the evening of our first wedding anniversary, I lost my husband. LightPath was built from that.&rdquo;
-                </p>
-                <p className="mt-8 text-[12px] uppercase" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
-                  Sara Tashakorinia, founder
-                </p>
-                <Link
-                  href="/our-story"
-                  className="mt-10 inline-flex items-center gap-2 text-[14px] font-medium transition-colors duration-300 hover:opacity-70"
-                  style={{ color: "var(--color-foreground)" }}
-                >
-                  Read the full story
-                  <span aria-hidden="true">→</span>
-                </Link>
-              </Reveal>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* ─────────────────────────────────────────────────────────────
           FOR PARTNERS — one quiet row, no card grid.
