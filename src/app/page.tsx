@@ -22,20 +22,29 @@ export default function HomePage() {
           }}
         />
 
-        {/* Large Horizon mark — watermark moment. Brand sign in the canvas. */}
+        {/* A single thin horizon line — brand-symbolic ornament at the
+            bottom of the hero, drawn across the full width with a
+            faint lavender dot above it. The Horizon mark, but architectural. */}
         <div
-          className="absolute pointer-events-none hidden md:block"
+          className="absolute pointer-events-none w-full"
           aria-hidden="true"
-          style={{ top: "14%", right: "8%", opacity: 0.10 }}
+          style={{ bottom: "8%", left: 0 }}
         >
-          <HorizonMark size={360} theme="light" />
-        </div>
-        <div
-          className="absolute pointer-events-none md:hidden"
-          aria-hidden="true"
-          style={{ top: "12%", right: "-8%", opacity: 0.08 }}
-        >
-          <HorizonMark size={220} theme="light" />
+          <div className="relative mx-auto" style={{ maxWidth: "min(60rem, 75%)" }}>
+            <div style={{ height: "1px", background: "linear-gradient(90deg, transparent 0%, rgba(149,152,232,0.35) 50%, transparent 100%)" }} />
+            <div
+              className="absolute"
+              style={{
+                top: "-7px",
+                left: "calc(50% - 6px)",
+                width: "12px",
+                height: "12px",
+                borderRadius: "50%",
+                background: "var(--color-primary)",
+                opacity: 0.55,
+              }}
+            />
+          </div>
         </div>
 
         <div className="relative z-10 mx-auto max-w-[64rem] px-6 sm:px-10 pt-56 sm:pt-72 pb-28 sm:pb-36 text-center hero-animate">
