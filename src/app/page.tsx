@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Reveal } from "@/components/reveal";
-import { LivingSky } from "@/components/living-sky";
 import { HorizonMark } from "@/components/horizon-mark";
 import { PhaseExplorer } from "@/components/phase-explorer";
 
@@ -9,27 +8,97 @@ export default function HomePage() {
   return (
     <>
       {/* ─────────────────────────────────────────────────────────────
-          HERO — quiet. One line. The brand's signature anchor.
+          HERO — visual, sparse. A single quiet atmosphere, a giant
+          Horizon watermark, two lines of type. No body paragraph.
           ───────────────────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden min-h-[92vh]" style={{ marginTop: "-64px" }}>
-        <LivingSky />
+      <section className="relative overflow-hidden min-h-[92vh]" style={{ marginTop: "-64px", background: "var(--color-surface)" }}>
+        {/* A single, low-opacity lavender wash. No animation. */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          aria-hidden="true"
+          style={{
+            background:
+              "radial-gradient(ellipse 70% 55% at 85% 15%, rgba(149,152,232,0.14), transparent 70%), radial-gradient(ellipse 55% 45% at 15% 90%, rgba(212,133,106,0.05), transparent 65%)",
+          }}
+        />
+
+        {/* Large Horizon mark — watermark moment. Brand sign in the canvas. */}
+        <div
+          className="absolute pointer-events-none hidden md:block"
+          aria-hidden="true"
+          style={{ top: "14%", right: "8%", opacity: 0.10 }}
+        >
+          <HorizonMark size={360} theme="light" />
+        </div>
+        <div
+          className="absolute pointer-events-none md:hidden"
+          aria-hidden="true"
+          style={{ top: "12%", right: "-8%", opacity: 0.08 }}
+        >
+          <HorizonMark size={220} theme="light" />
+        </div>
+
         <div className="relative z-10 mx-auto max-w-[64rem] px-6 sm:px-10 pt-56 sm:pt-72 pb-28 sm:pb-36 text-center hero-animate">
-          <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
+          <p className="text-[11px] font-semibold uppercase mb-8" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
             The grief intelligence platform
           </p>
           <h1
-            className="text-[2.75rem] sm:text-[4.5rem] lg:text-[5.75rem] font-serif leading-[0.98]"
-            style={{ letterSpacing: "-0.045em", color: "var(--color-foreground)", fontWeight: 500 }}
+            className="font-serif leading-[0.98] mx-auto"
+            style={{
+              fontSize: "clamp(2.5rem, 7vw, 6rem)",
+              letterSpacing: "-0.045em",
+              color: "var(--color-foreground)",
+              fontWeight: 500,
+              maxWidth: "20ch",
+            }}
           >
-            Just enough light
+            Care for the year
             <br />
-            to not fall.
+            <span style={{ color: "var(--color-body)" }}>after a death.</span>
           </h1>
-          <p className="mt-10 max-w-md mx-auto text-[17px] sm:text-[18px] leading-[1.75]" style={{ color: "var(--color-body)" }}>
-            When someone you love dies, everything that comes after lands at once. We carry it with you.
+          <p
+            className="mt-10 mx-auto font-serif italic"
+            style={{
+              fontSize: "clamp(1.25rem, 2.2vw, 1.625rem)",
+              color: "var(--color-primary-deep)",
+              letterSpacing: "-0.015em",
+              fontWeight: 500,
+              maxWidth: "32rem",
+            }}
+          >
+            Just enough light to not fall.
           </p>
-          <div className="mt-12">
+          <div className="mt-14">
             <Link href="/demo" className="btn-primary">When you&rsquo;re ready</Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ─────────────────────────────────────────────────────────────
+          CREDIBILITY ROW — quiet editorial credit. No logos, no big
+          claims. Just: this work is grounded in clinical research at
+          institutions you have heard of.
+          ───────────────────────────────────────────────────────────── */}
+      <section className="relative" style={{ background: "var(--color-surface)" }}>
+        <div className="mx-auto max-w-[72rem] px-6 sm:px-10 pb-16 sm:pb-20">
+          <div className="grid grid-cols-1 sm:grid-cols-12 gap-6 sm:gap-12 items-baseline" style={{ borderTop: "1px solid var(--color-border-light)", paddingTop: "2rem" }}>
+            <p
+              className="sm:col-span-4 text-[11px] uppercase"
+              style={{ color: "var(--color-muted)", letterSpacing: "0.22em" }}
+            >
+              Built with clinicians at
+            </p>
+            <p
+              className="sm:col-span-8 font-serif leading-[1.4]"
+              style={{
+                fontSize: "clamp(1.125rem, 2vw, 1.375rem)",
+                color: "var(--color-foreground)",
+                letterSpacing: "-0.015em",
+                fontWeight: 500,
+              }}
+            >
+              Stanford. Columbia. Yale. The Center for Prolonged Grief.
+            </p>
           </div>
         </div>
       </section>
@@ -38,8 +107,17 @@ export default function HomePage() {
           THE WEIGHT — three numbers, editorial scale.
           No cards. No glass. No icons. Just type.
           ───────────────────────────────────────────────────────────── */}
-      <section className="relative" style={{ background: "#1F1B26" }}>
-        <div className="mx-auto max-w-[72rem] px-6 sm:px-10 py-28 sm:py-40">
+      <section className="relative overflow-hidden" style={{ background: "#171520" }}>
+        {/* Subtle atmospheric depth, no animation */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          aria-hidden="true"
+          style={{
+            background:
+              "radial-gradient(ellipse 60% 45% at 80% 25%, rgba(149,152,232,0.10), transparent 70%)",
+          }}
+        />
+        <div className="relative z-10 mx-auto max-w-[72rem] px-6 sm:px-10 py-32 sm:py-44">
           <Reveal>
             <p className="text-[11px] font-semibold uppercase mb-10 sm:mb-14" style={{ color: "rgba(149,152,232,0.65)", letterSpacing: "0.22em" }}>
               The weight
@@ -105,54 +183,21 @@ export default function HomePage() {
                 <br />
                 <span style={{ color: "var(--color-body)" }}>and every day after.</span>
               </h2>
-              <p className="mt-7 text-[16px] sm:text-[17px] leading-[1.8] max-w-md" style={{ color: "var(--color-body)" }}>
-                Six capabilities. One adaptive platform.
-              </p>
             </div>
           </Reveal>
 
           <div className="mt-20 sm:mt-28">
             {[
-              {
-                num: "01",
-                eyebrow: "Your Path",
-                title: "Knows what needs doing.",
-                body: "A plan that knows your state, your role, and the timeline you are actually living. We surface the deadlines that cannot wait, draft the forms before you sit down to fill them, and order the work in a way that makes sense for the week you are in.",
-              },
-              {
-                num: "02",
-                eyebrow: "Connect",
-                title: "Holds the emotional weight.",
-                body: "An AI companion grounded in peer-reviewed grief research. It adapts to where you are, remembers what you have shared, and never claims to know what loss feels like. A steady presence between sessions, between calls, between the days you would rather not face alone.",
-              },
-              {
-                num: "03",
-                eyebrow: "Discover",
-                title: "Teaches you through it.",
-                body: "Seventeen grief frameworks, written into the platform. The work of clinicians at Stanford, Columbia, and Yale, in a form you can read at your kitchen counter at three in the morning and not feel lectured.",
-              },
-              {
-                num: "04",
-                eyebrow: "Benefits",
-                title: "Finds the money you do not know is yours.",
-                body: "We scan thirty-nine federal and state programs against your specific situation: survivor benefits, life insurance, unclaimed property, tax credits, programs unique to your state. Surfaced, tracked, and walked through to filing. Most families find eight to fifteen thousand dollars.",
-              },
-              {
-                num: "05",
-                eyebrow: "Find Care",
-                title: "Connects you to the right help.",
-                body: "Twenty-two categories of grief-aware professionals. Therapists, estate attorneys, funeral directors, end-of-life doulas, and the rest of the roster nobody compiles in one place. Matched on loss type, life stage, and what you are facing this week.",
-              },
-              {
-                num: "06",
-                eyebrow: "Intelligence",
-                title: "Adapts in real time.",
-                body: "Five emotional modes, read continuously from how you use the platform. Crisis. Gentle. Steady. Reflective. Growth. You never pick a mode. We never ask how you are feeling. The platform already knows.",
-              },
+              { num: "01", eyebrow: "Your Path",   title: "Knows what needs doing." },
+              { num: "02", eyebrow: "Connect",     title: "Holds the emotional weight." },
+              { num: "03", eyebrow: "Discover",    title: "Teaches you through it." },
+              { num: "04", eyebrow: "Benefits",    title: "Finds the money you don't know is yours." },
+              { num: "05", eyebrow: "Find Care",   title: "Connects you to the right help." },
+              { num: "06", eyebrow: "Intelligence", title: "Adapts in real time." },
             ].map((item, i) => (
               <Reveal key={item.num} delay={i * 50}>
                 <div
-                  className="grid grid-cols-12 gap-6 sm:gap-10 items-baseline py-10 sm:py-14"
+                  className="grid grid-cols-12 gap-6 sm:gap-12 items-baseline py-10 sm:py-14"
                   style={{ borderTop: "1px solid var(--color-border-light)" }}
                 >
                   <p
@@ -161,23 +206,23 @@ export default function HomePage() {
                   >
                     {item.num}
                   </p>
-                  <div className="col-span-10 sm:col-span-6">
-                    <p className="text-[11px] uppercase mb-3" style={{ color: "var(--color-muted)", letterSpacing: "0.22em" }}>
-                      {item.eyebrow}
-                    </p>
-                    <h3
-                      className="font-serif leading-[1.1] text-[1.5rem] sm:text-[2rem] lg:text-[2.25rem]"
-                      style={{ color: "var(--color-foreground)", letterSpacing: "-0.025em", fontWeight: 500 }}
-                    >
-                      {item.title}
-                    </h3>
-                  </div>
                   <p
-                    className="col-span-12 sm:col-span-5 text-[15px] sm:text-[16px] leading-[1.8]"
-                    style={{ color: "var(--color-body)" }}
+                    className="col-span-10 sm:col-span-3 text-[12px] uppercase"
+                    style={{ color: "var(--color-muted)", letterSpacing: "0.22em" }}
                   >
-                    {item.body}
+                    {item.eyebrow}
                   </p>
+                  <h3
+                    className="col-span-12 sm:col-span-8 font-serif leading-[1.05]"
+                    style={{
+                      fontSize: "clamp(1.5rem, 3.5vw, 2.5rem)",
+                      color: "var(--color-foreground)",
+                      letterSpacing: "-0.03em",
+                      fontWeight: 500,
+                    }}
+                  >
+                    {item.title}
+                  </h3>
                 </div>
               </Reveal>
             ))}
@@ -239,12 +284,10 @@ export default function HomePage() {
                 <ul>
                   {[
                     "Ask how you are feeling.",
-                    "Gamify your grief. No streaks, no points, no levels.",
-                    "Sell your data, anywhere, ever.",
-                    "Pretend to know what loss feels like.",
-                    "Simulate or speak as the person you lost.",
-                    "Gate the crisis line behind a sign-up.",
-                    "Use grief as a marketing aesthetic.",
+                    "Gamify grief.",
+                    "Sell your data.",
+                    "Simulate the person you lost.",
+                    "Gate the crisis line.",
                   ].map((line, i) => (
                     <li
                       key={i}
