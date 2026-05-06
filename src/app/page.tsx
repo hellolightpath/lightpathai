@@ -12,13 +12,30 @@ export default function HomePage() {
           Horizon watermark, two lines of type. No body paragraph.
           ───────────────────────────────────────────────────────────── */}
       <section className="relative overflow-hidden min-h-[92vh]" style={{ marginTop: "-64px", background: "var(--color-surface)" }}>
-        {/* A single, low-opacity lavender wash. No animation. */}
+        {/* ── Video background ──
+            Drop a quiet, brand-fit MP4 at /public/hero-bg.mp4 to enable.
+            Keep under 5MB. 1920x1080 max. No people, no clichés.
+            See BRAND.md art direction → never list.
+            Falls back to gradient if file is missing or motion is reduced. */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          poster="/hero-poster.jpg"
+          className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+          aria-hidden="true"
+          style={{ opacity: 0.45 }}
+        >
+          <source src="/hero-bg.mp4" type="video/mp4" />
+        </video>
+        {/* Warm canvas wash on top of the video for legibility + brand tint. */}
         <div
           className="absolute inset-0 pointer-events-none"
           aria-hidden="true"
           style={{
             background:
-              "radial-gradient(ellipse 70% 55% at 85% 15%, rgba(149,152,232,0.14), transparent 70%), radial-gradient(ellipse 55% 45% at 15% 90%, rgba(212,133,106,0.05), transparent 65%)",
+              "radial-gradient(ellipse 70% 55% at 85% 15%, rgba(149,152,232,0.14), transparent 70%), radial-gradient(ellipse 55% 45% at 15% 90%, rgba(212,133,106,0.05), transparent 65%), linear-gradient(180deg, rgba(245,242,239,0.65), rgba(245,242,239,0.85))",
           }}
         />
 
