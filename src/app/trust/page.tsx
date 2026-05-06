@@ -1,89 +1,198 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Reveal } from "@/components/reveal";
+import { HorizonMark } from "@/components/horizon-mark";
 
 export const metadata: Metadata = {
-  title: "Trust and privacy | LightPathAI",
+  title: "Trust | LightPathAI",
   description:
-    "Privacy first, permissioned sharing, step-up protection for sensitive documents, and clear boundaries.",
+    "Privacy-first design, permissioned sharing, step-up protection for sensitive documents, and the clinical advisors behind the platform.",
 };
 
 export default function TrustPage() {
   return (
     <>
-      {/* ── Hero ── */}
-      <section className="relative overflow-hidden hero-gradient min-h-[50vh]">
-        <div className="section relative z-10 flex flex-col items-center text-center pt-36 sm:pt-48 pb-24 sm:pb-32">
+      {/* ─────────────────────────────────────────────────────────────
+          HERO — left-aligned editorial.
+          ───────────────────────────────────────────────────────────── */}
+      <section className="relative" style={{ background: "var(--color-surface)", marginTop: "-64px" }}>
+        <div className="mx-auto max-w-[72rem] px-6 sm:px-10 pt-44 sm:pt-56 pb-20 sm:pb-24">
           <Reveal>
-            <p className="tag-pill mb-8 mx-auto" style={{ width: "fit-content" }}>
-              <span className="h-1.5 w-1.5 rounded-full" style={{ background: "#8A8EE5" }} />
-              Trust &amp; privacy
+            <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
+              Trust
             </p>
-            <h1 className="heading-xl">Trust is the product.</h1>
-            <p className="mt-6 max-w-2xl text-[17px] leading-relaxed" style={{ color: "#475569" }}>
-              We design LightPathAI for the most sensitive moments of your life. Privacy, clarity,
-              and your control are foundational. Not features we added later.
+            <h1
+              className="text-[2.5rem] sm:text-[4rem] lg:text-[5rem] font-serif leading-[1.0] max-w-3xl"
+              style={{ color: "var(--color-foreground)", letterSpacing: "-0.045em", fontWeight: 500 }}
+            >
+              Trust is the product.
+            </h1>
+            <p className="mt-9 max-w-xl text-[17px] sm:text-[18px] leading-[1.75]" style={{ color: "var(--color-body)" }}>
+              We are built for the most sensitive moments of your life. Privacy, clarity, and your control are foundational. Not features we added later.
             </p>
           </Reveal>
         </div>
       </section>
 
-      {/* ── Trust principles ── */}
-      <section>
-        <div className="section">
-          <div className="mx-auto max-w-3xl space-y-6">
-            {trustPrinciples.map((p, i) => (
-              <Reveal key={p.title} delay={i * 100}>
-                <div className="card">
-                  <div className="flex items-start gap-5">
-                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl" aria-hidden="true" style={{ background: `linear-gradient(135deg, ${p.color}15, ${p.color}08)`, border: `1px solid ${p.color}18` }}>
-                      {p.icon}
-                    </div>
-                    <div>
-                      <h2 className="heading-sm">{p.title}</h2>
-                      <div className="mt-3 leading-relaxed" style={{ color: "#475569" }}>
-                        {p.content}
-                      </div>
-                    </div>
-                  </div>
+      {/* ─────────────────────────────────────────────────────────────
+          PRINCIPLES — typographic rows, no card boxes.
+          ───────────────────────────────────────────────────────────── */}
+      <section className="relative" style={{ background: "var(--color-surface)" }}>
+        <div className="mx-auto max-w-[72rem] px-6 sm:px-10 pb-28 sm:pb-40">
+          <div>
+            {principles.map((p, i) => (
+              <Reveal key={p.title} delay={i * 60}>
+                <div
+                  className="grid grid-cols-12 gap-6 sm:gap-12 items-baseline py-10 sm:py-14"
+                  style={{ borderTop: "1px solid var(--color-border-light)" }}
+                >
+                  <p
+                    className="col-span-2 sm:col-span-1 text-[12px] uppercase"
+                    style={{ color: "var(--color-primary)", letterSpacing: "0.18em" }}
+                  >
+                    {p.num}
+                  </p>
+                  <h2
+                    className="col-span-10 sm:col-span-5 text-[1.5rem] sm:text-[2rem] font-serif leading-[1.15]"
+                    style={{ color: "var(--color-foreground)", letterSpacing: "-0.025em", fontWeight: 500 }}
+                  >
+                    {p.title}
+                  </h2>
+                  <p className="col-span-12 sm:col-span-6 text-[15px] sm:text-[16px] leading-[1.75]" style={{ color: "var(--color-body)" }}>
+                    {p.body}
+                  </p>
                 </div>
               </Reveal>
             ))}
+            <div style={{ borderTop: "1px solid var(--color-border-light)" }} />
           </div>
         </div>
       </section>
 
-      {/* ── What we are and aren't ── */}
-      <section className="relative noise" style={{ background: "linear-gradient(180deg, #F8F8FA 0%, #F3F2F7 50%, #F8F8FA 100%)" }}>
-        <div className="separator" />
-        <div className="section">
+      {/* ─────────────────────────────────────────────────────────────
+          CLINICAL ADVISORS — quiet, real, deck-grounded.
+          ───────────────────────────────────────────────────────────── */}
+      <section className="relative" style={{ background: "#FAFAF8" }}>
+        <div className="mx-auto max-w-[72rem] px-6 sm:px-10 py-28 sm:py-40">
           <Reveal>
-            <div className="mx-auto max-w-3xl card-feature p-8 sm:p-10">
-              <div className="flex items-start gap-5">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl" style={{ background: "linear-gradient(135deg, rgba(229,149,36,0.1), rgba(229,149,36,0.04))", border: "1px solid rgba(229,149,36,0.12)" }}>
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E59524" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-                </div>
-                <div>
-                  <h2 className="heading-sm">What LightPathAI is and is not</h2>
-                  <p className="mt-3 leading-relaxed" style={{ color: "#475569" }}>
-                    LightPathAI provides guidance and organization. It does not provide legal advice. It
-                    does not replace medical or mental health care. In urgent situations, contact local
-                    emergency services.
+            <div className="max-w-2xl">
+              <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
+                Clinical advisory
+              </p>
+              <h2 className="text-[2rem] sm:text-[3rem] lg:text-[3.25rem] font-serif leading-[1.06]" style={{ color: "var(--color-foreground)", letterSpacing: "-0.04em", fontWeight: 500 }}>
+                The researchers and clinicians behind the platform.
+              </h2>
+              <p className="mt-7 text-[17px] leading-[1.75]" style={{ color: "var(--color-body)" }}>
+                Every framework, screening instrument, and intervention is grounded in peer-reviewed grief research and reviewed by clinicians who have spent careers in this field.
+              </p>
+            </div>
+          </Reveal>
+
+          <div className="mt-20 sm:mt-24">
+            {advisors.map((a, i) => (
+              <Reveal key={a.name} delay={i * 70}>
+                <div
+                  className="grid grid-cols-12 gap-6 sm:gap-12 py-10 sm:py-12"
+                  style={{ borderTop: "1px solid var(--color-border-light)" }}
+                >
+                  <div className="col-span-12 sm:col-span-5">
+                    <h3
+                      className="text-[1.25rem] sm:text-[1.5rem] font-serif leading-[1.2]"
+                      style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em", fontWeight: 500 }}
+                    >
+                      {a.name}
+                    </h3>
+                    <p className="mt-2 text-[12px] uppercase" style={{ color: "var(--color-primary)", letterSpacing: "0.18em" }}>
+                      {a.role}
+                    </p>
+                  </div>
+                  <p className="col-span-12 sm:col-span-7 text-[15px] sm:text-[16px] leading-[1.75]" style={{ color: "var(--color-body)" }}>
+                    {a.body}
                   </p>
                 </div>
+              </Reveal>
+            ))}
+            <div style={{ borderTop: "1px solid var(--color-border-light)" }} />
+          </div>
+        </div>
+      </section>
+
+      {/* ─────────────────────────────────────────────────────────────
+          THE GROUND TRUTH — what the platform is, and is not.
+          ───────────────────────────────────────────────────────────── */}
+      <section className="relative" style={{ background: "var(--color-surface)" }}>
+        <div className="mx-auto max-w-[64rem] px-6 sm:px-10 py-28 sm:py-40">
+          <Reveal>
+            <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-coral)", letterSpacing: "0.22em" }}>
+              The ground truth
+            </p>
+            <h2 className="text-[2rem] sm:text-[2.75rem] font-serif leading-[1.08] max-w-2xl" style={{ color: "var(--color-foreground)", letterSpacing: "-0.04em", fontWeight: 500 }}>
+              What we are. What we are not.
+            </h2>
+          </Reveal>
+
+          <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-x-16 gap-y-10 max-w-3xl">
+            <Reveal>
+              <div>
+                <p className="text-[12px] uppercase mb-5" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
+                  We are
+                </p>
+                {[
+                  "An organizing system for the work that follows a death.",
+                  "A clinical-grade emotional support platform.",
+                  "A way for families to coordinate without exposing what they want kept private.",
+                ].map((line) => (
+                  <p key={line} className="text-[15px] leading-[1.75] py-3" style={{ color: "var(--color-body)", borderTop: "1px solid var(--color-border-light)" }}>
+                    {line}
+                  </p>
+                ))}
               </div>
-            </div>
+            </Reveal>
+            <Reveal delay={100}>
+              <div>
+                <p className="text-[12px] uppercase mb-5" style={{ color: "var(--color-coral)", letterSpacing: "0.22em" }}>
+                  We are not
+                </p>
+                {[
+                  "A law firm. We do not provide legal advice.",
+                  "A medical or mental health provider. We do not replace clinical care.",
+                  "A griefbot. We do not simulate or speak as the person who died.",
+                ].map((line) => (
+                  <p key={line} className="text-[15px] leading-[1.75] py-3" style={{ color: "var(--color-body)", borderTop: "1px solid var(--color-border-light)" }}>
+                    {line}
+                  </p>
+                ))}
+              </div>
+            </Reveal>
+          </div>
+
+          <Reveal delay={150}>
+            <p className="mt-14 text-[14px] leading-[1.75] max-w-xl" style={{ color: "var(--color-muted)" }}>
+              In any urgent situation, every screen offers immediate access to{" "}
+              <a href="tel:988" className="font-semibold" style={{ color: "var(--color-coral)" }}>988</a>,
+              the Crisis Text Line (text{" "}
+              <span className="font-semibold" style={{ color: "var(--color-coral)" }}>HOME</span> to{" "}
+              <a href="sms:741741" className="font-semibold" style={{ color: "var(--color-coral)" }}>741741</a>),
+              and emergency services. Always free. Never paywalled.
+            </p>
           </Reveal>
         </div>
       </section>
 
-      {/* ── CTA ── */}
-      <section className="relative overflow-hidden" style={{ background: "linear-gradient(180deg, #FDFCFB, #EEEDF5)" }}>
-        <div className="section relative z-10 text-center">
+      {/* ─────────────────────────────────────────────────────────────
+          CTA
+          ───────────────────────────────────────────────────────────── */}
+      <section className="relative" style={{ background: "#FAFAF8" }}>
+        <div className="mx-auto max-w-[48rem] px-6 sm:px-10 py-28 sm:py-40 text-center">
           <Reveal>
-            <h2 className="heading-lg">Whenever you&rsquo;re ready, we&rsquo;re here.</h2>
-            <Link href="/demo" className="btn-primary mt-8">
-              Get early access
+            <div className="mb-10 flex justify-center">
+              <HorizonMark size={44} theme="light" />
+            </div>
+            <h2 className="text-[1.75rem] sm:text-[2.5rem] font-serif leading-[1.08]" style={{ color: "var(--color-foreground)", letterSpacing: "-0.04em", fontWeight: 500 }}>
+              Whenever you&rsquo;re ready, we&rsquo;re here.
+            </h2>
+            <Link href="/demo" className="btn-primary mt-10">
+              When you&rsquo;re ready
             </Link>
           </Reveal>
         </div>
@@ -92,59 +201,48 @@ export default function TrustPage() {
   );
 }
 
-const trustPrinciples = [
+const principles = [
   {
-    title: "Privacy first by design",
-    color: "#8A8EE5",
-    icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A8EE5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>,
-    content: (
-      <p>
-        We minimize what we ask for, keep controls clear, and avoid surprises. Sharing is
-        explicit. Access is role-aware. We never sell your data. We never share it without
-        your direct permission.
-      </p>
-    ),
+    num: "01",
+    title: "Privacy first by design.",
+    body: "We minimize what we ask. Sharing is explicit. Access is role-aware. We never sell your data, and we never share it without your direct permission. Encrypted in transit. Stored on infrastructure that encrypts at rest by default.",
   },
   {
-    title: "Protected when it matters",
-    color: "#8F82CD",
-    icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8F82CD" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/><circle cx="12" cy="16" r="1"/></svg>,
-    content: (
-      <p>
-        Signing in stays simple. When you view, download, delete, or share sensitive
-        documents, we add an extra verification step. Not because we don&rsquo;t trust you.
-        Because this stuff is too important to leave to chance.
-      </p>
-    ),
+    num: "02",
+    title: "Protected when it matters most.",
+    body: "Signing in is simple. When you view, download, delete, or share sensitive documents, we add an extra verification step. Not because we don't trust you. Because the stakes are too high to leave to chance.",
   },
   {
-    title: "You control what supporters can access",
-    color: "#63D583",
-    icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#63D583" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>,
-    content: (
-      <p>
-        Supporters can help with tasks and coordination. Documents and personal details are
-        shared only when the primary person chooses. Access can be revoked at any time.
-      </p>
-    ),
+    num: "03",
+    title: "You decide what supporters see.",
+    body: "Supporters can help with tasks and coordination. Documents and personal details are shared only when the primary person chooses. Access can be revoked at any time, on any task, from any screen.",
   },
   {
-    title: "Emotional safety, built in",
-    color: "#E59524",
-    icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E59524" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>,
-    content: (
-      <>
-        <p>
-          Inner Light is a private self-guided space, not a substitute for professional
-          mental health care. LightKeeper connects you with trained peer companions, not
-          therapists. Our companions receive training in boundaries, crisis recognition, and
-          safety protocols. We have moderation tools and clear reporting channels.
-        </p>
-        <p className="mt-4">
-          If you ever feel unsafe or need immediate support, every screen includes direct
-          access to 988 and emergency resources.
-        </p>
-      </>
-    ),
+    num: "04",
+    title: "Crisis resources, never paywalled.",
+    body: "Every screen offers immediate access to 988, the Crisis Text Line, and emergency services. Always free. Never gated behind a sign-up. Never blocked behind a feature flag.",
+  },
+  {
+    num: "05",
+    title: "Clinical honesty, not theater.",
+    body: "Inner Light is a private self-guided space, not therapy. LightKeeper connects you with trained peer companions who have lived through similar loss, not licensed clinicians. We say what we are, and what we are not.",
+  },
+];
+
+const advisors = [
+  {
+    name: "M. Katherine Shear, MD",
+    role: "Clinical advisor",
+    body: "Marion E. Kenworthy Professor of Psychiatry at Columbia University. Director of the Center for Prolonged Grief. Pioneer of Complicated Grief Treatment, the field's leading evidence-based protocol.",
+  },
+  {
+    name: "Rebecca Sands, MD",
+    role: "Clinical advisor",
+    body: "Chief of Palliative Care at Stanford Medicine. Brings the perspective of clinicians at the moment of loss, where the bereavement journey actually begins.",
+  },
+  {
+    name: "Tyler Tate, MD",
+    role: "Clinical advisor",
+    body: "Palliative Care Physician and Clinical Ethicist at Stanford. Reviews every framework, screening instrument, and intervention against the standard of clinical-grade care.",
   },
 ];

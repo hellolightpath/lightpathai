@@ -1,57 +1,34 @@
 import type { Metadata } from "next";
 import { Reveal } from "@/components/reveal";
-import { WarmGlow } from "@/components/warm-glow";
 import { BlogListing } from "@/components/blog-listing";
 import { blogPosts, blogCategories } from "@/lib/blog-data";
 
 export const metadata: Metadata = {
   title: "Resources | LightPathAI",
   description:
-    "Expert guidance on navigating loss: immediate steps, financial benefits, legal matters, workplace support, emotional wellness, and family relationships. Resources from LightPathAI.",
+    "Practical guidance for navigating loss. Immediate steps, financial benefits, legal, workplace, emotional wellness, family.",
 };
 
 export default function BlogPage() {
   return (
-    <section className="relative overflow-hidden" style={{ marginTop: "-64px" }}>
-      <WarmGlow />
+    <section className="relative" style={{ marginTop: "-64px", background: "var(--color-surface)" }}>
+      <div className="relative z-10 mx-auto max-w-[72rem] px-6 sm:px-10 pt-44 sm:pt-56 pb-24 sm:pb-32">
+        <Reveal>
+          <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
+            Resources
+          </p>
+          <h1
+            className="text-[2.5rem] sm:text-[4rem] lg:text-[4.75rem] font-serif leading-[1.0] max-w-3xl"
+            style={{ color: "var(--color-foreground)", letterSpacing: "-0.045em", fontWeight: 500 }}
+          >
+            Guidance for the hardest days, and every day after.
+          </h1>
+          <p className="mt-9 max-w-xl text-[17px] sm:text-[18px] leading-[1.75]" style={{ color: "var(--color-body)" }}>
+            Practical advice on what comes after loss. Written with clinicians, attorneys, financial advisors, and people who have lived through it.
+          </p>
+        </Reveal>
 
-      <div className="relative z-10 px-6 sm:px-8 pt-32 sm:pt-40 pb-20 sm:pb-28">
-        <div className="mx-auto max-w-5xl">
-          {/* Hero */}
-          <Reveal>
-            <div className="text-center mb-12 sm:mb-16">
-              <p
-                className="inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 text-[13px] font-medium tracking-wide mb-8"
-                style={{
-                  background: "rgba(255,255,255,0.5)",
-                  backdropFilter: "blur(12px)",
-                  WebkitBackdropFilter: "blur(12px)",
-                  border: "1px solid rgba(255,255,255,0.5)",
-                  color: "#5B5F9E",
-                }}
-              >
-                <span className="h-1.5 w-1.5 rounded-full" style={{ background: "#8A8EE5" }} />
-                Resources
-              </p>
-              <h1
-                className="text-[2.25rem] sm:text-[3rem] lg:text-[3.5rem] font-serif font-normal leading-[1.06]"
-                style={{ letterSpacing: "-0.04em", color: "#1C1C2E" }}
-              >
-                Guidance for life&rsquo;s{" "}
-                <br className="hidden sm:block" />
-                hardest moments
-              </h1>
-              <p
-                className="mt-6 text-[17px] leading-relaxed max-w-lg mx-auto"
-                style={{ color: "#6B6E8D" }}
-              >
-                Practical advice, financial insights, and wellness tools to help you
-                navigate loss with clarity and compassion.
-              </p>
-            </div>
-          </Reveal>
-
-          {/* Blog listing with category filtering */}
+        <div className="mt-20 sm:mt-28">
           <BlogListing posts={blogPosts} categories={blogCategories} />
         </div>
       </div>

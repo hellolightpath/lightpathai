@@ -16,55 +16,66 @@ export default function FAQPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPageJsonLd(allFaqs)) }}
       />
-      {/* ── Header ── */}
-      <section className="relative overflow-hidden">
-        <div className="section relative z-10 text-center pt-36 sm:pt-44 pb-12 sm:pb-16">
+
+      {/* ─────────────────────────────────────────────────────────────
+          HEADER — left-aligned editorial, no centered SaaS layout.
+          ───────────────────────────────────────────────────────────── */}
+      <section className="relative" style={{ background: "var(--color-surface)", marginTop: "-64px" }}>
+        <div className="mx-auto max-w-[72rem] px-6 sm:px-10 pt-44 sm:pt-56 pb-20 sm:pb-24">
           <Reveal>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] mb-5" style={{ color: "var(--color-primary)" }}>
-              Frequently asked
+            <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
+              Questions
             </p>
-            <h1 className="text-[2rem] sm:text-[2.75rem] font-serif font-normal leading-[1.08]" style={{ color: "var(--color-foreground)", letterSpacing: "-0.035em" }}>
-              Questions you might have
+            <h1
+              className="text-[2.5rem] sm:text-[4rem] lg:text-[5rem] font-serif leading-[1.0] max-w-3xl"
+              style={{ color: "var(--color-foreground)", letterSpacing: "-0.045em", fontWeight: 500 }}
+            >
+              Everything we get asked.
             </h1>
           </Reveal>
         </div>
       </section>
 
-      {/* ── All questions ── */}
-      <section>
-        <div className="section pt-0">
-          <div className="mx-auto max-w-[40rem]">
+      {/* ─────────────────────────────────────────────────────────────
+          QUESTIONS — two-column editorial. Question left, answer right.
+          ───────────────────────────────────────────────────────────── */}
+      <section className="relative" style={{ background: "var(--color-surface)" }}>
+        <div className="mx-auto max-w-[72rem] px-6 sm:px-10 pb-28 sm:pb-40">
+          <div>
             {allFaqs.map((f, i) => (
-              <Reveal key={f.q} delay={i * 50}>
+              <Reveal key={f.q} delay={i * 40}>
                 <div
-                  className="py-7"
-                  style={{ borderBottom: "1px solid rgba(0,0,0,0.06)" }}
+                  className="grid grid-cols-1 sm:grid-cols-12 gap-4 sm:gap-12 py-9 sm:py-11"
+                  style={{ borderTop: "1px solid var(--color-border-light)" }}
                 >
-                  <h3 className="text-[17px] font-semibold leading-snug" style={{ color: "var(--color-foreground)" }}>
+                  <h2
+                    className="sm:col-span-5 text-[18px] sm:text-[22px] font-serif leading-[1.25]"
+                    style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em", fontWeight: 500 }}
+                  >
                     {f.q}
-                  </h3>
-                  <p className="mt-3 text-[15px] leading-relaxed" style={{ color: "var(--color-body)" }}>
+                  </h2>
+                  <p className="sm:col-span-7 text-[15px] sm:text-[16px] leading-[1.75]" style={{ color: "var(--color-body)" }}>
                     {f.a}
                   </p>
                 </div>
               </Reveal>
             ))}
+            <div style={{ borderTop: "1px solid var(--color-border-light)" }} />
           </div>
         </div>
       </section>
 
-      {/* ── CTA ── */}
-      <section className="relative overflow-hidden" style={{ background: "linear-gradient(180deg, transparent, rgba(245,243,250,0.5))" }}>
-        <div className="section relative z-10 text-center">
+      {/* ─────────────────────────────────────────────────────────────
+          CTA — quiet single line.
+          ───────────────────────────────────────────────────────────── */}
+      <section className="relative" style={{ background: "#FAFAF8" }}>
+        <div className="mx-auto max-w-[48rem] px-6 sm:px-10 py-28 sm:py-40 text-center">
           <Reveal>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] mb-5" style={{ color: "var(--color-primary)" }}>
-              Still curious?
-            </p>
-            <h2 className="text-[1.5rem] sm:text-[2rem] font-serif font-normal leading-[1.15]" style={{ color: "var(--color-foreground)", letterSpacing: "-0.035em" }}>
+            <h2 className="text-[1.75rem] sm:text-[2.5rem] lg:text-[3rem] font-serif leading-[1.08]" style={{ color: "var(--color-foreground)", letterSpacing: "-0.04em", fontWeight: 500 }}>
               We&rsquo;re here whenever you&rsquo;re ready.
             </h2>
-            <Link href="/demo" className="btn-primary mt-8">
-              Get early access
+            <Link href="/demo" className="btn-primary mt-10">
+              When you&rsquo;re ready
             </Link>
           </Reveal>
         </div>

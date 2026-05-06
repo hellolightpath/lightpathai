@@ -61,17 +61,13 @@ export default function OurStoryPage() {
               </div>
             </Reveal>
 
-            {/* Sara's first-person quote */}
+            {/* Sara's first-person reflection. Editorial pull-quote, no orange decoration. */}
             <Reveal>
-              <blockquote
-                className="my-10 py-6 pl-6 pr-4"
-                style={{
-                  borderLeft: "3px solid #E59524",
-                  background: "linear-gradient(135deg, rgba(229,149,36,0.03), transparent)",
-                  borderRadius: "0 12px 12px 0",
-                }}
-              >
-                <div className="space-y-4 text-[17px] font-serif italic leading-relaxed" style={{ color: "var(--color-foreground)" }}>
+              <blockquote className="my-14 sm:my-16 max-w-[36rem]">
+                <div
+                  className="space-y-5 font-serif italic text-[1.25rem] sm:text-[1.5rem] leading-[1.45]"
+                  style={{ color: "var(--color-foreground)", letterSpacing: "-0.01em", fontWeight: 500 }}
+                >
                   <p>
                     &ldquo;I remember any day dealing with all of it felt like hell. It was so heavy
                     that I just wanted it to be over. Every day that passed, every week that passed,
@@ -79,18 +75,14 @@ export default function OurStoryPage() {
                   </p>
                   <p>
                     Sometimes I just wanted to open my eyes and feel like a year had already passed.
-                    A year where I would not have to deal with anything that forced me to think about
-                    his death again. Even the smallest tasks were painful and hard to do.&rdquo;
+                    Even the smallest tasks were painful and hard to do.&rdquo;
                   </p>
                 </div>
-                <p className="mt-5 text-[13px] font-semibold uppercase tracking-[0.18em] not-italic" style={{ color: "var(--color-primary)" }}>
-                  Sara, founder
-                </p>
               </blockquote>
             </Reveal>
 
             <Reveal>
-              <div className="space-y-5 text-[17px] leading-[1.7]" style={{ color: "#5C564F" }}>
+              <div className="space-y-5 text-[17px] leading-[1.75]" style={{ color: "var(--color-body)" }}>
                 <p>
                   Slowly, through connection, through cherishing stories, through the courage to keep
                   living, Sara found her way back. Not over it. Through it. With it.
@@ -108,27 +100,29 @@ export default function OurStoryPage() {
               </div>
             </Reveal>
 
-            {/* Founder attribution */}
-            <Reveal variant="scale">
-              <div className="mt-20 pt-12" style={{ borderTop: "1px solid rgba(0,0,0,0.06)" }}>
-                <div className="flex flex-col items-center text-center">
-                  <div className="relative h-24 w-24 rounded-full overflow-hidden"
-                    style={{
-                      boxShadow: "0 8px 24px rgba(229,149,36,0.25), 0 2px 8px rgba(229,149,36,0.15)",
-                      border: "3px solid rgba(255,255,255,0.8)",
-                    }}>
+            {/* Founder attribution: editorial credit line, no orange ring photo. */}
+            <Reveal>
+              <div className="mt-20 sm:mt-24 pt-12 grid grid-cols-1 sm:grid-cols-12 gap-8 sm:gap-12 items-start" style={{ borderTop: "1px solid var(--color-border-light)" }}>
+                <div className="sm:col-span-3">
+                  <div className="relative aspect-[4/5] w-full overflow-hidden" style={{ borderRadius: "2px" }}>
                     <Image
                       src="/sara-founder.jpg"
-                      alt="Sara Tashakorinia, Founder & CEO of LightPathAI"
+                      alt="Sara Tashakorinia, founder of LightPath"
                       fill
                       className="object-cover"
-                      sizes="96px"
+                      sizes="(max-width: 640px) 100vw, 240px"
                     />
                   </div>
-                  <p className="mt-5 text-[17px] font-semibold" style={{ color: "var(--color-foreground)" }}>Sara Tashakorinia</p>
-                  <p className="text-[14px] mt-1" style={{ color: "var(--color-primary)" }}>Founder and CEO</p>
-                  <p className="mt-3 text-[14px] max-w-sm leading-relaxed" style={{ color: "var(--color-muted)" }}>
-                    Built from lived experience. Designed with the empathy only someone who&rsquo;s been there can bring.
+                </div>
+                <div className="sm:col-span-9 sm:pt-1">
+                  <p className="text-[12px] uppercase mb-2" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
+                    Sara Tashakorinia
+                  </p>
+                  <p className="text-[12px] uppercase mb-6" style={{ color: "var(--color-muted)", letterSpacing: "0.22em" }}>
+                    Founder &amp; CEO
+                  </p>
+                  <p className="text-[15px] leading-[1.75] max-w-md" style={{ color: "var(--color-body)" }}>
+                    Built from lived experience. Designed with the empathy only someone who has been there can bring.
                   </p>
                 </div>
               </div>
@@ -137,39 +131,56 @@ export default function OurStoryPage() {
         </div>
       </section>
 
-      {/* ── Values ── */}
-      <section className="relative bg-section-subtle">
-        <div className="section">
+      {/* ─────────────────────────────────────────────────────────────
+          WHAT WE BELIEVE — editorial values, no card stack.
+          ───────────────────────────────────────────────────────────── */}
+      <section className="relative" style={{ background: "#FAFAF8" }}>
+        <div className="mx-auto max-w-[64rem] px-6 sm:px-10 py-28 sm:py-40">
           <Reveal>
-            <h2 className="text-[1.75rem] sm:text-[2.5rem] font-serif font-normal leading-[1.08] text-center" style={{ color: "var(--color-foreground)", letterSpacing: "-0.035em" }}>
-              Our Values
+            <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
+              What we believe
+            </p>
+            <h2 className="text-[2rem] sm:text-[3rem] lg:text-[3.25rem] font-serif leading-[1.06] max-w-2xl" style={{ color: "var(--color-foreground)", letterSpacing: "-0.04em", fontWeight: 500 }}>
+              The principles we built this on.
             </h2>
           </Reveal>
-          <div className="mt-14 mx-auto max-w-[40rem] space-y-8">
+          <div className="mt-20 sm:mt-24">
             {values.map((v, i) => (
-              <Reveal key={v.title} delay={i * 100}>
-                <div className="py-6" style={{ borderBottom: "1px solid rgba(0,0,0,0.06)" }}>
-                  <h3 className="font-serif text-[1.1rem] font-normal" style={{ color: "var(--color-foreground)", letterSpacing: "-0.01em" }}>{v.title}</h3>
-                  <p className="mt-2 text-[15px] leading-relaxed" style={{ color: "var(--color-body)" }}>{v.description}</p>
+              <Reveal key={v.title} delay={i * 60}>
+                <div
+                  className="grid grid-cols-12 gap-6 sm:gap-12 items-baseline py-9 sm:py-11"
+                  style={{ borderTop: "1px solid var(--color-border-light)" }}
+                >
+                  <h3
+                    className="col-span-12 sm:col-span-5 font-serif text-[1.25rem] sm:text-[1.5rem] leading-[1.2]"
+                    style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em", fontWeight: 500 }}
+                  >
+                    {v.title}
+                  </h3>
+                  <p className="col-span-12 sm:col-span-7 text-[15px] sm:text-[16px] leading-[1.75]" style={{ color: "var(--color-body)" }}>
+                    {v.description}
+                  </p>
                 </div>
               </Reveal>
             ))}
+            <div style={{ borderTop: "1px solid var(--color-border-light)" }} />
           </div>
         </div>
       </section>
 
-      {/* ── Mission CTA ── */}
-      <section className="relative overflow-hidden" style={{ background: "linear-gradient(180deg, transparent, rgba(245,243,250,0.5))" }}>
-        <div className="section relative z-10 text-center">
+      {/* ─────────────────────────────────────────────────────────────
+          MISSION CTA — quiet, single line.
+          ───────────────────────────────────────────────────────────── */}
+      <section className="relative" style={{ background: "var(--color-surface)" }}>
+        <div className="mx-auto max-w-[48rem] px-6 sm:px-10 py-32 sm:py-44 text-center">
           <Reveal>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] mb-6" style={{ color: "#9598E8" }}>Our mission</p>
-            <h2 className="text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem] font-serif font-normal leading-[1.15] mx-auto max-w-3xl" style={{ color: "#3D3630", letterSpacing: "-0.035em" }}>
+            <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
+              Our mission
+            </p>
+            <h2 className="text-[2rem] sm:text-[2.75rem] lg:text-[3rem] font-serif leading-[1.08]" style={{ color: "var(--color-foreground)", letterSpacing: "-0.04em", fontWeight: 500 }}>
               No one should navigate what comes after loss alone.
             </h2>
-            <p className="mt-6 text-[17px] max-w-xl mx-auto leading-[1.7]" style={{ color: "#5C564F" }}>
-              We are building the infrastructure the grief field has been missing.
-            </p>
-            <Link href="/demo" className="btn-primary mt-10">
+            <Link href="/demo" className="btn-primary mt-12">
               When you&rsquo;re ready
             </Link>
           </Reveal>

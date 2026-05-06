@@ -9,32 +9,44 @@ export const metadata: Metadata = {
 export default function TermsPage() {
   return (
     <>
-      <section className="relative overflow-hidden hero-gradient min-h-[90vh]">
-        <div className="section relative z-10 pt-36 sm:pt-48 pb-24 sm:pb-32">
-          <div className="mx-auto max-w-3xl">
-            <Reveal>
-              <h1 className="heading-xl">Terms of Service</h1>
-              <p className="mt-3 text-sm" style={{ color: "#94A3B8" }}>
-                Last updated: February 2026
-              </p>
-            </Reveal>
-          </div>
+      <section className="relative" style={{ background: "var(--color-surface)", marginTop: "-64px" }}>
+        <div className="mx-auto max-w-[64rem] px-6 sm:px-10 pt-44 sm:pt-56 pb-16 sm:pb-20">
+          <Reveal>
+            <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
+              Legal
+            </p>
+            <h1 className="text-[2.5rem] sm:text-[3.75rem] font-serif leading-[1.0]" style={{ color: "var(--color-foreground)", letterSpacing: "-0.045em", fontWeight: 500 }}>
+              Terms of service.
+            </h1>
+            <p className="mt-7 text-[13px]" style={{ color: "var(--color-muted)" }}>
+              Last updated May 2026
+            </p>
+          </Reveal>
         </div>
       </section>
 
-      <section>
-        <div className="section">
-          <div className="mx-auto max-w-3xl space-y-12">
+      <section className="relative" style={{ background: "var(--color-surface)" }}>
+        <div className="mx-auto max-w-[64rem] px-6 sm:px-10 pb-32 sm:pb-44">
+          <div>
             {sections.map((s, i) => (
-              <Reveal key={s.title} delay={i * 60}>
-                <div>
-                  <h2 className="heading-sm">{s.title}</h2>
-                  <p className="mt-3 text-[17px] leading-relaxed" style={{ color: "#475569" }}>
+              <Reveal key={s.title} delay={i * 40}>
+                <div
+                  className="grid grid-cols-12 gap-6 sm:gap-12 py-10 sm:py-12"
+                  style={{ borderTop: "1px solid var(--color-border-light)" }}
+                >
+                  <h2
+                    className="col-span-12 sm:col-span-4 text-[1.125rem] sm:text-[1.25rem] font-serif leading-[1.3]"
+                    style={{ color: "var(--color-foreground)", letterSpacing: "-0.015em", fontWeight: 500 }}
+                  >
+                    {s.title}
+                  </h2>
+                  <p className="col-span-12 sm:col-span-8 text-[15px] sm:text-[16px] leading-[1.8]" style={{ color: "var(--color-body)" }}>
                     {s.content}
                   </p>
                 </div>
               </Reveal>
             ))}
+            <div style={{ borderTop: "1px solid var(--color-border-light)" }} />
           </div>
         </div>
       </section>
