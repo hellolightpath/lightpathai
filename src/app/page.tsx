@@ -1,11 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Reveal } from "@/components/reveal";
 import { PlatformShowcase } from "@/components/platform-showcase";
-import Image from "next/image";
 import { SectionClouds } from "@/components/section-clouds";
 import { NightSky } from "@/components/night-sky";
 import { LivingSky } from "@/components/living-sky";
 import { StarField } from "@/components/star-field";
+import { HorizonMark } from "@/components/horizon-mark";
 
 export default function HomePage() {
   return (
@@ -13,26 +14,29 @@ export default function HomePage() {
       {/* ══════════════════════════════════════════════
           HERO — Living Sky (light, spiritual)
       ══════════════════════════════════════════════ */}
-      <section className="relative overflow-hidden min-h-[90vh]" style={{ marginTop: "-64px" }}>
+      <section className="relative overflow-hidden min-h-[92vh]" style={{ marginTop: "-64px" }}>
         <LivingSky />
-        <div className="relative z-10 flex flex-col items-center text-center px-6 pt-52 sm:pt-64 pb-24 sm:pb-32 hero-animate">
-          <h1 className="text-[2.5rem] sm:text-[3.75rem] lg:text-[4.75rem] font-serif font-normal leading-[1.04] max-w-3xl" style={{ letterSpacing: "-0.04em", color: "#3D3630" }}>
-            The grief intelligence
+        <div className="relative z-10 flex flex-col items-center text-center px-6 pt-56 sm:pt-72 pb-28 sm:pb-36 hero-animate">
+          <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-primary)", letterSpacing: "0.22em" }}>
+            The grief intelligence platform
+          </p>
+          <h1 className="text-[2.75rem] sm:text-[4.25rem] lg:text-[5.5rem] font-serif leading-[1.0] max-w-4xl" style={{ letterSpacing: "-0.045em", color: "var(--color-foreground)", fontWeight: 500 }}>
+            Just enough light
             <br />
-            platform.
+            to not fall.
           </h1>
 
-          <p className="mt-8 max-w-xl text-[17px] sm:text-[18px] leading-[1.7]" style={{ color: "#5C564F" }}>
-            When someone dies, their family is left alone. No guide. No coordination. No safety net.<br />
-            LightPath is the intelligence layer that handles what comes after loss — so the human can grieve.
+          <p className="mt-9 max-w-lg text-[17px] sm:text-[18px] leading-[1.7]" style={{ color: "var(--color-body)" }}>
+            When someone you love dies, everything changes at once.
+            <br className="hidden sm:block" />{" "}
+            We help you carry what comes after.
           </p>
 
-          <div className="mt-10">
+          <div className="mt-11">
             <Link href="/demo" className="btn-primary">
               When you&rsquo;re ready
             </Link>
           </div>
-
         </div>
       </section>
 
@@ -92,7 +96,7 @@ export default function HomePage() {
                   of tasks per loss.
                 </p>
                 <p className="mt-1.5 text-[13px] leading-[1.6]" style={{ color: "var(--white-50)" }}>
-                  Paperwork, calls, decisions — while in shock.
+                  Paperwork, calls, decisions. While in shock.
                 </p>
               </div>
 
@@ -198,7 +202,7 @@ export default function HomePage() {
                 <span style={{ color: "#5C564F" }}>An intelligence layer.</span>
               </h2>
               <p className="mt-6 text-[16px] sm:text-[17px] max-w-xl mx-auto leading-[1.7]" style={{ color: "#5C564F" }}>
-                One platform. Three pillars. Six capabilities for families. Day one — and every day after.
+                One platform. Three pillars. Six capabilities for families. Day one, and every day after.
               </p>
             </div>
           </Reveal>
@@ -226,7 +230,7 @@ export default function HomePage() {
                 <span style={{ color: "#5C564F" }}>An embedded marketplace around them.</span>
               </h2>
               <p className="mt-5 text-[16px] max-w-lg mx-auto leading-[1.7]" style={{ color: "#5C564F" }}>
-                Every partner that touches loss can extend real care — not just paperwork.
+                Every partner that touches loss can extend real care. Not just paperwork.
               </p>
             </div>
           </Reveal>
@@ -237,27 +241,27 @@ export default function HomePage() {
               <div className="grid grid-cols-2" style={{ gap: "16px" }}>
                 {/* TL: Hospice */}
                 <div className="rounded-2xl p-7 lg:p-8" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
-                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#8A8EE5" }}>Partners</span>
+                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "var(--color-primary)" }}>Partners</span>
                   <h3 className="font-serif text-[1.2rem] lg:text-[1.3rem] leading-tight mt-2.5 mb-2.5" style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>Hospice</h3>
                   <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>End-of-life care becomes whole-family care. A plan begins while the hospice team is still by their side.</p>
                 </div>
                 {/* TR: Funeral homes */}
                 <div className="rounded-2xl p-7 lg:p-8" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
-                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#8A8EE5" }}>Partners</span>
+                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "var(--color-primary)" }}>Partners</span>
                   <h3 className="font-serif text-[1.2rem] lg:text-[1.3rem] leading-tight mt-2.5 mb-2.5" style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>Funeral homes</h3>
-                  <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>The service ends, but support continues. Families leave with a clear plan — not just a folder of paperwork.</p>
+                  <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>The service ends, but support continues. Families leave with a clear plan. Not just a folder of paperwork.</p>
                 </div>
                 {/* BL: Employers */}
                 <div className="rounded-2xl p-7 lg:p-8" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
-                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#63D583" }}>Enterprise</span>
+                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "var(--color-sage)" }}>Enterprise</span>
                   <h3 className="font-serif text-[1.2rem] lg:text-[1.3rem] leading-tight mt-2.5 mb-2.5" style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>Employers</h3>
-                  <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>Bereavement leave becomes bereavement support. Employees in grief get more than time off — they get a path forward.</p>
+                  <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>Bereavement leave becomes bereavement support. Employees in grief get more than time off. They get a path forward.</p>
                 </div>
                 {/* BR: Life insurers */}
                 <div className="rounded-2xl p-7 lg:p-8" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
-                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#63D583" }}>Enterprise</span>
+                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "var(--color-sage)" }}>Enterprise</span>
                   <h3 className="font-serif text-[1.2rem] lg:text-[1.3rem] leading-tight mt-2.5 mb-2.5" style={{ color: "var(--color-foreground)", letterSpacing: "-0.02em" }}>Life insurers</h3>
-                  <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>A claim becomes a care moment. Beneficiaries receive guided support — not just a payout.</p>
+                  <p className="text-[13.5px] leading-[1.65]" style={{ color: "var(--color-body)" }}>A claim becomes a care moment. Beneficiaries receive guided support, not just a payout.</p>
                 </div>
               </div>
 
@@ -273,7 +277,7 @@ export default function HomePage() {
             <div className="md:hidden space-y-3">
               {/* Partners */}
               <div className="rounded-2xl p-6" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
-                <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#8A8EE5" }}>Partners</span>
+                <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "var(--color-primary)" }}>Partners</span>
                 <div className="mt-3">
                   <h3 className="font-serif text-[1.1rem] leading-tight mb-2" style={{ color: "var(--color-foreground)" }}>Hospice</h3>
                   <p className="text-[13px] leading-relaxed" style={{ color: "var(--color-body)" }}>End-of-life care becomes whole-family care. A plan begins while the hospice team is still by their side.</p>
@@ -281,7 +285,7 @@ export default function HomePage() {
                 <div className="my-4" style={{ borderTop: "1px solid rgba(0,0,0,0.06)" }} />
                 <div>
                   <h3 className="font-serif text-[1.1rem] leading-tight mb-2" style={{ color: "var(--color-foreground)" }}>Funeral homes</h3>
-                  <p className="text-[13px] leading-relaxed" style={{ color: "var(--color-body)" }}>The service ends, but support continues. Families leave with a clear plan — not just a folder of paperwork.</p>
+                  <p className="text-[13px] leading-relaxed" style={{ color: "var(--color-body)" }}>The service ends, but support continues. Families leave with a clear plan. Not just a folder of paperwork.</p>
                 </div>
               </div>
 
@@ -294,15 +298,15 @@ export default function HomePage() {
 
               {/* Enterprise */}
               <div className="rounded-2xl p-6" style={{ background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)" }}>
-                <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#63D583" }}>Enterprise</span>
+                <span className="text-[10px] font-semibold uppercase tracking-[0.18em]" style={{ color: "var(--color-sage)" }}>Enterprise</span>
                 <div className="mt-3">
                   <h3 className="font-serif text-[1.1rem] leading-tight mb-2" style={{ color: "var(--color-foreground)" }}>Employers</h3>
-                  <p className="text-[13px] leading-relaxed" style={{ color: "var(--color-body)" }}>Bereavement leave becomes bereavement support. Employees in grief get more than time off — they get a path forward.</p>
+                  <p className="text-[13px] leading-relaxed" style={{ color: "var(--color-body)" }}>Bereavement leave becomes bereavement support. Employees in grief get more than time off. They get a path forward.</p>
                 </div>
                 <div className="my-4" style={{ borderTop: "1px solid rgba(0,0,0,0.06)" }} />
                 <div>
                   <h3 className="font-serif text-[1.1rem] leading-tight mb-2" style={{ color: "var(--color-foreground)" }}>Life insurers</h3>
-                  <p className="text-[13px] leading-relaxed" style={{ color: "var(--color-body)" }}>A claim becomes a care moment. Beneficiaries receive guided support — not just a payout.</p>
+                  <p className="text-[13px] leading-relaxed" style={{ color: "var(--color-body)" }}>A claim becomes a care moment. Beneficiaries receive guided support, not just a payout.</p>
                 </div>
               </div>
             </div>
@@ -359,7 +363,7 @@ export default function HomePage() {
                       <div className="h-2.5 w-2.5 rounded-full" style={{ background: "#8A8EE5" }} />
                       <div>
                         <span className="text-[13px] font-medium block" style={{ color: "var(--color-foreground)" }}>Cancel subscriptions</span>
-                        <span className="text-[11px]" style={{ color: "#8A8EE5" }}>Assigned to you</span>
+                        <span className="text-[11px]" style={{ color: "var(--color-primary)" }}>Assigned to you</span>
                       </div>
                     </div>
                   </div>
@@ -415,7 +419,7 @@ export default function HomePage() {
                 ))}
               </div>
               <div className="mt-10 text-center">
-                <Link href="/faq" className="text-[14px] font-semibold inline-flex items-center gap-2 transition-all duration-300 hover:translate-x-1.5 hover:gap-3" style={{ color: "#8A8EE5" }}>
+                <Link href="/faq" className="text-[14px] font-semibold inline-flex items-center gap-2 transition-all duration-300 hover:translate-x-1.5 hover:gap-3" style={{ color: "var(--color-primary)" }}>
                   See all questions <span>&rarr;</span>
                 </Link>
               </div>
@@ -431,15 +435,13 @@ export default function HomePage() {
         <SectionClouds count={3} opacity={0.6} />
         <div className="relative section flex flex-col items-center text-center !py-32 sm:!py-48 z-10">
           <Reveal>
-            <div className="mb-10 flex justify-center" style={{ marginLeft: "-2rem" }}>
-              <div className="logo-animated">
-                <Image src="/logo.png" alt="LightPathAI" width={56} height={56} className="logo-animated-img" />
-              </div>
+            <div className="mb-10 flex justify-center">
+              <HorizonMark size={48} theme="light" />
             </div>
-            <h2 className="text-[2rem] sm:text-[3.25rem] lg:text-[3.75rem] font-serif font-normal leading-[1.04]" style={{ color: "#3D3630", letterSpacing: "-0.04em" }}>
+            <h2 className="text-[2rem] sm:text-[3.25rem] lg:text-[3.75rem] font-serif leading-[1.04]" style={{ color: "var(--color-foreground)", letterSpacing: "-0.04em", fontWeight: 500 }}>
               One small step today.
             </h2>
-            <p className="mt-6 text-[18px] sm:text-xl leading-[1.7]" style={{ color: "#5C564F" }}>
+            <p className="mt-6 text-[18px] sm:text-[20px] leading-[1.7] max-w-md mx-auto" style={{ color: "var(--color-body)" }}>
               We&rsquo;ll be here when you&rsquo;re ready.
             </p>
             <Link href="/demo" className="btn-primary mt-10">

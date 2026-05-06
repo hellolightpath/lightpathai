@@ -30,7 +30,7 @@ const features = [
     labelColor: "#8F82CD",
     heading: "Uncover every benefit",
     headingSub: "you\u2019re entitled to.",
-    description: "LightPath scans your situation and surfaces survivor benefits, insurance claims, tax credits, and employer programs you may not know about \u2014 so no money is left behind.",
+    description: "LightPath scans your situation and surfaces survivor benefits, insurance claims, tax credits, and employer programs you may not know about. So no money is left behind.",
     bullets: [
       { text: "AI scans for eligible benefits based on your profile" },
       { text: "Surfaces unclaimed insurance, pensions, and tax credits" },
@@ -49,7 +49,7 @@ const features = [
       { text: "Matched by loss type and life stage" },
       { text: "Verified lived experience, trained companion" },
       { text: "Private and confidential conversations" },
-      { text: "Available when you need \u2014 no scheduling" },
+      { text: "Available when you need. No scheduling" },
     ],
   },
   {
@@ -58,10 +58,10 @@ const features = [
     labelColor: "#8F82CD",
     heading: "A private space",
     headingSub: "that adapts to you.",
-    description: "Journaling, breathing, guided reflections \u2014 powered by an adaptive framework that learns your patterns and meets you where you are.",
+    description: "Journaling, breathing, and guided reflections, drawn from peer-reviewed grief frameworks. Meets you where you are.",
     bullets: [
-      { text: "Adapts tools and content to your emotional stage" },
-      { text: "Trauma-informed framework guides your journey" },
+      { text: "Adapts tools and content to where you are emotionally" },
+      { text: "Built on clinical frameworks, not generic wellness content" },
       { text: "Breathing, journaling, reflections, and memory tools" },
       { text: "Tracks your patterns and recommends what helps" },
     ],

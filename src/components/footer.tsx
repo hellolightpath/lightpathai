@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import { HorizonMark } from "@/components/horizon-mark";
 
 const columns = [
   {
@@ -47,9 +47,9 @@ export function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-5">
           {/* Brand column */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2 group">
-              <Image src="/logo.png" alt="LightPathAI" width={26} height={26} className="transition-transform duration-300 group-hover:scale-110" />
-              <span className="text-base font-sans font-semibold" style={{ color: "var(--color-foreground)" }}>
+            <Link href="/" className="flex items-center gap-2.5 group" aria-label="LightPathAI home">
+              <HorizonMark size={24} theme="light" className="transition-transform duration-500 group-hover:translate-y-[-1px]" />
+              <span className="text-[17px] font-sans font-semibold tracking-tight" style={{ color: "var(--color-foreground)", letterSpacing: "-0.01em" }}>
                 LightPath<span style={{ color: "var(--color-primary)" }}>AI</span>
               </span>
             </Link>

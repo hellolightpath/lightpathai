@@ -8,7 +8,7 @@ import { StarField } from "@/components/star-field";
 export const metadata: Metadata = {
   title: "Our Story | LightPathAI",
   description:
-    "On the evening of her first wedding anniversary, our founder Sara lost her husband. LightPath was built from that loss — to make sure no one navigates what comes after alone.",
+    "On the evening of her first wedding anniversary, our founder Sara lost her husband. LightPath was built from that loss. So no one navigates what comes after alone.",
 };
 
 export default function OurStoryPage() {
@@ -83,8 +83,8 @@ export default function OurStoryPage() {
                     his death again. Even the smallest tasks were painful and hard to do.&rdquo;
                   </p>
                 </div>
-                <p className="mt-4 text-[14px] font-semibold not-italic" style={{ color: "#E59524" }}>
-                  &mdash; Sara
+                <p className="mt-5 text-[13px] font-semibold uppercase tracking-[0.18em] not-italic" style={{ color: "var(--color-primary)" }}>
+                  Sara, founder
                 </p>
               </blockquote>
             </Reveal>
@@ -102,7 +102,7 @@ export default function OurStoryPage() {
                 </p>
                 <p>
                   LightPath was built from that realization. A system that helps people navigate what
-                  comes after loss — with more clarity, more compassion, and a path forward when
+                  comes after loss with more clarity, more compassion, and a path forward when
                   everything feels overwhelming.
                 </p>
               </div>

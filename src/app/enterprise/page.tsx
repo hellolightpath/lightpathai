@@ -8,7 +8,7 @@ import { EnterpriseDashboard } from "@/components/enterprise-dashboard";
 export const metadata: Metadata = {
   title: "For Employers & Life Insurance | LightPathAI",
   description:
-    "Bereavement leave ends. Grief doesn't. LightPath is the bereavement infrastructure your EAP doesn't ship — for employers and life insurance carriers.",
+    "Bereavement leave ends. Grief doesn't. LightPath is the bereavement infrastructure your EAP doesn't ship. Built for employers and life insurance carriers.",
 };
 
 /* ── Inline SVG Icons (only those used on this page) ── */
@@ -100,47 +100,42 @@ function IconBox({ icon, color, size = "sm" }: { icon: React.ReactNode; color: s
 export default function EnterprisePage() {
   return (
     <>
-      {/* ── Hero ── */}
-      <section data-hero-dark className="relative overflow-hidden min-h-[92vh]" style={{ marginTop: "-64px" }}>
-        <NightSky />
-        <StarField />
-        {/* Subtle gradient overlay for better text readability */}
-        <div className="absolute inset-0 z-[1]" style={{ background: "radial-gradient(ellipse 80% 60% at 50% 70%, rgba(138,142,229,0.08), transparent)" }} />
-        <div className="relative z-10 flex flex-col items-center text-center px-6 sm:px-8 mx-auto max-w-[72rem] pt-52 sm:pt-64 pb-28 sm:pb-36">
-          <Reveal>
-            <p className="text-[10px] font-semibold uppercase tracking-[0.25em] mb-7" style={{ color: "rgba(229,149,36,0.65)" }}>
-              For employers &amp; life insurance companies
-            </p>
-            <h1 className="text-[2rem] sm:text-[3rem] lg:text-[3.75rem] font-serif font-normal leading-[1.04] max-w-3xl mx-auto text-white" style={{ letterSpacing: "-0.04em" }}>
-              Your people deserve better than &ldquo;take a few days off.&rdquo;
-            </h1>
-            <p className="mt-6 max-w-xl mx-auto text-[17px] leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-              Bereavement leave ends. Grief doesn&rsquo;t. LightPathAI fills the gap between what EAPs offer and what people actually need.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-10 items-center justify-center">
-              <Link href="/demo" className="btn-white">
-                Request a demo
-              </Link>
-            </div>
-          </Reveal>
-
-          {/* Floating trust badges */}
-          <Reveal delay={300}>
-            <div className="mt-16 flex flex-wrap justify-center gap-6 sm:gap-10">
-              {[
-                { text: "Zero IT required", icon: icons.check("rgba(99,213,131,0.7)") },
-                { text: "Live in days", icon: icons.check("rgba(99,213,131,0.7)") },
-                { text: "Completely private", icon: icons.check("rgba(99,213,131,0.7)") },
-              ].map((badge) => (
-                <div key={badge.text} className="flex items-center gap-2">
-                  <div className="h-5 w-5 rounded-full flex items-center justify-center" style={{ background: "rgba(99,213,131,0.1)", border: "1px solid rgba(99,213,131,0.15)" }}>
-                    {badge.icon}
-                  </div>
-                  <span className="text-[12px] font-medium" style={{ color: "rgba(255,255,255,0.4)" }}>{badge.text}</span>
-                </div>
-              ))}
-            </div>
-          </Reveal>
+      {/* ── Hero — warm editorial canvas, sage-leaning. Distinct from /our-story. ── */}
+      <section className="relative overflow-hidden min-h-[88vh]" style={{ marginTop: "-64px", background: "var(--color-surface)" }}>
+        {/* Soft sage wash — quiet competence, not drama */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          aria-hidden="true"
+          style={{
+            background:
+              "radial-gradient(ellipse 70% 60% at 30% 30%, rgba(122,158,122,0.10), transparent 60%), radial-gradient(ellipse 60% 50% at 80% 80%, rgba(149,152,232,0.07), transparent 60%)",
+          }}
+        />
+        <div className="relative z-10 mx-auto max-w-[72rem] px-6 sm:px-8 pt-52 sm:pt-64 pb-24 sm:pb-32">
+          <div className="max-w-3xl">
+            <Reveal>
+              <p className="text-[11px] font-semibold uppercase mb-7" style={{ color: "var(--color-sage)", letterSpacing: "0.22em" }}>
+                For employers &amp; life insurance carriers
+              </p>
+              <h1 className="text-[2.25rem] sm:text-[3.5rem] lg:text-[4.25rem] font-serif leading-[1.02]" style={{ letterSpacing: "-0.04em", color: "var(--color-foreground)", fontWeight: 500 }}>
+                Bereavement leave ends.
+                <br />
+                <span style={{ color: "var(--color-body)" }}>Grief doesn&rsquo;t.</span>
+              </h1>
+              <p className="mt-8 max-w-xl text-[17px] sm:text-[18px] leading-[1.75]" style={{ color: "var(--color-body)" }}>
+                LightPath is the bereavement infrastructure your EAP doesn&rsquo;t ship.
+                Real support for the people, families, and policyholders you serve.
+              </p>
+              <div className="mt-10 flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+                <Link href="/demo" className="btn-primary">
+                  Request a demo
+                </Link>
+                <span className="text-[14px]" style={{ color: "var(--color-muted)" }}>
+                  Live in days. No IT integration required.
+                </span>
+              </div>
+            </Reveal>
+          </div>
         </div>
       </section>
 
@@ -202,7 +197,7 @@ export default function EnterprisePage() {
             {[
               { without: "3 days of bereavement leave", wit: "Ongoing, structured support from day one" },
               { without: "A pamphlet and an EAP number", wit: "A care plan built around their specific loss" },
-              { without: 'Employee Googles "what to do when someone dies"', wit: "Every task, deadline, and document — organized" },
+              { without: 'Employee Googles "what to do when someone dies"', wit: "Every task, deadline, and document, organized" },
               { without: "No follow-up. No visibility.", wit: "Ongoing check-ins and adaptive care that evolves with them" },
               { without: "HR scrambles when someone asks", wit: "A benefit that activates and runs itself" },
             ].map((row, i) => (
@@ -446,7 +441,7 @@ export default function EnterprisePage() {
               ))}
             </div>
             <p className="mt-6 text-center text-[12px]" style={{ color: "rgba(255,255,255,0.12)" }}>
-              Flexible contracting — PEPM, per-activation, or enterprise license
+              Flexible contracting. PEPM, per-activation, or enterprise license
             </p>
           </Reveal>
         </div>

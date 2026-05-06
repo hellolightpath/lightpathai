@@ -76,7 +76,7 @@ export default function FAQPage() {
 const allFaqs = [
   {
     q: "What is LightPathAI?",
-    a: "LightPath is the grief intelligence platform \u2014 built for navigating loss. It generates a personalized Care Plan based on your situation, drafts letters and forms with AI Assist, surfaces benefits you may be eligible for, connects you with a trained peer companion, and gives you a private space for reflection. Built on peer-reviewed grief research, with clinical advisors from Stanford, Columbia, and Yale.",
+    a: "LightPath is the grief intelligence platform, built for navigating loss. It generates a personalized Care Plan based on your situation, drafts letters and forms with AI Assist, surfaces benefits you may be eligible for, connects you with a trained peer companion, and gives you a private space for reflection. Built on peer-reviewed grief research, with clinical advisors from Stanford, Columbia, and Yale.",
   },
   {
     q: "Do I need to know everything to start?",
@@ -88,19 +88,19 @@ const allFaqs = [
   },
   {
     q: "Is LightPathAI only for the first few days after a death?",
-    a: "No. LightPathAI adapts whether the loss happened yesterday, three months ago, or years in the past. The system re-prioritizes based on where you are now \u2014 deadlines that still apply, tasks you haven\u2019t reached yet, and support that\u2019s relevant to your current stage.",
+    a: "No. LightPathAI adapts whether the loss happened yesterday, three months ago, or years in the past. The system re-prioritizes based on where you are now: deadlines that still apply, tasks you haven\u2019t reached yet, and support that\u2019s relevant to your current stage.",
   },
   {
     q: "What is LightPathAI Assist?",
-    a: "Assist is the AI engine inside your tasks. It drafts bereavement letters, fills out government forms, prepares call scripts, and organizes document packets \u2014 so you never start from a blank page. You review everything before it goes out. Nothing sends, submits, or files without your explicit approval.",
+    a: "Assist is the AI engine inside your tasks. It drafts bereavement letters, fills out government forms, prepares call scripts, and organizes document packets, so you never start from a blank page. You review everything before it goes out. Nothing sends, submits, or files without your explicit approval.",
   },
   {
     q: "How does Benefits Discovery work?",
-    a: "LightPathAI analyzes your specific situation \u2014 your state, the type of loss, your relationship to the deceased, employment status, and more \u2014 then identifies benefits you may qualify for. Social Security survivor benefits, employer life insurance, unclaimed property, veterans benefits, tax credits, and state-specific programs. We surface what applies, track every deadline, and walk you through filing.",
+    a: "LightPathAI analyzes your specific situation: your state, the type of loss, your relationship to the deceased, employment status, and more. Then it identifies benefits you may qualify for. Social Security survivor benefits, employer life insurance, unclaimed property, veterans benefits, tax credits, and state-specific programs. We surface what applies, track every deadline, and walk you through filing.",
   },
   {
     q: "What is LightKeeper?",
-    a: "LightKeeper pairs you with a trained peer companion \u2014 a real person who has lived through a similar loss. Not a therapist. Not a stranger with advice. Someone who understands because they\u2019ve been there, matched to you by loss type, life stage, and background.",
+    a: "LightKeeper pairs you with a trained peer companion. A real person who has lived through a similar loss. Not a therapist. Not a stranger with advice. Someone who understands because they\u2019ve been there, matched to you by loss type, life stage, and background.",
   },
   {
     q: "Is Inner Light therapy?",
@@ -108,7 +108,7 @@ const allFaqs = [
   },
   {
     q: "Can a supporter help me through LightPathAI?",
-    a: "Yes. You can invite up to 5 trusted supporters \u2014 family, friends, or advisors. Each supporter only sees the tasks and documents you explicitly share with them. Sensitive information stays protected. You decide who sees what, and you can adjust or revoke access at any time.",
+    a: "Yes. You can invite up to 5 trusted supporters: family, friends, or advisors. Each supporter only sees the tasks and documents you explicitly share with them. Sensitive information stays protected. You decide who sees what, and you can adjust or revoke access at any time.",
   },
   {
     q: "How is my information protected?",
@@ -116,7 +116,7 @@ const allFaqs = [
   },
   {
     q: "How is this different from a checklist I found online?",
-    a: "A generic checklist doesn\u2019t know your state, your family structure, your deadlines, or what documents you already have. It can\u2019t draft the letters for you, find benefits you didn\u2019t know existed, or connect you with someone who\u2019s been through what you\u2019re going through. LightPathAI does all of that \u2014 personalized, guided, and built around your specific loss.",
+    a: "A generic checklist doesn\u2019t know your state, your family structure, your deadlines, or what documents you already have. It can\u2019t draft the letters for you, find benefits you didn\u2019t know existed, or connect you with someone who\u2019s been through what you\u2019re going through. LightPathAI does all of that. Personalized, guided, and built around your specific loss.",
   },
   {
     q: "Can my family use this together?",
